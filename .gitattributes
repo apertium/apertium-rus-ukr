@@ -1,0 +1,16 @@
+* text=auto !eol
+/AUTHORS -text
+/ChangeLog -text
+/Makefile.am -text
+/README -text
+/apertium-ru-uk.ru-uk.dix -text
+/apertium-ru-uk.ru-uk.t1x -text
+/apertium-ru-uk.ru-uk.t2x -text
+/apertium-ru-uk.ru-uk.t3x -text
+/apertium-ru-uk.ru.xml -text
+/apertium-ru-uk.uk-ru.t1x -text
+/apertium-ru-uk.uk-ru.t2x -text
+/apertium-ru-uk.uk-ru.t3x -text
+/apertium-ru-uk.uk.dix -text
+/autogen.sh -text
+/modes.xml -text

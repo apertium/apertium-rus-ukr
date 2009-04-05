@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transfer default="chunk">
+
+<section-def-cats>
+  <def-cat n="nom">
+     <cat-item tags="n.*"/>
+     <cat-item tags="np.*"/>
+  </def-cat>
+  <def-cat n="vblex">
+     <cat-item tags="vblex.*"/>
+  </def-cat>
+  <def-cat n="prn">
+     <cat-item tags="prn.*"/>
+  </def-cat>
+  <def-cat n="adj">
+     <cat-item tags="adj.*"/>
+  </def-cat>
+  <def-cat n="pr">
+     <cat-item tags="pr"/>
+  </def-cat>
+  <def-cat n="det">
+     <cat-item tags="det"/>
+     <cat-item tags="det.*"/>
+  </def-cat>
+  <def-cat n="prefix-adj">
+     <cat-item tags="pref.adj"/>
+     <cat-item tags="pref.adj.*"/>
+  </def-cat>
+  <def-cat n="exp">
+     <cat-item tags="part.exp"/>
+  </def-cat>
+</section-def-cats>
+
+<section-def-attrs>
+  <def-attr n="a_nom">
+     <attr-item tags="n"/>
+     <attr-item tags="np"/>
+     <attr-item tags="np.ant"/>
+     <attr-item tags="np.top"/>
+  </def-attr>
+
+  <def-attr n="a_prp">
+     <attr-item tags="pr"/>
+  </def-attr>
+
+  <def-attr n="a_adj">
+     <attr-item tags="adj"/>
+     <attr-item tags="adj.pve"/>
+     <attr-item tags="adj.comp"/>
+     <attr-item tags="adj.sup"/>
+     <attr-item tags="adj.itg"/>
+  </def-attr>
+
+  <def-attr n="a_vrb">
+     <attr-item tags="vblex"/>
+  </def-attr>
+
+  <def-attr n="a_prn">
+     <attr-item tags="prn"/>
+     <attr-item tags="prn.itg"/>
+  </def-attr>
+
+  <def-attr n="tns">
+     <attr-item tags="pri"/>
+     <attr-item tags="imp"/>
+     <attr-item tags="aor"/>
+     <attr-item tags="fti"/>
+     <attr-item tags="past"/>
+  </def-attr>
+
+  <def-attr n="gen">
+     <attr-item tags="m"/>
+     <attr-item tags="f"/>
+     <attr-item tags="nt"/>
+     <attr-item tags="mf"/>
+  </def-attr>
+
+  <def-attr n="prs">
+     <attr-item tags="p1"/>
+     <attr-item tags="p2"/>
+     <attr-item tags="p3"/>
+  </def-attr>
+
+  <def-attr n="nbr">
+     <attr-item tags="sg"/>
+     <attr-item tags="pl"/>
+  </def-attr>
+
+  <def-attr n="cas">
+     <attr-item tags="nom"/>
+     <attr-item tags="acc"/>
+     <attr-item tags="dat"/>
+     <attr-item tags="gen"/>
+     <attr-item tags="loc"/>
+     <attr-item tags="ins"/>
+     <attr-item tags="voc"/>
+  </def-attr>
+
+</section-def-attrs>
+
+<section-def-vars>
+  <def-var n="number"/>
+  <def-var n="genere"/>
+</section-def-vars>
+
+<section-rules>
+<!-- Sintagmas nominales -->
+
+  <rule>
+     <pattern>
+       <pattern-item n="nom"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="nom" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="nbr" link-to="3"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
+
+<!-- Sintagmas adjetivos -->
+
+  <rule>
+     <pattern>
+       <pattern-item n="adj"/>
+     </pattern>
+     <action>
+       <choose>
+         <!--  When the adjective is in the comparative 
+               prefix with po~ -->
+         <when>
+           <test>
+             <equal>
+               <clip pos="1" side="sl" part="a_adj"/>
+               <lit-tag v="adj.comp"/>
+             </equal>
+           </test>
+           <out>
+             <chunk name="adj" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SA"/></tag>
+                 <tag><clip pos="1" side="tl" part="gen"/></tag>
+                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               </tags>
+               <lu>
+                 <lit v="по"/>
+               </lu>
+               <lu>
+                 <clip pos="1" side="tl" part="lem"/>
+                 <lit-tag v="adj.comp"/>
+                 <clip pos="1" side="tl" part="gen"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+             </chunk>
+           </out>
+         </when>
+         <otherwise>
+           <out>
+             <chunk name="adj" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SA"/></tag>
+                 <tag><clip pos="1" side="tl" part="gen"/></tag>
+                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               </tags>
+               <lu>
+                 <clip pos="1" side="tl" part="lem"/>
+                 <clip pos="1" side="tl" part="a_adj"/>
+                 <clip pos="1" side="tl" part="gen"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+             </chunk>
+           </out>
+         </otherwise>
+       </choose>
+     </action>
+  </rule>
+
+  <rule>
+    <pattern>
+       <pattern-item n="prefix-adj"/>
+       <pattern-item n="adj"/>
+     </pattern>
+     <action>
+       <choose>
+         <!--  When the adjective is in the superlative
+               prefix with naj~ -->
+         <when>
+           <test>
+             <and>
+               <equal>
+                 <clip pos="1" side="sl" part="lem"/>
+                 <lit v="naj"/>
+               </equal>
+               <equal>
+                 <clip pos="1" side="sl" part="a_adj"/>
+                 <lit-tag v="adj.sup"/>
+               </equal>
+             </and>
+           </test>
+           <out>
+             <chunk name="adj" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SA"/></tag>
+                 <tag><clip pos="2" side="tl" part="gen"/></tag>
+                 <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               </tags>
+               <lu>
+                 <lit v="нај"/>
+               </lu>
+               <lu>
+                 <clip pos="2" side="tl" part="lem"/>
+                 <lit-tag v="adj.pve"/>
+                 <clip pos="2" side="tl" part="gen"/>
+                 <clip pos="2" side="tl" part="nbr"/>
+               </lu>
+	     </chunk>
+           </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="adj" case="caseFirstWord">
+                 <tags>
+                   <tag><lit-tag v="SA"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>
+                   <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="2" side="tl" part="lem"/>
+                   <clip pos="1" side="tl" part="a_adj"/>
+                   <clip pos="2" side="tl" part="gen"/>
+                   <clip pos="2" side="tl" part="nbr"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
+     </action>
+   </rule>
+
+  <rule>
+     <pattern>
+       <pattern-item n="vblex"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="verb" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="tns"/></tag>
+              <tag><clip pos="1" side="tl" part="prs"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_vrb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="prs"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+     </action>
+  </rule>
+
+
+</section-rules>
+
+</transfer>

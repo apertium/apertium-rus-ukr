@@ -1,0 +1,57 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"      c="іменник"/>
+    <sdef n="adj"    c="Прикметник"/>
+    
+    <sdef n="f"      c=""/>
+    <sdef n="mp"     c=""/>
+    <sdef n="ma"     c=""/>
+    <sdef n="mi"     c=""/>
+    <sdef n="nt"     c=""/>
+    <sdef n="mf"     c=""/>
+
+    <sdef n="sg"     c="однина"/>
+    <sdef n="pl"     c="множина"/>
+
+    <sdef n="nom"    c="називний"/>
+    <sdef n="gen"    c="родовий"/>
+    <sdef n="dat"    c="давальний"/>
+    <sdef n="acc"    c="знахідний"/>
+    <sdef n="ins"    c="орудний"/>
+    <sdef n="loc"    c="місцевий"/>
+    <sdef n="voc"    c="кличний"/>
+
+    <sdef n="prn"    c=""/>
+    <sdef n="det"    c=""/>
+    <sdef n="dem"    c=""/>
+    <sdef n="itg"    c=""/>
+    <sdef n="neg"    c=""/>
+
+    <sdef n="pprep"  c=""/>
+
+    <sdef n="ij"     c=""/>
+
+    <sdef n="p1"     c=""/>
+    <sdef n="p2"     c=""/>
+    <sdef n="p3"     c=""/>
+
+    <sdef n="pr"     c=""/>
+    <sdef n="cnjcoo" c=""/>
+    <sdef n="cnjsub" c=""/>
+  </sdefs>
+  <pardefs/>
+  <section id="main" type="conditional">
+    <e><p><l>если<s n="cnjsub"/></l><r>якщо<s n="cnjsub"/></r></p></e>
+    <e><p><l>потому<b/>что<s n="cnjsub"/></l><r>тому<b/>що<s n="cnjsub"/></r></p></e>
+    <e><p><l>чтобы<s n="cnjsub"/></l><r>щоб<s n="cnjsub"/></r></p></e>
+    <e><p><l>после<b/>того,<b/>как<s n="cnjsub"/></l><r>після<b/>того,<b/>як<s n="cnjsub"/></r></p></e>
+    <e><p><l>хоча<s n="cnjsub"/></l><r>хоча<s n="cnjsub"/></r></p></e>
+    <e><p><l>так<b/>как<s n="cnjsub"/></l><r>так<b/>як<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>и<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+    <e><p><l>а<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
+  </section>
+</dictionary>
