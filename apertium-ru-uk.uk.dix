@@ -1402,6 +1402,14 @@
         </p>
       </e>
     </pardef>
+    <pardef n="ні__ij">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="ij"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -1409,9 +1417,12 @@
     <e lm="про"><i>про</i><par n="про__pr"/></e>
     <e lm="iз"><i>iз</i><par n="про__pr"/></e>
     <e lm="до"><i>до</i><par n="про__pr"/></e>
+    
+    <e lm="ні"><i>ні</i><par n="ні__ij"/></e>
+    <e lm="так"><i>так</i><par n="ні__ij"/></e>
 
     <e lm="а"><i>а</i><par n="а__cnjcoo"/></e>
-	<e lm="и"><i>и</i><par n="а__cnjcoo"/></e>
+    <e lm="и"><i>и</i><par n="а__cnjcoo"/></e>
 
     <e lm="якщо"><i>якщо</i><par n="якщо__cnjsub"/></e>
     <e lm="тому що"><i>тому<b/>що</i><par n="якщо__cnjsub"/></e>
