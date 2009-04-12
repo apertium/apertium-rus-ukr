@@ -1410,6 +1410,14 @@
         </p>
       </e>
     </pardef>
+    <pardef n="не__adv">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="adv"/><s n="neg"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -1420,6 +1428,9 @@
     
     <e lm="ні"><i>ні</i><par n="ні__ij"/></e>
     <e lm="так"><i>так</i><par n="ні__ij"/></e>
+    
+    <e lm="не"><i>не</i><par n="не__adv"/></e>
+    <e lm="ніколи"><i>ніколи</i><par n="не__adv"/></e>
 
     <e lm="а"><i>а</i><par n="а__cnjcoo"/></e>
     <e lm="и"><i>и</i><par n="а__cnjcoo"/></e>

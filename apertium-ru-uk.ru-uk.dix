@@ -53,6 +53,9 @@
     
     <e><p><l>нет<s n="ij"/></l><r>ні<s n="ij"/></r></p></e>
     <e><p><l>да<s n="ij"/></l><r>так<s n="ij"/></r></p></e>
+    
+    <e><p><l>не<s n="adv"/><s n="neg"/></l><r>не<s n="adv"/><s n="neg"/></r></p></e>
+    <e><p><l>никогда<s n="adv"/><s n="neg"/></l><r>ніколи<s n="adv"/><s n="neg"/></r></p></e>
 
     <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>весь<s n="prn"/><s n="tn"/></l><r>весь<s n="prn"/><s n="tn"/></r></p></e>

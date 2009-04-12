@@ -1569,6 +1569,14 @@
         </p>
       </e>
     </pardef>
+    <pardef n="не__adv">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="adv"/><s n="neg"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -1584,6 +1592,9 @@
     
     <e lm="нет"><i>нет</i><par n="нет__ij"/></e>
     <e lm="да"><i>да</i><par n="нет__ij"/></e>
+    
+    <e lm="не"><i>не</i><par n="не__adv"/></e>
+    <e lm="никогда"><i>никогда</i><par n="не__adv"/></e>
 
     <e lm="prpers"><i></i><par n="/prpers__prn"/></e>
     <e lm="весь"><i>в</i><par n="в/есь__prn"/></e>
