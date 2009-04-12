@@ -1316,6 +1316,92 @@
         </p>
       </e>
     </pardef>
+    <pardef n="мат/и__n">
+      <e>
+        <p>
+          <l>и</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ері</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ері</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ір</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ір'ю</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ері</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ері</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ерів</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ерям</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ерів</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ерями</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ерях</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ері</l>
+          <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -1348,5 +1434,6 @@
     <e lm="аболіціонізм"><i>аболіціонізм</i><par n="аболіціонізм/__n"/></e>
     <e lm="ім'я"><i>ім</i><par n="ім/'я__n"/></e>
     <e lm="брат"><i>брат</i><par n="брат/__n"/></e>
+    <e lm="мати"><i>мат</i><par n="мат/и__n"/></e>
   </section>
 </dictionary>
