@@ -5,11 +5,10 @@
     <sdef n="adj"    c="Прикметник"/>
     
     <sdef n="f"      c=""/>
-    <sdef n="mp"     c=""/>
-    <sdef n="ma"     c=""/>
-    <sdef n="mi"     c=""/>
+    <sdef n="m"     c=""/>
     <sdef n="nt"     c=""/>
     <sdef n="mf"     c=""/>
+    <sdef n="ani"     c=""/>
 
     <sdef n="sg"     c="однина"/>
     <sdef n="pl"     c="множина"/>
@@ -2060,75 +2059,82 @@
       <e>
         <p>
           <l>сего</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="sg"/><s n="gen"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>сему</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="sg"/><s n="dat"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>есь</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="sg"/><s n="acc"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>сем</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="sg"/><s n="ins"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>есь</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="sg"/><s n="nom"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>сём</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="sg"/><s n="prp"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><s n="prp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>сех</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="pl"/><s n="gen"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>сем</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="pl"/><s n="dat"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>сех</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="pl"/><s n="acc"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="ani"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>семи</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="pl"/><s n="ins"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>се</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="pl"/><s n="nom"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>се</l>
+          <r>есь<s n="prn"/><s n="tn"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>сех</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="ma"/><s n="pl"/><s n="prp"/></r>
+          <r>есь<s n="prn"/><s n="tn"/><s n="pl"/><s n="prp"/></r>
         </p>
       </e>
+
       <e>
         <p>
           <l>сего</l>
@@ -2163,42 +2169,6 @@
         <p>
           <l>сём</l>
           <r>есь<s n="prn"/><s n="tn"/><s n="mi"/><s n="sg"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>сех</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="mi"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>сем</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="mi"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>се</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="mi"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>семи</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="mi"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>се</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="mi"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>сех</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="mi"/><s n="pl"/><s n="prp"/></r>
         </p>
       </e>
       <e>
@@ -2245,42 +2215,6 @@
       </e>
       <e>
         <p>
-          <l>сех</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>сем</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>се</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>семи</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>се</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>сех</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
           <l>сего</l>
           <r>есь<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
         </p>
@@ -2313,42 +2247,6 @@
         <p>
           <l>сём</l>
           <r>есь<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>сех</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>сем</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>се</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>семи</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>се</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>сех</l>
-          <r>есь<s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/><s n="prp"/></r>
         </p>
       </e>
     </pardef>
