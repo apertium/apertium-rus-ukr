@@ -5,11 +5,10 @@
     <sdef n="adj"    c="Прикметник"/>
     
     <sdef n="f"      c=""/>
-    <sdef n="mp"     c=""/>
-    <sdef n="ma"     c=""/>
-    <sdef n="mi"     c=""/>
+    <sdef n="m"     c=""/>
     <sdef n="nt"     c=""/>
     <sdef n="mf"     c=""/>
+    <sdef n="ani"     c=""/>
 
     <sdef n="sg"     c="однина"/>
     <sdef n="pl"     c="множина"/>
