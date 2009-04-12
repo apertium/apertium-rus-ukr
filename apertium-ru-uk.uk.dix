@@ -1418,6 +1418,200 @@
         </p>
       </e>
     </pardef>
+    <pardef n="англійськ/ий__adj">
+      <e>
+        <p>
+          <l>ий</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ого</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ому</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ий</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ого</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="ani"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>им</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ім</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ому</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ий</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ої</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ій</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>у</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ою</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ій</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>е</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ого</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ому</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>е</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>им</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ім</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ому</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>е</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>их</l>
+          <r>ий<s n="adj"/><s n="ani"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>і</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>их</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>им</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>і</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ими</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>их</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>і</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -1457,5 +1651,7 @@
     <e lm="ім'я"><i>ім</i><par n="ім/'я__n"/></e>
     <e lm="брат"><i>брат</i><par n="брат/__n"/></e>
     <e lm="мати"><i>мат</i><par n="мат/и__n"/></e>
+    
+    <e lm="англійський"><i>англійськ</i><par n="англійськ/ий__adj"/></e>
   </section>
 </dictionary>

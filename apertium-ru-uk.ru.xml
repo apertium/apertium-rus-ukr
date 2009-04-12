@@ -1577,6 +1577,170 @@
         </p>
       </e>
     </pardef>
+    <pardef n="английск/ий__adj">
+      <e>
+        <p>
+          <l>ий</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ого</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ому</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ий</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ого</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="ani"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>им</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ом</l>
+          <r>ий<s n="adj"/><s n="m"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ая</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ой</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ой</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ую</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ой</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ою</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ой</l>
+          <r>ий<s n="adj"/><s n="f"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ое</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ого</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ому</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ое</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>им</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ом</l>
+          <r>ий<s n="adj"/><s n="nt"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ие</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>их</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>им</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ие</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>их</l>
+          <r>ий<s n="adj"/><s n="ani"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ими</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>их</l>
+          <r>ий<s n="adj"/><s n="pl"/><s n="prp"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -1587,6 +1751,7 @@
     <e lm="после того, как"><i>после<b/>того,<b/>как</i><par n="если__cnjsub"/></e>
     <e lm="хоча"><i>хоча</i><par n="если__cnjsub"/></e>
     <e lm="так как"><i>так<b/>как</i><par n="если__cnjsub"/></e>
+    
     <e lm="а"><i>а</i><par n="а__cnjcoo"/></e>
     <e lm="и"><i>и</i><par n="а__cnjcoo"/></e>
     
@@ -1600,6 +1765,7 @@
     <e lm="весь"><i>в</i><par n="в/есь__prn"/></e>
     <e lm="мой"><i>мо</i><par n="мо/й__det"/></e>
     <e lm="твой"><i>тво</i><par n="мо/й__det"/></e>
+    <e lm="свой"><i>сво</i><par n="мо/й__det"/></e>
     <e lm="тот"><i>т</i><par n="т/от__det"/></e>
     <e lm="этот"><i>эт</i><par n="эт/от__det"/></e>
     <e lm="что"><i>ч</i><par n="ч/то__det"/></e>
@@ -1607,6 +1773,9 @@
     <e lm="чей"><i>ч</i><par n="ч/ей__det"/></e>
     <e lm="наш"><i>наш</i><par n="наш__det"/></e>
     <e lm="ваш"><i>ваш</i><par n="наш__det"/></e>
+    
     <e lm="мать"><i>мат</i><par n="мат/ь__n"/></e>
+
+    <e lm="английский"><i>английск</i><par n="английск/ий__adj"/></e>
   </section>
 </dictionary>
