@@ -21,6 +21,7 @@
     <sdef n="ins"    c="орудний"/>
     <sdef n="loc"    c="місцевий"/>
     <sdef n="voc"    c="кличний"/>
+    <sdef n="indecl"/>
 
     <sdef n="prn"    c=""/>
     <sdef n="det"    c=""/>
@@ -1612,6 +1613,14 @@
         </p>
       </e>
     </pardef>
+    <pardef n="віскі__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="m"/><s n="indecl"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -1651,6 +1660,7 @@
     <e lm="ім'я"><i>ім</i><par n="ім/'я__n"/></e>
     <e lm="брат"><i>брат</i><par n="брат/__n"/></e>
     <e lm="мати"><i>мат</i><par n="мат/и__n"/></e>
+    <a lm="віскі"><i>віскі</i><par n="віскі__n"/></a>
     
     <e lm="англійський"><i>англійськ</i><par n="англійськ/ий__adj"/></e>
     <e lm="шведський"><i>шведськ</i><par n="англійськ/ий__adj"/></e>

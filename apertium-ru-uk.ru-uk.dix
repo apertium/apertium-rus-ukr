@@ -19,7 +19,9 @@
     <sdef n="acc"    c="знахідний"/>
     <sdef n="ins"    c="орудний"/>
     <sdef n="loc"    c="місцевий"/>
+    <sdef n="prp"/>
     <sdef n="voc"    c="кличний"/>
+    <sdef n="indecl"/>
 
     <sdef n="prn"    c=""/>
     <sdef n="det"    c=""/>
@@ -61,6 +63,7 @@
     <e><p><l>весь<s n="prn"/><s n="tn"/></l><r>весь<s n="prn"/><s n="tn"/></r></p></e>
     
     <e><p><l>мать<s n="n"/><s n="ani"/><s n="f"/></l><r>мати<s n="n"/><s n="ani"/><s n="f"/></r></p></e>
+    <e><p><l>виски<s n="n"/><s n="nt"/><s n="indecl"/></l><r>віскі<s n="n"/><s n="m"/><s n="indecl"/></r></p></e>
     
     <e><p><l>английский<s n="adj"/></l><r>англійський<s n="adj"/></r></p></e>
     <e><p><l>шведский<s n="adj"/></l><r>шведський<s n="adj"/></r></p></e>
