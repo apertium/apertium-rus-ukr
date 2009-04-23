@@ -1750,6 +1750,152 @@
         </p>
       </e>
     </pardef>
+    <pardef n="работни/к__n">
+      <e>
+        <p>
+          <l>к</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ка</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ку</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ка</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ком</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ке</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ки</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ков</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>кам</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ков</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ками</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ках</l>
+          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цa</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цы</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>це</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цу</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цей</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>це</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цы</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ц</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цам</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ц</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цами</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цах</l>
+          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="prp"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -1786,6 +1932,7 @@
     
     <e lm="мать"><i>мат</i><par n="мат/ь__n"/></e>
     <e lm="виски"><i>виски</i><par n="виски__n"/></e>
+    <e lm="работник"><i>работни</i><par n="работни/к__n"/></e>
 
     <e lm="английский"><i>английск</i><par n="английск/ий__adj"/></e>
     <e lm="шведский"><i>шведск</i><par n="английск/ий__adj"/></e>
