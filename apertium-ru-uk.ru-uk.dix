@@ -59,6 +59,10 @@
     
     <e><p><l>не<s n="adv"/><s n="neg"/></l><r>не<s n="adv"/><s n="neg"/></r></p></e>
     <e><p><l>никогда<s n="adv"/><s n="neg"/></l><r>ніколи<s n="adv"/><s n="neg"/></r></p></e>
+    
+    <e><p><l>мой<s n="det"/><s n="pos"/></l><r>мій<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>твой<s n="det"/><s n="pos"/></l><r>твій<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>свой<s n="det"/><s n="pos"/></l><r>свій<s n="det"/><s n="pos"/></r></p></e>
 
     <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>весь<s n="prn"/><s n="tn"/></l><r>весь<s n="prn"/><s n="tn"/></r></p></e>
