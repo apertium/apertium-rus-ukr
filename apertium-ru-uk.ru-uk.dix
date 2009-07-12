@@ -24,6 +24,7 @@
     <sdef n="indecl"/>
 
     <sdef n="prn"    c=""/>
+    <sdef n="ind"    c=""/>
     <sdef n="det"    c=""/>
     <sdef n="dem"    c=""/>
     <sdef n="itg"    c=""/>
@@ -65,7 +66,7 @@
     <e><p><l>свой<s n="det"/><s n="pos"/></l><r>свій<s n="det"/><s n="pos"/></r></p></e>
 
     <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
-    <e><p><l>весь<s n="prn"/><s n="tn"/></l><r>весь<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>весь<s n="prn"/><s n="ind"/></l><r>весь<s n="prn"/><s n="ind"/></r></p></e>
     
     <e><p><l>мать<s n="n"/><s n="ani"/><s n="f"/></l><r>мати<s n="n"/><s n="ani"/><s n="f"/></r></p></e>
     <e><p><l>виски<s n="n"/><s n="nt"/><s n="indecl"/></l><r>віскі<s n="n"/><s n="m"/><s n="indecl"/></r></p></e>
