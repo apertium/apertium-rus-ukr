@@ -1,26 +1,26 @@
 <dictionary>
   <alphabet/>
   <sdefs>
-    <sdef n="n"      c="іменник"/>
-    <sdef n="adj"    c="Прикметник"/>
+    <sdef n="n"      c="существительное/іменник"/>
+    <sdef n="adj"    c="прилагательное/Прикметник"/>
     
-    <sdef n="f"      c=""/>
-    <sdef n="m"     c=""/>
-    <sdef n="nt"     c=""/>
-    <sdef n="mf"     c=""/>
-    <sdef n="ani"     c=""/>
+    <sdef n="f"      c="женский"/>
+    <sdef n="m"      c="мужской"/>
+    <sdef n="nt"     c="средний"/>
+    <sdef n="mf"     c="мужской/женский"/>
+    <sdef n="ani"    c=""/>
 
     <sdef n="sg"     c="однина"/>
     <sdef n="pl"     c="множина"/>
 
-    <sdef n="nom"    c="називний"/>
-    <sdef n="gen"    c="родовий"/>
-    <sdef n="dat"    c="давальний"/>
-    <sdef n="acc"    c="знахідний"/>
-    <sdef n="ins"    c="орудний"/>
-    <sdef n="loc"    c="місцевий"/>
-    <sdef n="prp"/>
+    <sdef n="nom"    c="именительный/називний"/>
+    <sdef n="gen"    c="родительный/родовий"/>
+    <sdef n="dat"    c="дательный/давальний"/>
+    <sdef n="acc"    c="винительный/знахідний"/>
+    <sdef n="ins"    c="творительный/орудний"/>
+    <sdef n="loc"    c="местный/місцевий"/>
     <sdef n="voc"    c="кличний"/>
+    <sdef n="prp"    c="предложный/кличний"/>
     <sdef n="indecl"/>
 
     <sdef n="prn"    c=""/>
