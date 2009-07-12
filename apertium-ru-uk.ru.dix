@@ -26,8 +26,8 @@
     <sdef n="prn"    c="наречие"/>
     <sdef n="det"    c=""/>
     <sdef n="dem"    c="указательные местоимения"/>
-    <sdef n="itg"    c=""/>
-    <sdef n="neg"    c=""/>
+    <sdef n="itg"    c="вопросительное местоимение"/>
+    <sdef n="neg"    c="отрицательные местоимения"/>
 
     <sdef n="pprep"  c=""/>
 
@@ -37,7 +37,7 @@
     <sdef n="p2"     c="второе лицо"/>
     <sdef n="p3"     c="третье лицо"/>
 
-    <sdef n="pr"     c=""/>
+    <sdef n="pr"     c="предлог"/>
     <sdef n="cnjcoo" c=""/>
     <sdef n="cnjsub" c=""/>
     
