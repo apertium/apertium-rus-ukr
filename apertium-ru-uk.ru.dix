@@ -42,7 +42,8 @@
     <sdef n="cnjsub" c=""/>
     
     <sdef n="imperf" c="несовершенный вид"/>
-    <sdef n="perf" c="совершенный вид"/>
+    <sdef n="perf"   c="совершенный вид"/>
+    <sdef n="pos"    c=""/>
   </sdefs>
   <pardefs>
     <pardef n="привет__ij">
