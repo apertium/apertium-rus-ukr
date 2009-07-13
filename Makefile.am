@@ -135,7 +135,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(LANG2).tsx empty.t1x \
 	   $(BASENAME).$(PREFIX1)-poly.dix $(BASENAME).$(PREFIX2)-poly.dix \
 	   $(PREFIX1).prob $(PREFIX2).prob \
-	   buscaPar.xsl principal.xsl apertium-en-ca.en.metadix \
+	   buscaPar.xsl principal.xsl \
 	   $(PREFIX1).lextor $(PREFIX2).lextor \
 	   $(PREFIX1)-supervised.make $(PREFIX1)-unsupervised.make \
 	   $(PREFIX2)-supervised.make $(PREFIX2)-unsupervised.make \
@@ -147,7 +147,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx \
 	   modes.xml
 
-apertium_en_ca_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
+apertium_ru_uk_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 		    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
 		    $(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
