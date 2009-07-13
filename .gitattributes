@@ -14,5 +14,6 @@
 /apertium-ru-uk.uk-ru.t3x -text
 /apertium-ru-uk.uk.dix -text
 /autogen.sh -text
+dev/ru-uk-pl-lv-en.csv -text
 /en-ca.prob -text
 /modes.xml -text
