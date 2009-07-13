@@ -2078,6 +2078,104 @@
         </p>
       </e>
     </pardef>
+    <pardef n="брат__n">
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ові</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>у</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ові</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>і</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>е</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ом</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ів</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ів</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ам</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ах</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ами</l>
+          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -2124,6 +2222,7 @@
     <a lm="віскі"><i>віскі</i><par n="віскі__n"/></a>
     <e lm="робітник"><i>робітни</i><par n="робітни/к__n"/></e>
     <e lm="фабрика"><i>фабри</i><par n="фабри/ка__n"/></e>
+    <e lm="брат"><i>брат</i><par n="брат__n"/></e>
     
     <e lm="англійський"><i>англійськ</i><par n="англійськ/ий__adj"/></e>
     <e lm="шведський"><i>шведськ</i><par n="англійськ/ий__adj"/></e>
