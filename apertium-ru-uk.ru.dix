@@ -1849,12 +1849,84 @@
       </e>
     </pardef>
 
-    <pardef n="стол__n">
+    <pardef n="1a__sg">
       <e c="[la]">
         <p>
           <l/>
-          <r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+          <r><s n="m"/><s n="sg"/><s n="nom"/></r>
         </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>у</l>
+          <r><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>е</l>
+          <r><s n="m"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ом</l>
+          <r><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="1a__pl">
+      <e>
+        <p>
+          <l>ы</l>
+          <r><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ов</l>
+          <r><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ам</l>
+          <r><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ах</l>
+          <r><s n="m"/><s n="pl"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ами</l>
+          <r><s n="m"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="стол__n">
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/></r>
+        </p>
+	<par n="1a__sg"/>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/></r>
+        </p>
+	<par n="1a__pl"/>
       </e>
       <e>
         <p>
@@ -1864,71 +1936,25 @@
       </e>
       <e>
         <p>
-          <l>а</l>
-          <r><s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>у</l>
-          <r><s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>е</l>
-          <r><s n="n"/><s n="m"/><s n="sg"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ом</l>
-          <r><s n="n"/><s n="m"/><s n="sg"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ы</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
           <l>ы</l>
           <r><s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
-      <e>
-        <p>
-          <l>ов</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ам</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ах</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ами</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
     </pardef>
     <pardef n="автор__n">
-      <e c="[la]">
+      <e>
         <p>
           <l/>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+          <r><s n="n"/><s n="ani"/></r>
         </p>
+	<par n="1a__sg"/>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="ani"/></r>
+        </p>
+	<par n="1a__pl"/>
       </e>
       <e>
         <p>
@@ -1938,62 +1964,8 @@
       </e>
       <e>
         <p>
-          <l>а</l>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>у</l>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>е</l>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ом</l>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ы</l>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
           <l>ов</l>
           <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ов</l>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ам</l>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ах</l>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ами</l>
-          <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
     </pardef>
