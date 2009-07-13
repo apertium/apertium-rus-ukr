@@ -9,7 +9,8 @@
     <sdef n="m"      c="мужской род"/>
     <sdef n="nt"     c="средний род"/>
     <sdef n="mf"     c="общий род"/>
-    <sdef n="ani"    c="одушевлённый"/>
+
+    <sdef n="ani"    c="одушевлённое существительное"/>
 
     <sdef n="sg"     c="едиственное число"/>
     <sdef n="pl"     c="множественное число"/>
@@ -1847,152 +1848,78 @@
         </p>
       </e>
     </pardef>
-    <pardef n="работни/к__n">
+
+    <!-- lc(1) дом__n -->
+    <pardef n="дом__n">
       <e>
         <p>
-          <l>к</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+          <l/>
+          <r><s n="n"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ка</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+          <l/>
+          <r><s n="n"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ку</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+          <l/>
+          <r>а<s n="n"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ка</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+          <l/>
+          <r>у<s n="n"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ком</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+          <l/>
+          <r>е<s n="n"/><s n="sg"/><s n="prp"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ке</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="prp"/></r>
+          <l/>
+          <r>ом<s n="n"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ки</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+          <l/>
+          <r>а<s n="n"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ков</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+          <l/>
+          <r>ов<s n="n"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>кам</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+          <l/>
+          <r>ам<s n="n"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ков</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+          <l/>
+          <r>ах<s n="n"/><s n="pl"/><s n="prp"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ками</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ках</l>
-          <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>цa</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>цы</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>це</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>цу</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>цей</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>це</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>цы</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ц</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>цам</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ц</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>цами</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>цах</l>
-          <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="prp"/></r>
+          <l/>
+          <r>ами<s n="n"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
     </pardef>
+
+    <!-- 3a фабрик/а__n -->
     <pardef n="фабрик/а__n">
       <e>
         <p>
@@ -2109,8 +2036,14 @@
     
     <e lm="мать"><i>мат</i><par n="мат/ь__n"/></e>
     <e lm="виски"><i>виски</i><par n="виски__n"/></e>
-    <e lm="работник"><i>работни</i><par n="работни/к__n"/></e>
+
+    <!-- 3a фабрик/а__n -->
     <e lm="фабрика"><i>фабрик</i><par n="фабрик/а__n"/></e>
+
+    <!--1c(1) дом__n -->
+    <e lm="дом"><i>дом</i><par n="дом__n"/></e>
+    <e lm="поезд"><i>поезд</i><par n="дом__n"/></e>
+
 
     <e lm="английский"><i>английск</i><par n="английск/ий__adj"/></e>
     <e lm="шведский"><i>шведск</i><par n="английск/ий__adj"/></e>
