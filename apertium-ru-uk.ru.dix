@@ -2164,27 +2164,16 @@
       </e>
       <e>
         <p>
-          <l>ов</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+          <l>ы</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ам</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+          <l></l>
+          <r><s n="n"/></r>
         </p>
-      </e>
-      <e>
-        <p>
-          <l>ах</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="prp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ами</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="ins"/></r>
-        </p>
+	<par n="1a__sg"/>
       </e>
     </pardef>
 
