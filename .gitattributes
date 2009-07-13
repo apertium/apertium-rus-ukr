@@ -3,6 +3,7 @@
 /ChangeLog -text
 /Makefile.am -text
 /README -text
+/alt.xsl -text
 /apertium-ru-uk.ru-uk.dix -text
 /apertium-ru-uk.ru-uk.t1x -text
 /apertium-ru-uk.ru-uk.t2x -text
