@@ -2374,6 +2374,430 @@
         </p>
       </e>
     </pardef>
+    <pardef n="пи/сати__vblex_imperf">
+      <e>
+        <p>
+          <l>сатиму</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сатимемо</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сатимеш</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сатимете</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сатиме</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сатимуть</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сав<b/>би</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сала<b/>б</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сало<b/>б</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="nt"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сали<b/>б</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>шимо</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ши</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>шить</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сано</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="impers"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сати</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сав</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сала</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сало</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="nt"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>сали</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>савши</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>саний</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="psv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>шучий</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="act"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>шучи</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>шу</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>шемо</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>шеш</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>шете</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ше</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>шуть</l>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+  <!-- купувати; куп -->
+    <pardef n="куп/увати__vblex_imperf">
+      <e>
+        <p>
+          <l>уватиму</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватимемо</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватимеш</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватимете</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватиме</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватимуть</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ив<b/>би</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ила<b/>б</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ило<b/>б</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="nt"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>или<b/>б</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уймо</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уй</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уйте</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>лено</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="impers"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>увати</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ив</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ила</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ило</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="nt"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>или</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>увавши</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>лений</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="psv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уючий</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="act"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уючи</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ую</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уємо</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уєш</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уєте</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ує</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ують</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+  <!-- любити; люб -->
+    <pardef n="люб/ити__vblex_imperf">
+      <e>
+        <p>
+          <l>ити</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ив</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="past"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ила</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="past"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ило</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="past"/><s n="nt"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>или</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="past"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>лю</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>имо</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>иш</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ите</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ить</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>лять</l>
+          <r>ити<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -2387,6 +2811,10 @@
     <e lm="о" r="RL"><p><l><a/>о</l><r>о</r></p><par n="про__pr"/></e>
     <e lm="о" r="LR"><p><l>об</l><r>о</r></p><par n="про__pr"/></e>
     <e lm="на"><i>на</i><par n="про__pr"/></e>
+
+    <e lm="писати"><i>пи</i><par n="пи/сати__vblex_imperf"/></e>
+    <e lm="купувати"><i>куп</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="любити"><i>люб</i><par n="люб/ити__vblex_imperf"/></e>
     
     <e lm="ні"><i>ні</i><par n="ні__ij"/></e>
     <e lm="так"><i>так</i><par n="ні__ij"/></e>

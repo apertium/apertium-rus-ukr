@@ -2773,6 +2773,213 @@
         </p>
       </e>
     </pardef>
+
+  <!-- купить; куп -->
+    <pardef n="куп/ить__vblex_perf">
+      <e>
+        <p>
+          <l>лю</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>им</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ишь</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ите</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ит</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ят</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ив</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ите</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ить</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ил</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ила</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ило</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="nt"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>или</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ивший</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="act"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ленный</l>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="psv"/></r>
+        </p>
+      </e>
+    </pardef>
+
+  <!-- покупать; покупа -->
+    <pardef n="покупа/ть__vblex_imperf">
+      <e>
+        <p>
+          <l>я</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>й</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>йте</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ть</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>л</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="past"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ла</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="past"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ло</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="past"/><s n="nt"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ли</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="past"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>вший</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="act"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ющий</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="act"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>емый</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="psv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ю</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ем</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ешь</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ете</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ет</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ют</l>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
   </pardefs>
 
   <section id="main" type="standard">
@@ -2786,6 +2993,9 @@
     
     <e lm="а"><i>а</i><par n="а__cnjcoo"/></e>
     <e lm="и"><i>и</i><par n="а__cnjcoo"/></e>
+
+    <e lm="купить"><i>куп</i><par n="куп/ить__vblex_perf"/></e>
+    <e lm="покупать"><i>покупа</i><par n="покупа/ть__vblex_imperf"/></e>
     
     <e lm="через"><i>через</i><par n="через__pr"/></e>
     <e lm="спасибо за"><i>спасибо<b/>за</i><par n="через__pr"/></e>
