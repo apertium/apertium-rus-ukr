@@ -17,5 +17,6 @@
 dev/ru-uk-pl-lv-en.csv -text
 dev/uk-ispell-entries -text
 dev/uk-ru-indeclinable -text
+dev/uk-sint-auto -text
 /en-ca.prob -text
 /modes.xml -text
