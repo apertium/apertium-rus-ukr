@@ -14,12 +14,13 @@
 <e><p><l>Гварнері<s n="np"/></l><r>Гварнери<s n="np"/></r></p></e>
 <e><p><l>Генрі<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Генри<s n="np"/></r></p></e>
 <e><p><l>Гонгадзе<s n="np"/></l><r>Гонгадзе<s n="np"/></r></p></e>
-<e><p><l>Греммі<s n="np"/></l><r>Грэмми<s n="np"/></r></p></e>
+<e><p><l>Греммі<s n="np"/></l><r>Грэмми<s n="np"/><s n="al"/><s n="indecl"/></r></p></e>
 <e><p><l>Гюго<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Гюго<s n="np"/></r></p></e>
 <e><p><l>Данте<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Данте<s n="np"/></r></p></e>
 <e><p><l>Депардьє<s n="np"/></l><r>Депардьё<s n="np"/></r></p></e>
 <e><p><l>Джиммі<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Джимми<s n="np"/></r></p></e>
-<e><p><l>Джо<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Джо<s n="np"/></r></p></e>
+<e><p><l>Джо<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Джо<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></r></p></e>
+<e><p><l>Джо<s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></l><r>Джо<s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></r></p></e>
 <e><p><l>Джузеппе<s n="np"/></l><r>Джузеппе<s n="np"/></r></p></e>
 <e><p><l>Забужко<s n="np"/></l><r>Забужко<s n="np"/></r></p></e>
 <e><p><l>Леонардо<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Леонардо<s n="np"/></r></p></e>
@@ -29,3 +30,6 @@
 <e><p><l>Саакашвілі<s n="np"/></l><r>Саакашвили<s n="np"/></r></p></e>
 <e><p><l>Саркозі<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Саркози<s n="np"/></r></p></e>
 <e><p><l>Франсуа<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Франсуа<s n="np"/></r></p></e>
+<e><p><l>Эдді<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></l><r>Эдди<s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></r></p></e>
+<e><p><l>Брітні<s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></l><r>Бритни<s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></r></p></e>
+<e><p><l>Брітні<b/>Спірс<s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></l><r>Бритни<b/>Спирс<s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></r></p></e>
