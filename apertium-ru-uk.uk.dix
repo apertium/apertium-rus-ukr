@@ -2809,7 +2809,7 @@
 
   </pardefs>
   <section id="main" type="standard">
-    <e lm="в 1960-і рр"><i>в<b/></i><re>[0-9][0-9][0-9]</e><i>0-і<b/>рр</i><p><l></l><r><s n="adv"/></r></p></e>
+    <e lm="в 1960-і рр"><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-і<b/>рр</i><p><l></l><r><s n="adv"/></r></p></e>
     <e lm="prpers"><i></i><par n="/prpers__prn"/></e>
     <e lm="про"><i>про</i><par n="про__pr"/></e>
     <e lm="iз"><i>iз</i><par n="про__pr"/></e>
