@@ -3059,7 +3059,6 @@
   </pardefs>
 
   <section id="main" type="standard">
-    <e lm="привет"><i>привет</i><par n="привет__ij"/></e>
     <e lm="если"><i>если</i><par n="если__cnjsub"/></e>
     <e lm="потому что"><i>потому<b/>что</i><par n="если__cnjsub"/></e>
     <e lm="чтобы"><i>чтобы</i><par n="если__cnjsub"/></e>
