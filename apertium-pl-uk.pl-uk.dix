@@ -56,7 +56,7 @@
     <e><p><l>a<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
     
     <e><p><l>sto<s n="num"/></l><r>сто<s n="num"/></r></p></e>
-    <e><p><l>сорок<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
+    <e><p><l>czterdzieści<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
     
     <e><p><l>nie<s n="ij"/></l><r>ні<s n="ij"/></r></p></e>
     <e><p><l>tak<s n="ij"/></l><r>так<s n="ij"/></r></p></e>
@@ -94,24 +94,24 @@
     <e><p><l>kupić<s n="vblex"/><s n="perf"/></l><r>купити<s n="vblex"/><s n="perf"/></r></p></e>
     
     <e><p><l>matka<s n="n"/><s n="ani"/><s n="f"/></l><r>мати<s n="n"/><s n="ani"/><s n="f"/></r></p></e>
-    <e><p><l>виски<s n="n"/><s n="nt"/><s n="indecl"/></l><r>віскі<s n="n"/><s n="m"/><s n="indecl"/></r></p></e>
+    <e><p><l>whisky<s n="n"/><s n="nt"/><s n="indecl"/></l><r>віскі<s n="n"/><s n="m"/><s n="indecl"/></r></p></e>
     <e><p><l>меню<s n="n"/><s n="nt"/><s n="indecl"/></l><r>меню<s n="n"/><s n="nt"/><s n="indecl"/></r></p></e>
     <e><p><l>pracownik<s n="n"/></l><r>робітник<s n="n"/><s n="ani"/></r></p></e>
     <e><p><l>fabryka<s n="n"/><s n="f"/></l><r>фабрика<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>brat<s n="n"/><s n="mp"/></l><r>брат<s n="n"/><s n="ani"/><s n="m"/></r></p></e>
     <e><p><l>abażur<s n="n"/><s n="mi"/></l><r>абажур<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>абонемент<s n="n"/><s n="mi"/></l><r>абонемент<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>абрикос<s n="n"/><s n="mi"/></l><r>абрикос<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>январь<s n="n"/><s n="mi"/></l><r>січень<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>февраль<s n="n"/><s n="mi"/></l><r>лютий<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>март<s n="n"/><s n="mi"/></l><r>березень<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>апрель<s n="n"/><s n="mi"/></l><r>квітень<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>май<s n="n"/><s n="mi"/></l><r>травень<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>июнь<s n="n"/><s n="mi"/></l><r>червень<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>июль<s n="n"/><s n="mi"/></l><r>липень<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>август<s n="n"/><s n="mi"/></l><r>серпень<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>сентябрь<s n="n"/><s n="mi"/></l><r>вересень<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>октябрь<s n="n"/><s n="mi"/></l><r>жовтень<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>abonament<s n="n"/><s n="mi"/></l><r>абонемент<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>morela<s n="n"/><s n="f"/></l><r>абрикос<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>styczeń<s n="n"/><s n="mi"/></l><r>січень<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>luty<s n="n"/><s n="mi"/></l><r>лютий<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marzec<s n="n"/><s n="mi"/></l><r>березень<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kwiecień<s n="n"/><s n="mi"/></l><r>квітень<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>maj<s n="n"/><s n="mi"/></l><r>травень<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>czerwiec<s n="n"/><s n="mi"/></l><r>червень<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lipiec<s n="n"/><s n="mi"/></l><r>липень<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sierpień<s n="n"/><s n="mi"/></l><r>серпень<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>wrzesień<s n="n"/><s n="mi"/></l><r>вересень<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>październik<s n="n"/><s n="mi"/></l><r>жовтень<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>listopad<s n="n"/><s n="mi"/></l><r>листопад<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>grudzień<s n="n"/><s n="mi"/></l><r>грудень<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sosna<s n="n"/><s n="f"/></l><r>сосна<s n="n"/><s n="f"/></r></p></e>
@@ -129,14 +129,14 @@
     <e><p><l>stół<s n="n"/><s n="mi"/></l><r>стіл<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dzień<s n="n"/><s n="mi"/></l><r>день<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>drzewo<s n="n"/><s n="nt"/></l><r>дерево<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>держава<s n="n"/><s n="f"/></l><r>держава<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>państwo<s n="n"/><s n="nt"/></l><r>держава<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dziesięć<s n="num"/></l><r>десять<s n="num"/></r></p></e>
-    <e><p><l>дешёвый<s n="adj"/><s n="sint"/></l><r>дешевий<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>tani<s n="adj"/><s n="sint"/></l><r>дешевий<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>klucz<s n="n"/><s n="mi"/></l><r>ключ<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>źródło<s n="n"/><s n="nt"/></l><r>джерело<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Gdańsk<s n="np"/><s n="top"/><s n="m"/></l><r>Ґданськ<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>słońce<s n="n"/><s n="nt"/></l><r>сонце<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>зеркало<s n="n"/><s n="nt"/></l><r>дзеркало<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>lustro<s n="n"/><s n="nt"/></l><r>дзеркало<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>doba<s n="n"/><s n="f"/></l><r>доба<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>dobranoc<s n="ij"/></l><r>надобраніч<s n="ij"/></r></p></e>
     <e r="RL"><p><l>dobranoc<s n="ij"/></l><r>на<b/>добраніч<s n="ij"/></r></p></e>
@@ -151,14 +151,14 @@
     <e><p><l>córka<s n="n"/><s n="f"/></l><r>дочка<s n="n"/><s n="ani"/><s n="f"/></r></p></e>
     <e><p><l>deszcz<s n="n"/><s n="mi"/></l><r>дощ<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dąb<s n="n"/><s n="mi"/></l><r>дуб<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>очень<s n="adv"/></l><r>дуже<s n="adv"/></r></p></e>
+    <e><p><l>bardzo<s n="adv"/></l><r>дуже<s n="adv"/></r></p></e>
     <e><p><l>myśleć<s n="vblex"/></l><r>думати<s n="vblex"/></r></p></e>
     <e><p><l>dziewczyna<s n="n"/><s n="f"/></l><r>дівчина<s n="n"/><s n="ani"/><s n="f"/></r></p></e>
-    <e><p><l>epocha<s n="n"/><s n="f"/></l><r>епоха<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>epoka<s n="n"/><s n="f"/></l><r>епоха<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>era<s n="n"/><s n="f"/></l><r>ера<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>экскурсия<s n="n"/><s n="f"/></l><r>екскурсія<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>wycieczka<s n="n"/><s n="f"/></l><r>екскурсія<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dom<s n="n"/><s n="mi"/></l><r>дім<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>глагол<s n="n"/><s n="mi"/></l><r>дієслово<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>czasownik<s n="n"/><s n="mi"/></l><r>дієслово<s n="n"/><s n="nt"/></r></p></e>
     
     <e><p><l>angielski<s n="adj"/></l><r>англійський<s n="adj"/></r></p></e>
     <e><p><l>szwedzki<s n="adj"/></l><r>шведський<s n="adj"/></r></p></e>
