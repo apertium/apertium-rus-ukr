@@ -82,6 +82,82 @@
         </p>
       </e>
     </pardef>
+    <pardef n="ст/о__num">
+      <e>
+        <p>
+          <l>о</l>
+          <r>о<s n="num"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r>о<s n="num"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r>о<s n="num"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>о</l>
+          <r>о<s n="num"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r>о<s n="num"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r>о<s n="num"/><s n="prp"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="сорок__num">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="num"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r><s n="num"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r><s n="num"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="num"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r><s n="num"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r><s n="num"/><s n="prp"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="/prpers__prn">
       <e>
         <p>
@@ -3128,6 +3204,10 @@
     <e lm="чей"><i>ч</i><par n="ч/ей__det"/></e>
     <e lm="наш"><i>наш</i><par n="наш__det"/></e>
     <e lm="ваш"><i>ваш</i><par n="наш__det"/></e>
+
+    <e lm="сто"><i>ст</i><par n="ст/о__num"/></e>
+    <e lm="сорок"><i>сорок</i><par n="сорок__num"/></e>
+
     
 <!-- - - - - Существительные - - - - -->
 
