@@ -6,10 +6,10 @@
     <sdef n="adj"    c="Прикметник"/>
     
     <sdef n="f"      c=""/>
-    <sdef n="m"     c=""/>
+    <sdef n="m"      c=""/>
     <sdef n="nt"     c=""/>
     <sdef n="mf"     c=""/>
-    <sdef n="ani"     c=""/>
+    <sdef n="ani"    c=""/>
 
     <sdef n="sg"     c="однина"/>
     <sdef n="pl"     c="множина"/>
@@ -39,23 +39,23 @@
     <sdef n="pr"     c=""/>
     <sdef n="cnjcoo" c=""/>
     <sdef n="cnjsub" c=""/>
-    <sdef n="adv" c=""/>
-    <sdef n="pos" c=""/>
-    <sdef n="ij" c=""/>
-    <sdef n="vblex" c=""/>
+    <sdef n="adv"    c=""/>
+    <sdef n="pos"    c=""/>
+    <sdef n="ij"     c=""/>
+    <sdef n="vblex"  c=""/>
     <sdef n="imperf" c=""/>
-    <sdef n="perf" c=""/>
-    <sdef n="fut" c=""/>
-    <sdef n="cni" c=""/>
-    <sdef n="imp" c=""/>
+    <sdef n="perf"   c=""/>
+    <sdef n="fut"    c=""/>
+    <sdef n="cni"    c=""/>
+    <sdef n="imp"    c=""/>
     <sdef n="impers" c=""/>
-    <sdef n="inf" c=""/>
-    <sdef n="past" c=""/>
-    <sdef n="pp" c=""/>
-    <sdef n="psv" c=""/>
-    <sdef n="pprs" c=""/>
-    <sdef n="act" c=""/>
-    <sdef n="pri" c=""/>
+    <sdef n="inf"    c=""/>
+    <sdef n="past"   c=""/>
+    <sdef n="pp"     c=""/>
+    <sdef n="psv"    c=""/>
+    <sdef n="pprs"   c=""/>
+    <sdef n="act"    c=""/>
+    <sdef n="pri"    c=""/>
   </sdefs>  
   <pardefs>
     <pardef n="про__pr">
@@ -2456,6 +2456,98 @@
         </p>
       </e>
     </pardef>
+    <pardef n="снідан/ок__n">
+      <e>
+        <p>
+          <l>ок</l>
+          <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ку</l>
+          <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>кові</l>
+          <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ку</l>
+          <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ок</l>
+          <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ком</l>
+          <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ку</l>
+          <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ку</l>
+          <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ки</l>
+          <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ків</l>
+          <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>кам</l>
+          <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ки</l>
+          <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ками</l>
+          <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ках</l>
+          <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ки</l>
+          <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="вівтор/ок__n">
       <e>
         <p>
@@ -2923,7 +3015,7 @@
           <r>ід<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>оду</l>
           <r>ід<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
@@ -3008,6 +3100,98 @@
         </p>
       </e>
     </pardef>
+    <pardef n="клоп/іт__n">
+      <e>
+        <p>
+          <l>оту</l>
+          <r>іт<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>оту</l>
+          <r>іт<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>отові</l>
+          <r>іт<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>іт</l>
+          <r>іт<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>оті</l>
+          <r>іт<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>оте</l>
+          <r>іт<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>отом</l>
+          <r>іт<s n="n"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>іт</l>
+          <r>іт<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>отів</l>
+          <r>іт<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>отам</l>
+          <r>іт<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>оти</l>
+          <r>іт<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>отах</l>
+          <r>іт<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>оти</l>
+          <r>іт<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>отами</l>
+          <r>іт<s n="n"/><s n="m"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>оти</l>
+          <r>іт<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="/ід__n"> <!-- [^пг]лід -->
       <e>
         <p>
@@ -3015,7 +3199,7 @@
           <r>ід<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>ьоду</l>
           <r>ід<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
@@ -3097,6 +3281,92 @@
         <p>
           <l>ьоди</l>
           <r>ід<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="бавов/на__n">
+      <e>
+        <p>
+          <l>ни</l>
+          <r>на<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ні</l>
+          <r>на<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ну</l>
+          <r>на<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ні</l>
+          <r>на<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>но</l>
+          <r>на<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ною</l>
+          <r>на<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>на</l>
+          <r>на<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ен</l>
+          <r>на<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>нам</l>
+          <r>на<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ни</l>
+          <r>на<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>нах</l>
+          <r>на<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ни</l>
+          <r>на<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>нами</l>
+          <r>на<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ни</l>
+          <r>на<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
@@ -3620,6 +3890,12 @@
     <e lm="електропривід"><i>електроприв</i><par n="пров/ід__n"/></e>
     <e lm="небозвід"><i>небозв</i><par n="пров/ід__n"/></e>
     <e lm="вівторок"><i>вівтор</i><par n="вівтор/ок__n"/></e>
+    <e lm="сніданок"><i>снідан</i><par n="снідан/ок__n"/></e>
+    <e lm="відтінок"><i>відтін</i><par n="снідан/ок__n"/></e>
+    <e lm="стосунок"><i>стосун</i><par n="снідан/ок__n"/></e>
+    <e lm="бавовна"><i>бавов</i><par n="бавов/на__n"/></e>
+    <e lm="клопіт"><i>клоп</i><par n="клоп/іт__n"/></e>
+    <e lm="гавкіт"><i>гавк</i><par n="клоп/іт__n"/></e>
     
     <e lm="Кале"><i>Кале</i><par n="Кале__np"/></e>
     <e lm="Па-де-Кале"><i>Па-де-Кале</i><par n="Кале__np"/></e>
