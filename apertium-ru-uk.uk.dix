@@ -506,6 +506,74 @@
         </p>
       </e>
     </pardef>
+    <pardef n="Кале__np">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="np"/><s n="top"/><s n="m"/><s n="indecl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="Эдді__np">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="np"/><s n="ant"/><s n="m"/><s n="indecl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="Брітні__np">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="Ла-Манш__np">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e c="FIXME">
+        <p>
+          <l>а</l>
+          <r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e c="FIXME">
+        <p>
+          <l>у</l>
+          <r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e c="FIXME">
+        <p>
+          <l>ем</l>
+          <r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e c="FIXME">
+        <p>
+          <l>е</l>
+          <r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e c="FIXME">
+        <p>
+          <l>е</l>
+          <r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="аболіціонізм/__n">
       <e>
         <p>
@@ -3084,6 +3152,18 @@
     <e lm="вересень"><i>верес</i><par n="серп/ень__n"/></e>
     <e lm="жовтень"><i>жовт</i><par n="серп/ень__n"/></e>
     <e lm="грудень"><i>груд</i><par n="серп/ень__n"/></e>
+    
+    <e lm="Кале"><i>Кале</i><par n="Кале__np"/></e>
+    <e lm="Па-де-Кале"><i>Па-де-Кале</i><par n="Кале__np"/></e>
+    <e lm="Эдді"><i>Эдді</i><par n="Эдді__np"/></e>
+    <e lm="Джо"><i>Джо</i><par n="Эдді__np"/></e>
+    <e lm="Міккі"><i>Міккі</i><par n="Эдді__np"/></e>
+    <e lm="Бадді Холлі"><i>Бадді<b/>Холлі</i><par n="Эдді__np"/></e>
+    <e lm="Джо"><i>Джо</i><par n="Брітні__np"/></e>
+    <e lm="Брітні"><i>Бритни</i><par n="Брітні__np"/></e>
+    <e lm="Брітні Спиіс"><i>Брітні<b/>Спиіс</i><par n="Брітні__np"/></e>
+    
+    <e lm="Ла-Манш"><i>Ла-Манш</i><par n="Ла-Манш__np"/></e>
     
     <e lm="англійський"><i>англійськ</i><par n="англійськ/ий__adj"/></e>
     <e lm="шведський"><i>шведськ</i><par n="англійськ/ий__adj"/></e>
