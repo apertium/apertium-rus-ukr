@@ -1923,6 +1923,158 @@
         </p>
       </e>
     </pardef>
+    <pardef n="африкан/ец__n_ani">
+      <e>
+        <p>
+          <l>ца</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цу</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ца</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цем</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ец</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>це</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цев</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цам</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цев</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цами</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цы</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цах</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ки</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ке</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ку</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>кой</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>кою</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>кa</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ке</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ок</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>кам</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ок</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ками</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ки</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ках</l>
+          <r>ец<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="prp"/></r>
+        </p>
+      </e>
+    </pardef>
 
     
     <!-- [n.0] виски__n -->
@@ -3404,6 +3556,9 @@
 
     <!-- [f.8e^] мат/ь__n -->
     <e lm="мать"><i>мат</i><par n="мат/ь__n"/></e>
+    
+    <!-- Both Masculine and Feminine forms: 5*a + 3*a-->
+    <e lm="африканец"><i>африкан</i><par n="африкан/ец__n_ani"/></e>
     
     <e lm="Кале"><i>Кале</i><par n="Кале__np"/></e>
     <e lm="Па-де-Кале"><i>Па-де-Кале</i><par n="Кале__np"/></e>
