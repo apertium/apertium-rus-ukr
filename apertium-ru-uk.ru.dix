@@ -1931,6 +1931,95 @@
         </p>
       </e>
     </pardef>
+    <pardef n="Испани/я__np">
+      <e>
+        <p>
+          <l>и</l>
+          <r>я<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r>я<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ю</l>
+          <r>я<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ей</l>
+          <r>я<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ею</l>
+          <r>я<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>я</l>
+          <r>я<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r>я<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="Ган/а__np">
+      <e>
+        <p>
+          <l>ы</l>
+          <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>е</l>
+          <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>у</l>
+          <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ой</l>
+          <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ою</l>
+          <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>а</l>
+          <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>е</l>
+          <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+    </pardef>
+    
     <pardef n="африкан/ец__n_ani">
       <e>
         <p>
@@ -3585,6 +3674,8 @@
     <e lm="Головко"><i>Головко</i><par n="Тимошенко__np"/></e>
     
     <e lm="Ла-Манш"><i>Ла-Манш</i><par n="Ла-Манш__np"/></e>
+    <e lm="Испания"><i>Испани</i><par n="Испани/я__np"/></e>
+    <e lm="Гана"><i>Ган</i><par n="Ган/а__np"/></e>
 
     <e lm="английский"><i>английск</i><par n="английск/ий__adj"/></e>
     <e lm="шведский"><i>шведск</i><par n="английск/ий__adj"/></e>
