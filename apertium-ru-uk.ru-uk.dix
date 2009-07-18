@@ -41,8 +41,24 @@
     <sdef n="pr"     c=""/>
     <sdef n="cnjcoo" c=""/>
     <sdef n="cnjsub" c=""/>
+    
+    <sdef n="GD"     c=""/>
+    <sdef n="ND"     c=""/>
+    <sdef n="CD"     c=""/>
   </sdefs>
-  <pardefs/>
+  <pardefs>
+    <pardef n="Ющенко__np">
+      <e r="LR"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="GD"/><s n="sg"/><s n="CD"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="f"/><s n="sg"/><s n="indecl"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
+    </pardef>
+  <pardefs>
   <section id="main" type="conditional">
     <e><p><l>если<s n="cnjsub"/></l><r>якщо<s n="cnjsub"/></r></p></e>
     <e><p><l>потому<b/>что<s n="cnjsub"/></l><r>тому<b/>що<s n="cnjsub"/></r></p></e>
@@ -197,6 +213,13 @@
     <e><p><l>Бадди<b/>Холли<s n="np"/><s n="ant"/></l><r>Бадді<b/>Холлі<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Бритни<s n="np"/><s n="ant"/></l><r>Брітні<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Бритни<b/>Спирс<s n="np"/><s n="ant"/></l><r>Брітні<b/>Спірс<s n="np"/><s n="ant"/></r></p></e>
+
+    <e><i>Ющенко<s n="np"/><s n="cog"/></i><par n="Ющенко__np"/></e>
+    <e><i>Тимошенко<s n="np"/><s n="cog"/></i><par n="Ющенко__np"/></e>
+    <e r="LR"><p><l>Андрейко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r><par n="Ющенко__np"/></p></e>
+    <e><p><l>Андрийко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r><par n="Ющенко__np"/></p></e>
+    <e><i>Головко<s n="np"/><s n="cog"/></i><par n="Ющенко__np"/></e>
+    
     <e><p><l>Ла-Манш<s n="np"/><s n="hyd"/></l><r>Ла-Манш<s n="np"/><s n="hyd"/></r></p></e>
     <e><p><l>Испания<s n="np"/><s n="top"/></l><r>Іспанія<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Буркина<b/>Фасо<s n="np"/><s n="top"/></l><r>Буркіна<b/>Фасо<s n="np"/><s n="top"/></r></p></e> <!-- nt, indecl -->
