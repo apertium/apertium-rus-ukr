@@ -2367,6 +2367,196 @@
         </p>
       </e>
     </pardef>
+    <pardef n="африкан/ець__n_ani">
+      <e>
+        <p>
+          <l>ця</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цеві</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>цю</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ця</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цеві</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ці</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>цю</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цю</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цем</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ець</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ців</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цям</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ців</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цях</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ці</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цями</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ці</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ка</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+<!--      
+      <e>
+        <p>
+          <l>ці</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ці</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цю</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цею</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ці</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>це</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ці</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ць</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цям</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ць</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цями</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>цях</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ці</l>
+          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+-->
+    </pardef>
     <pardef n="абажур__n">
       <e>
         <p>
