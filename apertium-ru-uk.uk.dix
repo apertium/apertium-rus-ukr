@@ -108,37 +108,37 @@
       <e>
         <p>
           <l>о</l>
-          <r>о<s n="num"/><s n="nom"/></r>
+          <r>о<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>а</l>
-          <r>о<s n="num"/><s n="gen"/></r>
+          <r>о<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>а</l>
-          <r>о<s n="num"/><s n="dat"/></r>
+          <r>о<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>о</l>
-          <r>о<s n="num"/><s n="acc"/></r>
+          <r>о<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>а</l>
-          <r>о<s n="num"/><s n="ins"/></r>
+          <r>о<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>а</l>
-          <r>о<s n="num"/><s n="loc"/></r>
+          <r>о<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
     </pardef>
@@ -146,37 +146,173 @@
       <e>
         <p>
           <l></l>
-          <r><s n="num"/><s n="nom"/></r>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>а</l>
-          <r><s n="num"/><s n="gen"/></r>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>а</l>
-          <r><s n="num"/><s n="dat"/></r>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r><s n="num"/><s n="acc"/></r>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>а</l>
-          <r><s n="num"/><s n="ins"/></r>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>а</l>
-          <r><s n="num"/><s n="loc"/></r>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="с/ім__num_mf">
+      <e>
+        <p>
+          <l>еми</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR" c="check">
+        <p>
+          <l>імох</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>еми</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e r="LR" c="check">
+        <p>
+          <l>імох</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ім</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e r="LR" c="check">
+        <p>
+          <l>імох</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>еми</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e r="LR" c="check">
+        <p>
+          <l>імох</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>імома</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e r="LR" c="check">
+        <p>
+          <l>ьома</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ім</l>
+          <r>ім<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="шістдесят__num_mf">
+      <e>
+        <p>
+          <l>и</l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ьох</l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ьом</l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ьох</l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ьох</l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ьма</l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ьома</l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
