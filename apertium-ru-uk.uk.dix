@@ -466,47 +466,47 @@
         </p>
       </e>
     </pardef>
-    <pardef n="с/імот__num_mf">
+    <pardef n="с/імсот__num_mf">
       <e>
         <p>
           <l>емисот</l>
-          <r>імот<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+          <r>імсот<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>емистам</l>
-          <r>імот<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
+          <r>імсот<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>емисот</l>
-          <r>імот<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
+          <r>імсот<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>емистах</l>
-          <r>імот<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+          <r>імсот<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>емистами</l>
-          <r>імот<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
+          <r>імсот<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>імомастами</l>
-          <r>імот<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
+          <r>імсот<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>імсот</l>
-          <r>імот<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+          <r>імсот<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
@@ -6545,7 +6545,7 @@
     <e lm="п'ятдесят"><i>п'ятдесят</i><par n="шістдесят__num_mf"/></e>
     <e lm="дев'ятсот"><i>дев'ят</i><par n="дев'ят/сот__num_mf"/></e>
     <e lm="п'ятсот"><i>п'ят</i><par n="п'ят/сот__num_mf"/></e>
-    <e lm="сімсот"><i>с</i><par n="с/імот__num_mf"/></e>
+    <e lm="сімсот"><i>с</i><par n="с/імсот__num_mf"/></e>
     <e lm="два"><i>дв</i><par n="дв/а__num"/></e>
     <e lm="шість"><i>ш</i><par n="ш/ість__num_mf"/></e>
     <e lm="сімдесят"><i>сімдесят</i><par n="шістдесят__num_mf"/></e>
