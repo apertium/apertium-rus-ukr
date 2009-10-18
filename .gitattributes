@@ -21,7 +21,6 @@ dev/ru-uk-nouns -text
 dev/ru-uk-pl-lv-en.csv -text
 dev/ru-uk-verb -text
 dev/uk-ispell-entries -text
-dev/uk-num.csv -text
 dev/uk-ru-indeclinable -text
 dev/uk-sint-auto -text
 /en-ca.prob -text
