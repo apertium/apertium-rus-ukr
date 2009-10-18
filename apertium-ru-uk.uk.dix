@@ -255,7 +255,7 @@
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR" c="check">
         <p>
           <l>ьох</l>
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
@@ -267,7 +267,7 @@
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR" c="check">
         <p>
           <l>ьом</l>
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
@@ -279,7 +279,7 @@
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR" c="check">
         <p>
           <l>ьох</l>
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
@@ -291,7 +291,7 @@
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR" c="check">
         <p>
           <l>ьох</l>
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
@@ -303,7 +303,7 @@
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR" c="check">
         <p>
           <l>ьома</l>
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
@@ -313,6 +313,44 @@
         <p>
           <l></l>
           <r><s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="чотир/и__num_mf">
+      <e>
+        <p>
+          <l>ьох</l>
+          <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ьом</l>
+          <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ьох</l>
+          <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ма</l>
+          <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
