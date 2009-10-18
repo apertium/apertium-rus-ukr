@@ -15,6 +15,7 @@
 /apertium-ru-uk.uk-ru.t3x -text
 /apertium-ru-uk.uk.dix -text
 /autogen.sh -text
+dev/ru-uk-nouns -text
 dev/ru-uk-pl-lv-en.csv -text
 dev/uk-ispell-entries -text
 dev/uk-ru-indeclinable -text
