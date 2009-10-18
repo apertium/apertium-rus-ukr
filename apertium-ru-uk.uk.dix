@@ -56,6 +56,12 @@
     <sdef n="pprs"   c=""/>
     <sdef n="act"    c=""/>
     <sdef n="pri"    c=""/>
+    <sdef n="num"    c=""/>
+    <sdef n="np"     c=""/>
+    <sdef n="top"    c=""/>
+    <sdef n="ant"    c=""/>
+    <sdef n="cog"    c=""/>
+    <sdef n="hyd"    c=""/>
   </sdefs>  
   <pardefs>
     <pardef n="про__pr">
