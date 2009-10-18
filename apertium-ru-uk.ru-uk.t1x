@@ -112,6 +112,20 @@
        <pattern-item n="nom"/>
      </pattern>
      <action>
+       <choose>
+         <when>
+           <test>
+             <equal>
+               <clip pos="1" side="sl" part="cas"/>
+               <lit-tag v="prp"/>
+             </equal>
+           </test>
+           <let>
+             <clip pos="1" side="tl" part="cas"/>
+             <lit-tag v="loc"/>
+           </let>
+         </when>
+       </choose>
        <out>
          <chunk name="nom" case="caseFirstWord">
            <tags>
