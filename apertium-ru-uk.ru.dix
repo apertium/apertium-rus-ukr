@@ -61,8 +61,8 @@
     <sdef n="pp"/>
     <sdef n="pprs"/>
     <sdef n="pres"/>
-    <sdef n="act"/>
-    <sdef n="psv"/>
+    <sdef n="actv"/>
+    <sdef n="pasv"/>
   </sdefs>
   <pardefs>
     <pardef n="привет__ij">
@@ -3575,13 +3575,13 @@
       <e>
         <p>
           <l>ивший</l>
-          <r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="act"/></r>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ленный</l>
-          <r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="psv"/></r>
+          <r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r>
         </p>
       </e>
     </pardef>
@@ -3638,19 +3638,19 @@
       <e>
         <p>
           <l>вший</l>
-          <r>ть<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="act"/></r>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="actv"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ющий</l>
-          <r>ть<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="act"/></r>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="actv"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>емый</l>
-          <r>ть<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="psv"/></r>
+          <r>ть<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="pasv"/></r>
         </p>
       </e>
       <e>
@@ -3706,8 +3706,30 @@
     <e lm="а"><i>а</i><par n="а__cnjcoo"/></e>
     <e lm="и"><i>и</i><par n="а__cnjcoo"/></e>
 
-    <e lm="купить"><i>куп</i><par n="куп/ить__vblex_perf"/></e>
-    <e lm="покупать"><i>покупа</i><par n="покупа/ть__vblex_imperf"/></e>
+    <!-- Pronouns -->
+
+    <e lm="prpers"><i></i><par n="/prpers__prn"/></e>
+    <e lm="весь"><i>в</i><par n="в/есь__prn"/></e>
+
+    <e lm="кто"><i>к</i><par n="к/то__prn"/></e>
+ 
+    <!-- Determiners -->
+
+    <e lm="мой"><i>мо</i><par n="мо/й__det"/></e>
+    <e lm="твой"><i>тво</i><par n="мо/й__det"/></e>
+    <e lm="свой"><i>сво</i><par n="мо/й__det"/></e>
+    <e lm="тот"><i>т</i><par n="т/от__det"/></e>
+    <e lm="этот"><i>эт</i><par n="эт/от__det"/></e>
+    <e lm="что"><i>ч</i><par n="ч/то__det"/></e>
+
+    <e lm="чей"><i>ч</i><par n="ч/ей__det"/></e>
+    <e lm="наш"><i>наш</i><par n="наш__det"/></e>
+    <e lm="ваш"><i>ваш</i><par n="наш__det"/></e>
+
+    <!-- Numerals -->
+
+    <e lm="сто"><i>ст</i><par n="ст/о__num"/></e>
+    <e lm="сорок"><i>сорок</i><par n="сорок__num"/></e>
 
     <!-- Prepositions -->
     
@@ -4187,27 +4209,8 @@
     <e lm="недовольно"><i>недовольно</i><par n="только__adv"/></e>
     <e lm="бессмысленно"><i>бессмысленно</i><par n="только__adv"/></e>
     <e lm="робко"><i>робко</i><par n="только__adv"/></e>
-
-
-    <!-- Pronouns -->
-
-    <e lm="prpers"><i></i><par n="/prpers__prn"/></e>
-    <e lm="весь"><i>в</i><par n="в/есь__prn"/></e>
-    <e lm="мой"><i>мо</i><par n="мо/й__det"/></e>
-    <e lm="твой"><i>тво</i><par n="мо/й__det"/></e>
-    <e lm="свой"><i>сво</i><par n="мо/й__det"/></e>
-    <e lm="тот"><i>т</i><par n="т/от__det"/></e>
-    <e lm="этот"><i>эт</i><par n="эт/от__det"/></e>
-    <e lm="что"><i>ч</i><par n="ч/то__det"/></e>
-    <e lm="кто"><i>к</i><par n="к/то__prn"/></e>
-    <e lm="чей"><i>ч</i><par n="ч/ей__det"/></e>
-    <e lm="наш"><i>наш</i><par n="наш__det"/></e>
-    <e lm="ваш"><i>ваш</i><par n="наш__det"/></e>
-
-    <e lm="сто"><i>ст</i><par n="ст/о__num"/></e>
-    <e lm="сорок"><i>сорок</i><par n="сорок__num"/></e>
-
     
+    <!-- Nouns -->
 
     <e lm="виски"><i>виски</i><par n="виски__n"/></e>
     <e lm="метро"><i>метро</i><par n="виски__n"/></e>
@@ -4286,9 +4289,11 @@
     <e lm="суп"><i>суп</i><par n="суп__n"/></e>
     <e lm="право"><i>прав</i><par n="прав/о__n"/></e>
     
-    <!-- Both Masculine and Feminine forms: 5*a + 3*a-->
+      <!-- Both Masculine and Feminine forms: 5*a + 3*a-->
     <e lm="африканец"><i>африкан</i><par n="африкан/ец__n_ani"/></e>
     <e lm="американец"><i>американ</i><par n="африкан/ец__n_ani"/></e>
+
+    <!-- Proper nouns -->
     
     <e lm="Кале"><i>Кале</i><par n="Кале__np"/></e>
     <e lm="Па-де-Кале"><i>Па-де-Кале</i><par n="Кале__np"/></e>
@@ -4310,6 +4315,8 @@
     <e lm="Ла-Манш"><i>Ла-Манш</i><par n="Ла-Манш__np"/></e>
     <e lm="Испания"><i>Испани</i><par n="Испани/я__np"/></e>
     <e lm="Гана"><i>Ган</i><par n="Ган/а__np"/></e>
+
+    <!-- Adjectives -->
 
     <e lm="английский"><i>английск</i><par n="английск/ий__adj"/></e>
     <e lm="шведский"><i>шведск</i><par n="английск/ий__adj"/></e>
@@ -4384,5 +4391,11 @@
     <e lm="чеченский"><i>чеченск</i><par n="английск/ий__adj"/></e>
     <e lm="шампанский"><i>шампанск</i><par n="английск/ий__adj"/></e>
     <e lm="японский"><i>японск</i><par n="английск/ий__adj"/></e>
+
+    <!-- Verbs -->
+
+    <e lm="купить"><i>куп</i><par n="куп/ить__vblex_perf"/></e>
+    <e lm="покупать"><i>покупа</i><par n="покупа/ть__vblex_imperf"/></e>
+
   </section>
 </dictionary>
