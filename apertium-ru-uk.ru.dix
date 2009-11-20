@@ -64,6 +64,8 @@
     <sdef n="pres"/>
     <sdef n="actv"/>
     <sdef n="pasv"/>
+
+    <sdef n="qst"/>
  
     <sdef n="sent"/>
   </sdefs>
@@ -1723,6 +1725,14 @@
         <p>
           <l></l>
           <r><s n="adv"/><s n="neg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ли__qst">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="qst"/></r>
         </p>
       </e>
     </pardef>
@@ -5970,7 +5980,9 @@
   </pardefs>
 
   <section id="main" type="standard">
-    <e lm="в 1960-е гг"><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-е<b/>гг</i><p><l></l><r><s n="adv"/></r></p></e>
+
+    <!-- Conjunctions -->
+
     <e lm="если"><i>если</i><par n="если__cnjsub"/></e>
     <e lm="потому что"><i>потому<b/>что</i><par n="если__cnjsub"/></e>
     <e lm="чтобы"><i>чтобы</i><par n="если__cnjsub"/></e>
@@ -5978,9 +5990,17 @@
     <e lm="хотя"><i>хотя</i><par n="если__cnjsub"/></e>
     <e lm="так как"><i>так<b/>как</i><par n="если__cnjsub"/></e>
     <e lm="пока"><i>пока</i><par n="если__cnjsub"/></e>
+    <e lm="ли"><i>ли</i><par n="если__cnjsub"/></e>
+
+    <e lm="когда"><i>когда</i><par n="если__cnjsub"/></e>
+    <e lm="ни"><i>ни</i><par n="если__cnjsub"/></e>
     
     <e lm="а"><i>а</i><par n="а__cnjcoo"/></e>
     <e lm="и"><i>и</i><par n="а__cnjcoo"/></e>
+    <e lm="или"><i>или</i><par n="а__cnjcoo"/></e>
+    <e lm="же"><i>же</i><par n="а__cnjcoo"/></e>
+
+    <e lm="ни"><i>ни</i><par n="а__cnjcoo"/></e>
 
     <!-- Pronouns -->
 
@@ -6107,14 +6127,26 @@
     <e lm="аминь"><i>аминь</i><par n="нет__ij"/></e>
 
     <!-- Adverbs -->
+
+    <e lm="в 1960-е гг"><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-е<b/>гг</i><p><l></l><r><s n="adv"/></r></p></e>
     
     <e lm="не"><i>не</i><par n="не__adv"/></e>
     <e lm="никогда"><i>никогда</i><par n="не__adv"/></e>
+
+    <e lm="ли"><i>ли</i><par n="ли__qst"/></e>
+
+    <e lm="где"><i>где</i><par n="где__adv"/></e>
+    <e lm="как"><i>как</i><par n="где__adv"/></e>
+
     <e lm="на кануне"><i>на<b/>кануне</i><par n="только__adv"/></e>
     <e lm="только"><i>только</i><par n="только__adv"/></e>
 
+    <e lm="лишь"><i>лишь</i><par n="только__adv"/></e>
+    <e lm="либо"><i>либо</i><par n="только__adv"/></e>
+    <e lm="когда"><i>когда</i><par n="только__adv"/></e>
+    <e lm="даже"><i>даже</i><par n="только__adv"/></e>
+    <e lm="также"><i>также</i><par n="только__adv"/></e>
     <e lm="так"><i>так</i><par n="только__adv"/></e>
-    <e lm="где"><i>где</i><par n="где__adv"/></e>
     <e lm="там"><i>там</i><par n="только__adv"/></e>
     <e lm="тут"><i>тут</i><par n="только__adv"/></e>
     <e lm="потом"><i>потом</i><par n="только__adv"/></e>
