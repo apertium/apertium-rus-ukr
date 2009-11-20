@@ -70,6 +70,33 @@
     <sdef n="sent"/>
   </sdefs>
   <pardefs>
+    <pardef n="ё">
+      <e r="LR" alt="yo">
+        <p>
+          <l>ё</l>
+          <r>ё</r>
+        </p>
+      </e>
+      <e r="LR" alt="no-yo">
+        <p>
+          <l>е</l>
+          <r>ё</r>
+        </p>
+      </e>
+      <e r="RL" alt="yo">
+        <p>
+          <l>ё</l>
+          <r>ё</r>
+        </p>
+      </e>
+      <e r="RL" alt="no-yo">
+        <p>
+          <l>е</l>
+          <r>ё</r>
+        </p>
+      </e>
+
+    </pardef>
     <!-- Punctuation -->
     <pardef n="separa">
       <e>
@@ -5998,77 +6025,115 @@
     </pardef>
 
     <!-- 12 -->
-    <pardef n="/ребенок__n_an_m">
+    <pardef n="ребён/ок__n_an_m">
       <e>
         <p>
-          <l>ребенка</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+          <l>ка</l>
+          <r>ок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ребенку</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+          <l>ку</l>
+          <r>ок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ребенка</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+          <l>ка</l>
+          <r>ок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ребенком</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="ins"/></r>
+          <l>ком</l>
+          <r>ок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ребенок</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+          <l>ок</l>
+          <r>ок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ребенке</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="prp"/></r>
+          <l>ке</l>
+          <r>ок<s n="n"/><s n="aa"/><s n="m"/><s n="sg"/><s n="prp"/></r>
+        </p>
+      </e>
+    </pardef>
+    <parder n="д/итя__n_nt">
+      <e>
+        <p>
+          <l>итя</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>детей</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+          <l>итяти</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>детям</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+          <l>итяти</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>детей</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+          <l>итя</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>детьми</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="pl"/><s n="ins"/></r>
+          <l>итятей</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>дети</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+          <l>итяти</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="sg"/><s n="prp"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>детях</l>
-          <r>ребенок<s n="n"/><s n="aa"/><s n="m"/><s n="pl"/><s n="prp"/></r>
+          <l>ети</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>етей</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>етям</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>етей</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>етьми</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>етях</l>
+          <r>итя<s n="n"/><s n="aa"/><s n="nt"/><s n="pl"/><s n="prp"/></r>
         </p>
       </e>
     </pardef>
@@ -9177,7 +9242,8 @@
     <e lm="помощь"><i>помощ</i><par n="печ/ь__n_f"/></e>
     <e lm="горечь"><i>гореч</i><par n="печ/ь__n_f"/></e>
     <e lm="дрожь"><i>дрож</i><par n="печ/ь__n_f"/></e>
-    <e lm="ребенок"><i></i><par n="/ребенок__n_an_m"/></e>
+    <e lm="ребёнок"><i>реб</i><par n="ё"/><i>н</i><par n="ребён/ок__n_an_m"/></e>
+    <e lm="дитя"><i>д</i><par n="д/итя__n_nt"/></e>
     <e lm="друг"><i>дру</i><par n="дру/г__n_an_m"/></e>
     <e lm="безопасность"><i>безопасност</i><par n="безопасност/ь__n_an_f"/></e>
     <e lm="племя"><i>плем</i><par n="им/я__n_nt"/></e>
