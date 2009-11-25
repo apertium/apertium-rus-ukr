@@ -1755,11 +1755,11 @@
         </p>
       </e>
     </pardef>
-    <pardef n="ли__qst">
+    <pardef n="ли__itg">
       <e>
         <p>
           <l></l>
-          <r><s n="qst"/></r>
+          <r><s n="itg"/></r>
         </p>
       </e>
     </pardef>
@@ -7110,7 +7110,7 @@
     <e lm="не"><i>не</i><par n="не__adv"/></e>
     <e lm="никогда"><i>никогда</i><par n="не__adv"/></e>
 
-    <e lm="ли"><i>ли</i><par n="ли__qst"/></e>
+    <e lm="ли"><i>ли</i><par n="ли__itg"/></e>
 
     <e lm="где"><i>где</i><par n="где__adv"/></e>
     <e lm="как"><i>как</i><par n="где__adv"/></e>
