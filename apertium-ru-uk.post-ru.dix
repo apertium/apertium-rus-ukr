@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="test"/>
+  </sdefs>
+
+  <pardefs>
+    <pardef n="caracter_general">
+      <e>
+        <i>;</i>
+      </e>
+      <e>
+        <i>#</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>(</i>
+      </e>
+      <e>
+        <i>[</i>
+      </e>
+      <e>
+        <i>]</i>
+      </e>
+      <e>
+        <i>"</i>
+      </e>
+      <e>
+        <i>'</i>
+      </e>
+      <e>
+        <i>*</i>
+      </e>
+      <e>
+        <i>@</i>
+      </e>
+      <e>
+        <i>«</i>
+      </e>
+      <e>
+        <i>-</i>
+      </e>
+      <e>
+        <i>,</i>
+      </e>
+      <e>
+        <i>?</i>
+      </e>
+      <e>
+        <i>/</i>
+      </e>
+      <e>
+        <i>`</i>
+      </e>
+      <e>
+        <i>±</i>
+      </e>
+      <e>
+        <i>­</i>
+      </e>
+      <e>
+        <i>$</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>.</i>
+      </e>
+    </pardef>
+
+    <pardef n="vocals">
+      <e>
+        <i>а</i>
+      </e>
+      <e>
+        <i>е</i>
+      </e>
+      <e>
+        <i>є</i>
+      </e>
+      <e>
+        <i>і</i>
+      </e>
+      <e>
+        <i>ї</i>
+      </e>
+      <e>
+        <i>й</i>
+      </e>
+      <e>
+        <i>о</i>
+      </e>
+      <e>
+        <i>я</i>
+      </e>
+      <e>
+        <i>ю</i>
+      </e>
+    </pardef>
+   
+  </pardefs>
+
+  <section id="main" type="standard">
+    <e>
+      <p>
+        <l><a/>о<b/></l>
+        <r>об<b/></r>
+      </p>
+      <par n="vocals"/>
+    </e>
+    <e>
+      <p>
+        <l><a/>о<b/></l>
+        <r>о<b/></r>
+      </p>
+    </e>
+  </section>
+
+</dictionary>

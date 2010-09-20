@@ -8,10 +8,24 @@
     <sdef n="m"      c="мужской"/>
     <sdef n="nt"     c="средний"/>
     <sdef n="mf"     c="мужской/женский"/>
-    <sdef n="aa"    c=""/>
+    <sdef n="ani"    c=""/>
+
+    <sdef n="vblex"  c=""/>
+    <sdef n="perf"   c=""/>
+    <sdef n="imperf" c=""/>
+    <sdef n="num"    c=""/>
+    <sdef n="sint"   c=""/>
+    <sdef n="cog"    c=""/>
+    <sdef n="ant"    c=""/>
+    <sdef n="top"    c=""/>
+    <sdef n="hyd"    c=""/>
+    <sdef n="np"     c=""/>
+    <sdef n="adv"    c=""/>
+    <sdef n="pos"    c=""/>
 
     <sdef n="sg"     c="однина"/>
     <sdef n="pl"     c="множина"/>
+    <sdef n="sp"     c=""/>
 
     <sdef n="nom"    c="именительный/називний"/>
     <sdef n="gen"    c="родительный/родовий"/>
@@ -58,8 +72,8 @@
       <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
       <e r="RL"><p><l><s n="mf"/><s n="sp"/><s n="indecl"/></l><r><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
     </pardef>
-  <pardefs>
-  <section id="main" type="conditional">
+  </pardefs>
+  <section id="main" type="standard">
     <e><p><l>если<s n="cnjsub"/></l><r>якщо<s n="cnjsub"/></r></p></e>
     <e><p><l>потому<b/>что<s n="cnjsub"/></l><r>тому<b/>що<s n="cnjsub"/></r></p></e>
     <e><p><l>чтобы<s n="cnjsub"/></l><r>щоб<s n="cnjsub"/></r></p></e>
@@ -110,12 +124,12 @@
     <e><p><l>покупать<s n="vblex"/><s n="imperf"/></l><r>купувати<s n="vblex"/><s n="imperf"/></r></p></e>
     <e><p><l>купить<s n="vblex"/><s n="perf"/></l><r>купити<s n="vblex"/><s n="perf"/></r></p></e>
     
-    <e><p><l>мать<s n="n"/><s n="aa"/><s n="f"/></l><r>мати<s n="n"/><s n="aa"/><s n="f"/></r></p></e>
+    <e><p><l>мать<s n="n"/><s n="ani"/><s n="f"/></l><r>мати<s n="n"/><s n="ani"/><s n="f"/></r></p></e>
     <e><p><l>виски<s n="n"/><s n="nt"/><s n="indecl"/></l><r>віскі<s n="n"/><s n="m"/><s n="indecl"/></r></p></e>
     <e><p><l>меню<s n="n"/><s n="nt"/><s n="indecl"/></l><r>меню<s n="n"/><s n="nt"/><s n="indecl"/></r></p></e>
-    <e><p><l>работник<s n="n"/><s n="aa"/></l><r>робітник<s n="n"/><s n="aa"/></r></p></e>
+    <e><p><l>работник<s n="n"/><s n="ani"/></l><r>робітник<s n="n"/><s n="ani"/></r></p></e>
     <e><p><l>фабрика<s n="n"/><s n="f"/></l><r>фабрика<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>брат<s n="n"/><s n="aa"/><s n="m"/></l><r>брат<s n="n"/><s n="aa"/><s n="m"/></r></p></e>
+    <e><p><l>брат<s n="n"/><s n="ani"/><s n="m"/></l><r>брат<s n="n"/><s n="ani"/><s n="m"/></r></p></e>
     <e><p><l>абажур<s n="n"/><s n="m"/></l><r>абажур<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>абонемент<s n="n"/><s n="m"/></l><r>абонемент<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>абрикос<s n="n"/><s n="m"/></l><r>абрикос<s n="n"/><s n="m"/></r></p></e>
@@ -168,12 +182,12 @@
     <e r="RL"><p><l>краткий<s n="adj"/></l><r>короткий<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>долина<s n="n"/><s n="f"/></l><r>долина<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>дорога<s n="n"/><s n="f"/></l><r>дорога<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>дочь<s n="n"/><s n="aa"/><s n="f"/></l><r>дочка<s n="n"/><s n="aa"/><s n="f"/></r></p></e>
+    <e><p><l>дочь<s n="n"/><s n="ani"/><s n="f"/></l><r>дочка<s n="n"/><s n="ani"/><s n="f"/></r></p></e>
     <e><p><l>дождь<s n="n"/><s n="m"/></l><r>дощ<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>дуб<s n="n"/><s n="m"/></l><r>дуб<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>очень<s n="adv"/></l><r>дуже<s n="adv"/></r></p></e>
     <e><p><l>думать<s n="vblex"/></l><r>думати<s n="vblex"/></r></p></e>
-    <e><p><l>девушка<s n="n"/><s n="aa"/><s n="f"/></l><r>дівчина<s n="n"/><s n="aa"/><s n="f"/></r></p></e>
+    <e><p><l>девушка<s n="n"/><s n="ani"/><s n="f"/></l><r>дівчина<s n="n"/><s n="ani"/><s n="f"/></r></p></e>
     <e><p><l>эпоха<s n="n"/><s n="f"/></l><r>епоха<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>эра<s n="n"/><s n="f"/></l><r>ера<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>экскурсия<s n="n"/><s n="f"/></l><r>екскурсія<s n="n"/><s n="f"/></r></p></e>
@@ -194,12 +208,12 @@
     <e><p><l>лай<s n="n"/><s n="m"/></l><r>гавкіт<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>завтрак<s n="n"/><s n="m"/></l><r>сніданок<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>оттенок<s n="n"/><s n="m"/></l><r>відтінок<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>дрозд<s n="n"/><s n="aa"/><s n="m"/></l><r>дрізд<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>дрозд<s n="n"/><s n="ani"/><s n="m"/></l><r>дрізд<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>хлопок<s n="n"/><s n="m"/></l><r>бавовна<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>акушерство<s n="n"/><s n="nt"/></l><r>акушерство<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>активность<s n="n"/><s n="f"/></l><r>активність<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>аккорд<s n="n"/><s n="m"/></l><r>акорд<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>африканец<s n="n"/><s n="aa"/></l><r>африканець<s n="n"/><s n="aa"/></r></p></e>
+    <e><p><l>африканец<s n="n"/><s n="ani"/></l><r>африканець<s n="n"/><s n="ani"/></r></p></e>
     <e><p><l>бархатистость<s n="n"/><s n="f"/></l><r>бархатистість<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>бдительность<s n="n"/><s n="f"/></l><r>пильність<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>амнистия<s n="n"/><s n="f"/></l><r>амністія<s n="n"/><s n="f"/></r></p></e>
@@ -208,7 +222,7 @@
     <e><p><l>нормаль<s n="n"/><s n="f"/></l><r>нормаль<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>колесо<s n="n"/><s n="nt"/></l><r>колесо<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Сечь<s n="n"/><s n="f"/></l><r>Січ<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>корова<s n="n"/><s n="aa"/><s n="f"/></l><r>корова<s n="n"/><s n="aa"/><s n="f"/></r></p></e>
+    <e><p><l>корова<s n="n"/><s n="ani"/><s n="f"/></l><r>корова<s n="n"/><s n="ani"/><s n="f"/></r></p></e>
     <e><p><l>совесть<s n="n"/><s n="f"/></l><r>совість<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>сталь<s n="n"/><s n="f"/></l><r>сталь<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>край<s n="n"/><s n="m"/></l><r>край<s n="n"/><s n="m"/></r></p></e>
@@ -232,8 +246,8 @@
 
     <e><i>Ющенко<s n="np"/><s n="cog"/></i><par n="Ющенко__np"/></e>
     <e><i>Тимошенко<s n="np"/><s n="cog"/></i><par n="Ющенко__np"/></e>
-    <e r="LR"><p><l>Андрейко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r><par n="Ющенко__np"/></p></e>
-    <e><p><l>Андрийко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r><par n="Ющенко__np"/></p></e>
+    <e r="LR"><p><l>Андрейко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r></p><par n="Ющенко__np"/></e>
+    <e><p><l>Андрийко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r></p><par n="Ющенко__np"/></e>
     <e><i>Головко<s n="np"/><s n="cog"/></i><par n="Ющенко__np"/></e>
     
     <e><p><l>Ла-Манш<s n="np"/><s n="hyd"/></l><r>Ла-Манш<s n="np"/><s n="hyd"/></r></p></e>
