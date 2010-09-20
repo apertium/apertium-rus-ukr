@@ -24,4 +24,6 @@ dev/uk-ispell-entries -text
 dev/uk-ru-indeclinable -text
 dev/uk-sint-auto -text
 /en-ca.prob -text
+/filter.sh -text
+/filter.xsl -text
 /modes.xml -text

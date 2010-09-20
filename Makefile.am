@@ -19,7 +19,7 @@ TARGETS = $(TARGETS_COMMON) \
 	  $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix 
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
-	@xsltproc --stringparam alt yo alt.xsl > $(BASENAME).$(LANG1).dixtmp1 	 
+	@xsltproc --stringparam lang yo --stringparam side left filter.xsl > $(BASENAME).$(LANG1).dixtmp1 	 
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dixtmp1
 	lt-comp lr $(BASENAME).$(LANG1).dixtmp1 #$@ $(BASENAME).$(LANG1).acx
 	@rm $(BASENAME).$(LANG1).dixtmp1
