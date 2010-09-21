@@ -6317,7 +6317,6 @@
       </e>
     </pardef>
 
-  <!-- купувати; куп -->
     <pardef n="куп/увати__vblex_imperf">
       <e>
         <p>
@@ -6494,8 +6493,183 @@
         </p>
       </e>
     </pardef>
+    <pardef n="виголош/увати__vblex_imperf">
+      <e>
+        <p>
+          <l>уватиму</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватимемо</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватимеш</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватимете</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватиме</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уватимуть</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ував<b/>би</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>увала<b/>б</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>увало<b/>б</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="nt"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ували<b/>б</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уймо</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уй</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уйте</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>лено</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="impers"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>увати</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ував</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>увала</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>увало</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="nt"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ували</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="past"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>увавши</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>лений</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="psv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уючий</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="act"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уючи</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ую</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уємо</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уєш</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>уєте</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ує</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ують</l>
+          <r>увати<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
 
-  <!-- любити; люб -->
     <pardef n="люб/ити__vblex_imperf">
       <e>
         <p>
@@ -6811,5 +6985,60 @@
     <e lm="чеченський"><i>чеченськ</i><par n="англійськ/ий__adj"/></e>
     <e lm="шампанський"><i>шампанськ</i><par n="англійськ/ий__adj"/></e>
     <e lm="японський"><i>японськ</i><par n="англійськ/ий__adj"/></e>
+
+    <e lm="будувати" c="check"><i>буд</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="виголошувати" c="check"><i>виголош</i><par n="виголош/увати__vblex_imperf"/></e>
+    <e lm="виконувати" c="check"><i>викон</i><par n="виголош/увати__vblex_imperf"/></e>
+    <e lm="використовувати" c="check"><i>використов</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="вирішувати" c="check"><i>виріш</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="витягувати" c="check"><i>витяг</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="виховувати" c="check"><i>вихов</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="відвідувати" c="check"><i>відвід</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="вказувати" c="check"><i>вказ</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="враховувати" c="check"><i>врахов</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="годувати" c="check"><i>год</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="готувати" c="check"><i>гот</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="демонструвати" c="check"><i>демонстр</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="дратувати" c="check"><i>драт</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="друкувати" c="check"><i>друк</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="жувати" c="check"><i>ж</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="забезпечувати" c="check"><i>забезпеч</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="заперечувати" c="check"><i>запереч</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="записувати" c="check"><i>запис</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="запитувати" c="check"><i>запит</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="запрошувати" c="check"><i>запрош</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="застосовувати" c="check"><i>застосов</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="звинувачувати" c="check"><i>звинувач</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="згадувати" c="check"><i>згад</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="знищувати" c="check"><i>знищ</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="керувати" c="check"><i>кер</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="купувати" c="check"><i>куп</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="лікувати" c="check"><i>лік</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="нагадувати" c="check"><i>нагад</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="ночувати" c="check"><i>ноч</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="оголошувати" c="check"><i>оголош</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="перевищувати" c="check"><i>перевищ</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="переконувати" c="check"><i>перекон</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="підтверджувати" c="check"><i>підтвердж</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="підтримувати" c="check"><i>підтрим</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="показувати" c="check"><i>показ</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="порушувати" c="check"><i>поруш</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="приховувати" c="check"><i>прихов</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="пробувати" c="check"><i>проб</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="продовжувати" c="check"><i>продовж</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="пропонувати" c="check"><i>пропон</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="рекомендувати" c="check"><i>рекоменд</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="розраховувати" c="check"><i>розрахов</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="розташовувати" c="check"><i>розташов</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="рятувати" c="check"><i>рят</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="стверджувати" c="check"><i>ствердж</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="стискувати" c="check"><i>стиск</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="стримувати" c="check"><i>стрим</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="супроводжувати" c="check"><i>супроводж</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="торгувати" c="check"><i>торг</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="утримувати" c="check"><i>утрим</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="цілувати" c="check"><i>ціл</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="цінувати" c="check"><i>цін</i><par n="куп/увати__vblex_imperf"/></e>
+    <e lm="чергувати" c="check"><i>черг</i><par n="куп/увати__vblex_imperf"/></e>
   </section>
 </dictionary>
