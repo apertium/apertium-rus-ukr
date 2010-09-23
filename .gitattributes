@@ -27,7 +27,6 @@ dev/ru-uk-adv -text
 dev/ru-uk-nouns -text
 dev/ru-uk-pl-lv-en.csv -text
 dev/ru-uk-verb -text
-dev/ru-verbs1.xml -text
 dev/strip-accents.pl -text
 dev/uk-ispell-entries -text
 dev/uk-ru-indeclinable -text
