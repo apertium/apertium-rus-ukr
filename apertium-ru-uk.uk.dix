@@ -6250,7 +6250,58 @@
         </p>
       </e>
     </pardef>
-
+    <pardef n="BASE__пиши">
+      <e>
+        <p>
+          <l>мо</l>
+          <r><s n="imp"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>м</l>
+          <r><s n="imp"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ть</l>
+          <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="BASE__йди">
+      <e>
+        <p>
+          <l>імо</l>
+          <r><s n="imp"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ім</l>
+          <r><s n="imp"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>и</l>
+          <r><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>іть</l>
+          <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="пи/сати__vblex_imperf">
       <e>
         <p>
@@ -6273,21 +6324,10 @@
       </e>
       <e>
         <p>
-          <l>шимо</l>
-          <r>сати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
           <l>ши</l>
-          <r>сати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r>сати<s n="vblex"/><s n="imperf"/><s n="imp"/></r>
         </p>
-      </e>
-      <e>
-        <p>
-          <l>шить</l>
-          <r>сати<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
-        </p>
+        <par n="BASE__пиши"/>
       </e>
       <e>
         <p>
