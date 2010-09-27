@@ -2,6 +2,7 @@
 /*.cache
 /*.in
 /*.log
+/*.m4
 /*.status
 /.deps
 /INSTALL
