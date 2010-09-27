@@ -1,0 +1,14 @@
+/*.bin
+/*.cache
+/*.in
+/*.log
+/*.status
+/.deps
+/INSTALL
+/Makefile
+/Makefile.in
+/config
+/configure
+/install-sh
+/missing
+/stamp-h1
