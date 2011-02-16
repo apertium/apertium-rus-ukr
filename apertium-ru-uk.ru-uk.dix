@@ -60,6 +60,8 @@
     <sdef n="GD"     c=""/>
     <sdef n="ND"     c=""/>
     <sdef n="CD"     c=""/>
+
+    <sdef n="vaux"     c=""/>
   </sdefs>
   <pardefs>
     <pardef n="Ющенко__np">
@@ -122,6 +124,7 @@
     <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>весь<s n="prn"/><s n="ind"/></l><r>весь<s n="prn"/><s n="ind"/></r></p></e>
     
+    <e><p><l>можна<s n="vaux"/></l><r>можна<s n="vaux"/></r></p></e>
     <e><p><l>покупать<s n="vblex"/><s n="imperf"/></l><r>купувати<s n="vblex"/><s n="imperf"/></r></p></e>
     <e><p><l>купить<s n="vblex"/><s n="perf"/></l><r>купити<s n="vblex"/><s n="perf"/></r></p></e>
     

@@ -71,6 +71,7 @@
     <sdef n="qst"/>
  
     <sdef n="sent"/>
+    <sdef n="vaux"/>
   </sdefs>
   <pardefs>
     <pardef n="ё">
@@ -112,6 +113,14 @@
         <p>
           <l/>
           <r><s n="ij"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="можна__vaux">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="vaux"/></r>
         </p>
       </e>
     </pardef>
@@ -9463,6 +9472,8 @@
   </pardefs>
 
   <section id="main" type="standard">
+
+    <e lm="можна"><i>можна</i><par n="можна__vaux"/></e>
 
     <e lm="если"><i>если</i><par n="если__cnjadv"/></e>
     <e lm="потому что"><i>потому<b/>что</i><par n="если__cnjadv"/></e>

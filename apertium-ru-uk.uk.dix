@@ -62,6 +62,8 @@
     <sdef n="ant"    c=""/>
     <sdef n="cog"    c=""/>
     <sdef n="hyd"    c=""/>
+
+    <sdef n="vaux"    c=""/>
   </sdefs>  
   <pardefs>
     <pardef n="про__pr">
@@ -69,6 +71,14 @@
         <p>
           <l></l>
           <r><s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="можна__vaux">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="vaux"/></r>
         </p>
       </e>
     </pardef>
@@ -6314,7 +6324,7 @@
           <l>сатиме</l>
           <r>сати<s n="vblex"/><s n="imperf"/><s n="fut"/></r>
         </p>
-        <pardef n="BASE__пише"/>
+        <par n="BASE__пише"/>
       </e>
       <e>
         <p>
@@ -6346,7 +6356,7 @@
           <l>са</l>
           <r>сати<s n="vblex"/><s n="imperf"/></r>
         </p>
-        <pardef n="BASE__писав"/>
+        <par n="BASE__писав"/>
       </e>
       <e>
         <p>
@@ -6385,7 +6395,7 @@
           <l>ше</l>
           <r>сати<s n="vblex"/><s n="imperf"/><s n="pres"/></r>
         </p>
-        <pardef n="BASE__пише"/>
+        <par n="BASE__пише"/>
       </e>
       <e>
         <p>
@@ -6407,7 +6417,7 @@
           <l>уватиме</l>
           <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/></r>
         </p>
-        <pardef n="BASE__пише"/>
+        <par n="BASE__пише"/>
       </e>
       <e>
         <p>
@@ -6420,7 +6430,7 @@
           <l>и</l>
           <r>увати<s n="vblex"/><s n="imperf"/></r>
         </p>
-        <pardef n="BASE__писав"/>
+        <par n="BASE__писав"/>
       </e>
       <e>
         <p>
@@ -6487,7 +6497,7 @@
           <l>ує</l>
           <r>увати<s n="vblex"/><s n="imperf"/><s n="pres"/></r>
         </p>
-        <pardef n="BASE__пише"/>
+        <par n="BASE__пише"/>
       </e>
       <e>
         <p>
@@ -6508,7 +6518,7 @@
           <l>уватиме</l>
           <r>увати<s n="vblex"/><s n="imperf"/><s n="fut"/></r>
         </p>
-        <pardef n="BASE__пише"/>
+        <par n="BASE__пише"/>
       </e>
       <e>
         <p>
@@ -6551,7 +6561,7 @@
           <l>ува</l>
           <r>увати<s n="vblex"/><s n="imperf"/></r>
         </p>
-        <pardef n="BASE__писав"/>
+        <par n="BASE__писав"/>
       </e>
       <e>
         <p>
@@ -6570,7 +6580,7 @@
           <l>ує</l>
           <r>увати<s n="vblex"/><s n="imperf"/><s n="pres"/></r>
         </p>
-        <pardef n="BASE__пише"/>
+        <par n="BASE__пише"/>
       </e>
       <e>
         <p>
@@ -6592,7 +6602,7 @@
           <l>и</l>
           <r>ити<s n="vblex"/><s n="imperf"/></r>
         </p>
-        <pardef n="BASE__писав"/>
+        <par n="BASE__писав"/>
       </e>
       <e>
         <p>
@@ -6636,6 +6646,8 @@
 
   </pardefs>
   <section id="main" type="standard">
+    <e lm="можна"><i>можна</i><par n="можна__vaux"/></e>
+
     <e lm="в 1960-і рр"><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-і<b/>рр</i><p><l></l><r><s n="adv"/></r></p></e>
     <e lm="prpers"><i></i><par n="/prpers__prn"/></e>
     <e lm="про"><i>про</i><par n="про__pr"/></e>
