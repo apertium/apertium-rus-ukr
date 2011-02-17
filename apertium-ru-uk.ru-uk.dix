@@ -120,6 +120,9 @@
     <e><p><l>мой<s n="det"/><s n="pos"/></l><r>мій<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>твой<s n="det"/><s n="pos"/></l><r>твій<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>свой<s n="det"/><s n="pos"/></l><r>свій<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>его<s n="det"/><s n="pos"/></l><r>його<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>её<s n="det"/><s n="pos"/></l><r>її<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>их<s n="det"/><s n="pos"/></l><r>їх<s n="det"/><s n="pos"/></r></p></e>
 
     <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>весь<s n="prn"/><s n="ind"/></l><r>весь<s n="prn"/><s n="ind"/></r></p></e>

@@ -2978,6 +2978,9 @@
       </e>
     </pardef>
 
+    <pardef n="його__det">
+      <e><p><l></l><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+    </pardef>
     <pardef n="той__det">
       <e>
         <p>
@@ -6733,6 +6736,9 @@
     <e lm="три"><i>тр</i><par n="тр/и__num"/></e>
     <e lm="вісімсот"><i>в</i><par n="в/ісімсот__num"/></e>
 
+    <e lm="його"><i>його</i><par n="його__det"/></e>
+    <e lm="її"><i>її</i><par n="його__det"/></e>
+    <e lm="їх"><i>їх</i><par n="його__det"/></e>
     <e lm="той"><i></i><par n="той__det"/></e>
     <e lm="чий"><i>чи</i><par n="чи/й__det"/></e>
     <e lm="мій"><i>м</i><par n="м/ій__det"/></e>

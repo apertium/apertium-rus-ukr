@@ -666,6 +666,10 @@
         </p>
       </e>
     </pardef>
+    <pardef n="его__det">
+      <e><p><l></l><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+    </pardef>
+    </pardef>
     <pardef n="мо/й__det">
       <e>
         <p>
@@ -9500,6 +9504,10 @@
 
     <e lm="кто"><i>к</i><par n="к/то__prn"/></e>
  
+    <e lm="его"><i>его</i><par n="его__det"/></e>
+    <e lm="её" v="yo"><i>её</i><par n="его__det"/></e>
+    <e lm="её" v="no-yo"><p><l>ее</l><r>её</r></p><par n="его__det"/></e>
+    <e lm="их"><i>их</i><par n="его__det"/></e>
     <e lm="мой"><i>мо</i><par n="мо/й__det"/></e>
     <e lm="твой"><i>тво</i><par n="мо/й__det"/></e>
     <e lm="свой"><i>сво</i><par n="мо/й__det"/></e>
