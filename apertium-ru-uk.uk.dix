@@ -2,10 +2,10 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 1130
+	Entries: 1116
 	Sdefs: 63
-	Paradigms: 130
-	Last processed by: apertium-dixtools equiv-paradigms apertium-ru-uk.uk.dix out.dix
+	Paradigms: 126
+	Last processed by: apertium-dixtools fix apertium-ru-uk.uk.dix out.dix
 
 -->
 <dictionary>
@@ -1881,7 +1881,6 @@
       ****************************** -->
 <e lm="той">             <i></i><par n="той__det"/></e>
 <e lm="що">              <i></i><par n="що__det"/></e>
-<e lm="що">              <i></i><par n="що__prn"/></e>
 <e lm="багато">          <i>багат</i><par n="багат/о__det"/></e>
 <e lm="котрий">          <i>котр</i><par n="котр/ий__det"/></e>
 <e lm="мій">             <i>м</i><par n="м/ій__det"/></e>
@@ -2919,23 +2918,10 @@
     
 <e lm="не">              <i>не</i><par n="ні__adv"/></e>
 <e lm="ніколи">          <i>ніколи</i><par n="ні__adv"/></e>
-<e lm="вісімнадцять">    <i>вісімнадцят</i><par n="дев'ят/ь__num"/></e>
-<e lm="двадцять">        <i>двадцят</i><par n="дев'ят/ь__num"/></e>
-<e lm="дванадцять">      <i>дванадцят</i><par n="дев'ят/ь__num"/></e>
-<e lm="дев'яносто">      <i>дев'яност</i><par n="ст/о__num"/></e>
-<e lm="дев'ятнадцять">   <i>дев'ятнадцят</i><par n="дев'ят/ь__num"/></e>
-<e lm="одинадцять">      <i>одинадцят</i><par n="дев'ят/ь__num"/></e>
-<e lm="п'ятнадцять">     <i>п'ятнадцят</i><par n="дев'ят/ь__num"/></e>
-<e lm="сімнадцять">      <i>сімнадцят</i><par n="дев'ят/ь__num"/></e>
-<e lm="тринадцять">      <i>тринадцят</i><par n="дев'ят/ь__num"/></e>
-<e lm="чотирнадцять">    <i>чотирнадцят</i><par n="дев'ят/ь__num"/></e>
-<e lm="шістнадцять">     <i>шістнадцят</i><par n="дев'ят/ь__num"/></e>
 
 <e lm="його">            <i>його</i><par n="його__det"/></e>
 <e lm="їх">              <i>їх</i><par n="його__det"/></e>
 <e lm="її">              <i>її</i><par n="його__det"/></e>
-<e lm="дерево">          <i>дерев</i><par n="прав/о__n"/></e>
-<e lm="корова">          <i>кор</i><par n="кор/ова__n"/></e>
 
 <e lm="швидкість">       <i>швид</i><par n="швидк/ість__n"/></e>
 <e lm="тінь">            <i>тін</i><par n="тін/ь__n"/></e>
