@@ -152,13 +152,14 @@ modes: modes.xml
 
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	$(INSTALL_DATA) $(PREFIX1).mode $(apertium_en_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_en_modesdir)
-	$(INSTALL_DATA) $(PREFIX1)-multi.mode $(apertium_en_modesdir)
-	$(INSTALL_DATA) $(PREFIX2)-multi.mode $(apertium_en_modesdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(apertium_en_cadir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(apertium_en_cadir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(apertium_en_cadir)
+	test -d $(DESTDIR)$(apertium_en_modesdir) || mkdir $(DESTDIR)$(apertium_en_modesdir)
+	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_en_modesdir)
+	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_en_modesdir)
+	$(INSTALL_DATA) $(PREFIX1)-multi.mode $(DESTDIR)$(apertium_en_modesdir)
+	$(INSTALL_DATA) $(PREFIX2)-multi.mode $(DESTDIR)$(apertium_en_modesdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_en_cadir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_en_cadir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_en_cadir)
 
 
 CLEANFILES = -rf $(TARGETS) modes
