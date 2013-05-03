@@ -7,7 +7,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -47,7 +47,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -59,7 +59,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -76,7 +76,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -97,7 +97,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -122,7 +122,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -151,7 +151,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -190,7 +190,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
     </pipeline>
@@ -201,7 +201,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -213,7 +213,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -230,7 +230,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -251,7 +251,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -276,7 +276,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -304,7 +304,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -339,7 +339,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -378,7 +378,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -390,7 +390,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -407,7 +407,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -428,7 +428,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -453,7 +453,7 @@
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -483,7 +483,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -522,7 +522,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -534,7 +534,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -551,7 +551,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -572,7 +572,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -597,7 +597,7 @@
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g -f $2">
+      <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
