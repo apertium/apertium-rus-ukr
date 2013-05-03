@@ -11,10 +11,12 @@
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
         <file name="ru-uk.t1x.bin"/>
-        <file name="ru-uk.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-ru-uk.ru-uk.t2x"/>
@@ -54,6 +56,22 @@
     </pipeline>
   </mode>
 
+  <mode name="ru-uk-biltrans">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ru-uk.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ru-uk.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+
   <mode name="ru-uk-chunker">
     <pipeline>
       <program name="lt-proc">
@@ -63,10 +81,12 @@
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
         <file name="ru-uk.t1x.bin"/>
-        <file name="ru-uk.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -80,10 +100,12 @@
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
         <file name="ru-uk.t1x.bin"/>
-        <file name="ru-uk.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-ru-uk.ru-uk.t2x"/>
@@ -101,10 +123,12 @@
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
         <file name="ru-uk.t1x.bin"/>
-        <file name="ru-uk.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-ru-uk.ru-uk.t2x"/>
@@ -126,10 +150,12 @@
         <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
         <file name="ru-uk.t1x.bin"/>
-        <file name="ru-uk.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-ru-uk.ru-uk.t2x"/>
@@ -156,7 +182,7 @@
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
         <file name="uk-ru.t1x.bin"/>
         <file name="uk-ru.autobil.bin"/>
@@ -209,6 +235,21 @@
     </pipeline>
   </mode>
 
+  <mode name="uk-ru-biltrans">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="uk-ru.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="uk-ru.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="uk-ru-chunker">
     <pipeline>
       <program name="lt-proc">
@@ -218,10 +259,12 @@
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
         <file name="uk-ru.t1x.bin"/>
-        <file name="uk-ru.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -235,10 +278,12 @@
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
         <file name="uk-ru.t1x.bin"/>
-        <file name="uk-ru.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-ru-uk.uk-ru.t2x"/>
@@ -256,10 +301,12 @@
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
         <file name="uk-ru.t1x.bin"/>
-        <file name="uk-ru.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-ru-uk.uk-ru.t2x"/>
@@ -280,11 +327,16 @@
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
+      <program name="lt-proc -b">
+        <file name="uk-ru.autobil.bin"/>
+      </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
         <file name="uk-ru.t1x.bin"/>
-        <file name="uk-ru.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-ru-uk.uk-ru.t2x"/>
