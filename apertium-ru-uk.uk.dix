@@ -377,6 +377,26 @@
   <e>       <p><l>ї</l>         <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
   <e>       <p><l>е</l>         <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
 </pardef>
+      <pardef n="BASE__Ван/я">
+  <e>       <p><l>і</l>          <r><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>і</l>         <r><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ю</l>       <r><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>і</l>         <r><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>е</l>        <r><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ею</l>         <r><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>я</l>         <r><s n="sg"/><s n="voc"/></r></p></e>    </pardef>
+  <pardef n="Ван/я__np"> <!-- a="slasher" -->
+      <e>       <p><l></l><r>я<s n="np"/><s n="ant"/><s n="m"/></r></p><par n="BASE__Ван/я"/></e>
+    </pardef>
+<!--pardef n="Ван/я__np">
+  <e>       <p><l>і</l>          <r>я<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>і</l>         <r>я<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ю</l>       <r>я<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>і</l>         <r>я<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>е</l>        <r>я<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ею</l>         <r>я<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>я</l>         <r>я<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
+</pardef-->
 <pardef n="Кале__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="m"/><s n="indecl"/></r></p></e>
 </pardef>
@@ -2736,6 +2756,7 @@
 <e lm="Євразія">         <i>Євразі</i><par n="Іспані/я__np"/></e>
 <e lm="Іспанія">         <i>Іспані</i><par n="Іспані/я__np"/></e>
 <e lm="Ісус">            <i>Ісус</i><par n="Ісус__np"/></e>
+<e lm="Ваня">            <i>Ван</i><par n="Ван/я__np"/></e>
 <e lm="Італія">          <i>Італі</i><par n="Іспані/я__np"/></e>
 <e lm="Абіссінія">       <i>Абіссіні</i><par n="Іспані/я__np"/></e>
     <!-- Autoadded -->
