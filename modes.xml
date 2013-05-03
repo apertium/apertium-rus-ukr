@@ -182,10 +182,12 @@
         <file name="uk-ru.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="uk-ru.autobil.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
         <file name="uk-ru.t1x.bin"/>
-        <file name="uk-ru.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-ru-uk.uk-ru.t2x"/>
