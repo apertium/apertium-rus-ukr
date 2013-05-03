@@ -17,7 +17,7 @@
     <sdef n="m" 	c=""/> 
     <sdef n="nt" 	c=""/> 
     <sdef n="mf" 	c=""/> 
-    <sdef n="ani" 	c=""/> 
+    <sdef n="aa" 	c=""/> 
     <sdef n="sg" 	c="однина"/> 
     <sdef n="pl" 	c="множина"/> 
     <sdef n="nom" 	c="називний"/> 
@@ -85,7 +85,7 @@
   <e>       <p><l>ого</l>       <r><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>ому</l>       <r><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>ий</l>        <r><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ого</l>       <r><s n="m"/><s n="ani"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ого</l>       <r><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>им</l>        <r><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>ім</l>        <r><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
   <e r="LR"><p><l>ому</l>       <r><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
@@ -105,7 +105,7 @@
   <e>       <p><l>ім</l>        <r><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
   <e r="LR"><p><l>ому</l>       <r><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
   <e>       <p><l>е</l>         <r><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>их</l>        <r><s n="ani"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>их</l>        <r><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>і</l>         <r><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>их</l>        <r><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>им</l>        <r><s n="pl"/><s n="dat"/></r></p></e>
@@ -223,21 +223,21 @@
   <e>       <p><l>імсот</l>     <r>імсот<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="дв/а__num">
-  <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="m"/><s n="ani"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="m"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>ом</l>        <r>а<s n="num"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
   <e>       <p><l>а</l>         <r>а<s n="num"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>ома</l>       <r>а<s n="num"/><s n="m"/><s n="pl"/><s n="ins"/></r></p></e>
   <e>       <p><l>а</l>         <r>а<s n="num"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="f"/><s n="ani"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>ом</l>        <r>а<s n="num"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
   <e>       <p><l>і</l>         <r>а<s n="num"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>ома</l>       <r>а<s n="num"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
   <e>       <p><l>і</l>         <r>а<s n="num"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="nt"/><s n="ani"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="nt"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>ох</l>        <r>а<s n="num"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>ом</l>        <r>а<s n="num"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
   <e>       <p><l>а</l>         <r>а<s n="num"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
@@ -499,22 +499,22 @@
   <e>       <p><l>и</l>         <r><s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="брат__n">
-  <e>       <p><l></l>          <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>а</l>         <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ові</l>       <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e r="LR"><p><l>у</l>         <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>а</l>         <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ом</l>        <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ові</l>       <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e r="LR"><p><l>і</l>         <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>е</l>         <r><s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>и</l>         <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ів</l>        <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ам</l>        <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ів</l>        <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ами</l>       <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ах</l>        <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>и</l>         <r><s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>а</l>         <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ові</l>       <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>у</l>         <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>а</l>         <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ом</l>        <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ові</l>       <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>і</l>         <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>е</l>         <r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>и</l>         <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ів</l>        <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ам</l>        <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ів</l>        <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ами</l>       <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ах</l>        <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>и</l>         <r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="ім/'я__n">
   <e>       <p><l>'я</l>        <r>'я<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -581,20 +581,20 @@
   <e>       <p><l>ки</l>        <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="кор/ова__n">
-  <e>       <p><l>ови</l>       <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ові</l>       <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ову</l>       <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ові</l>       <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ово</l>       <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>овою</l>      <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ова</l>       <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ів</l>        <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>овам</l>      <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ів</l>        <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>овах</l>      <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ови</l>       <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
-  <e>       <p><l>овами</l>     <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ови</l>       <r>ова<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ови</l>       <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ові</l>       <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ову</l>       <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ові</l>       <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ово</l>       <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>овою</l>      <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ова</l>       <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ів</l>        <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>овам</l>      <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ів</l>        <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>овах</l>      <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ови</l>       <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>овами</l>     <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ови</l>       <r>ова<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="Січ__n">
   <e>       <p><l>і</l>         <r><s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -674,11 +674,11 @@
   <e>       <p><l>тій</l>       <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>тому</l>      <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>тим</l>       <r>той<s n="det"/><s n="dem"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>того</l>      <r>той<s n="det"/><s n="dem"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>того</l>      <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>той</l>       <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ту</l>        <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>те</l>        <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>тих</l>       <r>той<s n="det"/><s n="dem"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>тих</l>       <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ті</l>        <r>той<s n="det"/><s n="dem"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>тим</l>       <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>тією</l>      <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
@@ -772,23 +772,23 @@
 </pardef>
 
 <pardef n="хтось__prn"><!-- ktoś -->
-  <e>       <p><l>хтось</l>     <r>хтось<s n="prn"/><s n="ind"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>когось</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>когось</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>комусь</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>комусь</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e r="LR"><p><l>кімсь</l>     <r>хтось<s n="prn"/><s n="ind"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>кимось</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>хтось</l>     <r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>когось</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>когось</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>комусь</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>комусь</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>кімсь</l>     <r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>кимось</l>    <r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
 </pardef>
 
 <pardef n="ніхто__prn"><!-- nikt -->
-  <e>       <p><l>ніхто</l>     <r>ніхто<s n="prn"/><s n="neg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>нікого</l>    <r>ніхто<s n="prn"/><s n="neg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>нікого</l>    <r>ніхто<s n="prn"/><s n="neg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>нікому</l>    <r>ніхто<s n="prn"/><s n="neg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>нікому</l>    <r>ніхто<s n="prn"/><s n="neg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e r="LR"><p><l>нікім</l>     <r>ніхто<s n="prn"/><s n="neg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ніким</l>     <r>ніхто<s n="prn"/><s n="neg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ніхто</l>     <r>ніхто<s n="prn"/><s n="neg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>нікого</l>    <r>ніхто<s n="prn"/><s n="neg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>нікого</l>    <r>ніхто<s n="prn"/><s n="neg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>нікому</l>    <r>ніхто<s n="prn"/><s n="neg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>нікому</l>    <r>ніхто<s n="prn"/><s n="neg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>нікім</l>     <r>ніхто<s n="prn"/><s n="neg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ніким</l>     <r>ніхто<s n="prn"/><s n="neg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
 </pardef>
 
 <pardef n="ніщо__prn"><!-- nic -->
@@ -836,11 +836,11 @@
   <e>       <p><l>оїй</l>       <r><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>оєму</l>      <r><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>оїм</l>       <r><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ого</l>       <r><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ого</l>       <r><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ій</l>        <r><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ою</l>        <r><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>оє</l>        <r><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>їх</l>        <r><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>їх</l>        <r><s n="m"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ій</l>        <r><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>оїм</l>       <r><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>оєю</l>       <r><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
@@ -877,11 +877,11 @@
   <e>       <p><l>їй</l>        <r>й<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>єму</l>       <r>й<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>їм</l>        <r>й<s n="det"/><s n="itg"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>його</l>      <r>й<s n="det"/><s n="itg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>його</l>      <r>й<s n="det"/><s n="itg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>й</l>         <r>й<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ию</l>        <r>й<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>е</l>         <r>й<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>їх</l>        <r>й<s n="det"/><s n="itg"/><s n="ani"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>їх</l>        <r>й<s n="det"/><s n="itg"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ї</l>         <r>й<s n="det"/><s n="itg"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>їм</l>        <r>й<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>їй</l>        <r>й<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
@@ -897,12 +897,12 @@
   <e>       <p><l>ї</l>         <r>й<s n="det"/><s n="itg"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="хто__prn">
-  <e>       <p><l>хто</l>       <r>хто<s n="prn"/><s n="itg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>кого</l>      <r>хто<s n="prn"/><s n="itg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>кому</l>      <r>хто<s n="prn"/><s n="itg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>кого</l>      <r>хто<s n="prn"/><s n="itg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ким</l>       <r>хто<s n="prn"/><s n="itg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>кому</l>      <r>хто<s n="prn"/><s n="itg"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>хто</l>       <r>хто<s n="prn"/><s n="itg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>кого</l>      <r>хто<s n="prn"/><s n="itg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>кому</l>      <r>хто<s n="prn"/><s n="itg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>кого</l>      <r>хто<s n="prn"/><s n="itg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ким</l>       <r>хто<s n="prn"/><s n="itg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>кому</l>      <r>хто<s n="prn"/><s n="itg"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
 </pardef>
 <pardef n="BASE__що">
   <e>       <p><l>що</l>        <r><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -922,7 +922,7 @@
   <e>       <p><l>есь</l>       <r>есь<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>сього</l>     <r>есь<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>сьому</l>     <r>есь<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>сього</l>     <r>есь<s n="prn"/><s n="ind"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>сього</l>     <r>есь<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>есь</l>       <r>есь<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>сім</l>       <r>есь<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>сьому</l>     <r>есь<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
@@ -944,25 +944,25 @@
   <e>       <p><l>сіх</l>       <r>есь<s n="prn"/><s n="ind"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>сім</l>       <r>есь<s n="prn"/><s n="ind"/><s n="pl"/><s n="dat"/></r></p></e>
   <e>       <p><l>сі</l>        <r>есь<s n="prn"/><s n="ind"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>сіх</l>       <r>есь<s n="prn"/><s n="ind"/><s n="ani"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>сіх</l>       <r>есь<s n="prn"/><s n="ind"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>сіма</l>      <r>есь<s n="prn"/><s n="ind"/><s n="pl"/><s n="ins"/></r></p></e>
   <e>       <p><l>сіх</l>       <r>есь<s n="prn"/><s n="ind"/><s n="pl"/><s n="loc"/></r></p></e>
 </pardef>
 <pardef n="мат/и__n">
-  <e>       <p><l>и</l>         <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ір</l>        <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ір'ю</l>      <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>и</l>         <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ерів</l>      <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ерям</l>      <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ерів</l>      <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ерями</l>     <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ерях</l>      <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>и</l>         <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ір</l>        <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ір'ю</l>      <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>и</l>         <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ерів</l>      <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ерям</l>      <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ерів</l>      <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ерями</l>     <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ерях</l>      <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ері</l>       <r>и<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="ні__ij">
   <e>       <p><l></l>          <r><s n="ij"/></r></p></e>
@@ -988,134 +988,134 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="indecl"/></r></p></e>
 </pardef>
 <pardef n="робітни/к__n">
-  <e>       <p><l>к</l>         <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ка</l>        <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>кові</l>      <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e r="LR"><p><l>ку</l>        <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ка</l>        <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ком</l>       <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>кові</l>      <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e r="LR"><p><l>ку</l>        <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ку</l>        <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e r="LR"><p><l>че</l>        <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>ки</l>        <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ків</l>       <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>кам</l>       <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ків</l>       <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ками</l>      <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ках</l>       <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ки</l>        <r>к<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="voc"/></r></p></e>
-  <e>       <p><l>ця</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>цю</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>цею</l>       <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>це</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ць</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>цям</l>       <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ць</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>цями</l>      <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>цях</l>       <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>к</l>         <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ка</l>        <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>кові</l>      <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>ку</l>        <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ка</l>        <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ком</l>       <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>кові</l>      <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>ку</l>        <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ку</l>        <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e r="LR"><p><l>че</l>        <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ки</l>        <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ків</l>       <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>кам</l>       <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ків</l>       <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ками</l>      <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ках</l>       <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ки</l>        <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ця</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>цю</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>цею</l>       <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>це</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ць</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>цям</l>       <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ць</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>цями</l>      <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>цях</l>       <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ці</l>        <r>к<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="африкан/ець__n">
-  <e>       <p><l>ця</l>        <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>цеві</l>      <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e r="LR"><p><l>цю</l>        <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ця</l>        <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>цеві</l>      <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e r="LR"><p><l>ці</l>        <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e r="LR"><p><l>цю</l>        <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>цю</l>        <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>цем</l>       <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ець</l>       <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ців</l>       <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>цям</l>       <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ців</l>       <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>цях</l>       <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ці</l>        <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="voc"/></r></p></e>
-  <e>       <p><l>цями</l>      <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ці</l>        <r>ець<s n="n"/><s n="ani"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ка</l>        <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ця</l>        <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>цеві</l>      <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>цю</l>        <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ця</l>        <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>цеві</l>      <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>ці</l>        <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>цю</l>        <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>цю</l>        <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>цем</l>       <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ець</l>       <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ців</l>       <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>цям</l>       <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ців</l>       <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>цях</l>       <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ці</l>        <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>цями</l>      <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ці</l>        <r>ець<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ка</l>        <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
 <!--      
       <e>
         <p>
           <l>ці</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ці</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>цю</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>цею</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ці</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>це</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="voc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ці</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ць</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>цям</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ць</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>цями</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>цях</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ці</l>
-          <r>ець<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+          <r>ець<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
 -->
@@ -1729,22 +1729,22 @@
   <e>       <p><l>ечі</l>       <r>іч<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="мам/а__n">
-  <e>       <p><l>а</l>         <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>и</l>         <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>і</l>         <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>у</l>         <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ою</l>        <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>і</l>         <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>о</l>         <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>и</l>         <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l></l>          <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e r="LR"><p><l>ів</l>        <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ам</l>        <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l></l>          <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e r="LR"><p><l>ів</l>        <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ами</l>       <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ах</l>        <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>и</l>         <r>а<s n="n"/><s n="ani"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>а</l>         <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>и</l>         <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>і</l>         <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>у</l>         <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ою</l>        <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>і</l>         <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>о</l>         <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>и</l>         <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>ів</l>        <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ам</l>        <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l></l>          <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e r="LR"><p><l>ів</l>        <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ами</l>       <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ах</l>        <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>и</l>         <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
   </pardefs>
 
