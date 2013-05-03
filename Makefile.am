@@ -130,7 +130,7 @@ apertium_ru_uk_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
-		    $(PREFIX1).mode $(PREFIX2).mode $(PREFIX1)-multi.mode $(PREFIX2)-multi.mode
+		    $(PREFIX1).mode $(PREFIX2).mode 
 
 apertium_ru_ukdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_ru_modesdir=$(prefix)/share/apertium/modes/
@@ -141,12 +141,6 @@ $(PREFIX1).mode: modes.xml
 $(PREFIX2).mode: modes.xml
 	apertium-gen-modes modes.xml
 
-$(PREFIX1)-multi.mode: modes.xml
-	apertium-gen-modes modes.xml
-
-$(PREFIX2)-multi.mode: modes.xml
-	apertium-gen-modes modes.xml
-
 modes: modes.xml
 	apertium-gen-modes modes.xml
 
@@ -155,8 +149,6 @@ install-data-local:
 	test -d $(DESTDIR)$(apertium_en_modesdir) || mkdir $(DESTDIR)$(apertium_en_modesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_en_modesdir)
 	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_en_modesdir)
-	$(INSTALL_DATA) $(PREFIX1)-multi.mode $(DESTDIR)$(apertium_en_modesdir)
-	$(INSTALL_DATA) $(PREFIX2)-multi.mode $(DESTDIR)$(apertium_en_modesdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_en_cadir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_en_cadir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_en_cadir)

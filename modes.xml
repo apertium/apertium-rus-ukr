@@ -8,7 +8,7 @@
         <file name="ru-uk.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g -f $2">
-        <file name="en-ca.prob"/>
+        <file name="ru-uk.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -28,7 +28,7 @@
         <file name="ru-uk.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="ru-uk.autopgru.bin"/>
+        <file name="ru-uk.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -117,7 +117,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ru-uk-gruerador">
+  <mode name="ru-uk-generador">
     <pipeline>
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
@@ -172,7 +172,7 @@
         <file name="uk-ru.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="uk-ru.autopgru.bin"/>
+        <file name="uk-ru.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -271,7 +271,7 @@
     </pipeline>
   </mode>
 
-  <mode name="uk-ru-gruerador">
+  <mode name="uk-ru-generador">
     <pipeline>
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
@@ -329,7 +329,7 @@
         <file name="ru-uk.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="ru-uk.autopgru.bin"/>
+        <file name="ru-uk.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -360,7 +360,7 @@
         <file name="ru-uk.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="ru-uk.autopgru.bin"/>
+        <file name="ru-uk.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -448,7 +448,7 @@
     </pipeline>
   </mode>
 
-  <mode name="test-ru-uk-gruerador">
+  <mode name="test-ru-uk-generador">
     <pipeline>
       <program name="lt-proc">
         <file name="ru-uk.automorf.bin"/>
@@ -504,7 +504,7 @@
         <file name="uk-ru.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="uk-ru.autopgru.bin"/>
+        <file name="uk-ru.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -592,7 +592,7 @@
     </pipeline>
   </mode>
 
-  <mode name="test-uk-ru-gruerador">
+  <mode name="test-uk-ru-generador">
     <pipeline>
       <program name="lt-proc">
         <file name="uk-ru.automorf.bin"/>
