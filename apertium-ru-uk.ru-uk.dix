@@ -17,6 +17,7 @@
     <sdef n="perf"   c=""/>
     <sdef n="imperf" c=""/>
     <sdef n="num"    c=""/>
+    <sdef n="pers"    c=""/>
     <sdef n="sint"   c=""/>
     <sdef n="cog"    c=""/>
     <sdef n="ant"    c=""/>
@@ -147,6 +148,14 @@
     <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>весь<s n="prn"/><s n="ind"/></l><r>весь<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>ничто<s n="prn"/><s n="ind"/></l><r>ніщо<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>я<s n="prn"/><s n="pers"/></l><r>я<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>ты<s n="prn"/><s n="pers"/></l><r>ти<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>он<s n="prn"/><s n="pers"/></l><r>він<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>она<s n="prn"/><s n="pers"/></l><r>вона<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>оно<s n="prn"/><s n="pers"/></l><r>воно<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>мы<s n="prn"/><s n="pers"/></l><r>ми<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>вы<s n="prn"/><s n="pers"/></l><r>ви<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>они<s n="prn"/><s n="pers"/></l><r>вони<s n="prn"/><s n="pers"/></r></p></e>
     
     <e><p><l>можна<s n="vaux"/></l><r>можна<s n="vaux"/></r></p></e>
     <e><p><l>покупать<s n="vblex"/><s n="imperf"/></l><r>купувати<s n="vblex"/><s n="imperf"/></r></p></e>
