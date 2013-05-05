@@ -15,6 +15,7 @@
 
     <sdef n="vblex"  c=""/>
     <sdef n="perf"   c=""/>
+    <sdef n="vbser"   c=""/>
     <sdef n="imperf" c=""/>
     <sdef n="num"    c=""/>
     <sdef n="pers"    c=""/>
@@ -253,7 +254,6 @@
     <e><p><l>там<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
     <e><p><l>почему<s n="adv"/></l><r>чому<s n="adv"/></r></p></e>
 
-    <e><p><l>думать<s n="vblex"/></l><r>думати<s n="vblex"/></r></p></e>
     <e><p><l>девушка<s n="n"/><s n="aa"/><s n="f"/></l><r>дівчина<s n="n"/><s n="aa"/><s n="f"/></r></p></e>
     <e><p><l>эпоха<s n="n"/><s n="f"/></l><r>епоха<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>эра<s n="n"/><s n="f"/></l><r>ера<s n="n"/><s n="f"/></r></p></e>
@@ -467,5 +467,8 @@
     <e><p><l>вот<s n="part"/></l><r>ось<s n="part"/></r></p></e>
     <e><p><l>бы<s n="part"/></l><r>би<s n="part"/></r></p></e>
     <e><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-</i><p><l>е<b/>гг<s n="adv"/></l><r>і<b/>рр<s n="adv"/></r></p></e>
+
+    <e><p><l>думать<s n="vblex"/></l><r>думати<s n="vblex"/></r></p></e>
+    <e><p><l>быть<s n="vbser"/></l><r>бути<s n="vbser"/></r></p></e>
   </section>
 </dictionary>
