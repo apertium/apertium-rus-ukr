@@ -1602,6 +1602,21 @@
       <e><p>          <l>ях</l><r>е<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
+    <pardef n="животно/е__n_nt_aa">
+      <e><p>          <l>е</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p>          <l>е</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p>          <l>я</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p>          <l>ю</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p>          <l>ем</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p>          <l>и</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="sg"/><s n="prp"/></r></p></e>
+      <e><p>          <l>я</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p>          <l>я</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p>          <l>й</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p>          <l>ям</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p>          <l>ями</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p>          <l>ях</l><r>е<s n="n"/><s n="nt"/><s n="aa"/><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
     <pardef n="волос__n_m_nn">
       <e><p>          <l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p>          <l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -12823,7 +12838,7 @@
     <e lm="житель"><i>жител</i><par n="гус/ь__n_m_an"/></e>
     <e lm="журнал"><i>журнал</i><par n="ус__n_m_nn"/></e>
     <e lm="журналист"><i>журналист</i><par n="шеф__n_m_an"/></e>
-	<e lm="животное" a="slasher"><i>животно</i><par n="звани/е__n_nt_nn"/></e>
+	<e lm="животное" a="slasher"><i>животно</i><par n="животно/е__n_nt_aa"/></e>
     <e lm="заболевание"><i>заболевани</i><par n="звани/е__n_nt_nn"/></e>
     <e lm="забор"><i>забор</i><par n="ус__n_m_nn"/></e>
     <e lm="забота"><i>забот</i><par n="мам/а__n_f_nn"/></e>

@@ -151,7 +151,9 @@
     <e><p><l>покупать<s n="vblex"/><s n="imperf"/></l><r>купувати<s n="vblex"/><s n="imperf"/></r></p></e>
     <e><p><l>купить<s n="vblex"/><s n="perf"/></l><r>купити<s n="vblex"/><s n="perf"/></r></p></e>
     
-    <e><p><l>мать<s n="n"/><s n="aa"/><s n="f"/></l><r>мати<s n="n"/><s n="aa"/><s n="f"/></r></p></e>
+    <e><p><l>мама<s n="n"/><s n="f"/><s n="aa"/></l><r>мама<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>мать<s n="n"/><s n="f"/><s n="aa"/></l><r>мати<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e r="RL"><p><l>мать<s n="n"/><s n="f"/><s n="aa"/></l><r>матір<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>виски<s n="n"/><s n="nt"/><s n="indecl"/></l><r>віскі<s n="n"/><s n="m"/><s n="indecl"/></r></p></e>
     <e><p><l>меню<s n="n"/><s n="nt"/><s n="indecl"/></l><r>меню<s n="n"/><s n="nt"/><s n="indecl"/></r></p></e>
     <e><p><l>работник<s n="n"/><s n="aa"/></l><r>робітник<s n="n"/><s n="aa"/></r></p></e>
@@ -184,9 +186,9 @@
     <e><p><l>старый<s n="adj"/><s n="sint"/></l><r>старий<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>бедро<s n="n"/><s n="nt"/></l><r>стегно<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>стоять<s n="vblex"/><s n="imperf"/></l><r>стояти<s n="vblex"/><s n="imperf"/></r></p></e>
-    <e><p><l>стол<s n="n"/><s n="m"/></l><r>стіл<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>стол<s n="n"/><s n="m"/><s n="nn"/></l><r>стіл<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>день<s n="n"/><s n="m"/></l><r>день<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>дерево<s n="n"/><s n="nt"/></l><r>дерево<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>дерево<s n="n"/><s n="nt"/><s n="nn"/></l><r>дерево<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>держава<s n="n"/><s n="f"/></l><r>держава<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>десять<s n="num"/></l><r>десять<s n="num"/></r></p></e>
     <e><p><l>дешёвый<s n="adj"/><s n="sint"/></l><r>дешевий<s n="adj"/><s n="sint"/></r></p></e>
@@ -289,6 +291,19 @@
     <e><p><l>суп<s n="n"/><s n="m"/></l><r>суп<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>право<s n="n"/><s n="nt"/></l><r>право<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>собака<s n="n"/><s n="f"/><s n="aa"/></l><r>собака<s n="n"/><s n="mf"/><s n="aa"/></r></p></e>
+    <e r="RL"><p><l>сад<s n="n"/><s n="m"/><s n="nn"/></l><r>садок<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>сад<s n="n"/><s n="m"/><s n="nn"/></l><r>сад<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>кот<s n="n"/><s n="m"/><s n="aa"/></l><r>кіт<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e r="RL"><p><l>дом<s n="n"/><s n="m"/><s n="nn"/></l><r>будинок<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e r="RL"><p><l>дом<s n="n"/><s n="m"/><s n="nn"/></l><r>хата<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>ответ<s n="n"/><s n="m"/><s n="nn"/></l><r>відповідь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>мальчик<s n="n"/><s n="m"/><s n="aa"/></l><r>хлопчик<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>животное<s n="n"/><s n="nt"/><s n="aa"/></l><r>тварина<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>стул<s n="n"/><s n="m"/><s n="nn"/></l><r>стілець<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>сестра<s n="n"/><s n="f"/><s n="aa"/></l><r>сестра<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>середина<s n="n"/><s n="f"/><s n="nn"/></l><r>середина<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>рука<s n="n"/><s n="f"/><s n="nn"/></l><r>рука<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>год<s n="n"/><s n="m"/><s n="nn"/></l><r>рік<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     
     <e><p><l>Кале<s n="np"/><s n="top"/></l><r>Кале<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Па-де-Кале<s n="np"/><s n="top"/></l><r>Па-де-Кале<s n="np"/><s n="top"/></r></p></e>
