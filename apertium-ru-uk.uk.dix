@@ -340,8 +340,9 @@
   <e>       <p><l>вас</l>       <r>ви<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>вами</l>      <r>ви<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
   <e>       <p><l>ви</l>        <r>ви<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>його</l>      <r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>нього</l>     <r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/><s n="pprep"/></r></p></e>
+  <e r="LR"><p><l>його</l>      <r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>нього</l>     <r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="RL"><p><l><a/>його</l>      <r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>йому</l>      <r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>його</l>      <r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ньому</l>     <r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
