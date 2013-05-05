@@ -58,7 +58,7 @@
     <sdef n="impers" 	c=""/> 
     <sdef n="inf" 	c=""/> 
     <sdef n="past" 	c=""/> 
-    <sdef n="pp" 	c=""/> 
+    <sdef n="pp" 	  c=""/> 
     <sdef n="psv" 	c=""/> 
     <sdef n="pprs" 	c=""/> 
     <sdef n="act" 	c=""/> 
@@ -74,8 +74,9 @@
     <sdef n="comp" 	c=""/> 
     <sdef n="sup" 	c=""/> 
     <sdef n="sent" 	c=""/> 
-    <sdef n="sp" 	c=""/> 
+    <sdef n="sp" 	  c=""/> 
     <sdef n="vaux" 	c=""/> 
+    <sdef n="part"  c=""/>
   </sdefs>
   <pardefs>
 <pardef n="separa">
@@ -1327,6 +1328,23 @@
   <e>       <p><l></l>          <r>ка<s n="n"/></r></p><par n="BASE__фабрика"/></e>
   <e>       <p><l></l>          <r>ка<s n="n"/></r></p><par n="BASE__фабрики"/></e>
 </pardef>
+<pardef n="соба/ка__n">
+  <e>       <p><l>ка</l>        <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ки</l>        <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ці</l>        <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ку</l>        <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>кою</l>       <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ці</l>        <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ко</l>        <r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ки</l>        <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>к</l>         <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>кам</l>       <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ки</l>        <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e r="LR"><p><l>к</l>         <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ками</l>      <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ках</l>       <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ки</l>        <r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="voc"/></r></p></e>
+</pardef>
 
 <pardef n="зас/іб__n">
   <e>       <p><l>обу</l>       <r>іб<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -1774,13 +1792,24 @@
   <e>       <p><l>ах</l>        <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>и</l>         <r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
-  </pardefs>
+    
+<pardef n="чи__part">
+  <e>       <p><l></l>          <r><s n="part"/></r></p></e>
+  </pardef>
+</pardefs>
 
   <section id="main" type="standard">
 <e lm="можна">           <i>можна</i><par n="можна__vaux"/></e>
     <!-- ******************************
+          group part
+      ****************************** -->
+<e lm="чи">              <i>чи</i><par n="чи__part"/></e>
+<e lm="всё-таки">        <i>всё-таки</i><par n="чи__part"/></e>
+    <!-- ******************************
           group prn
       ****************************** -->
+<e lm="ось">             <i>ось</i><par n="чи__part"/></e>
+<e lm="би">              <i>би</i><par n="чи__part"/></e>
 <e lm="prpers">          <i></i><par n="/prpers__prn"/></e>
 <e lm="хто">             <i></i><par n="хто__prn"/></e>
 <e lm="хтось">           <i></i><par n="хтось__prn"/></e>
@@ -1820,6 +1849,15 @@
 <e lm="усередині">       <i>усередині</i><par n="про__pr"/></e>
 <e lm="через">           <i>через</i><par n="про__pr"/></e>
 <e lm="із-за">           <i>із-за</i><par n="про__pr"/></e>
+<e lm="навпроти">        <i>навпроти</i><par n="про__pr"/></e>
+<e lm="навколо">         <i>навколо</i><par n="про__pr"/></e>
+<e lm="за">              <i>за</i><par n="про__pr"/></e>
+<e lm="до">              <i>до</i><par n="про__pr"/></e>
+<e lm="від">             <i>від</i><par n="про__pr"/></e>
+<e lm="біля">            <i>біля</i><par n="про__pr"/></e>
+<e lm="по">              <i>по</i><par n="про__pr"/></e>
+<e lm="в">               <i>в</i><par n="про__pr"/></e>
+<e lm="у">               <i>у</i><par n="про__pr"/></e>
     <!-- ******************************
           group vblex
       ****************************** -->
@@ -1840,6 +1878,7 @@
 <e lm="спасибі">         <i>спасибі</i><par n="ні__ij"/></e>
 <e lm="так">             <i>так</i><par n="ні__ij"/></e>
 <e lm="отже">            <i>итак</i><par n="ні__ij"/></e>
+<e lm="немає">           <i>немає</i><par n="ні__ij"/></e>
 
     <!-- ******************************
           group adv
@@ -1872,6 +1911,13 @@
 <e lm="добре">           <i>добре</i><par n="ні__adv"/></e>
 <e lm="далі">            <i>далі</i><par n="ні__adv"/></e>
 <e lm="всюди">           <i>всюди</i><par n="ні__adv"/></e>
+<e lm="також">           <i>також</i><par n="ні__adv"/></e>
+<e lm="разом">           <i>разом</i><par n="ні__adv"/></e>
+<e lm="швидко">          <i>швидко</i><par n="ні__adv"/></e>
+<e lm="трохи">           <i>трохи</i><par n="ні__adv"/></e>
+<e lm="ближче">          <i>ближче</i><par n="ні__adv"/></e>
+<e lm="там">             <i>там</i><par n="ні__adv"/></e>
+<e lm="чому">            <i>чому</i><par n="ні__adv"/></e>
 
     <!-- ******************************
           group cnjcoo
@@ -1879,6 +1925,7 @@
 <e lm="а">               <i>а</i><par n="а__cnjcoo"/></e>
 <e lm="и">               <i>и</i><par n="а__cnjcoo"/></e>
 <e lm="або">             <i>або</i><par n="а__cnjcoo"/></e>
+<e lm="але">             <i>але</i><par n="а__cnjcoo"/></e>
     <!-- ******************************
           group cnjadv
       ****************************** -->
@@ -2686,6 +2733,7 @@
 <e lm="ситуація">        <i>ситуаці</i><par n="наді/я__n"/></e>
 <e lm="снобізм">         <i>снобізм</i><par n="аболіціонізм__n"/></e>
 <e lm="сніданок">        <i>снідан</i><par n="снідан/ок__n"/></e>
+<e lm="собака">          <i>соба</i><par n="соба/ка__n"/></e>
 <e lm="совість">         <i>совіст</i><par n="совіст/ь__n"/></e>
 <e lm="сомнамбулізм">    <i>сомнамбулізм</i><par n="аболіціонізм__n"/></e>
 <e lm="софізм">          <i>софізм</i><par n="аболіціонізм__n"/></e>
