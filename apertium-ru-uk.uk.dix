@@ -1518,22 +1518,22 @@
   <e>       <p><l>ки</l>        <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="будин/ок__n">
-  <e>       <p><l>ок</l>        <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ку</l>        <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>кові</l>      <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e r="LR"><p><l>ку</l>        <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ок</l>        <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ком</l>       <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ку</l>        <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e r="LR"><p><l>кові</l>      <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ку</l>        <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>ки</l>        <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ків</l>       <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>кам</l>       <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ки</l>        <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ками</l>      <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ках</l>       <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ки</l>        <r>ок<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ок</l>        <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ку</l>        <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>кові</l>      <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>ку</l>        <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ок</l>        <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ком</l>       <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ку</l>        <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>кові</l>      <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ку</l>        <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ки</l>        <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ків</l>       <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>кам</l>       <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ки</l>        <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ками</l>      <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ках</l>       <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ки</l>        <r>ок<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="вівтор/ок__n">
   <e>       <p><l>ок</l>        <r>ок<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
