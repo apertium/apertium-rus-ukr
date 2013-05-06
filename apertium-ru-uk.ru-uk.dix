@@ -471,7 +471,7 @@
     <e><p><l>хороший<s n="adj"/><s n="sint"/></l><r>гарний<s n="adj"/><s n="sint"/></r></p></e>
 
     <e><p><l>ли<s n="part"/></l><r>чи<s n="part"/></r></p></e>
-    <e><p><l>всё-таки<s n="part"/></l><r>всё-таки<s n="cnjadv"/></r></p></e>
+    <e><p><l>всё-таки<s n="part"/></l><r>все-таки<s n="cnjadv"/></r></p></e>
     <e><p><l>вот<s n="part"/></l><r>ось<s n="part"/></r></p></e>
     <e><p><l>бы<s n="part"/></l><r>би<s n="part"/></r></p></e>
     <e><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-</i><p><l>е<b/>гг<s n="adv"/></l><r>і<b/>рр<s n="adv"/></r></p></e>
