@@ -100,7 +100,7 @@
     
     <e><p><l>сто<s n="num"/></l><r>сто<s n="num"/></r></p></e>
     <e><p><l>сорок<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
-    <e><p><l>п'ять<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
+    <e><p><l>пять<s n="num"/></l><r>п'ять<s n="num"/></r></p></e>
     
     <e><p><l>нет<s n="ij"/></l><r>ні<s n="ij"/></r></p></e>
     <e><p><l>нет<s n="ij"/></l><r>немає<s n="ij"/></r></p></e>
@@ -131,6 +131,8 @@
     <e><p><l>с<s n="pr"/></l><r>з<s n="pr"/></r></p></e>
     <e><p><l>от<s n="pr"/></l><r>від<s n="pr"/></r></p></e>
     <e><p><l>у<s n="pr"/></l><r>біля<s n="pr"/></r></p></e>
+    <e><p><l>у<s n="pr"/></l><r>у<s n="pr"/></r></p></e>
+    <e><p><l>в<s n="pr"/></l><r>у<s n="pr"/></r></p></e>
     <e><p><l>по<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
     
     <e><p><l>где<s n="adv"/><s n="itg"/></l><r>де<s n="adv"/><s n="itg"/></r></p></e>
@@ -194,7 +196,7 @@
     <e><p><l>петь<s n="vblex"/><s n="imperf"/></l><r>співати<s n="vblex"/><s n="imperf"/></r></p></e>
     <e><p><l>серебро<s n="n"/><s n="nt"/></l><r>срібло<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>серебристый<s n="adj"/></l><r>срібний<s n="adj"/></r></p></e>
-    <e><p><l>старый<s n="adj"/><s n="sint"/></l><r>старий<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>старый<s n="adj"/></l><r>старий<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>бедро<s n="n"/><s n="nt"/></l><r>стегно<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>стоять<s n="vblex"/><s n="imperf"/></l><r>стояти<s n="vblex"/><s n="imperf"/></r></p></e>
     <e><p><l>стол<s n="n"/><s n="m"/><s n="nn"/></l><r>стіл<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -469,7 +471,7 @@
     <e><p><l>хороший<s n="adj"/><s n="sint"/></l><r>гарний<s n="adj"/><s n="sint"/></r></p></e>
 
     <e><p><l>ли<s n="part"/></l><r>чи<s n="part"/></r></p></e>
-    <e><p><l>всё-таки<s n="part"/></l><r>все-таки<s n="part"/></r></p></e>
+    <e><p><l>всё-таки<s n="part"/></l><r>всё-таки<s n="cnjadv"/></r></p></e>
     <e><p><l>вот<s n="part"/></l><r>ось<s n="part"/></r></p></e>
     <e><p><l>бы<s n="part"/></l><r>би<s n="part"/></r></p></e>
     <e><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-</i><p><l>е<b/>гг<s n="adv"/></l><r>і<b/>рр<s n="adv"/></r></p></e>
