@@ -382,20 +382,20 @@
   <e>       <p><l>ї</l>         <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
   <e>       <p><l>е</l>         <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
 </pardef>
-<pardef n="BASE__Ван/я">
-  <e>       <p><l>я</l>         <r><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>і</l>         <r><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>і</l>         <r><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ю</l>         <r><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ею</l>        <r><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>і</l>         <r><s n="sg"/><s n="loc"/></r></p></e>
+<pardef n="BASE__Іванк/о">
+  <e>       <p><l>о</l>         <r><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>а</l>         <r><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>у</l>         <r><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>а</l>         <r><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ом</l>        <r><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>у</l>         <r><s n="sg"/><s n="loc"/></r></p></e>
   <e>       <p><l>е</l>         <r><s n="sg"/><s n="voc"/></r></p></e>
 </pardef>
-<pardef n="Ван/я__np">
-  <e>       <p><l></l>          <r>я<s n="np"/><s n="ant"/><s n="m"/></r>
-  </p><par n="BASE__Ван/я"/></e>
+<pardef n="Іванк/о__np">
+  <e>       <p><l></l>          <r>о<s n="np"/><s n="ant"/><s n="m"/></r>
+  </p><par n="BASE__Іванк/о"/></e>
 </pardef>
-<pardef n="BASE__Марій/ка">
+<pardef n="BASE__Маріч/ка">
   <e>       <p><l>ка</l>         <r><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>ки</l>         <r><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>ці</l>         <r><s n="sg"/><s n="dat"/></r></p></e>
@@ -404,9 +404,9 @@
   <e>       <p><l>ці</l>         <r><s n="sg"/><s n="loc"/></r></p></e>
   <e>       <p><l>ко</l>         <r><s n="sg"/><s n="voc"/></r></p></e>
 </pardef>
-<pardef n="Марій/ка__np">
+<pardef n="Маріч/ка__np">
   <e>       <p><l></l>           <r>ка<s n="np"/><s n="ant"/><s n="f"/></r></p>
-  <par n="BASE__Марій/ка"/></e>
+  <par n="BASE__Маріч/ка"/></e>
 </pardef>
 <pardef n="Кале__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="m"/><s n="indecl"/></r></p></e>
@@ -3264,8 +3264,8 @@
 <e lm="Євразія">         <i>Євразі</i><par n="Іспані/я__np"/></e>
 <e lm="Іспанія">         <i>Іспані</i><par n="Іспані/я__np"/></e>
 <e lm="Ісус">            <i>Ісус</i><par n="Ісус__np"/></e>
-<e lm="Ваня">            <i>Ван</i><par n="Ван/я__np"/></e>
-<e lm="Марійка">         <i>Марій</i><par n="Марій/ка__np"/></e>
+<e lm="Іванко">          <i>Іванк</i><par n="Іванк/о__np"/></e>
+<e lm="Марічка">         <i>Маріч</i><par n="Маріч/ка__np"/></e>
 <e lm="Італія">          <i>Італі</i><par n="Іспані/я__np"/></e>
 <e lm="Абіссінія">       <i>Абіссіні</i><par n="Іспані/я__np"/></e>
     <!-- Autoadded -->
