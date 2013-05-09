@@ -16,6 +16,8 @@
     <sdef n="vblex"  c=""/>
     <sdef n="perf"   c=""/>
     <sdef n="vbser"   c=""/>
+    <sdef n="tv"   c=""/>
+    <sdef n="iv"   c=""/>
     <sdef n="imperf" c=""/>
     <sdef n="num"    c=""/>
     <sdef n="pers"    c=""/>
@@ -92,8 +94,7 @@
     <e><p><l>так<b/>как<s n="cnjadv"/></l><r>так<b/>як<s n="cnjadv"/></r></p></e>
     <e><p><l>пока<s n="cnjadv"/></l><r>поки<s n="cnjadv"/></r></p></e>
 
-    <e><p><l>и<s n="cnjcoo"/></l><r>й<s n="cnjcoo"/></r></p></e>
-    <e><p><l>и<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+    <e><p><l>и<s n="cnjcoo"/></l><r>і<s n="cnjcoo"/></r></p></e>
     <e><p><l>а<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
     <e><p><l>или<s n="cnjcoo"/></l><r>або<s n="cnjcoo"/></r></p></e>
     <e><p><l>но<s n="cnjcoo"/></l><r>але<s n="cnjcoo"/></r></p></e>
@@ -478,6 +479,7 @@
     <e><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-</i><p><l>е<b/>гг<s n="adv"/></l><r>і<b/>рр<s n="adv"/></r></p></e>
 
     <e><p><l>думать<s n="vblex"/></l><r>думати<s n="vblex"/></r></p></e>
+    <e><p><l>любить<s n="vblex"/><s n="imperf"/></l><r>любити<s n="vblex"/><s n="imperf"/></r></p></e>
     <e><p><l>быть<s n="vbser"/></l><r>бути<s n="vbser"/></r></p></e>
   </section>
 </dictionary>
