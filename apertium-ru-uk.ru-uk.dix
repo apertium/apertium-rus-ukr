@@ -514,6 +514,14 @@
     <e><p><l>найти<s n="vblex"/><s n="perf"/></l><r>знайти<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>поесть<s n="vblex"/><s n="perf"/></l><r>поїсти<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>пойти<s n="vblex"/><s n="perf"/></l><r>піти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>скрываться<s n="vblex"/><s n="imperf"/></l><r>ховатися<s n="vblex"/><s n="imperf"/></r></p></e>
+    <e><p><l>смеяться<s n="vblex"/><s n="imperf"/></l><r>сміятися<s n="vblex"/><s n="imperf"/></r></p></e>
+    <e><p><l>улыбаться<s n="vblex"/><s n="imperf"/></l><r>посміхатися<s n="vblex"/><s n="imperf"/></r></p></e>
+    <e><p><l>повторяться<s n="vblex"/><s n="imperf"/></l><r>повторюватися<s n="vblex"/><s n="imperf"/></r></p></e>
+    <e><p><l>пытаться<s n="vblex"/><s n="imperf"/></l><r>намагатися<s n="vblex"/><s n="imperf"/></r></p></e>
+    <e><p><l>играть<s n="vblex"/><s n="imperf"/></l><r>гратися<s n="vblex"/><s n="imperf"/></r></p></e>
+    <e><p><l>смотреть<s n="vblex"/><s n="imperf"/></l><r>дивитися<s n="vblex"/><s n="imperf"/></r></p></e>
+    <e><p><l>играть<s n="vblex"/><s n="imperf"/></l><r>бавитися<s n="vblex"/><s n="imperf"/></r></p></e>
 
   </section>
 </dictionary>
