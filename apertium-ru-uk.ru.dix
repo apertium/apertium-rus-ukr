@@ -620,6 +620,14 @@
       <e>       <p><l>ем</l><r>то<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
       <e>       <p><l>ём</l><r>то<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="prp"/></r></p></e>
     </pardef>
+    <pardef n="ч/то-то__prn">
+      <e>       <p><l>то-то</l>  <r>то-то<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>его-то</l> <r>то-то<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ему-то</l> <r>то-то<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>то-то</l>  <r>то-то<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ем-то</l>  <r>то-то<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ём-то</l>  <r>то-то<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="prp"/></r></p></e>
+    </pardef>
 
     <pardef n="как/ой__prn">
       <e>       <p><l>ой</l><r>ой<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -12191,6 +12199,7 @@
     <e lm="пусть"><i>пусть</i><par n="когда__cnjsub"/></e>
     <e lm="ибо"><i>ибо</i><par n="когда__cnjsub"/></e>
     <e lm="ежели"><i>ежели</i><par n="когда__cnjsub"/></e>
+    <e lm="то"><i>то</i><par n="когда__cnjsub"/></e>
 
     <e lm="чтоб"><i>чтоб</i><par n="когда__cnjsub"/></e> <!-- TODO: Check -->
     <e lm="чтобы" r="LR"><p><l>чтобы</l><r>чтоб</r></p><par n="когда__cnjsub"/></e>
@@ -12324,6 +12333,8 @@
 
     <e lm="сей"><i>с</i><par n="с/ей__prn"/></e>
     <e lm="это"><i>эт</i><par n="эт/о__prn"/></e>
+
+    <e lm="что-то"><i>ч</i><par n="ч/то-то__prn"/></e>
 
     <!-- SECTION: Determiners -->
 
@@ -15028,6 +15039,7 @@
     <e lm="ближе"><i>ближе</i><par n="здесь__adv"/></e>
 
     <e lm="должно"><i>должно</i><par n="здесь__adv"/></e>
+    <e lm="дома"><i>дома</i><par n="здесь__adv"/></e>
 
     <e lm="мм"><i>мм</i><par n="мм__abbr"/></e>
     <e lm="см"><i>см</i><par n="мм__abbr"/></e>

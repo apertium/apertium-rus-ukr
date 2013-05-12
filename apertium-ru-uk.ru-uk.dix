@@ -51,6 +51,7 @@
     <sdef n="dem"    c=""/>
     <sdef n="itg"    c=""/>
     <sdef n="neg"    c=""/>
+    <sdef n="ref"    c=""/>
 
     <sdef n="pprep"  c=""/>
 
@@ -99,10 +100,13 @@
     <e><p><l>а<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
     <e><p><l>или<s n="cnjcoo"/></l><r>або<s n="cnjcoo"/></r></p></e>
     <e><p><l>но<s n="cnjcoo"/></l><r>але<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>то<s n="cnjsub"/></l><r>то<s n="cnjsub"/></r></p></e>
     
     <e><p><l>сто<s n="num"/></l><r>сто<s n="num"/></r></p></e>
     <e><p><l>сорок<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
     <e><p><l>пять<s n="num"/></l><r>п'ять<s n="num"/></r></p></e>
+    <e><p><l>оба<s n="num"/></l><r>обидва<s n="num"/></r></p></e>
     
     <e><p><l>нет<s n="ij"/></l><r>ні<s n="ij"/></r></p></e>
     <e><p><l>нет<s n="ij"/></l><r>немає<s n="ij"/></r></p></e>
@@ -136,6 +140,7 @@
     <e><p><l>у<s n="pr"/></l><r>у<s n="pr"/></r></p></e>
     <e><p><l>в<s n="pr"/></l><r>у<s n="pr"/></r></p></e>
     <e><p><l>по<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
+    <e><p><l>внутри<s n="pr"/></l><r>всередині<s n="pr"/></r></p></e>
     
     <e><p><l>где<s n="adv"/><s n="itg"/></l><r>де<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>не<s n="adv"/><s n="neg"/></l><r>не<s n="adv"/><s n="neg"/></r></p></e>
@@ -149,6 +154,7 @@
     <e><p><l>его<s n="det"/><s n="pos"/></l><r>його<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>её<s n="det"/><s n="pos"/></l><r>її<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>их<s n="det"/><s n="pos"/></l><r>їх<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>их<s n="det"/><s n="pos"/></l><r>їхнє<s n="det"/><s n="pos"/></r></p></e>
 
     <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>весь<s n="prn"/><s n="ind"/></l><r>весь<s n="prn"/><s n="ind"/></r></p></e>
@@ -161,6 +167,9 @@
     <e><p><l>мы<s n="prn"/><s n="pers"/></l><r>ми<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>вы<s n="prn"/><s n="pers"/></l><r>ви<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>они<s n="prn"/><s n="pers"/></l><r>вони<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>что-то<s n="prn"/><s n="ind"/></l><r>щось<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>себя<s n="prn"/><s n="ref"/></l><r>себе<s n="prn"/><s n="ref"/></r></p></e>
+    <e><p><l>это<s n="prn"/><s n="dem"/></l><r>це<s n="prn"/><s n="dem"/></r></p></e>
     
     <e><p><l>можна<s n="vaux"/></l><r>можна<s n="vaux"/></r></p></e>
     <e><p><l>покупать<s n="vblex"/><s n="imperf"/></l><r>купувати<s n="vblex"/><s n="imperf"/></r></p></e>
@@ -256,6 +265,13 @@
     <e><p><l>ближе<s n="adv"/></l><r>ближче<s n="adv"/></r></p></e>
     <e><p><l>там<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
     <e><p><l>почему<s n="adv"/></l><r>чому<s n="adv"/></r></p></e>
+    <e><p><l>потом<s n="adv"/></l><r>потім<s n="adv"/></r></p></e>
+    <e><p><l>просто<s n="adv"/></l><r>просто<s n="adv"/></r></p></e>
+    <e><p><l>нигде<s n="adv"/></l><r>ніде<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>уже<s n="adv"/></l><r>вже<s n="adv"/></r></p></e>
+    <e><p><l>уже<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
+    <e><p><l>дома<s n="adv"/></l><r>дома<s n="adv"/></r></p></e>
+    <e><p><l>вероятно<s n="adv"/></l><r>мабуть<s n="adv"/></r></p></e>
 
     <e><p><l>девушка<s n="n"/><s n="aa"/><s n="f"/></l><r>дівчина<s n="n"/><s n="aa"/><s n="f"/></r></p></e>
     <e><p><l>эпоха<s n="n"/><s n="f"/></l><r>епоха<s n="n"/><s n="f"/></r></p></e>
@@ -334,6 +350,7 @@
     <e><p><l>возможность<s n="n"/><s n="f"/><s n="nn"/></l><r>можливість<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>человек<s n="n"/><s n="m"/><s n="aa"/></l><r>людина<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>пёсик<s n="n"/><s n="m"/><s n="aa"/></l><r>песик<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>вода<s n="n"/><s n="f"/><s n="nn"/></l><r>вода<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     
     <e><p><l>Кале<s n="np"/><s n="top"/></l><r>Кале<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Па-де-Кале<s n="np"/><s n="top"/></l><r>Па-де-Кале<s n="np"/><s n="top"/></r></p></e>
