@@ -378,7 +378,7 @@
     <pardef n="/в__pr">
       <e r="LR"><p><l>в</l><r>в<s n="pr"/></r></p></e>
       <e r="LR"><p><l>во</l><r>в<s n="pr"/></r></p></e>
-      <e r="RL"><p><l><a/>во</l><r>в<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>в</l><r>в<s n="pr"/></r></p></e>
       <e>       <p><l>в<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
     </pardef>
 

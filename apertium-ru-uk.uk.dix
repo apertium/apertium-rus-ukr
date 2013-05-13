@@ -564,7 +564,7 @@
   <e>       <p><l>но</l>         <r>но<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ном</l>        <r>но<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>ні</l>         <r>но<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e r="LR"><p><!--по--><l>ну</l><r>но<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+  <!--по--><e r="LR"><p><l>ну</l><r>но<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>но</l>         <r>но<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
   <e>       <p><l>на</l>         <r>но<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>он</l>         <r>но<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -936,35 +936,35 @@
   <e>       <p><l>той</l>       <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>та</l>        <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>те</l>        <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ті</l>        <r>той<s n="det"/><s n="dem"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ті</l>        <r>той<s n="det"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>того</l>      <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>тієї</l>      <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>того</l>      <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>тих</l>       <r>той<s n="det"/><s n="dem"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>тих</l>       <r>той<s n="det"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>тому</l>      <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>тій</l>       <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>тому</l>      <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>тим</l>       <r>той<s n="det"/><s n="dem"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>тим</l>       <r>той<s n="det"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
   <e>       <p><l>того</l>      <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>той</l>       <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ту</l>        <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>те</l>        <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>тих</l>       <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ті</l>        <r>той<s n="det"/><s n="dem"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ті</l>        <r>той<s n="det"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>тим</l>       <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>тією</l>      <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>тим</l>       <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>тими</l>      <r>той<s n="det"/><s n="dem"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>тими</l>      <r>той<s n="det"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
   <e>       <p><l>тому</l>      <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
   <e r="LR"><p><l>тім</l>       <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
   <e>       <p><l>тій</l>       <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
   <e>       <p><l>тому</l>      <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
   <e r="LR"><p><l>тім</l>       <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>тих</l>       <r>той<s n="det"/><s n="dem"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>тих</l>       <r>той<s n="det"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>той</l>       <r>той<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
   <e>       <p><l>та</l>        <r>той<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
   <e>       <p><l>те</l>        <r>той<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>ті</l>        <r>той<s n="det"/><s n="dem"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ті</l>        <r>той<s n="det"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <!--pronouns - займенники -->
 
@@ -3123,7 +3123,7 @@
           group det
       ****************************** -->
 <e lm="той">             <i></i><par n="той__det"/></e>
-<e lm="що">              <i></i><par n="що__det"/></e>
+<!--<e lm="що">              <i></i><par n="що__det"/></e>--> <!-- CHECK -->
 <e lm="багато">          <i>багат</i><par n="багат/о__det"/></e>
 <e lm="котрий">          <i>котр</i><par n="котр/ий__det"/></e>
 <e lm="мій">             <i>м</i><par n="м/ій__det"/></e>

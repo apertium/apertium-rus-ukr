@@ -16,6 +16,7 @@
     <sdef n="vblex"  c=""/>
     <sdef n="perf"   c=""/>
     <sdef n="vbser"  c=""/>
+    <sdef n="vbhaver"  c=""/>
     <sdef n="vbmod"  c=""/>
     <sdef n="tv"   c=""/>
     <sdef n="iv"   c=""/>
@@ -101,7 +102,8 @@
     <e><p><l>или<s n="cnjcoo"/></l><r>або<s n="cnjcoo"/></r></p></e>
     <e><p><l>но<s n="cnjcoo"/></l><r>але<s n="cnjcoo"/></r></p></e>
 
-    <e><p><l>то<s n="cnjsub"/></l><r>то<s n="cnjsub"/></r></p></e>
+    <e><p><l>то<s n="cnjsub"/></l><r>то<s n="cnjsub"/></r></p></e> <!-- check -->
+    <e><p><l>что<s n="cnjsub"/></l><r>що<s n="cnjsub"/></r></p></e>
     
     <e><p><l>сто<s n="num"/></l><r>сто<s n="num"/></r></p></e>
     <e><p><l>сорок<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
@@ -138,13 +140,13 @@
     <e><p><l>от<s n="pr"/></l><r>від<s n="pr"/></r></p></e>
     <e><p><l>у<s n="pr"/></l><r>біля<s n="pr"/></r></p></e>
     <e><p><l>у<s n="pr"/></l><r>у<s n="pr"/></r></p></e>
-    <e><p><l>в<s n="pr"/></l><r>у<s n="pr"/></r></p></e>
+    <e><p><l>в<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
     <e><p><l>по<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
     <e><p><l>внутри<s n="pr"/></l><r>всередині<s n="pr"/></r></p></e>
     
     <e><p><l>где<s n="adv"/><s n="itg"/></l><r>де<s n="adv"/><s n="itg"/></r></p></e>
-    <e><p><l>не<s n="adv"/><s n="neg"/></l><r>не<s n="adv"/><s n="neg"/></r></p></e>
-    <e><p><l>никогда<s n="adv"/><s n="neg"/></l><r>ніколи<s n="adv"/><s n="neg"/></r></p></e>
+    <e><p><l>не<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
+    <e><p><l>никогда<s n="adv"/></l><r>ніколи<s n="adv"/></r></p></e>
     <e><p><l>на<b/>кануне<s n="adv"/></l><r>на<b/>переддні<s n="adv"/></r></p></e>
     <e><p><l>только<s n="adv"/></l><r>тільки<s n="adv"/></r></p></e>
     
@@ -158,7 +160,7 @@
 
     <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>весь<s n="prn"/><s n="ind"/></l><r>весь<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>ничто<s n="prn"/><s n="ind"/></l><r>ніщо<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>ничто<s n="prn"/><s n="ind"/></l><r>ніщо<s n="prn"/><s n="neg"/></r></p></e>
     <e><p><l>я<s n="prn"/><s n="pers"/></l><r>я<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>ты<s n="prn"/><s n="pers"/></l><r>ти<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>он<s n="prn"/><s n="pers"/></l><r>він<s n="prn"/><s n="pers"/></r></p></e>
@@ -491,6 +493,8 @@
     <e><p><l>маленький<s n="adj"/></l><r>маленький<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>хороший<s n="adj"/></l><r>гарний<s n="adj"/><s n="sint"/></r></p></e>
 
+    <e><p><l>что<s n="prn"/><s n="itg"/></l><r>що<s n="prn"/><s n="itg"/></r></p></e>
+
     <e><p><l>ли<s n="part"/></l><r>чи<s n="part"/></r></p></e>
     <e><p><l>всё-таки<s n="part"/></l><r>все-таки<s n="cnjadv"/></r></p></e>
     <e><p><l>вот<s n="part"/></l><r>ось<s n="part"/></r></p></e>
@@ -498,7 +502,7 @@
     <e><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-</i><p><l>е<b/>гг<s n="adv"/></l><r>і<b/>рр<s n="adv"/></r></p></e>
 
     <e><p><l>быть<s n="vbser"/></l><r>бути<s n="vbser"/></r></p></e>
-    <e><p><l>иметь<s n="vbmod"/><s n="imperf"/></l><r>мати<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>иметь<s n="vbhaver"/><s n="imperf"/></l><r>мати<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>мочь<s n="vbmod"/><s n="imperf"/></l><r>могти<s n="vbmod"/><s n="imperf"/></r></p></e>
     <e><p><l>думать<s n="vblex"/><s n="imperf"/></l><r>думати<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>любить<s n="vblex"/><s n="imperf"/></l><r>любити<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
