@@ -135,7 +135,7 @@
 <pardef n="де__adv">
   <e>       <p><l></l>          <r><s n="adv"/><s n="itg"/></r></p></e>
 </pardef>
-<pardef n="ні__adv">
+<pardef n="тільки__adv">
   <e>       <p><l></l>          <r><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="а__cnjcoo">
@@ -851,20 +851,20 @@
   <e>       <p><l>на</l>        <r>но<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="кріс/ло__n">
-  <e>       <p><l>ло</l>        <r>но<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ла</l>        <r>но<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>лу</l>        <r>но<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ло</l>        <r>но<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>лом</l>       <r>но<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>лі</l>        <r>но<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ло</l>        <r>но<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>ла</l>        <r>но<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ел</l>        <r>но<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>лам</l>       <r>но<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ла</l>        <r>но<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>лами</l>      <r>но<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>лах</l>       <r>но<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ла</l>        <r>но<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ло</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ла</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>лу</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ло</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>лом</l>       <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>лі</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ло</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ла</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ел</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>лам</l>       <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ла</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>лами</l>      <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>лах</l>       <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ла</l>        <r>ло<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="кол/есо__n">
   <e>       <p><l>еса</l>       <r>есо<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -2627,16 +2627,16 @@
   <e>       <p><l>ючи</l>       <r>ти<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
   <e>       <p><l>вши</l>       <r>ти<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pp"/><s n="adv"/></r></p></e>
 </pardef>
-<pardef n="хо/тіти__vbmod_imperf">
-  <e>       <p><l>тіти</l>      <r>тіти<s n="vbmod"/><s n="imperf"/><s n="inf"/></r></p></e>
-  <e>       <p><l>т</l>         <r>тіти<s n="vbmod"/><s n="imperf"/></r></p><par n="BASE__йд\и_imp"/></e>
-  <e>       <p><l>тітим</l>     <r>тіти<s n="vbmod"/><s n="imperf"/><s n="fut"/></r></p><par n="BASE__писатим\е_fut"/></e>
-  <e>       <p><l>ч</l>         <r>тіти<s n="vbmod"/><s n="imperf"/><s n="pres"/></r></p><par n="BASE__писатим\е_fut"/></e>
-  <e>       <p><l>ч</l>         <r>тіти<s n="vbmod"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>чте</l>       <r>тіти<s n="vbmod"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ті</l>        <r>тіти<s n="vbmod"/><s n="imperf"/></r></p><par n="BASE__бу\в_cni_past"/></e>
-  <e>       <p><l>тячи</l>      <r>тіти<s n="vbmod"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>
-  <e>       <p><l>тівши</l>     <r>тіти<s n="vbmod"/><s n="imperf"/><s n="pp"/><s n="adv"/></r></p></e>
+<pardef n="хо/тіти__vbmod_imperf_iv">
+  <e>       <p><l>тіти</l>      <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+  <e>       <p><l>т</l>         <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/></r></p><par n="BASE__йд\и_imp"/></e>
+  <e>       <p><l>тітим</l>     <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="fut"/></r></p><par n="BASE__писатим\е_fut"/></e>
+  <e>       <p><l>ч</l>         <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/></r></p><par n="BASE__писатим\е_fut"/></e>
+  <e>       <p><l>ч</l>         <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>чте</l>       <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ті</l>        <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/></r></p><par n="BASE__бу\в_cni_past"/></e>
+  <e>       <p><l>тячи</l>      <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+  <e>       <p><l>тівши</l>     <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pp"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="м/огти__vbmod_imperf">
   <e>       <p><l>огти</l>      <r>огти<s n="vbmod"/><s n="imperf"/><s n="inf"/></r></p></e>
@@ -3014,47 +3014,46 @@
           group adv
       ****************************** -->
 <e lm="де">              <i>де</i><par n="де__adv"/></e>
-<e lm="на переддні">     <i>на<b/>переддні</i><par n="ні__adv"/></e>
+<e lm="на переддні">     <i>на<b/>переддні</i><par n="тільки__adv"/></e>
     
 <e lm="не">              <i>не</i><par n="не__adv"/></e>
-<e lm="ні">              <i>ні</i><par n="ні__adv"/></e>
 <e lm="ніколи">          <i>ніколи</i><par n="не__adv"/></e>
-<e lm="тільки">          <i>тільки</i><par n="ні__adv"/></e>
+<e lm="тільки">          <i>тільки</i><par n="тільки__adv"/></e>
 <e lm="як">              <i>як</i><par n="де__adv"/></e>
-<e lm="сьогодні">        <i>сьогодні</i><par n="ні__adv"/></e>
-<e lm="вчора">           <i>вчора</i><par n="ні__adv"/></e>
-<e lm="дуже">            <i>дуже</i><par n="ні__adv"/></e>
-<e lm="куди">            <i>куди</i><par n="ні__adv"/></e>
-<e lm="коли">            <i>коли</i><par n="ні__adv"/></e>
-<e lm="холодно">         <i>холодно</i><par n="ні__adv"/></e>
-<e lm="уважно">          <i>уважно</i><par n="ні__adv"/></e>
-<e lm="тоді">            <i>тоді</i><par n="ні__adv"/></e>
-<e lm="тепло">           <i>тепло</i><par n="ні__adv"/></e>
-<e lm="тепер">           <i>тепер</i><par n="ні__adv"/></e>
-<e lm="раптом">          <i>раптом</i><par n="ні__adv"/></e>
-<e lm="повільно">        <i>повільно</i><par n="ні__adv"/></e>
-<e lm="напевно">         <i>напевно</i><par n="ні__adv"/></e>
-<e lm="знову">           <i>снова</i><par n="ні__adv"/></e>
-<e lm="звичайно">        <i>звичайно</i><par n="ні__adv"/></e>
-<e lm="зараз">           <i>зараз</i><par n="ні__adv"/></e>
-<e lm="завжди">          <i>завжди</i><par n="ні__adv"/></e>
-<e lm="добре">           <i>добре</i><par n="ні__adv"/></e>
-<e lm="далі">            <i>далі</i><par n="ні__adv"/></e>
-<e lm="всюди">           <i>всюди</i><par n="ні__adv"/></e>
-<e lm="також">           <i>також</i><par n="ні__adv"/></e>
-<e lm="разом">           <i>разом</i><par n="ні__adv"/></e>
-<e lm="швидко">          <i>швидко</i><par n="ні__adv"/></e>
-<e lm="трохи">           <i>трохи</i><par n="ні__adv"/></e>
-<e lm="ближче">          <i>ближче</i><par n="ні__adv"/></e>
-<e lm="там">             <i>там</i><par n="ні__adv"/></e>
-<e lm="чому">            <i>чому</i><par n="ні__adv"/></e>
-<e lm="потім">           <i>потім</i><par n="ні__adv"/></e>
-<e lm="просто">          <i>просто</i><par n="ні__adv"/></e>
-<e lm="ніде">            <i>ніде</i><par n="ні__adv"/></e>
-<e lm="уже">             <i>уже</i><par n="ні__adv"/></e>
-<e lm="вже">             <i>вже</i><par n="ні__adv"/></e>
-<e lm="дома">            <i>дома</i><par n="ні__adv"/></e>
-<e lm="мабуть">          <i>мабуть</i><par n="ні__adv"/></e>
+<e lm="сьогодні">        <i>сьогодні</i><par n="тільки__adv"/></e>
+<e lm="вчора">           <i>вчора</i><par n="тільки__adv"/></e>
+<e lm="дуже">            <i>дуже</i><par n="тільки__adv"/></e>
+<e lm="куди">            <i>куди</i><par n="тільки__adv"/></e>
+<e lm="коли">            <i>коли</i><par n="тільки__adv"/></e>
+<e lm="холодно">         <i>холодно</i><par n="тільки__adv"/></e>
+<e lm="уважно">          <i>уважно</i><par n="тільки__adv"/></e>
+<e lm="тоді">            <i>тоді</i><par n="тільки__adv"/></e>
+<e lm="тепло">           <i>тепло</i><par n="тільки__adv"/></e>
+<e lm="тепер">           <i>тепер</i><par n="тільки__adv"/></e>
+<e lm="раптом">          <i>раптом</i><par n="тільки__adv"/></e>
+<e lm="повільно">        <i>повільно</i><par n="тільки__adv"/></e>
+<e lm="напевно">         <i>напевно</i><par n="тільки__adv"/></e>
+<e lm="знову">           <i>снова</i><par n="тільки__adv"/></e>
+<e lm="звичайно">        <i>звичайно</i><par n="тільки__adv"/></e>
+<e lm="зараз">           <i>зараз</i><par n="тільки__adv"/></e>
+<e lm="завжди">          <i>завжди</i><par n="тільки__adv"/></e>
+<e lm="добре">           <i>добре</i><par n="тільки__adv"/></e>
+<e lm="далі">            <i>далі</i><par n="тільки__adv"/></e>
+<e lm="всюди">           <i>всюди</i><par n="тільки__adv"/></e>
+<e lm="також">           <i>також</i><par n="тільки__adv"/></e>
+<e lm="разом">           <i>разом</i><par n="тільки__adv"/></e>
+<e lm="швидко">          <i>швидко</i><par n="тільки__adv"/></e>
+<e lm="трохи">           <i>трохи</i><par n="тільки__adv"/></e>
+<e lm="ближче">          <i>ближче</i><par n="тільки__adv"/></e>
+<e lm="там">             <i>там</i><par n="тільки__adv"/></e>
+<e lm="чому">            <i>чому</i><par n="тільки__adv"/></e>
+<e lm="потім">           <i>потім</i><par n="тільки__adv"/></e>
+<e lm="просто">          <i>просто</i><par n="тільки__adv"/></e>
+<e lm="ніде">            <i>ніде</i><par n="тільки__adv"/></e>
+<e lm="уже">             <i>уже</i><par n="тільки__adv"/></e>
+<e lm="вже">             <i>вже</i><par n="тільки__adv"/></e>
+<e lm="дома">            <i>дома</i><par n="тільки__adv"/></e>
+<e lm="мабуть">          <i>мабуть</i><par n="тільки__adv"/></e>
 
     <!-- ******************************
           group cnjcoo
@@ -3063,6 +3062,7 @@
 <e lm="і">               <i></i><par n="/і__cnjcoo"/></e>
 <e lm="або">             <i>або</i><par n="а__cnjcoo"/></e>
 <e lm="але">             <i>але</i><par n="а__cnjcoo"/></e>
+<e lm="та">              <i>та</i><par n="а__cnjcoo"/></e>
     <!-- ******************************
           group cnjsub
       ****************************** -->
@@ -4166,8 +4166,8 @@
 <e lm="цінувати" c="check"><i>цін</i><par n="виголош/увати__vblex_imperf"/></e>
 <e lm="чергувати" c="check"><i>черг</i><par n="виголош/увати__vblex_imperf"/></e>
     
-<e lm="не">              <i>не</i><par n="ні__adv"/></e>
-<e lm="ніколи">          <i>ніколи</i><par n="ні__adv"/></e>
+<e lm="не">              <i>не</i><par n="тільки__adv"/></e>
+<e lm="ніколи">          <i>ніколи</i><par n="тільки__adv"/></e>
 
 <e lm="його">            <i>його</i><par n="його__det"/></e>
 <e lm="їх">              <i>їх</i><par n="його__det"/></e>
@@ -4248,7 +4248,7 @@
 <e lm="знати">           <i>зна</i><par n="зна/ти__vblex_imperf_tv"/></e>
 <e lm="знати">           <i>зна</i><par n="зна/ти__vblex_imperf_iv"/></e>
 <e lm="шукати">          <i>шука</i><par n="шука/ти__vblex_imperf_tv"/></e>
-<e lm="хотіти">          <i>хо</i><par n="хо/тіти__vbmod_imperf"/></e>
+<e lm="хотіти">          <i>хо</i><par n="хо/тіти__vbmod_imperf_iv"/></e>
 <e lm="могти">           <i>м</i><par n="м/огти__vbmod_imperf"/></e>
 <e lm="йти">             <i>й</i><par n="й/ти__vblex_imperf_iv"/></e>
 <e lm="вміти">           <i>вмі</i><par n="вмі/ти__vblex_imperf_iv"/></e>
