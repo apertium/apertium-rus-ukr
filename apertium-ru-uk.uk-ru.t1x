@@ -6,6 +6,10 @@
      <cat-item tags="n.*"/>
      <cat-item tags="np.*"/>
   </def-cat>
+  <def-cat n="nom_voc">
+     <cat-item tags="n.*.voc"/>
+     <cat-item tags="np.*.voc"/>
+  </def-cat>
   <def-cat n="vblex">
      <cat-item tags="vblex.*"/>
   </def-cat>
@@ -117,6 +121,30 @@
 
 <section-rules>
 <!-- Sintagmas nominales -->
+
+  <rule>
+     <pattern>
+       <pattern-item n="nom_voc"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="nom" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="anim"/>
+             <clip pos="1" side="tl" part="nbr"/>
+             <lit-tag v="nom"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
 
   <rule>
      <pattern>
