@@ -11043,7 +11043,7 @@
       <e><p>          <l>ой</l><r>ыть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p>          <l>ойте</l><r>ыть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p>          <l>ыв</l><r>ыть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
-      <e><p>          <l>ывши</l><r>ыть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
+      <e r="LR"><p>   <l>ывши</l><r>ыть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p>          <l>ытый</l><r>ыть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p></e>
       <e><p>          <l>ывш</l><r>ыть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p>          <l>ыл</l><r>ыть<s n="vblex"/><s n="perf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
