@@ -7,8 +7,8 @@
      <cat-item tags="np.*"/>
   </def-cat>
   <def-cat n="nom_voc">
-     <cat-item tags="n.*.voc"/>
-     <cat-item tags="np.*.voc"/>
+     <cat-item tags="n.*.*.*.voc"/>
+     <cat-item tags="np.*.*.*.voc"/>
   </def-cat>
   <def-cat n="vblex">
      <cat-item tags="vblex.*"/>
