@@ -225,7 +225,8 @@
            </out>
      </action>
   </rule>
-  <rule>
+  
+  <!--rule>
      <pattern>
        <pattern-item n="vblex"/>
      </pattern>
@@ -249,7 +250,7 @@
           </chunk>
         </out>
      </action>
-  </rule>
+  </rule-->
 
 
 </section-rules>

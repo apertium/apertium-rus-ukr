@@ -504,7 +504,7 @@
 
     <e><p><l>быть<s n="vbser"/></l><r>бути<s n="vbser"/></r></p></e>
     <e><p><l>иметь<s n="vbhaver"/><s n="imperf"/></l><r>мати<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>мочь<s n="vbmod"/><s n="imperf"/></l><r>могти<s n="vbmod"/><s n="imperf"/></r></p></e>
+    <e><p><l>мочь<s n="vbmod"/><s n="imperf"/><s n="iv"/></l><r>могти<s n="vbmod"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>думать<s n="vblex"/><s n="imperf"/></l><r>думати<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>любить<s n="vblex"/><s n="imperf"/></l><r>любити<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>видеть<s n="vblex"/><s n="imperf"/></l><r>бачити<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>

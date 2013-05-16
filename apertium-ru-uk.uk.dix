@@ -2639,14 +2639,14 @@
   <e>       <p><l>тівши</l>     <r>тіти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pp"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="м/огти__vbmod_imperf">
-  <e>       <p><l>огти</l>      <r>огти<s n="vbmod"/><s n="imperf"/><s n="inf"/></r></p></e>
-  <e>       <p><l>огтим</l>     <r>огти<s n="vbmod"/><s n="imperf"/><s n="fut"/></r></p><par n="BASE__писатим\е_fut"/></e>
-  <e>       <p><l>ож</l>        <r>огти<s n="vbmod"/><s n="imperf"/><s n="pres"/></r></p><par n="BASE__писатим\е_fut"/></e>
-  <e>       <p><l>іг<b/>би</l>  <r>огти<s n="vbmod"/><s n="imperf"/><s n="cni"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>іг</l>        <r>огти<s n="vbmod"/><s n="imperf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ог</l>        <r>огти<s n="vbmod"/><s n="imperf"/></r></p><par n="BASE__бу\ла_cni_past"/></e>
-  <e>       <p><l>ожучи</l>     <r>огти<s n="vbmod"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>
-  <e>       <p><l>ігши</l>      <r>огти<s n="vbmod"/><s n="imperf"/><s n="pp"/><s n="adv"/></r></p></e>
+  <e>       <p><l>огти</l>      <r>огти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+  <e>       <p><l>огтим</l>     <r>огти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="fut"/></r></p><par n="BASE__писатим\е_fut"/></e>
+  <e>       <p><l>ож</l>        <r>огти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/></r></p><par n="BASE__писатим\е_fut"/></e>
+  <e>       <p><l>іг<b/>би</l>  <r>огти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="cni"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>іг</l>        <r>огти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ог</l>        <r>огти<s n="vbmod"/><s n="imperf"/><s n="iv"/></r></p><par n="BASE__бу\ла_cni_past"/></e>
+  <e>       <p><l>ожучи</l>     <r>огти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+  <e>       <p><l>ігши</l>      <r>огти<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pp"/><s n="adv"/></r></p></e>
 </pardef>
 
 <!-- check out the correctness of the 7 old paradigms below -->
