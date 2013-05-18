@@ -93,7 +93,6 @@
     <e><p><l>потому<b/>что<s n="cnjadv"/></l><r>тому<b/>що<s n="cnjadv"/></r></p></e>
     <e><p><l>чтобы<s n="cnjadv"/></l><r>щоб<s n="cnjadv"/></r></p></e>
     <e><p><l>после<b/>того,<b/>как<s n="cnjadv"/></l><r>після<b/>того,<b/>як<s n="cnjadv"/></r></p></e>
-    <e><p><l>хоча<s n="cnjadv"/></l><r>хоча<s n="cnjadv"/></r></p></e>
     <e><p><l>так<b/>как<s n="cnjadv"/></l><r>так<b/>як<s n="cnjadv"/></r></p></e>
     <e><p><l>пока<s n="cnjadv"/></l><r>поки<s n="cnjadv"/></r></p></e>
 
@@ -105,6 +104,7 @@
 
     <e><p><l>то<s n="cnjsub"/></l><r>то<s n="cnjsub"/></r></p></e> <!-- check -->
     <e><p><l>что<s n="cnjsub"/></l><r>що<s n="cnjsub"/></r></p></e>
+    <e><p><l>хотя<s n="cnjsub"/></l><r>хоча<s n="cnjsub"/></r></p></e>
     
     <e><p><l>сто<s n="num"/></l><r>сто<s n="num"/></r></p></e>
     <e><p><l>сорок<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
@@ -161,7 +161,7 @@
 
     <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>весь<s n="prn"/><s n="ind"/></l><r>весь<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>ничто<s n="prn"/><s n="ind"/></l><r>ніщо<s n="prn"/><s n="neg"/></r></p></e>
+    <e><p><l>ничто<s n="prn"/><s n="neg"/></l><r>ніщо<s n="prn"/><s n="neg"/></r></p></e>
     <e><p><l>я<s n="prn"/><s n="pers"/></l><r>я<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>ты<s n="prn"/><s n="pers"/></l><r>ти<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>он<s n="prn"/><s n="pers"/></l><r>він<s n="prn"/><s n="pers"/></r></p></e>
