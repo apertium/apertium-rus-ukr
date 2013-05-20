@@ -206,6 +206,37 @@
     </pipeline>
   </mode>
   
+  <mode name="uk-ru-debug">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="uk-ru.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ru-uk.uk-ru.t1x"/>
+        <file name="uk-ru.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-ru-uk.uk-ru.t2x"/>
+        <file name="uk-ru.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-ru-uk.uk-ru.t3x"/>
+        <file name="uk-ru.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="uk-ru.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+ 
   <mode name="uk-ru-anmor">
     <pipeline>
       <program name="lt-proc">

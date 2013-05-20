@@ -329,8 +329,7 @@
     <pardef n="/с__pr">
       <e r="LR"><p><l>с</l><r>с<s n="pr"/></r></p></e>
       <e r="LR"><p><l>со</l><r>с<s n="pr"/></r></p></e>
-      <e r="RL"><p><l><a/>со</l><r>с<s n="pr"/></r></p></e>
-      <e><p><l>с<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+      <e r="RL"><p><l><a/>с</l><r>с<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="/пред__pr">
