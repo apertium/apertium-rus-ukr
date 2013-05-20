@@ -1,0 +1,334 @@
+# =========================================================================== #
+#    Table of contents                                                        #
+# =========================================================================== #
+#    # Delimiters
+#    # Lists 
+#    ## Tag groups 
+#    ## Lexicalised lists
+#    # Sets
+#    ## Boundary sets 
+#    # Disambiguation
+#    ## NP-internal disambiguation
+#    ## PP disambiguation
+#    ## Global disambiguation
+#    ## Lexicalised rules
+# =========================================================================== #
+
+DELIMITERS = "<.>" "<!>" "<?>" ; 
+SOFT-DELIMITERS = "<,>" ;
+
+# =========================================================================== #
+
+LIST BOS = (>>>) ; 
+LIST EOS = (<<<) ;
+
+# Tags
+
+LIST N = n ;
+LIST Prop = np ;
+LIST A = adj (vblex pp) (vblex pprs);
+LIST V = vblex ;
+LIST Adv = adv ;
+LIST Num = num ;
+LIST Pr = pr ;
+LIST Pron = prn ;
+LIST Det = det ;
+LIST Dem = dem ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
+LIST Pcle = part ;
+LIST Interj = ij ;
+
+LIST Refl = ref ;
+LIST Interr = itg ; 
+
+LIST Msc = m ;
+LIST Fem = f ;
+LIST Neu = nt ;
+LIST MFN = mfn ;
+
+LIST Anim = aa ;
+LIST Inanim = nn ;
+
+LIST Nom = nom ;
+LIST Gen = gen ;
+LIST Dat = dat ;
+LIST Acc = acc ;
+LIST Ins = ins ;
+LIST Prp = prp ;
+
+LIST Sg = sg ;
+LIST Pl = pl ;
+
+LIST Past = past ;
+LIST Pres = pres ;
+LIST Fut = fut ;
+
+LIST PrsPrc = ppres ;
+LIST PrtPrc = pp ;
+LIST PrsPrcActv = (ppres actv) ;
+LIST PrtPrcActv = (pp actv) ;
+
+# Tag groups 
+
+LIST NGDAIP = nom gen dat acc ins prp ;
+
+LIST GENDER = m f nt mf mfn ;
+LIST NUMBER = sg pl sp ;
+LIST ANIMAC = aa nn an ;
+
+# Lexicalised lists 
+
+LIST TV = tv ; 
+LIST IV = iv "приходить" "существовать" "идти" "появиться" "являться";
+
+LIST GENPREP = "без" "против" "напротив" "кроме" "вместо" "у" "близ" 
+               "вдоль" "возле" "мимо" "около" "среди" "посреди" "вокруг" 
+               "из" "с" "от" "после" "из-за" "ис-под" "вне" "внутри" 
+               "для" "ради" "до" "накануне" "z" ;
+LIST DATPREP = "по" "к" "вопреки" "наперекор" "благодаря" "согласно" ;
+LIST ACCPREP = "в" "с" "на" "про" "за" "о" "под" "сквозь" "по" "через" ;
+LIST PRPPREP = "в" "на" ;
+LIST INSPREP = "с" "над" "под" "между" "перед" "за" ;
+
+LIST ACCINSPREP =  "с" "под" "за" ;
+
+LIST PosIndecl = ("её" det pos) ("его" det pos) ("их" det pos) ;
+
+LIST ODIN = "один" "1" ;
+LIST DVA = "два" "2" ;
+LIST TRI = "три" "3" ;
+
+LIST V-GEN-OBJ = "добиваться" "достигать" "жаждать" "желать" "заслуживать" ; 
+LIST V-GEN-OR-ACC = "дожидаться" "ждать" "искать" "ожидать" "просить" 
+                      "требовать" "хотеть" "бояться" ;
+
+# Sets 
+
+SET V-FIN = Pres | Past | Fut ; 
+SET V-FIN-PAST = Past ; 
+
+SET Pers = (p1) | (p2) | (p3) ;
+
+SET NounMscFem = (n m) OR (n f) OR (n mfn) ;
+SET NounMscNeu = (n m) OR (n nt) OR (n mfn) ;
+SET NounFemNeu = (n f) OR (n nt) OR (n mfn) ;
+
+SET NOM-OR-GEN = Nom | Gen ; 
+SET NOM-OR-ACC = Nom | Acc ;
+SET ACC-OR-GEN = Acc | Gen ;
+
+SET ANIM-ACC-OR-GEN = Acc + Anim | Gen - Anim;
+
+SET NOTMSC = Fem | Neu ;
+SET NOTFEM = Msc | Neu ;
+SET NOTNEU = Msc | Fem | (mf) ;
+
+SET NOTNOM = Gen | Dat | Acc | Ins | Prp ;
+SET NOTGEN = Nom | Dat | Acc | Ins | Prp ;
+SET NOTDAT = Nom | Gen | Acc | Ins | Prp ;
+SET NOTACC = Nom | Gen | Dat | Ins | Prp ;
+SET NOTINS = Nom | Gen | Dat | Acc | Prp ;
+SET NOTPRP = Nom | Gen | Dat | Acc | Ins ;
+
+SET NOTACCINS = Nom | Gen | Dat | Prp ; 
+SET NOTNOMACC = Ins | Gen | Dat | Prp ; 
+SET NOTNOMGEN = Ins | Acc | Dat | Prp ; 
+
+SET OBL    = NGDAIP - Nom ;
+
+# Boundary sets 
+
+SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+
+SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ; # Det???
+
+LIST COMMA = (",") (cm) ;
+
+SET MARK =  COMMA | ("\\") | ("\;") ; #"
+
+SET WORDMARK = WORD | MARK ;
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+
+SET NP-MEMBER = PRE-N | N | Pron ;
+
+SET NP-HEAD = N | Pron | Prop ;
+
+SET S-BOUNDARY = CS | Interr | (";") ;
+
+SECTION
+# =========================================================================== #
+#   NP-internal disambiguation                                                #
+# =========================================================================== #
+
+#SELECT Gen IF (*-1C N BARRIER A + NOTGEN OR NPNHA) ((0C N OR Prop) OR (0C A LINK *1C N BARRIER NOTGEN OR NPNHA)) ;
+    ## В результате наступления советских войск на севере Финляндия объявила о своём выходе из войны .
+    ## Местами считается, что Космический Змей живёт под землей и в конце концов уничтожит мир.
+    ## Входит в число исторических городов России.
+    ## Под воздействием этих факторов складывалась идеология и система ценностей римских граждан.
+    ## Но эту программу европейские государства не поддержали.
+ 
+REMOVE N + NOTGEN (0 N OR A) (-1C N) (1C N + Gen) ;
+    ## Потери русских войск составили около 500 человек.
+
+REMOVE N + Nom IF (0C A + Nom OR N + Nom) (1C N + Nom);
+    ## Русская кампания 1812 стала началом конца Империи.
+
+SELECT Det IF (0 PosIndecl) (0 Pers) ((1C N) OR (1C PRE-N LINK *1C N BARRIER NPNHA));
+    ## Практика показывает, что для её решения уже недостаточно существующих физических теорий .
+    ## Я вижу их хорошо.
+    ## Я вижу их, хороших.
+
+SELECT $$NGDAIP IF (0C A) (*1C $$NGDAIP BARRIER NPNHA) ; 
+    ## Практика показывает, что для её решения уже недостаточно существующих физических теорий .
+
+REMOVE $$NGDAIP IF (0C A) (NOT *1 N + $$NGDAIP BARRIER NPNHA);
+    ## Под воздействием этих факторов складывалась идеология и система ценностей римских граждан.
+
+REMOVE A + Fem IF (0  $$NGDAIP) (*1 NounMscNeu + $$NGDAIP BARRIER NPNHA LINK NOT 0 Fem);
+REMOVE A + Msc IF (0  $$NGDAIP) (*1 NounFemNeu + $$NGDAIP BARRIER NPNHA LINK NOT 0 Msc);
+REMOVE A + Neu IF (0  $$NGDAIP) (*1 NounMscFem + $$NGDAIP BARRIER NPNHA LINK NOT 0 Neu);
+    ## Большинство населения достаточно хорошо владеют английским языком .
+    ## Большинство населения говорит на финском языке . 
+
+REMOVE Det + Fem IF (0  $$NGDAIP) (*1 NounMscNeu + $$NGDAIP BARRIER NPNHA LINK NOT 0 Fem);
+REMOVE Det + Msc IF (0  $$NGDAIP) (*1 NounFemNeu + $$NGDAIP BARRIER NPNHA LINK NOT 0 Msc);
+REMOVE Det + Neu IF (0  $$NGDAIP) (*1 NounMscFem + $$NGDAIP BARRIER NPNHA LINK NOT 0 Neu);
+    ## В результате наступления советских войск на севере Финляндия объявила о своём выходе из войны .
+
+SELECT Det + $$NGDAIP IF (0 $$NGDAIP) (*1 N + $$NGDAIP BARRIER NPNHA);
+    ## Этот подход до сих пор является основой экономического образования.
+
+SELECT Det + $$NUMBER IF (0 $$NUMBER) (*1C N + $$NUMBER BARRIER NPNHA);
+    ## За все время заключения он так и не увидел ни одного человеческого лица.
+
+SELECT N + $$NGDAIP IF (0 Msc) (-1C A + Msc + $$NGDAIP) ;
+SELECT N + $$NGDAIP IF (0 Fem) (-1C A + Fem + $$NGDAIP) ;
+SELECT N + $$NGDAIP IF (0 Neu) (-1C A + Neu + $$NGDAIP) ;
+    ## В результате наступления советских войск на севере Финляндия объявила о своём выходе из войны .
+
+REMOVE N + Sg IF (0 Sg) (0 Pl) (-1C A + Pl) (0 N + $$NGDAIP) (-1 A + $$NGDAIP) ;
+REMOVE N + Pl IF (0 Pl) (0 Sg) (-1C A + Sg) (0 N + $$NGDAIP) (-1 A + $$NGDAIP) ;
+    ## Местами считается, что Космический Змей живёт под землей и в конце концов уничтожит мир.
+
+REMOVE Det IF (0 PosIndecl) (0 Pron) (NOT 1 PRE-N OR N) ; 
+    ## Отец готовил его на гражданскую службу.
+
+REMOVE Det + $$NGDAIP IF (0 Det) (0 Pron) (NOT 1 PRE-N + $$NGDAIP OR N + $$NGDAIP) ; 
+    ## Вот что говорят об этом исторические архивы. 
+    
+REMOVE Pron IF (0 Dem + $$NUMBER + $$NGDAIP) 
+               (1C PRE-N + $$NUMBER + $$NGDAIP LINK *1C N + $$NUMBER + $$NGDAIP BARRIER NPNHA)  ;
+    ## 
+
+SELECT ODIN + $$GENDER IF (*1C N + $$GENDER BARRIER NPNHA) ;
+    ## За все время заключения он так и не увидел ни одного человеческого лица.
+
+SELECT $$NGDAIP IF (0 PrtPrc + $$NGDAIP) (-1 COMMA) (-2C N + $$NGDAIP);
+    ## Физическое понимание процессов, происходящих в природе, постоянно развивается.
+
+REMOVE NOTNOMGEN (0C N + OBL) (-1C Num) ;
+    ## В 177 году германские племена вновь начали наступление.
+
+# =========================================================================== #
+#   PP disambiguation                                                         #
+# =========================================================================== #
+
+#SELECT Nom IF (*-1 ("в") BARRIER NOTNOM OR V OR Pr) (0C Pl) (NOT -2 BOS) ;
+    ## Маша недавно вышла в рабочие.
+    ## Дима пошёл в политики.
+    ## В годы советской власти с 1919 года менялись границы области и районов.
+
+SELECT Nom IF (*-1 ("за") BARRIER NOTNOM OR V OR Pr) (*-1C ("что") + Interr) ;
+    ## Что она за женщина?
+    ## Что Володя за студент?
+
+SELECT Acc IF (*-1 ACCPREP BARRIER NOTACC OR V OR Pr OR Num) ;
+    ## С 1977 года по 1990 год — ведущий программы « Этот фантастический мир ».
+    ## В 2004 вступила в Европейский союз.
+    ## В годы советской власти с 1919 года менялись границы области и районов.
+
+SELECT Gen IF (*-1 GENPREP BARRIER NOTGEN OR V OR Pr) (NOT 0 V-FIN);
+    ## Практика показывает, что для её решения уже недостаточно существующих физических теорий .
+    ## С 1931 года начал писать для научно — фантастических журналов, но оставил эту деятельность в 1933 году.
+
+SELECT Prp IF (*-1 PRPPREP BARRIER NOTPRP OR V OR Pr OR Num) ;
+    ## Экономическая теория не стоит на месте и её развитием в исторической перспективе занимается история экономических учений.
+
+# =========================================================================== #
+#   Global disambiguation                                                     #
+# =========================================================================== #
+
+REMOVE Nom IF (0C N + NOM-OR-ACC) (*-1C PRE-N + NOM-OR-ACC BARRIER NOTNOMACC) (*-1C CC LINK -1C N + NOTNOM) (NOT 1* V-FIN BARRIER S-BOUNDARY) ;
+    ## Взгляд может выражать и вызывать эмоции и психическое состояние.
+
+SELECT $$NGDAIP (0 $$NGDAIP) (1 CC LINK (1C PRE-N  + $$NGDAIP) OR (1C N + $$NGDAIP));
+    ## Взгляд может выражать и вызывать эмоции и психическое состояние.
+
+REMOVE Prp IF (NOT *-1 PRPPREP BARRIER V OR NOTPRP OR S-BOUNDARY) ;
+    ## Физическое понимание процессов, происходящих в природе, постоянно развивается.
+
+REMOVE Acc IF (0C ANIM-ACC-OR-GEN) (NOT -1* Anim BARRIER V OR NOTACC OR S-BOUNDARY) ;
+    ## Физическое понимание процессов, происходящих в природе, постоянно развивается.
+
+REMOVE CS IF (0 ("что")) (NOT -1 COMMA) (NOT -1 BOS) ;
+    ## Вот что говорят об этом исторические архивы. 
+
+SELECT CS IF (0 ("что")) (-1 COMMA) ;
+    ## Практика показывает, что для её решения уже недостаточно существующих физических теорий.
+
+REMOVE Gen IF (0C N) (0 ACC-OR-GEN) (NOT *-1C N + NOTGEN BARRIER NPNHA) (NOT *-1C Num BARRIER NPNHA);
+    ## Если мы не будем так смотреть, то, хотя мы и разобьём врага, через 30 лет снова возникнет коммунистическая опасность.
+    ## Услугами детских садов пользуются 135 тысяч работающих матерей.
+
+REMOVE Acc IF (0C ACC-OR-GEN) (*-1C Num LINK 1C Gen BARRIER NOTGEN);
+    ## Услугами детских садов пользуются 135 тысяч работающих матерей.
+
+REMOVE Nom + $$NUMBER (0 NOM-OR-ACC) (*1C V-FIN BARRIER S-BOUNDARY) (NOT *1C V-FIN + $$NUMBER BARRIER S-BOUNDARY) (NOT 1 CC LINK 1 Nom);
+REMOVE Nom + $$NUMBER (0 NOM-OR-ACC) (*-1C V-FIN BARRIER S-BOUNDARY) (NOT *-1C V-FIN + $$NUMBER BARRIER S-BOUNDARY) (NOT -1 CC LINK -1 Nom);
+    ## Вот что говорят об этом исторические архивы.
+    ## В 177 году германские племена вновь начали наступление.
+    ## Маша и Ваня любят играть, они всегда играют в саду вместе, напротив большого дома.
+
+REMOVE Nom + Fem + $$NUMBER (0 NOM-OR-ACC) (*1C V-FIN-PAST) (*1C V-FIN-PAST + NOTFEM + $$NUMBER BARRIER S-BOUNDARY) ;
+REMOVE Nom + Fem + $$NUMBER (0 NOM-OR-ACC) (*-1C V-FIN-PAST) (*-1C V-FIN-PAST + NOTFEM + $$NUMBER BARRIER S-BOUNDARY) ;
+REMOVE Nom + Neu + $$NUMBER (0 NOM-OR-ACC) (*1C V-FIN-PAST) (*1C V-FIN-PAST + NOTNEU  + $$NUMBER BARRIER S-BOUNDARY) ;
+REMOVE Nom + Neu + $$NUMBER (0 NOM-OR-ACC) (*-1C V-FIN-PAST) (*-1C V-FIN-PAST + NOTNEU + $$NUMBER BARRIER S-BOUNDARY) ;
+REMOVE Nom + Msc + $$NUMBER (0 NOM-OR-ACC) (*1C V-FIN-PAST) (*1C V-FIN-PAST + NOTMSC  + $$NUMBER BARRIER S-BOUNDARY) ;
+REMOVE Nom + Msc + $$NUMBER (0 NOM-OR-ACC) (*-1C V-FIN-PAST) (*-1C V-FIN-PAST + NOTMSC + $$NUMBER BARRIER S-BOUNDARY) ;
+    ## Совет депутатов принял решение не сопротивляться царским властям.
+
+SELECT NP-HEAD + Nom + $$NUMBER IF (0 NOM-OR-ACC) (*-1C V-FIN + $$NUMBER BARRIER S-BOUNDARY) 
+                                   (-1* NP-HEAD) (NOT -1* NP-HEAD + Nom)  ;
+SELECT NP-HEAD + Nom + $$NUMBER IF (0 NOM-OR-ACC) (*1C V-FIN + $$NUMBER BARRIER S-BOUNDARY) 
+                                   (1* NP-HEAD) (NOT 1* NP-HEAD + Nom);
+    ## Вот что говорят об этом исторические архивы.
+    ## Говорит дело.
+
+SELECT NP-HEAD + Nom + $$NUMBER IF (0 NOM-OR-ACC) (*-1C V-FIN + $$NUMBER BARRIER S-BOUNDARY) 
+                                   (*-1C IV + V-FIN + $$NUMBER) ;
+    ## Сюда приходили и члены королевской семьи.
+SELECT NP-HEAD + Nom + $$NUMBER IF (0 NOM-OR-ACC) (*1C V-FIN + $$NUMBER BARRIER S-BOUNDARY) 
+                                   (*1C IV + V-FIN + $$NUMBER) ;
+    ## Страх таким образом является ситуацией, в которой проявляется человеческая свобода.
+
+REMOVE NP-HEAD + Nom IF (*-1C Pron + Pers + Nom BARRIER S-BOUNDARY) ;
+    ## Там он принялся изучать русский язык.
+
+REMOVE Interj IF (NOT 1* ("!") BARRIER S-BOUNDARY) ;
+    ## Если же верить, однако, сообщениям в газетах от 29 ноября, человеческих жертв удалось избежать. 
+    ## Однако этим он не окончил свою политическую деятельность. 
+
+# =========================================================================== #
+#   Lexicalised rules                                                         #
+# =========================================================================== #
+
+SELECT ("язык") (0 ("язык") + OBL) (*-1C ("владеть") OR ("говорить") OR ("изучать") + V BARRIER S-BOUNDARY) ;
+
+SELECT ("год") (0C ("год") OR ("лето")) (-1C Num) ;
+
+SELECT Pr (0 ("включая")) ;
+    ## В городе действует 17 библиотек, включая 8 детских.

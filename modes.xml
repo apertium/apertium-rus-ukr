@@ -4,8 +4,11 @@
  
   <mode name="ru-uk" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ru-uk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
@@ -13,6 +16,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="ru-uk.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
@@ -38,16 +44,31 @@
 
   <mode name="ru-uk-anmor">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ru-uk.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="ru-uk-disam">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="ru-uk.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
   <mode name="ru-uk-pretransfer">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ru-uk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
@@ -58,8 +79,11 @@
 
   <mode name="ru-uk-biltrans">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ru-uk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
@@ -72,10 +96,13 @@
   </mode>
   
 
-  <mode name="ru-uk-chunker">
+  <mode name="ru-uk-lextor">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ru-uk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
@@ -84,7 +111,31 @@
       <program name="lt-proc -b">
         <file name="ru-uk.autobil.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="lrx-proc -t">
+        <file name="ru-uk.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="ru-uk-transfer">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ru-uk.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ru-uk.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="ru-uk.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -t -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
         <file name="ru-uk.t1x.bin"/>
       </program>
@@ -93,8 +144,11 @@
   
   <mode name="ru-uk-interchunk">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ru-uk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
@@ -102,6 +156,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="ru-uk.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
@@ -116,8 +173,11 @@
 
   <mode name="ru-uk-postchunk">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ru-uk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
@@ -125,6 +185,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="ru-uk.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
@@ -143,8 +206,11 @@
 
   <mode name="ru-uk-generador">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ru-uk.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ru-uk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="ru-uk.prob"/>
@@ -152,6 +218,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ru-uk.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="ru-uk.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.ru-uk.t1x"/>
@@ -175,8 +244,11 @@
   
   <mode name="uk-ru" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
@@ -184,6 +256,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="uk-ru.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
@@ -208,8 +283,11 @@
   
   <mode name="uk-ru-debug">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
@@ -217,6 +295,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="uk-ru.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
@@ -239,16 +320,32 @@
  
   <mode name="uk-ru-anmor">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
+  <mode name="uk-ru-disam">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="uk-ru.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="uk-ru-tagger">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
@@ -258,8 +355,11 @@
 
   <mode name="uk-ru-pretransfer">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
@@ -270,8 +370,11 @@
 
   <mode name="uk-ru-biltrans">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
@@ -283,10 +386,13 @@
     </pipeline>
   </mode>
 
-  <mode name="uk-ru-chunker">
+  <mode name="uk-ru-lextor">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
@@ -295,7 +401,31 @@
       <program name="lt-proc -b">
         <file name="uk-ru.autobil.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="lrx-proc -t">
+        <file name="uk-ru.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+ 
+  <mode name="uk-ru-transfer">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="uk-ru.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="uk-ru.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -t -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
         <file name="uk-ru.t1x.bin"/>
       </program>
@@ -304,8 +434,11 @@
   
   <mode name="uk-ru-interchunk">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
@@ -313,6 +446,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="uk-ru.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
@@ -327,8 +463,11 @@
 
   <mode name="uk-ru-postchunk">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
@@ -336,6 +475,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="uk-ru.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-ru-uk.uk-ru.t1x"/>
@@ -354,14 +496,20 @@
 
   <mode name="uk-ru-generador">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="uk-ru.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="uk-ru.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="uk-ru.prob"/>
       </program>
       <program name="lt-proc -b">
         <file name="uk-ru.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="uk-ru.autolex.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">

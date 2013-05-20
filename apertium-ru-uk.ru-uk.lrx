@@ -1,0 +1,5 @@
+<rules>
+  <rule>
+    <match lemma="word1" tags="n.*"><select lemma="word2" tags="n.*"/></match>
+  </rule>
+</rules>

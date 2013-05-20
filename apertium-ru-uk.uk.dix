@@ -85,11 +85,57 @@
     <sdef n="sp" 	  c=""/> 
     <sdef n="vaux" 	c=""/> 
     <sdef n="part"  c=""/>
+    <sdef n="cm"         c="Comma"/>
+    <sdef n="lpar"       c="Left parenthesis"/>
+    <sdef n="rpar"       c="Right parenthesis"/>
+    <sdef n="lquot"      c="Left quote"/>
+    <sdef n="rquot"      c="Right quote"/>
+    <sdef n="guio"       c="Hyphen"/>
+
   </sdefs>
   <pardefs>
-<pardef n="separa">
-  <e>       <re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
-</pardef>
+
+    <!-- SECTION: Punctuation -->
+
+    <pardef n="numeros">
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)? ?%</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?[:.][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+    </pardef>
+
+    <pardef n="quantitats">
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l><b/>км</l><r><b/>км<s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l><b/>мм</l><r><b/>мм<s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l><b/>см</l><r><b/>см<s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l><b/>кг</l><r><b/>kг<s n="num"/></r></p></e>
+    </pardef>
+
+    <pardef n="guio">
+      <e><re>[—\-]+</re><p><l></l><r><s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="separa">
+      <e><re>[.\?;:!]+</re><p><l></l><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="quotes">
+      <e><re>[«]+</re><p><l></l><r><s n="lquot"/></r></p></e>
+      <e><re>[»]+</re><p><l></l><r><s n="rquot"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+    </pardef>
+
 
 <pardef n="BASE__англійський">
   <e>       <p><l>ий</l>        <r><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -4277,4 +4323,14 @@
 <e lm="дивитися">        <i>див</i><par n="див/итися__vblex_imperf_iv"/></e>
 <e lm="бавитися">        <i>бав</i><par n="бав/итися__vblex_imperf_iv"/></e>
   </section>
+  <section id="final" type="inconditional">
+    <e><par n="coma"/></e>
+    <e><par n="separa"/></e>
+    <e><par n="guio"/></e>
+    <e><par n="numeros"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+    <e><par n="quotes"/></e>
+  </section>
+
 </dictionary>
