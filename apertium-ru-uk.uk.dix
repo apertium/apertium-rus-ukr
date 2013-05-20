@@ -211,17 +211,17 @@
   <e>       <p><l>и</l>         <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="дев'ят/ь__num">
-  <e>       <p><l>и</l>         <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>и</l>         <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ьом</l>       <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ь</l>         <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>и</l>         <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ьма</l>       <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ьома</l>      <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ь</l>         <r>ь<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>и</l>         <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>и</l>         <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ьом</l>       <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ь</l>         <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>и</l>         <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ьма</l>       <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ьома</l>      <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ь</l>         <r>ь<s n="num"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="дев'ят/сот__num">
   <e>       <p><l>исот</l>      <r>сот<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -1072,13 +1072,13 @@
 </pardef>
 
 <pardef n="ніщо__prn"><!-- nic -->
-  <e>       <p><l>ніщо</l>      <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>нічого</l>    <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>нічого</l>    <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>нічому</l>    <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>нічому</l>    <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e r="LR"><p><l>нічім</l>     <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>нічим</l>     <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ніщо</l>      <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>нічого</l>    <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>нічого</l>    <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>нічому</l>    <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>нічому</l>    <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>нічім</l>     <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>нічим</l>     <r>ніщо<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
 </pardef>
 
 <pardef n="як/ий__prn"><!-- jaki -->
@@ -2983,6 +2983,7 @@
 <e lm="усередині">       <i>усередині</i><par n="про__pr"/></e>
 <e lm="через">           <i>через</i><par n="про__pr"/></e>
 <e lm="із-за">           <i>із-за</i><par n="про__pr"/></e>
+<e lm="з-за">            <i>з-за</i><par n="про__pr"/></e>
 <e lm="навпроти">        <i>навпроти</i><par n="про__pr"/></e>
 <e lm="навколо">         <i>навколо</i><par n="про__pr"/></e>
 <e lm="за">              <i>за</i><par n="про__pr"/></e>
