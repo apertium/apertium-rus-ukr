@@ -145,6 +145,19 @@
   </def-list>
 </section-def-lists>
 
+  <section-def-macros>
+
+    <def-macro n="nom-to-voc1" npar="1">
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="voc"/></equal></test>
+          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+        </when>
+      </choose>
+    </def-macro>
+  </section-def-macros>
+
+
 <section-rules>
 <!-- Sintagmas nominales -->
 
@@ -297,7 +310,7 @@
            </out>
      </action>
   </rule>
-  
+   
   <rule>
      <pattern>
        <pattern-item n="det_pos"/>
@@ -314,7 +327,7 @@
            <out>
              <chunk name="det" case="caseFirstWord">
                <tags>
-                 <tag><lit-tag v="SD"/></tag>
+                 <tag><lit-tag v="NMOD"/></tag>
                  <!--tag><clip pos="1" side="tl" part="gen"/></tag>
                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
                  <tag><clip pos="1" side="tl" part="cas"/></tag-->
@@ -337,7 +350,7 @@
            <out>
              <chunk name="det" case="caseFirstWord">
                <tags>
-                 <tag><lit-tag v="SD"/></tag>
+                 <tag><lit-tag v="NMOD"/></tag>
                  <tag><clip pos="1" side="tl" part="gen"/></tag>
                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
                  <tag><clip pos="1" side="tl" part="cas"/></tag>
@@ -354,6 +367,30 @@
            </out>
          </when>
        </choose>
+     </action>
+  </rule>
+
+  <rule>
+     <pattern>
+       <pattern-item n="det"/>
+     </pattern>
+     <action>
+       <call-macro n="nom-to-voc1">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk name="det" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="NMOD"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+         </chunk>
+       </out>
      </action>
   </rule>
   
