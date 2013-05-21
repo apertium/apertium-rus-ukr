@@ -5889,14 +5889,15 @@
       <e>       <p><l>быв</l><r>быть<s n="vbser"/><s n="pp"/><s n="adv"/></r></p></e>
       <e r ="LR"><p><l>бывши</l><r>быть<s n="vbser"/><s n="pp"/><s n="adv"/></r></p></e>
 
-      <e>       <p><l>есмь</l><r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>еси</l><r>быть<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>есть</l><r>быть<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нет</l><r>быть<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>нету</l><r>быть<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>есмы</l><r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>есте</l><r>быть<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>суть</l><r>быть<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>есмь</l> <r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l></l>     <r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>еси</l>  <r>быть<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>есть</l> <r>быть<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нет</l>  <r>быть<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>нету</l> <r>быть<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>есмы</l> <r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>есте</l> <r>быть<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>суть</l> <r>быть<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>буду</l><r>быть<s n="vbser"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>будешь</l><r>быть<s n="vbser"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
