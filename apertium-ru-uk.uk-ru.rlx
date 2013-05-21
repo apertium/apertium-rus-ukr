@@ -27,7 +27,8 @@ LIST Gen = gen ;
 LIST Dat = dat ;
 LIST Acc = acc ;
 LIST Ins = ins ;
-LIST Prp = prp ;
+LIST Loc = loc ;
+LIST Voc = voc ;
 
 LIST Sg = sg ;
 LIST Pl = pl ;
@@ -40,7 +41,7 @@ LIST Past = past ;
 LIST Pres = pres ;
 LIST Fut = fut ;
 
-LIST NGDAIPV = nom gen dat acc ins prp voc ;
+LIST NGDAILV = nom gen dat acc ins loc voc ;
 
 LIST GENDER = m f nt mf mfn ;
 LIST NUMBER = sg pl sp ;
@@ -63,18 +64,20 @@ SET NOTMSC = Fem | Neu ;
 SET NOTFEM = Masc | Neu ;
 SET NOTNEU = Masc | Fem | (mf) ;
 
-SET NOTNOM = Gen | Dat | Acc | Ins | Prp ;
-SET NOTGEN = Nom | Dat | Acc | Ins | Prp ;
-SET NOTDAT = Nom | Gen | Acc | Ins | Prp ;
-SET NOTACC = Nom | Gen | Dat | Ins | Prp ;
-SET NOTINS = Nom | Gen | Dat | Acc | Prp ;
-SET NOTPRP = Nom | Gen | Dat | Acc | Ins ;
+SET NOTNOM = Gen | Dat | Acc | Ins | Loc | Voc ;
+SET NOTGEN = Nom | Dat | Acc | Ins | Loc | Voc ;
+SET NOTDAT = Nom | Gen | Acc | Ins | Loc | Voc ;
+SET NOTACC = Nom | Gen | Dat | Ins | Loc | Voc ;
+SET NOTINS = Nom | Gen | Dat | Acc | Loc | Voc ;
+SET NOTLOC = Nom | Gen | Dat | Acc | Ins | Voc ;
+SET NOTVOC = Nom | Gen | Dat | Acc | Ins | Loc ;
 
-SET NOTACCINS = Nom | Gen | Dat | Prp ; 
-SET NOTNOMACC = Ins | Gen | Dat | Prp ; 
-SET NOTNOMGEN = Ins | Acc | Dat | Prp ; 
+SET NOTACCINS = Nom | Gen | Dat | Loc | Voc ; 
+SET NOTNOMACC = Ins | Gen | Dat | Loc | Voc ; 
+SET NOTNOMGEN = Ins | Acc | Dat | Loc | Voc ; 
+SET NOTNOMVOC = Gen | Dat | Acc | Ins | Loc ; 
 
-SET OBL    = NGDAIPV - Nom ;
+SET OBL    = NGDAILV - Nom ;
 
 # Boundary sets 
 
@@ -106,4 +109,10 @@ REMOVE CS IF (0 ("что")) (NOT -1 COMMA) (NOT -1 BOS) ;
 SELECT CS IF (0 ("что")) (-1 COMMA) ;
     ## Практика показывает, что для её решения уже недостаточно существующих физических теорий.
 
-SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN)
+SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN) ;
+    ## вони завжди бавляться у садку навпроти великого будинку.
+    ## они всегда играют в саду напротив большого дома.
+
+REMOVE Det + $$NGDAILV IF (NOT 1* $$NGDAILV BARRIER N) ;
+    ## вона дивиться у вікно і бачить Іванка та Марічку, що бавляться.
+    ## она смотрит в окно и видит Ваню и Машу, что играют.
