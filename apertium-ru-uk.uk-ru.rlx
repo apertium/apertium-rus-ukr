@@ -120,8 +120,8 @@ REMOVE Det + $$NGDAILV IF (NOT 1* $$NGDAILV BARRIER N) ;
     ## она смотрит в окно и видит Ваню и Машу, что играют.
 
 SELECT Gen IF (-1* ADV-NEG BARRIER BOS)
-              (-1* ("бути") + (neg) BARRIER BOS)
-              (1* ADV-NEG BARRIER BOS)
+              (-1* ("бути") + (neg) BARRIER BOS) ;
+SELECT Gen IF (1* ADV-NEG BARRIER EOS)
               (1* ("бути") + (neg) BARRIER EOS) ;
     ## Вона заглядає під стіл і під крісла, але Іванка ніде немає.
     ## Она заглядывает под стол и под стулья, но Вани нигде нет.
