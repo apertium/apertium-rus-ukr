@@ -49,6 +49,7 @@ LIST ANIMAC = aa nn an ;
 
 LIST ADV-NEG = "ніде" ;
 
+LIST V-FIN-LIST = pres past fut imp ;
 SET V-FIN = Pres | Past | Fut ; 
 SET V-FIN-PAST = Past ; 
 
@@ -89,6 +90,7 @@ SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ; # Det???
 
 LIST COMMA = (",") (cm) ;
 
+LIST CMSEMIC = "," ";" ;
 SET MARK =  COMMA | ("\\") | ("\;") ; #"
 
 SET WORDMARK = WORD | MARK ;
@@ -119,9 +121,7 @@ REMOVE Det + $$NGDAILV IF (NOT 1* $$NGDAILV BARRIER N) ;
     ## вона дивиться у вікно і бачить Іванка та Марічку, що бавляться.
     ## она смотрит в окно и видит Ваню и Машу, что играют.
 
-SELECT Gen IF (-1* ADV-NEG BARRIER BOS)
-              (-1* ("бути") + (neg) BARRIER BOS) ;
-SELECT Gen IF (1* ADV-NEG BARRIER EOS)
-              (1* ("бути") + (neg) BARRIER EOS) ;
+SELECT Gen IF (0* ("бути"i) + (neg) BARRIER BOS | EOS | CMSEMIC)
+              (NOT 0* V-FIN-LIST BARRIER BOS | EOS | CMSEMIC) ;
     ## Вона заглядає під стіл і під крісла, але Іванка ніде немає.
     ## Она заглядывает под стол и под стулья, но Вани нигде нет.
