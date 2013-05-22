@@ -32,6 +32,11 @@ dev/ru-uk-nouns -text
 dev/ru-uk-pl-lv-en.csv -text
 dev/ru-uk-verb -text
 dev/strip-accents.pl -text
+dev/testvoc/inconsistency-summary.sh -text
+dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc-summary.rus-ukr.txt -text
+dev/testvoc/testvoc-summary.ukr-rus.txt -text
+dev/testvoc/testvoc.sh -text
 dev/uk-ispell-entries -text
 dev/uk-ru-indeclinable -text
 dev/uk-sint-auto -text
