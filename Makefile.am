@@ -1,6 +1,6 @@
-VERSION=0.0.1
-LANG1=ru
-LANG2=uk
+VERSION=0.1.0
+LANG1=rus
+LANG2=ukr
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
@@ -12,7 +12,6 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX1).autolex.bin $(PREFIX1).rlx.bin \
      $(PREFIX2).autolex.bin $(PREFIX2).rlx.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-     $(PREFIX1)-poly.autobil.bin $(PREFIX2)-poly.autobil.bin empty.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes
 
 TARGETS = $(TARGETS_COMMON) 

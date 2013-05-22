@@ -2,533 +2,533 @@
 <modes>
   <!-- == Russian → Ukrainian == -->
  
-  <mode name="ru-uk" install="yes">
+  <mode name="rus-ukr" install="yes">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="ru-uk.rlx.bin"/>
+        <file name="rus-ukr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ru-uk.prob"/>
+        <file name="rus-ukr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="ru-uk.autobil.bin"/>
+        <file name="rus-ukr.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="ru-uk.autolex.bin"/>
+        <file name="rus-ukr.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -b">
-        <file name="apertium-ru-uk.ru-uk.t1x"/>
-        <file name="ru-uk.t1x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t1x"/>
+        <file name="rus-ukr.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-ru-uk.ru-uk.t2x"/>
-        <file name="ru-uk.t2x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t2x"/>
+        <file name="rus-ukr.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-ru-uk.ru-uk.t3x"/>
-        <file name="ru-uk.t3x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t3x"/>
+        <file name="rus-ukr.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="ru-uk.autogen.bin"/>
+        <file name="rus-ukr.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="ru-uk.autopgen.bin"/>
+        <file name="rus-ukr.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="ru-uk-anmor">
+  <mode name="rus-ukr-anmor">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ru-uk-disam">
+  <mode name="rus-ukr-disam">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
       <program name="cg-conv -a"/>
       <program name="vislcg3 --trace --grammar">
-        <file name="ru-uk.rlx.bin"/>
+        <file name="rus-ukr.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ru-uk-pretransfer">
+  <mode name="rus-ukr-pretransfer">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="ru-uk.rlx.bin"/>
+        <file name="rus-ukr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ru-uk.prob"/>
+        <file name="rus-ukr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
 
-  <mode name="ru-uk-biltrans">
+  <mode name="rus-ukr-biltrans">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="ru-uk.rlx.bin"/>
+        <file name="rus-ukr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ru-uk.prob"/>
+        <file name="rus-ukr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="ru-uk.autobil.bin"/>
+        <file name="rus-ukr.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
   
 
-  <mode name="ru-uk-lextor">
+  <mode name="rus-ukr-lextor">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="ru-uk.rlx.bin"/>
+        <file name="rus-ukr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ru-uk.prob"/>
+        <file name="rus-ukr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="ru-uk.autobil.bin"/>
+        <file name="rus-ukr.autobil.bin"/>
       </program>
       <program name="lrx-proc -t">
-        <file name="ru-uk.autolex.bin"/>
+        <file name="rus-ukr.autolex.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ru-uk-transfer">
+  <mode name="rus-ukr-transfer">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="ru-uk.rlx.bin"/>
+        <file name="rus-ukr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ru-uk.prob"/>
+        <file name="rus-ukr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="ru-uk.autobil.bin"/>
+        <file name="rus-ukr.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="ru-uk.autolex.bin"/>
+        <file name="rus-ukr.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
-        <file name="apertium-ru-uk.ru-uk.t1x"/>
-        <file name="ru-uk.t1x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t1x"/>
+        <file name="rus-ukr.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
   
-  <mode name="ru-uk-interchunk">
+  <mode name="rus-ukr-interchunk">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="ru-uk.rlx.bin"/>
+        <file name="rus-ukr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ru-uk.prob"/>
+        <file name="rus-ukr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="ru-uk.autobil.bin"/>
+        <file name="rus-ukr.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="ru-uk.autolex.bin"/>
+        <file name="rus-ukr.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-ru-uk.ru-uk.t1x"/>
-        <file name="ru-uk.t1x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t1x"/>
+        <file name="rus-ukr.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-ru-uk.ru-uk.t2x"/>
-        <file name="ru-uk.t2x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t2x"/>
+        <file name="rus-ukr.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ru-uk-postchunk">
+  <mode name="rus-ukr-postchunk">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="ru-uk.rlx.bin"/>
+        <file name="rus-ukr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ru-uk.prob"/>
+        <file name="rus-ukr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="ru-uk.autobil.bin"/>
+        <file name="rus-ukr.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="ru-uk.autolex.bin"/>
+        <file name="rus-ukr.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-ru-uk.ru-uk.t1x"/>
-        <file name="ru-uk.t1x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t1x"/>
+        <file name="rus-ukr.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-ru-uk.ru-uk.t2x"/>
-        <file name="ru-uk.t2x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t2x"/>
+        <file name="rus-ukr.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-ru-uk.ru-uk.t3x"/>
-        <file name="ru-uk.t3x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t3x"/>
+        <file name="rus-ukr.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ru-uk-generador">
+  <mode name="rus-ukr-generador">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ru-uk.automorf.bin"/>
+        <file name="rus-ukr.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="ru-uk.rlx.bin"/>
+        <file name="rus-ukr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ru-uk.prob"/>
+        <file name="rus-ukr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="ru-uk.autobil.bin"/>
+        <file name="rus-ukr.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="ru-uk.autolex.bin"/>
+        <file name="rus-ukr.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-ru-uk.ru-uk.t1x"/>
-        <file name="ru-uk.t1x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t1x"/>
+        <file name="rus-ukr.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-ru-uk.ru-uk.t2x"/>
-        <file name="ru-uk.t2x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t2x"/>
+        <file name="rus-ukr.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-ru-uk.ru-uk.t3x"/>
-        <file name="ru-uk.t3x.bin"/>
+        <file name="apertium-rus-ukr.rus-ukr.t3x"/>
+        <file name="rus-ukr.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="ru-uk.autogen.bin"/>
+        <file name="rus-ukr.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
   <!-- == Ukrainian → Russian == -->
   
-  <mode name="uk-ru" install="yes">
+  <mode name="ukr-rus" install="yes">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
+        <file name="ukr-rus.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="uk-ru.autobil.bin"/>
+        <file name="ukr-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="uk-ru.autolex.bin"/>
+        <file name="ukr-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-ru-uk.uk-ru.t1x"/>
-        <file name="uk-ru.t1x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t1x"/>
+        <file name="ukr-rus.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-ru-uk.uk-ru.t2x"/>
-        <file name="uk-ru.t2x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t2x"/>
+        <file name="ukr-rus.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-ru-uk.uk-ru.t3x"/>
-        <file name="uk-ru.t3x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t3x"/>
+        <file name="ukr-rus.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="uk-ru.autogen.bin"/>
+        <file name="ukr-rus.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="uk-ru.autopgen.bin"/>
+        <file name="ukr-rus.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
   
-  <mode name="uk-ru-debug">
+  <mode name="ukr-rus-debug">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
+        <file name="ukr-rus.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="uk-ru.autobil.bin"/>
+        <file name="ukr-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="uk-ru.autolex.bin"/>
+        <file name="ukr-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-ru-uk.uk-ru.t1x"/>
-        <file name="uk-ru.t1x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t1x"/>
+        <file name="ukr-rus.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-ru-uk.uk-ru.t2x"/>
-        <file name="uk-ru.t2x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t2x"/>
+        <file name="ukr-rus.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-ru-uk.uk-ru.t3x"/>
-        <file name="uk-ru.t3x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t3x"/>
+        <file name="ukr-rus.t3x.bin"/>
       </program>
       <program name="lt-proc -d">
-        <file name="uk-ru.autogen.bin"/>
+        <file name="ukr-rus.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
   
  
-  <mode name="uk-ru-anmor">
+  <mode name="ukr-rus-anmor">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="uk-ru-disam">
+  <mode name="ukr-rus-disam">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-conv -a"/>
       <program name="vislcg3 --trace --grammar">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="uk-ru-tagger">
+  <mode name="ukr-rus-tagger">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
+        <file name="ukr-rus.prob"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="uk-ru-pretransfer">
+  <mode name="ukr-rus-pretransfer">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
+        <file name="ukr-rus.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
 
-  <mode name="uk-ru-biltrans">
+  <mode name="ukr-rus-biltrans">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="uk-ru.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="uk-ru-lextor">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
+        <file name="ukr-rus.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="uk-ru.autobil.bin"/>
+        <file name="ukr-rus.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="ukr-rus-lextor">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ukr-rus.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ukr-rus.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ukr-rus.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ukr-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc -t">
-        <file name="uk-ru.autolex.bin"/>
+        <file name="ukr-rus.autolex.bin"/>
       </program>
     </pipeline>
   </mode>
  
-  <mode name="uk-ru-transfer">
+  <mode name="ukr-rus-transfer">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
+        <file name="ukr-rus.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="uk-ru.autobil.bin"/>
+        <file name="ukr-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="uk-ru.autolex.bin"/>
+        <file name="ukr-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
-        <file name="apertium-ru-uk.uk-ru.t1x"/>
-        <file name="uk-ru.t1x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t1x"/>
+        <file name="ukr-rus.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
   
-  <mode name="uk-ru-interchunk">
+  <mode name="ukr-rus-interchunk">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
+        <file name="ukr-rus.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="uk-ru.autobil.bin"/>
+        <file name="ukr-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="uk-ru.autolex.bin"/>
+        <file name="ukr-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-ru-uk.uk-ru.t1x"/>
-        <file name="uk-ru.t1x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t1x"/>
+        <file name="ukr-rus.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-ru-uk.uk-ru.t2x"/>
-        <file name="uk-ru.t2x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t2x"/>
+        <file name="ukr-rus.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="uk-ru-postchunk">
+  <mode name="ukr-rus-postchunk">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
+        <file name="ukr-rus.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="uk-ru.autobil.bin"/>
+        <file name="ukr-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="uk-ru.autolex.bin"/>
+        <file name="ukr-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-ru-uk.uk-ru.t1x"/>
-        <file name="uk-ru.t1x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t1x"/>
+        <file name="ukr-rus.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-ru-uk.uk-ru.t2x"/>
-        <file name="uk-ru.t2x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t2x"/>
+        <file name="ukr-rus.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-ru-uk.uk-ru.t3x"/>
-        <file name="uk-ru.t3x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t3x"/>
+        <file name="ukr-rus.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="uk-ru-generador">
+  <mode name="ukr-rus-generador">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="uk-ru.automorf.bin"/>
+        <file name="ukr-rus.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="uk-ru.rlx.bin"/>
+        <file name="ukr-rus.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="uk-ru.prob"/>
+        <file name="ukr-rus.prob"/>
       </program>
       <program name="lt-proc -b">
-        <file name="uk-ru.autobil.bin"/>
+        <file name="ukr-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="uk-ru.autolex.bin"/>
+        <file name="ukr-rus.autolex.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="uk-ru.autobil.bin"/>
+        <file name="ukr-rus.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-ru-uk.uk-ru.t1x"/>
-        <file name="uk-ru.t1x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t1x"/>
+        <file name="ukr-rus.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-ru-uk.uk-ru.t2x"/>
-        <file name="uk-ru.t2x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t2x"/>
+        <file name="ukr-rus.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-ru-uk.uk-ru.t3x"/>
-        <file name="uk-ru.t3x.bin"/>
+        <file name="apertium-rus-ukr.ukr-rus.t3x"/>
+        <file name="ukr-rus.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="uk-ru.autogen.bin"/>
+        <file name="ukr-rus.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
