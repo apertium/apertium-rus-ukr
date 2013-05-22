@@ -2665,6 +2665,8 @@
   <e>       <p><l>є</l>         <r>бути<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>є</l>         <r>бути<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>суть</l>      <r>бути<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>нема</l>      <r>быть<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>немає</l>     <r>быть<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>бу</l>        <r>бути<s n="vbser"/></r></p><par n="BASE__бу\в_cni_past"/></e>
   <e>       <p><l>будучи</l>    <r>бути<s n="vbser"/><s n="pprs"/><s n="adv"/></r></p></e>
   <e>       <p><l>бувши</l>     <r>бути<s n="vbser"/><s n="pp"/><s n="adv"/></r></p></e>
@@ -3059,7 +3061,7 @@
 <e lm="спасибі">         <i>спасибі</i><par n="ні__ij"/></e>
 <e lm="так">             <i>так</i><par n="ні__ij"/></e>
 <e lm="отже">            <i>итак</i><par n="ні__ij"/></e>
-<e lm="немає">           <i>немає</i><par n="ні__ij"/></e>
+<!--e lm="немає">           <i>немає</i><par n="ні__ij"/></e--> <!-- check! -->
 <e lm="отже">            <i>отже</i><par n="ні__ij"/></e>
 
     <!-- ******************************

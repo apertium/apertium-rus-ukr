@@ -47,6 +47,8 @@ LIST GENDER = m f nt mf mfn ;
 LIST NUMBER = sg pl sp ;
 LIST ANIMAC = aa nn an ;
 
+LIST ADV-NEG = "ніде" ;
+
 SET V-FIN = Pres | Past | Fut ; 
 SET V-FIN-PAST = Past ; 
 
@@ -116,3 +118,10 @@ SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN)
 REMOVE Det + $$NGDAILV IF (NOT 1* $$NGDAILV BARRIER N) ;
     ## вона дивиться у вікно і бачить Іванка та Марічку, що бавляться.
     ## она смотрит в окно и видит Ваню и Машу, что играют.
+
+SELECT Gen IF (-1* ADV-NEG BARRIER BOS)
+              (-1* ("бути") + (neg) BARRIER BOS)
+              (1* ADV-NEG BARRIER BOS)
+              (1* ("бути") + (neg) BARRIER EOS) ;
+    ## Вона заглядає під стіл і під крісла, але Іванка ніде немає.
+    ## Она заглядывает под стол и под стулья, но Вани нигде нет.
