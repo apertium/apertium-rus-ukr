@@ -1,0 +1,10 @@
+set your APERTIUMPATH variable to your nursery path
+
+then get coverage as follows:
+./coverage.sh ../ukr.rferl.2012.txt
+OR
+./coverage.sh ../ukr.rferl.2012.txt.bz2
+
+get parade as follows:
+./makeparade.sh ukr.rferl
+
