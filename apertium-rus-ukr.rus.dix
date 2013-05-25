@@ -319,17 +319,30 @@
     </pardef>
 
     <!-- SECTION: Prepositions -->
+    <pardef n="/с__pr">
+      <e r="LR"><p><l>с</l><r>с<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>со</l><r>с<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>с</l><r>с<s n="pr"/></r></p></e>
+    </pardef>
+
+    <pardef n="/под__pr">
+      <e r="LR"><p><l>под</l><r>под<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>подо</l><r>под<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>под</l><r>под<s n="pr"/></r></p></e>
+    </pardef>
+
+    <pardef n="/от__pr">
+      <e r="LR"><p><l>от</l><r>от<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>ото</l><r>от<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>от</l><r>от<s n="pr"/></r></p></e>
+    </pardef>
+
+    <!--TODO: change pr's below like /с__pr-->
     <pardef n="/среди__pr">
       <e r="LR"><p><l>среди</l><r>среди<s n="pr"/></r></p></e>
       <e r="LR"><p><l>средь</l><r>среди<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>средь</l><r>среди<s n="pr"/></r></p></e>
       <e><p><l>среди<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
-    </pardef>
-
-    <pardef n="/с__pr">
-      <e r="LR"><p><l>с</l><r>с<s n="pr"/></r></p></e>
-      <e r="LR"><p><l>со</l><r>с<s n="pr"/></r></p></e>
-      <e r="RL"><p><l><a/>с</l><r>с<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="/пред__pr">
@@ -338,21 +351,7 @@
       <e r="RL"><p><l><a/>предо</l><r>пред<s n="pr"/></r></p></e> 
       <e><p><l>пред<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
     </pardef>
-	
-    <pardef n="/под__pr">
-      <e r="LR"><p><l>под</l><r>под<s n="pr"/></r></p></e>
-      <e r="LR"><p><l>подо</l><r>под<s n="pr"/></r></p></e>
-      <e r="RL"><p><l><a/>подо</l><r>под<s n="pr"/></r></p></e>
-      <e><p><l>под<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
-    </pardef>
-
-    <pardef n="/от__pr">
-      <e r="LR"><p><l>от</l><r>от<s n="pr"/></r></p></e>
-      <e r="LR"><p><l>ото</l><r>от<s n="pr"/></r></p></e>
-      <e r="RL"><p><l><a/>ото</l><r>от<s n="pr"/></r></p></e>
-      <e><p><l>от<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
-    </pardef>
-
+  
     <pardef n="/к__pr">
       <e r="LR"><p><l>к</l><r>к<s n="pr"/></r></p></e>
       <e r="LR"><p><l>ко</l><r>к<s n="pr"/></r></p></e>

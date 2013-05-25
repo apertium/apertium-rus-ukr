@@ -67,11 +67,23 @@
        <e><i>ъ</i></e>
     </pardef>       
 
+    <pardef n="л,р">      
+       <e><i>л</i></e>
+       <e><i>р</i></e>
+    </pardef>       
+
+    <pardef n="подо__л,р">      
+       <e><par n="л,р"/><par n="soglasnye"/></e>
+       <e><i>мной</i></e>
+    </pardef>       
+
   </pardefs>
   <section id="main" type="standard">     
     <e><p><l><a/>о<b/></l><r>об<b/></r></p><par n="vocals"/></e>
     <e><p><l><a/>о<b/></l><r>о<b/></r></p></e>
     <e><p><l><a/>с<b/></l><r>со<b/></r></p><par n="soglasnye"/><par n="soglasnye"/></e>
     <e><p><l><a/>с<b/></l><r>с<b/></r></p></e>
+    <e><p><l><a/>под<b/></l><r>подо<b/></r></p><par n="подо__л,р"/></e>
+    <e><p><l><a/>под<b/></l><r>под<b/></r></p></e>
   </section>  
 </dictionary> 
