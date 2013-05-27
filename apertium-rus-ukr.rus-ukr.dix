@@ -99,6 +99,16 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
+
+    <!-- SECTION: Particles -->
+
+    <e><p><l>ли<s n="part"/></l><r>чи<s n="part"/></r></p></e>
+    <e><p><l>всё-таки<s n="part"/></l><r>все-таки<s n="cnjadv"/></r></p></e>
+    <e><p><l>вот<s n="part"/></l><r>ось<s n="part"/></r></p></e>
+    <e><p><l>бы<s n="part"/></l><r>би<s n="part"/></r></p></e>
+
+    <!-- SECTION: Conjunctions -->
+
     <e><p><l>если<s n="cnjadv"/></l><r>якщо<s n="cnjadv"/></r></p></e>
     <e><p><l>потому<b/>что<s n="cnjadv"/></l><r>тому<b/>що<s n="cnjadv"/></r></p></e>
     <e><p><l>чтобы<s n="cnjadv"/></l><r>щоб<s n="cnjadv"/></r></p></e>
@@ -115,22 +125,16 @@
     <e><p><l>то<s n="cnjsub"/></l><r>то<s n="cnjsub"/></r></p></e> <!-- check -->
     <e><p><l>что<s n="cnjsub"/></l><r>що<s n="cnjsub"/></r></p></e>
     <e><p><l>хотя<s n="cnjsub"/></l><r>хоча<s n="cnjsub"/></r></p></e>
+
+    <!-- SECTION: Numerals -->
     
     <e><p><l>сто<s n="num"/></l><r>сто<s n="num"/></r></p></e>
     <e><p><l>сорок<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
     <e><p><l>пять<s n="num"/></l><r>п'ять<s n="num"/></r></p></e>
     <e><p><l>оба<s n="num"/></l><r>обидва<s n="num"/></r></p></e>
-    
-    <e><p><l>нет<s n="ij"/></l><r>ні<s n="ij"/></r></p></e>
-    <e><p><l>нет<s n="ij"/></l><r>немає<s n="ij"/></r></p></e>
-    <e><p><l>да<s n="ij"/></l><r>так<s n="ij"/></r></p></e>
-    <e><p><l>привет<s n="ij"/></l><r>привіт<s n="ij"/></r></p></e>
-    <e><p><l>спасибо<s n="ij"/></l><r>спасибі<s n="ij"/></r></p></e>
-    <e><p><l>ага<s n="ij"/></l><r>ага<s n="ij"/></r></p></e>
-    <e><p><l>ай<s n="ij"/></l><r>ай<s n="ij"/></r></p></e>
-    <e><p><l>аминь<s n="ij"/></l><r>амінь<s n="ij"/></r></p></e>
-    <e><p><l>итак<s n="ij"/></l><r>отже<s n="ij"/></r></p></e>
-    
+
+    <!-- SECTION: Prepositions -->
+
     <e><p><l>спасибо<b/>за<s n="pr"/></l><r>спасибі<b/>за<s n="pr"/></r></p></e>
     <e><p><l>за<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
     <e><p><l>на<s n="pr"/></l><r>на<s n="pr"/></r></p></e>
@@ -161,6 +165,8 @@
     <e><p><l>никогда<s n="adv"/></l><r>ніколи<s n="adv"/></r></p></e>
     <e><p><l>на<b/>кануне<s n="adv"/></l><r>на<b/>переддні<s n="adv"/></r></p></e>
     <e><p><l>только<s n="adv"/></l><r>тільки<s n="adv"/></r></p></e>
+
+    <!-- SECTION: Determiners -->
     
     <e><p><l>мой<s n="det"/><s n="pos"/></l><r>мій<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>твой<s n="det"/><s n="pos"/></l><r>твій<s n="det"/><s n="pos"/></r></p></e>
@@ -170,7 +176,8 @@
     <e><p><l>их<s n="det"/><s n="pos"/></l><r>їхній<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>тот<s n="det"/><s n="dem"/></l><r>той<s n="det"/><s n="dem"/></r></p></e>
 
-    <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
+    <!-- SECTION: Pronouns -->
+
     <e><p><l>весь<s n="prn"/><s n="ind"/></l><r>весь<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>ничто<s n="prn"/><s n="neg"/></l><r>ніщо<s n="prn"/><s n="neg"/></r></p></e>
     <e><p><l>я<s n="prn"/><s n="pers"/></l><r>я<s n="prn"/><s n="pers"/></r></p></e>
@@ -184,14 +191,14 @@
     <e><p><l>что-то<s n="prn"/><s n="ind"/></l><r>щось<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>себя<s n="prn"/><s n="ref"/></l><r>себе<s n="prn"/><s n="ref"/></r></p></e>
     <e><p><l>это<s n="prn"/><s n="dem"/></l><r>це<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>что<s n="prn"/><s n="itg"/></l><r>що<s n="prn"/><s n="itg"/></r></p></e>
     
-    <e><p><l>можна<s n="vaux"/></l><r>можна<s n="vaux"/></r></p></e>
-    <e><p><l>покупать<s n="vblex"/><s n="impf"/></l><r>купувати<s n="vblex"/><s n="impf"/></r></p></e>
-    <e><p><l>купить<s n="vblex"/><s n="perf"/></l><r>купити<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <!-- SECTION: Nouns -->
     
     <e><p><l>мама<s n="n"/><s n="f"/><s n="aa"/></l><r>мама<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>мать<s n="n"/><s n="f"/><s n="aa"/></l><r>мати<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
-    <e r="RL"><p><l>мать<s n="n"/><s n="f"/><s n="aa"/></l><r>матір<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>мать<s n="n"/><s n="f"/><s n="aa"/></l><r>матір<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>виски<s n="n"/><s n="nt"/><s n="indecl"/></l><r>віскі<s n="n"/><s n="m"/><s n="indecl"/></r></p></e>
     <e><p><l>меню<s n="n"/><s n="nt"/><s n="indecl"/></l><r>меню<s n="n"/><s n="nt"/><s n="indecl"/></r></p></e>
     <e><p><l>работник<s n="n"/><s n="aa"/></l><r>робітник<s n="n"/><s n="aa"/></r></p></e>
@@ -251,42 +258,6 @@
     <e><p><l>дочь<s n="n"/><s n="aa"/><s n="f"/></l><r>дочка<s n="n"/><s n="aa"/><s n="f"/></r></p></e>
     <e><p><l>дождь<s n="n"/><s n="m"/></l><r>дощ<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>дуб<s n="n"/><s n="m"/></l><r>дуб<s n="n"/><s n="m"/></r></p></e>
-
-    <e><p><l>очень<s n="adv"/></l><r>дуже<s n="adv"/></r></p></e>
-    <e><p><l>сегодня<s n="adv"/></l><r>сьогодні<s n="adv"/></r></p></e>
-    <e><p><l>вчера<s n="adv"/></l><r>вчора<s n="adv"/></r></p></e>
-    <e><p><l>куда<s n="adv"/></l><r>куди<s n="adv"/></r></p></e>
-    <e><p><l>когда<s n="adv"/></l><r>коли<s n="adv"/></r></p></e>
-    <e><p><l>холодно<s n="adv"/></l><r>холодно<s n="adv"/></r></p></e>
-    <e><p><l>тепло<s n="adv"/></l><r>тепло<s n="adv"/></r></p></e>
-    <e><p><l>теперь<s n="adv"/></l><r>тепер<s n="adv"/></r></p></e>
-    <e><p><l>вдруг<s n="adv"/></l><r>раптом<s n="adv"/></r></p></e>
-    <e><p><l>внимательно<s n="adv"/></l><r>уважно<s n="adv"/></r></p></e>
-    <e><p><l>тогда<s n="adv"/></l><r>тоді<s n="adv"/></r></p></e>
-    <e><p><l>медленно<s n="adv"/></l><r>повільно<s n="adv"/></r></p></e>
-    <e><p><l>наверно<s n="adv"/></l><r>напевно<s n="adv"/></r></p></e>
-    <e><p><l>снова<s n="adv"/></l><r>знову<s n="adv"/></r></p></e>
-    <e><p><l>конечно<s n="adv"/></l><r>звичайно<s n="adv"/></r></p></e>
-    <e><p><l>сейчас<s n="adv"/></l><r>зараз<s n="adv"/></r></p></e>
-    <e><p><l>всегда<s n="adv"/></l><r>завжди<s n="adv"/></r></p></e>
-    <e><p><l>хорошо<s n="adv"/></l><r>добре<s n="adv"/></r></p></e>
-    <e><p><l>далее<s n="adv"/></l><r>далі<s n="adv"/></r></p></e>
-    <e><p><l>везде<s n="adv"/></l><r>всюди<s n="adv"/></r></p></e>
-    <e><p><l>также<s n="adv"/></l><r>також<s n="adv"/></r></p></e>
-    <e><p><l>вместе<s n="adv"/></l><r>разом<s n="adv"/></r></p></e>
-    <e><p><l>быстро<s n="adv"/></l><r>швидко<s n="adv"/></r></p></e>
-    <e><p><l>немного<s n="adv"/></l><r>трохи<s n="adv"/></r></p></e>
-    <e><p><l>ближе<s n="adv"/></l><r>ближче<s n="adv"/></r></p></e>
-    <e><p><l>там<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
-    <e><p><l>почему<s n="adv"/></l><r>чому<s n="adv"/></r></p></e>
-    <e><p><l>потом<s n="adv"/></l><r>потім<s n="adv"/></r></p></e>
-    <e><p><l>просто<s n="adv"/></l><r>просто<s n="adv"/></r></p></e>
-    <e><p><l>нигде<s n="adv"/></l><r>ніде<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>уже<s n="adv"/></l><r>вже<s n="adv"/></r></p></e>
-    <e><p><l>уже<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
-    <e><p><l>дома<s n="adv"/></l><r>дома<s n="adv"/></r></p></e>
-    <e><p><l>вероятно<s n="adv"/></l><r>мабуть<s n="adv"/></r></p></e>
-
     <e><p><l>девушка<s n="n"/><s n="aa"/><s n="f"/></l><r>дівчина<s n="n"/><s n="aa"/><s n="f"/></r></p></e>
     <e><p><l>эпоха<s n="n"/><s n="f"/></l><r>епоха<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>эра<s n="n"/><s n="f"/></l><r>ера<s n="n"/><s n="f"/></r></p></e>
@@ -334,17 +305,17 @@
     <e><p><l>суп<s n="n"/><s n="m"/></l><r>суп<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>право<s n="n"/><s n="nt"/></l><r>право<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>собака<s n="n"/><s n="f"/><s n="aa"/></l><r>собака<s n="n"/><s n="mf"/><s n="aa"/></r></p></e>
-    <e r="RL"><p><l>сад<s n="n"/><s n="m"/><s n="nn"/></l><r>садок<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>сад<s n="n"/><s n="m"/><s n="nn"/></l><r>садок<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>сад<s n="n"/><s n="m"/><s n="nn"/></l><r>сад<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>кот<s n="n"/><s n="m"/><s n="aa"/></l><r>кіт<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>кошка<s n="n"/><s n="f"/><s n="aa"/></l><r>кішка<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
-    <e r="RL"><p><l>дом<s n="n"/><s n="m"/><s n="nn"/></l><r>будинок<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
-    <e r="RL"><p><l>дом<s n="n"/><s n="m"/><s n="nn"/></l><r>хата<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>дом<s n="n"/><s n="m"/><s n="nn"/></l><r>будинок<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>дом<s n="n"/><s n="m"/><s n="nn"/></l><r>хата<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>ответ<s n="n"/><s n="m"/><s n="nn"/></l><r>відповідь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>мальчик<s n="n"/><s n="m"/><s n="aa"/></l><r>хлопчик<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>животное<s n="n"/><s n="nt"/><s n="aa"/></l><r>тварина<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>стул<s n="n"/><s n="m"/><s n="nn"/></l><r>стілець<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
-    <e r="RL"><p><l>стул<s n="n"/><s n="m"/><s n="nn"/></l><r>крісло<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>стул<s n="n"/><s n="m"/><s n="nn"/></l><r>крісло<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>сестра<s n="n"/><s n="f"/><s n="aa"/></l><r>сестра<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>середина<s n="n"/><s n="f"/><s n="nn"/></l><r>середина<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>рука<s n="n"/><s n="f"/><s n="nn"/></l><r>рука<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
@@ -360,12 +331,16 @@
     <e><p><l>окно<s n="n"/><s n="nt"/><s n="nn"/></l><r>вікно<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>птица<s n="n"/><s n="f"/><s n="aa"/></l><r>птах<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>время<s n="n"/><s n="nt"/><s n="nn"/></l><r>пора<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>пора<s n="n"/><s n="f"/><s n="nn"/></l><r>пора<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>звук<s n="n"/><s n="m"/><s n="nn"/></l><r>звук<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>возможность<s n="n"/><s n="f"/><s n="nn"/></l><r>можливість<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>человек<s n="n"/><s n="m"/><s n="aa"/></l><r>людина<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>муж<s n="n"/><s n="m"/><s n="aa"/></l><r>чоловік<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>пёсик<s n="n"/><s n="m"/><s n="aa"/></l><r>песик<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>вода<s n="n"/><s n="f"/><s n="nn"/></l><r>вода<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     
+    <!-- SECTION: Proper nouns -->
+
     <e><p><l>Кале<s n="np"/><s n="top"/></l><r>Кале<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Па-де-Кале<s n="np"/><s n="top"/></l><r>Па-де-Кале<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Эдди<s n="np"/><s n="ant"/></l><r>Эдді<s n="np"/><s n="ant"/></r></p></e>
@@ -505,13 +480,51 @@
     <e><p><l>маленький<s n="adj"/></l><r>маленький<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>хороший<s n="adj"/></l><r>гарний<s n="adj"/><s n="sint"/></r></p></e>
 
-    <e><p><l>что<s n="prn"/><s n="itg"/></l><r>що<s n="prn"/><s n="itg"/></r></p></e>
+    <!-- SECTION: Adverbs -->
+ 
+    <e><p><l>как<s n="adv"/><s n="itg"/></l><r>як<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>очень<s n="adv"/></l><r>дуже<s n="adv"/></r></p></e>
+    <e><p><l>сегодня<s n="adv"/></l><r>сьогодні<s n="adv"/></r></p></e>
+    <e><p><l>вчера<s n="adv"/></l><r>вчора<s n="adv"/></r></p></e>
+    <e><p><l>куда<s n="adv"/></l><r>куди<s n="adv"/></r></p></e>
+    <e><p><l>когда<s n="adv"/></l><r>коли<s n="adv"/></r></p></e>
+    <e><p><l>холодно<s n="adv"/></l><r>холодно<s n="adv"/></r></p></e>
+    <e><p><l>тепло<s n="adv"/></l><r>тепло<s n="adv"/></r></p></e>
+    <e><p><l>теперь<s n="adv"/></l><r>тепер<s n="adv"/></r></p></e>
+    <e><p><l>вдруг<s n="adv"/></l><r>раптом<s n="adv"/></r></p></e>
+    <e><p><l>внимательно<s n="adv"/></l><r>уважно<s n="adv"/></r></p></e>
+    <e><p><l>тогда<s n="adv"/></l><r>тоді<s n="adv"/></r></p></e>
+    <e><p><l>медленно<s n="adv"/></l><r>повільно<s n="adv"/></r></p></e>
+    <e><p><l>наверно<s n="adv"/></l><r>напевно<s n="adv"/></r></p></e>
+    <e><p><l>снова<s n="adv"/></l><r>знову<s n="adv"/></r></p></e>
+    <e><p><l>конечно<s n="adv"/></l><r>звичайно<s n="adv"/></r></p></e>
+    <e><p><l>сейчас<s n="adv"/></l><r>зараз<s n="adv"/></r></p></e>
+    <e><p><l>всегда<s n="adv"/></l><r>завжди<s n="adv"/></r></p></e>
+    <e><p><l>хорошо<s n="adv"/></l><r>добре<s n="adv"/></r></p></e>
+    <e><p><l>далее<s n="adv"/></l><r>далі<s n="adv"/></r></p></e>
+    <e><p><l>везде<s n="adv"/></l><r>всюди<s n="adv"/></r></p></e>
+    <e><p><l>также<s n="adv"/></l><r>також<s n="adv"/></r></p></e>
+    <e><p><l>вместе<s n="adv"/></l><r>разом<s n="adv"/></r></p></e>
+    <e><p><l>быстро<s n="adv"/></l><r>швидко<s n="adv"/></r></p></e>
+    <e><p><l>немного<s n="adv"/></l><r>трохи<s n="adv"/></r></p></e>
+    <e><p><l>ближе<s n="adv"/></l><r>ближче<s n="adv"/></r></p></e>
+    <e><p><l>там<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
+    <e><p><l>почему<s n="adv"/></l><r>чому<s n="adv"/></r></p></e>
+    <e><p><l>потом<s n="adv"/></l><r>потім<s n="adv"/></r></p></e>
+    <e><p><l>просто<s n="adv"/></l><r>просто<s n="adv"/></r></p></e>
+    <e><p><l>нигде<s n="adv"/></l><r>ніде<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>уже<s n="adv"/></l><r>вже<s n="adv"/></r></p></e>
+    <e><p><l>уже<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
+    <e><p><l>дома<s n="adv"/></l><r>дома<s n="adv"/></r></p></e>
+    <e><p><l>вероятно<s n="adv"/></l><r>мабуть<s n="adv"/></r></p></e>
 
-    <e><p><l>ли<s n="part"/></l><r>чи<s n="part"/></r></p></e>
-    <e><p><l>всё-таки<s n="part"/></l><r>все-таки<s n="cnjadv"/></r></p></e>
-    <e><p><l>вот<s n="part"/></l><r>ось<s n="part"/></r></p></e>
-    <e><p><l>бы<s n="part"/></l><r>би<s n="part"/></r></p></e>
-    <e><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-</i><p><l>е<b/>гг<s n="adv"/></l><r>і<b/>рр<s n="adv"/></r></p></e>
+
+
+    <!-- SECTION: Verbs -->
+
+    <e><p><l>можна<s n="vaux"/></l><r>можна<s n="vaux"/></r></p></e>
+    <e><p><l>покупать<s n="vblex"/><s n="impf"/></l><r>купувати<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>купить<s n="vblex"/><s n="perf"/></l><r>купити<s n="vblex"/><s n="perf"/></r></p></e>
 
     <e><p><l>быть<s n="vbser"/></l><r>бути<s n="vbser"/></r></p></e>
     <e><p><l>иметь<s n="vbhaver"/><s n="impf"/></l><r>мати<s n="vbhaver"/><s n="impf"/><s n="tv"/></r></p></e>
@@ -569,6 +582,17 @@
     <e><p><l>играть<s n="vblex"/><s n="impf"/></l><r>бавитися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>закончить<s n="vblex"/><s n="perf"/></l><r>закінчити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
+ 
+    <e><p><l>нет<s n="ij"/></l><r>ні<s n="ij"/></r></p></e>
+    <e><p><l>нет<s n="ij"/></l><r>немає<s n="ij"/></r></p></e>
+    <e><p><l>да<s n="ij"/></l><r>так<s n="ij"/></r></p></e>
+    <e><p><l>привет<s n="ij"/></l><r>привіт<s n="ij"/></r></p></e>
+    <e><p><l>спасибо<s n="ij"/></l><r>спасибі<s n="ij"/></r></p></e>
+    <e><p><l>ага<s n="ij"/></l><r>ага<s n="ij"/></r></p></e>
+    <e><p><l>ай<s n="ij"/></l><r>ай<s n="ij"/></r></p></e>
+    <e><p><l>аминь<s n="ij"/></l><r>амінь<s n="ij"/></r></p></e>
+    <e><p><l>итак<s n="ij"/></l><r>отже<s n="ij"/></r></p></e>
+    
 
 <e>       <p><l>,<s n="cm"/></l>                  <r>,<s n="cm"/></r></p></e>
 <e>       <p><l>(<s n="lpar"/></l>                <r>(<s n="lpar"/></r></p></e>
@@ -584,6 +608,7 @@
 <e>       <p><l>'<s n="apos"/></l>                <r>'<s n="apos"/></r></p></e>
 <e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 <e>       <re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+<e><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-</i><p><l>е<b/>гг<s n="adv"/></l><r>і<b/>рр<s n="adv"/></r></p></e>
 
   </section>
 </dictionary>
