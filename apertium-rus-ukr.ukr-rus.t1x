@@ -83,7 +83,7 @@
   </def-attr>
 
   <def-attr n="asp">
-     <attr-item tags="imperf"/>
+     <attr-item tags="impf"/>
      <attr-item tags="perf"/>
   </def-attr>
 
