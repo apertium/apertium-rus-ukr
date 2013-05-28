@@ -172,9 +172,32 @@
   <e>       <p><l>і</l>         <r><s n="mf"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 
+<!-- prepositions paradigms - парадигми прийменників -->
+<pardef n="у__pr_gen">
+  <e>       <p><l>у</l>         <r>у<s n="pr"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>ув</l>        <r>у<s n="pr"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>в</l>         <r>у<s n="pr"/><s n="gen"/></r></p></e>
+</pardef>
+<pardef n="у__pr_acc">
+  <e>       <p><l>у</l>         <r>у<s n="pr"/><s n="acc"/></r></p></e>
+  <e r="LR"><p><l>ув</l>        <r>у<s n="pr"/><s n="acc"/></r></p></e>
+  <e r="LR"><p><l>во</l>        <r>у<s n="pr"/><s n="acc"/></r></p></e>
+  <e r="LR"><p><l>в</l>         <r>у<s n="pr"/><s n="acc"/></r></p></e>
+</pardef>
+<pardef n="у__pr_loc">
+  <e>       <p><l>у</l>         <r>у<s n="pr"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>ув</l>        <r>у<s n="pr"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>во</l>        <r>у<s n="pr"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>в</l>         <r>у<s n="pr"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>уві</l>       <r>у<s n="pr"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>вві</l>       <r>у<s n="pr"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>ві</l>        <r>у<s n="pr"/><s n="loc"/></r></p></e>
+</pardef>
 <pardef n="про__pr">
   <e>       <p><l></l>          <r><s n="pr"/></r></p></e>
 </pardef>
+<!--end prepositions paradigms-->
+
 <pardef n="можна__vaux">
   <e>       <p><l></l>          <r><s n="vaux"/></r></p></e>
 </pardef>
@@ -3012,7 +3035,13 @@
     <!-- ******************************
           group pr
       ****************************** -->
+<e lm="у">               <i></i><par n="у__pr_gen"/></e>
+<e lm="у">               <i></i><par n="у__pr_acc"/></e>
+<e lm="у">               <i></i><par n="у__pr_loc"/></e>
+
 <e r="RL" lm="о">        <p><l><a/>о</l>     <r>о</r></p><par n="про__pr"/></e>
+<e r="LR" lm="о">        <i>о</i><par n="про__pr"/></e>
+<e r="LR" lm="о">        <p><l>об</l>        <r>о</r></p><par n="про__pr"/></e>
 <e lm="iз">              <i>iз</i><par n="про__pr"/></e>
 <e lm="без">             <i>без</i><par n="про__pr"/></e>
 <e lm="для">             <i>для</i><par n="про__pr"/></e>
@@ -3023,8 +3052,6 @@
 <e lm="зовні">           <i>зовні</i><par n="про__pr"/></e>
 <e lm="на">              <i>на</i><par n="про__pr"/></e>
 <e lm="напередодні">     <i>напередодні</i><par n="про__pr"/></e>
-<e r="LR" lm="о">        <i>о</i><par n="про__pr"/></e>
-<e r="LR" lm="о">        <p><l>об</l>        <r>о</r></p><par n="про__pr"/></e>
 <e lm="про">             <i>про</i><par n="про__pr"/></e>
 <e lm="після">           <i>після</i><par n="про__pr"/></e>
 <e lm="спасибі за">      <i>спасибо<b/>за</i><par n="про__pr"/></e>
@@ -3039,8 +3066,6 @@
 <e lm="від">             <i>від</i><par n="про__pr"/></e>
 <e lm="біля">            <i>біля</i><par n="про__pr"/></e>
 <e lm="по">              <i>по</i><par n="про__pr"/></e>
-<e lm="в">               <i>в</i><par n="про__pr"/></e>
-<e lm="у">               <i>у</i><par n="про__pr"/></e>
 <e lm="всередині">       <i>всередині</i><par n="про__pr"/></e>
     <!-- ******************************
           group vblex
