@@ -41,7 +41,7 @@ LIST Past = past ;
 LIST Pres = pres ;
 LIST Fut = fut ;
 
-LIST NGDAILV = nom gen dat acc ins loc voc ;
+LIST CASE = nom gen dat acc ins loc voc ;
 
 LIST GENDER = m f nt mf mfn ;
 LIST NUMBER = sg pl sp ;
@@ -80,13 +80,22 @@ SET NOTNOMACC = Ins | Gen | Dat | Loc | Voc ;
 SET NOTNOMGEN = Ins | Acc | Dat | Loc | Voc ; 
 SET NOTNOMVOC = Gen | Dat | Acc | Ins | Loc ; 
 
-SET OBL    = NGDAILV - Nom ;
+SET OBL    = CASE - Nom ;
+
+LIST DemPron = (prn dem) ;
+LIST PosPron = (prn pos) ;
+LIST IndPron = (prn ind) ;
 
 # Boundary sets 
 
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
+# Words that have gender, number and case:
+LIST Nomen = top al ant cog n np prn adj; 
+
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ; # Det???
+SET Modifier = A | Num | DemPron | PosPron | IndPron ; # Words that agree in case, number, gender with the following word.
+    # (differs from PRE-N in that it always agrees with the headword)
 
 LIST COMMA = (",") (cm) ;
 
@@ -105,6 +114,8 @@ SET NP-HEAD = N | Pron | Prop ;
 
 SET S-BOUNDARY = CS | Interr | (";") ;
 
+#=============================================================================#
+
 SECTION
 
 REMOVE CS IF (0 ("что")) (NOT -1 COMMA) (NOT -1 BOS) ;
@@ -117,7 +128,7 @@ SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN)
     ## вони завжди бавляться у садку навпроти великого будинку.
     ## они всегда играют в саду напротив большого дома.
 
-REMOVE Det + $$NGDAILV IF (NOT 1* $$NGDAILV BARRIER N) ;
+REMOVE Det + $$CASE IF (NOT 1* $$CASE BARRIER N) ;
     ## вона дивиться у вікно і бачить Іванка та Марічку, що бавляться.
     ## она смотрит в окно и видит Ваню и Машу, что играют.
 
@@ -125,3 +136,8 @@ SELECT Gen IF (0* ("бути"i) + (neg) BARRIER BOS | EOS | CMSEMIC)
               (NOT 0* V-FIN-LIST BARRIER BOS | EOS | CMSEMIC) ;
     ## Вона заглядає під стіл і під крісла, але Іванка ніде немає.
     ## Она заглядывает под стол и под стулья, но Вани нигде нет.
+
+# Preposition based case disambiguation:
+REMOVE Pr + $$CASE (1 Nomen - $$CASE)
+REMOVE Nomen + $$CASE (-1 Pr - $$CASE)
+REMOVE Nomen + $$CASE (-1 Modifier - $$CASE)

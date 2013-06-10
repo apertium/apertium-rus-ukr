@@ -338,6 +338,13 @@
     </pardef>
 
     <!--TODO: change pr's below like /с__pr-->
+    <pardef n="/в__pr">
+      <e r="LR"><p><l>в</l><r>в<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>во</l><r>в<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>в</l><r>в<s n="pr"/></r></p></e>
+      <e>       <p><l>в<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+    </pardef>
+
     <pardef n="/среди__pr">
       <e r="LR"><p><l>среди</l><r>среди<s n="pr"/></r></p></e>
       <e r="LR"><p><l>средь</l><r>среди<s n="pr"/></r></p></e>
@@ -371,14 +378,7 @@
       <e r="LR"><p><l>безо</l><r>без<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>безо</l><r>без<s n="pr"/></r></p></e>
       <e>       <p><l>без<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
-    </pardef>	
-
-    <pardef n="/в__pr">
-      <e r="LR"><p><l>в</l><r>в<s n="pr"/></r></p></e>
-      <e r="LR"><p><l>во</l><r>в<s n="pr"/></r></p></e>
-      <e r="RL"><p><l><a/>в</l><r>в<s n="pr"/></r></p></e>
-      <e>       <p><l>в<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
-    </pardef>
+    </pardef> 
 
     <pardef n="/над__pr">
       <e r="LR"><p><l>над</l><r>над<s n="pr"/></r></p></e>
