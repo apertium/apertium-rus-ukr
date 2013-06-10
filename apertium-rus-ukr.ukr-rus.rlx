@@ -49,9 +49,9 @@ LIST ANIMAC = aa nn an ;
 
 LIST ADV-NEG = "ніде" ;
 
-LIST V-FIN-LIST = pres past fut imp ;
-SET V-FIN = Pres | Past | Fut ; 
-SET V-FIN-PAST = Past ; 
+LIST V-FIN = pres past fut imp ;
+#SET V-FIN = Pres | Past | Fut ; 
+LIST V-FIN-PAST = Past ; 
 
 SET Pers = (p1) | (p2) | (p3) ;
 
@@ -124,20 +124,20 @@ REMOVE CS IF (0 ("что")) (NOT -1 COMMA) (NOT -1 BOS) ;
 SELECT CS IF (0 ("что")) (-1 COMMA) ;
     ## Практика показывает, что для её решения уже недостаточно существующих физических теорий.
 
-SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN) ;
-    ## вони завжди бавляться у садку навпроти великого будинку.
-    ## они всегда играют в саду напротив большого дома.
-
 REMOVE Det + $$CASE IF (NOT 1* $$CASE BARRIER N) ;
     ## вона дивиться у вікно і бачить Іванка та Марічку, що бавляться.
     ## она смотрит в окно и видит Ваню и Машу, что играют.
 
 SELECT Gen IF (0* ("бути"i) + (neg) BARRIER BOS | EOS | CMSEMIC)
-              (NOT 0* V-FIN-LIST BARRIER BOS | EOS | CMSEMIC) ;
+              (NOT 0* V-FIN BARRIER BOS | EOS | CMSEMIC) ;
     ## Вона заглядає під стіл і під крісла, але Іванка ніде немає.
     ## Она заглядывает под стол и под стулья, но Вани нигде нет.
 
 # Preposition based case disambiguation:
-REMOVE Pr + $$CASE (1 Nomen - $$CASE)
-REMOVE Nomen + $$CASE (-1 Pr - $$CASE)
-REMOVE Nomen + $$CASE (-1 Modifier - $$CASE)
+REMOVE Pr + $$CASE IF (1C Nomen - $$CASE)
+REMOVE Nomen + $$CASE IF (-1C Pr - $$CASE)
+REMOVE Nomen + $$CASE IF (-1C Modifier - $$CASE)
+
+#SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN) ;
+    ## вони завжди бавляться у садку навпроти великого будинку.
+    ## они всегда играют в саду напротив большого дома.
