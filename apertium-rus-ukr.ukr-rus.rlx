@@ -90,11 +90,10 @@ LIST IndPron = (prn ind) ;
 
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
-# Words that have gender, number and case:
-LIST Nomen = top al ant cog n np prn adj; 
+LIST Nomen = top al ant cog n np prn adj det; # Words that have gender, number and case
 
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ; # Det???
-SET Modifier = A | Num | DemPron | PosPron | IndPron ; # Words that agree in case, number, gender with the following word.
+SET Modifier = A | Det | Num | DemPron | PosPron | IndPron ; # Words that agree in case, number, gender with the following word.
     # (differs from PRE-N in that it always agrees with the headword)
 
 LIST COMMA = (",") (cm) ;
@@ -114,7 +113,7 @@ SET NP-HEAD = N | Pron | Prop ;
 
 SET S-BOUNDARY = CS | Interr | (";") ;
 
-#=============================================================================#
+# =========================================================================== #
 
 SECTION
 

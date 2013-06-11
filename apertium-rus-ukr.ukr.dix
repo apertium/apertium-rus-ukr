@@ -196,6 +196,12 @@
 <pardef n="навпроти/__pr_gen">
   <e>       <p><l></l>          <r><s n="pr"/><s n="gen"/></r></p></e>
 </pardef>
+<pardef n="на/__pr_acc">
+  <e>       <p><l></l>          <r><s n="pr"/><s n="acc"/></r></p></e>
+</pardef>
+<pardef n="на/__pr_loc">
+  <e>       <p><l></l>          <r><s n="pr"/><s n="loc"/></r></p></e>
+</pardef>
 <pardef n="про__pr">
   <e>       <p><l></l>          <r><s n="pr"/></r></p></e>
 </pardef>
@@ -3043,6 +3049,8 @@
 <e lm="у">               <i></i><par n="/у__pr_loc"/></e>
 <e lm="навпроти">        <i>навпроти</i><par n="навпроти/__pr_gen"/></e>
 <e lm="всередині">       <i>всередині</i><par n="навпроти/__pr_gen"/></e>
+<e lm="на">              <i>на</i><par n="на/__pr_acc"/></e>
+<e lm="на">              <i>на</i><par n="на/__pr_loc"/></e>
 
 <e r="RL" lm="о">        <p><l><a/>о</l>     <r>о</r></p><par n="про__pr"/></e>
 <e r="LR" lm="о">        <i>о</i><par n="про__pr"/></e>
@@ -3055,7 +3063,6 @@
 <e lm="з-під">           <i>з-під</i><par n="про__pr"/></e>
 <e lm="під">             <i>під</i><par n="про__pr"/></e>
 <e lm="зовні">           <i>зовні</i><par n="про__pr"/></e>
-<e lm="на">              <i>на</i><par n="про__pr"/></e>
 <e lm="напередодні">     <i>напередодні</i><par n="про__pr"/></e>
 <e lm="про">             <i>про</i><par n="про__pr"/></e>
 <e lm="після">           <i>після</i><par n="про__pr"/></e>
