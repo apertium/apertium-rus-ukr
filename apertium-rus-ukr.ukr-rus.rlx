@@ -93,8 +93,10 @@ SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 LIST Nomen = top al ant cog n np prn adj det; # Words that have gender, number and case
 
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ; # Det???
-SET Modifier = A | Det | Num | DemPron | PosPron | IndPron ; # Words that agree in case, number, gender with the following word.
+
+SET Modifier = A | Det | Num ; # Words that agree in case, number, gender with the following word.
     # (differs from PRE-N in that it always agrees with the headword)
+    # | DemPron | PosPron | IndPron removed
 
 LIST COMMA = (",") (cm) ;
 
@@ -112,6 +114,8 @@ SET NP-MEMBER = PRE-N | N | Pron ;
 SET NP-HEAD = N | Pron | Prop ;
 
 SET S-BOUNDARY = CS | Interr | (";") ;
+
+LIST VERB-DAT = "казати" "відповідати" "купувати" "посміхатися" ; # TODO: complete the list
 
 # =========================================================================== #
 
@@ -136,7 +140,13 @@ SELECT Gen IF (0* ("бути"i) + (neg) BARRIER BOS | EOS | CMSEMIC)
 REMOVE Pr + $$CASE IF (1C Nomen - $$CASE)
 REMOVE Nomen + $$CASE IF (-1C Pr - $$CASE)
 REMOVE Nomen + $$CASE IF (-1C Modifier - $$CASE)
+    ## в садку. у садку. у вікно. в хату. навпроти великого будинку. на своє питання
+
+REMOVE:NotLocative Loc IF (0 Dat OR Loc) (NOT -1C Pr + Loc) (NOT -1C Modifier + Loc);
 
 #SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN) ;
     ## вони завжди бавляться у садку навпроти великого будинку.
     ## они всегда играют в саду напротив большого дома.
+
+REMOVE:NotDative Dat IF (NOT 0* VERB-DAT BARRIER BOS | EOS) ;
+    ## А ви знаєте чому? Чому вона це робить?
