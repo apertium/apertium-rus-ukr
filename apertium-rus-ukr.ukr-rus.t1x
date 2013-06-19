@@ -20,6 +20,12 @@
   <def-cat n="prn_pers_voc">
      <cat-item tags="prn.pers.*.*.*.voc"/>
   </def-cat>
+  <def-cat n="verb">
+    <cat-item tags="vblex.*"/>
+    <cat-item tags="vbser.*"/>
+    <cat-item tags="vbmod.*"/>
+    <cat-item tags="vbhaver.*"/>
+  </def-cat>
   <def-cat n="vblex">
      <cat-item tags="vblex.*"/>
   </def-cat>
@@ -45,6 +51,9 @@
   </def-cat>
   <def-cat n="exp">
      <cat-item tags="part.exp"/>
+  </def-cat>
+  <def-cat n="чи_part">
+    <cat-item lemma ="чи" tags="part"/>
   </def-cat>
 </section-def-cats>
 
@@ -130,6 +139,7 @@
 <section-def-vars>
   <def-var n="number"/>
   <def-var n="genere"/>
+  <def-var n="чи_occured" v="false"/>
 </section-def-vars>
 
 <section-def-lists>
@@ -145,17 +155,17 @@
   </def-list>
 </section-def-lists>
 
-  <section-def-macros>
+<section-def-macros>
 
-    <def-macro n="nom-to-voc1" npar="1">
-      <choose>
-        <when>
-          <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="voc"/></equal></test>
-          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
-        </when>
-      </choose>
-    </def-macro>
-  </section-def-macros>
+  <def-macro n="nom-to-voc1" npar="1">
+    <choose>
+      <when>
+        <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="voc"/></equal></test>
+        <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+      </when>
+    </choose>
+  </def-macro>
+</section-def-macros>
 
 
 <section-rules>
@@ -420,6 +430,66 @@
      </action>
   </rule-->
 
+  <rule comment="чи detection">
+    <pattern>
+      <pattern-item n="чи_part"/>
+    </pattern>
+    <action>
+      <let>
+        <var n="чи_occured"/>
+        <lit v="true"/>
+      </let>
+    </action>
+  </rule>
+
+  <rule comment="ли generation">
+    <pattern>
+      <pattern-item n="verb"/>
+    </pattern>
+    <action>
+      <choose>
+        <when>
+          <test>
+            <equal> 
+              <var n="чи_occured"/>
+              <lit v="true"/>
+            </equal> 
+          </test>
+          <let>
+            <var n="чи_occured"/>
+            <lit v="false"/>
+          </let>
+          <out>
+            <chunk name="verb" case="caseFirstWord">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit v="ли"/>
+                <lit-tag v="part"/>
+              </lu>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
+          <out>
+            <chunk name="verb" case="caseFirstWord">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </chunk>
+          </out>
+        </otherwise>
+      </choose>
+    </action>
+  </rule>
 
 </section-rules>
 
