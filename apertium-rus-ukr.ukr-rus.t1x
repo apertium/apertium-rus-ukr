@@ -140,6 +140,7 @@
   <def-var n="number"/>
   <def-var n="genere"/>
   <def-var n="чи_occured" v="false"/>
+  <def-var n="set_next_upper" v="false"/>
 </section-def-vars>
 
 <section-def-lists>
@@ -164,6 +165,22 @@
         <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
       </when>
     </choose>
+  </def-macro>
+
+  <def-macro n="set-upper" npar="1">
+    <choose>
+      <when>
+        <test><equal><var n="set_next_upper"/><lit v="true"/></equal></test>
+        <modify-case>
+          <clip pos="1" side="tl" part="lem"/>
+          <lit v="Aa"/>
+        </modify-case>
+      </when>
+    </choose>
+    <let>
+      <var n="set_next_upper"/>
+      <lit v="false"/>
+    </let>
   </def-macro>
 </section-def-macros>
 
@@ -296,7 +313,7 @@
 
 <!-- Sintagmas adjetivos -->
 
-  <rule>
+  <rule comment="adj">
      <pattern>
        <pattern-item n="adj"/>
      </pattern>
@@ -321,7 +338,7 @@
      </action>
   </rule>
    
-  <rule>
+  <rule comment="det_pos">
      <pattern>
        <pattern-item n="det_pos"/>
      </pattern>
@@ -380,7 +397,7 @@
      </action>
   </rule>
 
-  <rule>
+  <rule comment="det">
      <pattern>
        <pattern-item n="det"/>
      </pattern>
@@ -430,6 +447,8 @@
      </action>
   </rule-->
 
+<!-- чи -> ли -->
+
   <rule comment="чи detection">
     <pattern>
       <pattern-item n="чи_part"/>
@@ -439,16 +458,75 @@
         <var n="чи_occured"/>
         <lit v="true"/>
       </let>
+      <choose>
+        <when>
+          <test>
+            <equal> 
+              <case-of pos="1" side="sl" part="lem"/>
+              <lit v="Aa"/>
+            </equal> 
+          </test>
+          <let>
+            <var n="set_next_upper"/>
+            <lit v="true"/>
+          </let>
+        </when>
+      </choose>
     </action>
   </rule>
 
-  <rule comment="ли generation">
+  <rule comment="prn setting upper case">
+    <pattern>
+      <pattern-item n="prn"/>
+    </pattern>
+    <action>
+      <call-macro n="set-upper">
+        <with-param pos="1"/>
+      </call-macro>
+      <out>
+        <chunk name="verb" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="prn"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <!--rule comment="verb setting upper case">
     <pattern>
       <pattern-item n="verb"/>
     </pattern>
     <action>
+      <call-macro n="set-upper">
+        <with-param pos="1"/>
+      </call-macro>
+      <out>
+        <chunk name="verb" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="verb"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule-->
+
+  <rule comment="verb">
+    <pattern>
+      <pattern-item n="verb"/>
+    </pattern>
+    <action>
+      <call-macro n="set-upper">
+        <with-param pos="1"/>
+      </call-macro>
       <choose>
-        <when>
+        <when><!--ли generation after verb-->
           <test>
             <equal> 
               <var n="чи_occured"/>
