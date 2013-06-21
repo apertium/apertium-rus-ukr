@@ -115,7 +115,7 @@ SET NP-HEAD = N | Pron | Prop ;
 
 SET S-BOUNDARY = CS | Interr | (";") ;
 
-LIST VERB-DAT = "казати" "відповідати" "купувати" "посміхатися" ; # TODO: complete the list
+LIST VERB-DAT = "казати"i "відповідати"i "купувати"i "посміхатися"i "ходити"i ; # TODO: complete the list; "ходити" - CHECK
 
 # =========================================================================== #
 
@@ -148,5 +148,5 @@ REMOVE:NotLocative Loc IF (0 Dat OR Loc) (NOT -1C Pr + Loc) (NOT -1C Modifier + 
     ## вони завжди бавляться у садку навпроти великого будинку.
     ## они всегда играют в саду напротив большого дома.
 
-REMOVE:NotDative Dat IF (NOT 0* VERB-DAT BARRIER BOS | EOS) ;
+REMOVE:NotDative Dat IF (NOT 0* VERB-DAT) ;
     ## А ви знаєте чому? Чому вона це робить?
