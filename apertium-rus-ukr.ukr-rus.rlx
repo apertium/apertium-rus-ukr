@@ -137,16 +137,18 @@ SELECT Gen IF (0* ("бути"i) + (neg) BARRIER BOS | EOS | CMSEMIC)
     ## Она заглядывает под стол и под стулья, но Вани нигде нет.
 
 # Preposition based case disambiguation:
-REMOVE Pr + $$CASE IF (1C Nomen - $$CASE)
-REMOVE Nomen + $$CASE IF (-1C Pr - $$CASE)
-REMOVE Nomen + $$CASE IF (-1C Modifier - $$CASE)
+REMOVE:Case Pr + $$CASE IF (1C Nomen - $$CASE)
+REMOVE:Case Nomen + $$CASE IF (-1C Pr - $$CASE)
+# Modifier based case, number disambiguation:
+REMOVE:Case Nomen + $$CASE IF (-1C Modifier - $$CASE)
+REMOVE:Number Nomen + $$NUMBER IF (-1C Modifier - $$NUMBER)
     ## в садку. у садку. у вікно. в хату. навпроти великого будинку. на своє питання
 
-REMOVE:NotLocative Loc IF (0 Dat OR Loc) (NOT -1C Pr + Loc) (NOT -1C Modifier + Loc);
+REMOVE:Locative Loc IF (0 Dat OR Loc) (NOT -1C Pr + Loc) (NOT -1C Modifier + Loc);
 
 #SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN) ;
     ## вони завжди бавляться у садку навпроти великого будинку.
     ## они всегда играют в саду напротив большого дома.
 
-REMOVE:NotDative Dat IF (NOT 0* VERB-DAT) ;
+REMOVE:Dative Dat IF (NOT 0* VERB-DAT) ;
     ## А ви знаєте чому? Чому вона це робить?
