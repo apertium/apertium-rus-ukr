@@ -194,6 +194,51 @@
       <lit v="false"/>
     </let>
   </def-macro>
+  
+  <def-macro n="check-det_pos-gen-nbr-cas" npar="1">
+    <choose>
+      <when>
+        <test>
+          <in caseless="yes">
+            <clip pos="1" side="tl" part="lem"/>
+            <list n="его__det"/>
+          </in>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="whole"/>
+          <concat>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit-tag v="det"/>
+            <lit-tag v="pos"/>
+          </concat>
+        </let>
+      </when>
+
+      <when>
+        <test>
+          <in caseless="yes">
+            <clip pos="1" side="tl" part="lem"/>
+            <list n="мой__det"/>
+          </in>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="whole"/>
+          <concat>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit-tag v="det"/>
+            <lit-tag v="pos"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="cas"/>
+          </concat>
+        </let>
+      </when>
+      
+      <!--otherwise>
+        TODO
+      </otherwise-->
+    </choose>
+  </def-macro>
 </section-def-macros>
 
 
@@ -201,262 +246,233 @@
 <!-- Sintagmas nominales -->
 
   <rule comment="nom_loc">
-     <pattern>
-       <pattern-item n="nom_loc"/>
-     </pattern>
-     <action>
-       <out>
-         <chunk name="nom" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_nom"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="anim"/>
-             <clip pos="1" side="tl" part="nbr"/>
-             <lit-tag v="prp"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
+    <pattern>
+      <pattern-item n="nom_loc"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk name="nom" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="gen" link-to="2"/>
+            <clip pos="1" side="tl" part="anim"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="prp"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
   </rule>
 
   <rule comment="nom_voc">
-     <pattern>
-       <pattern-item n="nom_voc"/>
-     </pattern>
-     <action>
-       <out>
-         <chunk name="nom" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_nom"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="anim"/>
-             <clip pos="1" side="tl" part="nbr"/>
-             <lit-tag v="nom"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
-
-  <rule comment="prn_pers_loc">
-     <pattern>
-       <pattern-item n="prn_pers_loc"/>
-     </pattern>
-     <action>
-       <out>
-         <chunk name="nom" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SP"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <lit-tag v="prn"/>
-             <lit-tag v="pers"/>
-             <clip pos="1" side="tl" part="prs"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr"/>
-             <lit-tag v="prp"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
-
-  <rule comment="prn_pers_voc">
-     <pattern>
-       <pattern-item n="prn_pers_voc"/>
-     </pattern>
-     <action>
-       <out>
-         <chunk name="nom" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SP"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <lit-tag v="prn"/>
-             <lit-tag v="pers"/>
-             <clip pos="1" side="tl" part="prs"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr"/>
-             <lit-tag v="nom"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
+    <pattern>
+      <pattern-item n="nom_voc"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk name="nom" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="gen" link-to="2"/>
+            <clip pos="1" side="tl" part="anim"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="nom"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
   </rule>
 
   <rule comment="nom">
-     <pattern>
-       <pattern-item n="nom"/>
-     </pattern>
-     <action>
-       <out>
-         <chunk name="nom" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_nom"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="anim"/>
-             <clip pos="1" side="tl" part="nbr"/>
-             <clip pos="1" side="tl" part="cas"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
+    <pattern>
+      <pattern-item n="nom"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk name="nom" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="gen" link-to="2"/>
+            <clip pos="1" side="tl" part="anim"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="cas"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
   </rule>
 
+<!-- SP -->
+
+  <rule comment="prn_pers_loc">
+    <pattern>
+      <pattern-item n="prn_pers_loc"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk name="nom" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SP"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit-tag v="prn"/>
+            <lit-tag v="pers"/>
+            <clip pos="1" side="tl" part="prs"/>
+            <clip pos="1" side="tl" part="gen" link-to="2"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="prp"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="prn_pers_voc">
+    <pattern>
+      <pattern-item n="prn_pers_voc"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk name="nom" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SP"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit-tag v="prn"/>
+            <lit-tag v="pers"/>
+            <clip pos="1" side="tl" part="prs"/>
+            <clip pos="1" side="tl" part="gen" link-to="2"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="nom"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
 
 <!-- Sintagmas adjetivos -->
 
   <rule comment="adj">
-     <pattern>
-       <pattern-item n="adj"/>
-     </pattern>
-     <action>
-           <out>
-             <chunk name="adj" case="caseFirstWord">
-               <tags>
-                 <tag><lit-tag v="SA"/></tag>
-                 <tag><clip pos="1" side="tl" part="gen"/></tag>
-                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
-                 <tag><clip pos="1" side="tl" part="cas"/></tag>
-               </tags>
-               <lu>
-                 <clip pos="1" side="tl" part="lem"/>
-                 <clip pos="1" side="tl" part="a_adj"/>
-                 <clip pos="1" side="tl" part="gen"/>
-                 <clip pos="1" side="tl" part="nbr"/>
-                 <clip pos="1" side="tl" part="cas"/>
-               </lu>
-             </chunk>
-           </out>
-     </action>
+    <pattern>
+      <pattern-item n="adj"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk name="adj" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SA"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+            <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            <tag><clip pos="1" side="tl" part="cas"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_adj"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="cas"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
   </rule>
-   
+
+<!-- NMOD -->
+
   <rule comment="det_pos">
-     <pattern>
-       <pattern-item n="det_pos"/>
-     </pattern>
-     <action>
-       <choose>
-         <when>
-           <test>
-             <in caseless="yes">
-               <clip pos="1" side="tl" part="lem"/>
-               <list n="его__det"/>
-             </in>
-           </test>
-           <out>
-             <chunk name="det" case="caseFirstWord">
-               <tags>
-                 <tag><lit-tag v="NMOD"/></tag>
-                 <!--tag><clip pos="1" side="tl" part="gen"/></tag>
-                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
-                 <tag><clip pos="1" side="tl" part="cas"/></tag-->
-               </tags>
-               <lu>
-                 <clip pos="1" side="tl" part="lem"/>
-                 <lit-tag v="det"/>
-                 <lit-tag v="pos"/>
-               </lu>
-             </chunk>
-           </out>
-         </when>
-         <when>
-           <test>
-             <in caseless="yes">
-               <clip pos="1" side="tl" part="lem"/>
-               <list n="мой__det"/>
-             </in>
-           </test>
-           <out>
-             <chunk name="det" case="caseFirstWord">
-               <tags>
-                 <tag><lit-tag v="NMOD"/></tag>
-                 <tag><clip pos="1" side="tl" part="gen"/></tag>
-                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
-                 <tag><clip pos="1" side="tl" part="cas"/></tag>
-               </tags>
-               <lu>
-                 <clip pos="1" side="tl" part="lem"/>
-                 <lit-tag v="det"/>
-                 <lit-tag v="pos"/>
-                 <clip pos="1" side="tl" part="gen"/>
-                 <clip pos="1" side="tl" part="nbr"/>
-                 <clip pos="1" side="tl" part="cas"/>
-               </lu>
-             </chunk>
-           </out>
-         </when>
-       </choose>
-     </action>
+    <pattern>
+      <pattern-item n="det_pos"/>
+    </pattern>
+    <action>
+      <call-macro n="check-det_pos-gen-nbr-cas">
+        <with-param pos="1"/>
+      </call-macro>
+          <out>
+            <chunk name="det" case="caseFirstWord">
+              <tags>
+                <tag><lit-tag v="NMOD"/></tag>
+                <!--if there is no tag for the attribute, <clip/> won't return anything-->
+                <tag><clip pos="1" side="tl" part="gen"/></tag>
+                <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                <tag><clip pos="1" side="tl" part="cas"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </chunk>
+          </out>
+    </action>
   </rule>
 
   <rule comment="det">
-     <pattern>
-       <pattern-item n="det"/>
-     </pattern>
-     <action>
-       <call-macro n="nom-to-voc1">
-         <with-param pos="1"/>
-       </call-macro>
-       <out>
-         <chunk name="det" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="NMOD"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="tl" part="cas"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="whole"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
+    <pattern>
+      <pattern-item n="det"/>
+    </pattern>
+    <action>
+      <call-macro n="nom-to-voc1">
+        <with-param pos="1"/>
+      </call-macro>
+      <out>
+        <chunk name="det" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="NMOD"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+            <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            <tag><clip pos="1" side="tl" part="cas"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
   </rule>
-  
-  <!--rule>
-     <pattern>
-       <pattern-item n="vblex"/>
-     </pattern>
-     <action>
-       <out>
-         <chunk name="verb" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SV"/></tag>
+
+<!-- SV -->
+
+  <!--rule comment="transitivity doesn't work">
+    <pattern>
+      <pattern-item n="vblex"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk name="verb" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="tns"/></tag>
               <tag><clip pos="1" side="tl" part="prs"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_vrb"/>
-              <clip pos="1" side="tl" part="asp"/>
-              <clip pos="1" side="tl" part="tns"/>
-              <clip pos="1" side="tl" part="prs"/>
-              <clip pos="1" side="tl" part="nbr"/>
-            </lu>
-          </chunk>
-        </out>
-     </action>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_vrb"/>
+            <clip pos="1" side="tl" part="asp"/>
+            <clip pos="1" side="tl" part="tns"/>
+            <clip pos="1" side="tl" part="prs"/>
+            <clip pos="1" side="tl" part="nbr"/>
+           </lu>
+         </chunk>
+       </out>
+    </action>
   </rule-->
 
 <!-- чи -> ли -->
@@ -507,27 +523,6 @@
       </out>
     </action>
   </rule>
-
-  <!--rule comment="verb setting upper case">
-    <pattern>
-      <pattern-item n="verb"/>
-    </pattern>
-    <action>
-      <call-macro n="set-upper">
-        <with-param pos="1"/>
-      </call-macro>
-      <out>
-        <chunk name="verb" case="caseFirstWord">
-          <tags>
-            <tag><lit-tag v="verb"/></tag>
-          </tags>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-        </chunk>
-      </out>
-    </action>
-  </rule-->
 
   <rule comment="verb">
     <pattern>
@@ -581,12 +576,17 @@
     </action>
   </rule>
 
+<!-- concording det with nom -->
+
   <rule comment="det + nom">
     <pattern>
       <pattern-item n="det"/>
       <pattern-item n="nom"/>
     </pattern>
     <action>
+      <call-macro n="check-det_pos-gen-nbr-cas">
+        <with-param pos="1"/>
+      </call-macro>
       <choose>
         <when>
           <test>
@@ -598,7 +598,7 @@
             </not>
           </test>
           <out>
-            <chunk name="nom" case="caseFirstWord">
+            <chunk name="det-nom" case="caseFirstWord">
               <tags>
                 <tag><lit-tag v="SN"/></tag>
                 <tag><clip pos="2" side="tl" part="gen"/></tag>
@@ -622,7 +622,7 @@
         </when>
         <otherwise>
           <out>
-            <chunk name="nom" case="caseFirstWord">
+            <chunk name="det-nom" case="caseFirstWord">
               <tags>
                 <tag><lit-tag v="SN"/></tag>
                 <tag><clip pos="2" side="tl" part="gen"/></tag>
