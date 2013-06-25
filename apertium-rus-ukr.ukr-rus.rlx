@@ -144,7 +144,7 @@ REMOVE:Case Nomen + $$CASE IF (-1C Modifier - $$CASE)
 REMOVE:Number Nomen + $$NUMBER IF (-1C Modifier - $$NUMBER)
     ## в садку. у садку. у вікно. в хату. навпроти великого будинку. на своє питання
 
-REMOVE:Locative Loc IF (0 Dat OR Loc) (NOT -1C Pr + Loc) (NOT -1C Modifier + Loc);
+REMOVE:Locative Nomen + Loc IF (0 Dat OR Loc) (NOT -1 Pr + Loc) (NOT -1C Modifier + Loc);
 
 #SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN) ;
     ## вони завжди бавляться у садку навпроти великого будинку.

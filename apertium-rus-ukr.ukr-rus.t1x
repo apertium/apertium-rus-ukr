@@ -6,6 +6,10 @@
      <cat-item tags="n.*"/>
      <cat-item tags="np.*"/>
   </def-cat>
+  <def-cat n="nom_gen">
+     <cat-item tags="n.*.*.*.gen"/>
+     <cat-item tags="np.*.*.*.gen"/>
+  </def-cat>
   <def-cat n="nom_loc">
      <cat-item tags="n.*.*.*.loc"/>
      <cat-item tags="np.*.*.*.loc"/>
@@ -165,6 +169,10 @@
     <list-item v="мой"/>
     <list-item v="твой"/>
     <list-item v="свой"/>
+  </def-list>
+  <def-list n="verbs_gen_to_acc">
+    <list-item v="шукати"/>
+    <list-item v="бачити"/>
   </def-list>
 </section-def-lists>
 
@@ -640,6 +648,48 @@
           </out>
         </otherwise>
       </choose>
+    </action>
+  </rule>
+
+<!-- concording verb with nom -->
+
+  <rule comment="verbs + nom_gen -> nom_acc">
+    <pattern>
+      <pattern-item n="verb"/>
+      <pattern-item n="nom_gen"/>
+    </pattern>
+    <action>
+      <choose>
+        <when>
+          <test>
+            <in caseless="yes">
+              <clip pos="1" side="sl" part="lem"/>
+              <list n="verbs_gen_to_acc"/>
+            </in>
+          </test>
+          <let>
+            <clip pos="2" side="tl" part="cas"/>
+            <lit-tag v="acc"/>
+          </let>
+        </when>
+      </choose>
+      <out>
+        <chunk name="verb" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="tns"/></tag>
+              <tag><clip pos="1" side="tl" part="prs"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+           </lu>
+           <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+           </lu>
+         </chunk>
+       </out>
     </action>
   </rule>
 
