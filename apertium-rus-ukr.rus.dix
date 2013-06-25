@@ -19,6 +19,7 @@
     <sdef n="ij"         c="Interjection"/>
     <sdef n="cnjcoo"     c="Coordinating conjunction"/>
     <sdef n="cnjsub"     c="Subordinating conjunction"/>
+    <sdef n="cnjadv"     c=""/> 
 
     <sdef n="sg"         c="Singular"/>
     <sdef n="pl"         c="Plural"/>
@@ -12268,9 +12269,9 @@
     <e lm="ежели"><i>ежели</i><par n="когда__cnjsub"/></e>
     <e lm="то"><i>то</i><par n="когда__cnjsub"/></e>
     <e lm="хотя"><i>хотя</i><par n="когда__cnjsub"/></e>
+    <e lm="чтоб" r="LR"><p><l>чтоб</l><r>чтобы</r></p><par n="когда__cnjsub"/></e>
+    <e lm="чтобы"><i>чтобы</i><par n="когда__cnjsub"/></e>
 
-    <e lm="чтоб"><i>чтоб</i><par n="когда__cnjsub"/></e> <!-- TODO: Check -->
-    <e lm="чтобы" r="LR"><p><l>чтобы</l><r>чтоб</r></p><par n="когда__cnjsub"/></e>
     <e lm="ведь"><i>ведь</i><par n="когда__cnjsub"/></e> <!-- TODO: Check -->
     <e lm="словно"><i>словно</i><par n="когда__cnjsub"/></e> <!-- TODO: Check -->
     <e lm="поскольку"><i>поскольку</i><par n="когда__cnjsub"/></e> <!-- TODO: Check -->

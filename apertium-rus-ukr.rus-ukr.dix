@@ -109,13 +109,6 @@
 
     <!-- SECTION: Conjunctions -->
 
-    <e><p><l>если<s n="cnjadv"/></l><r>якщо<s n="cnjadv"/></r></p></e>
-    <e><p><l>потому<b/>что<s n="cnjadv"/></l><r>тому<b/>що<s n="cnjadv"/></r></p></e>
-    <e><p><l>чтобы<s n="cnjadv"/></l><r>щоб<s n="cnjadv"/></r></p></e>
-    <e><p><l>после<b/>того,<b/>как<s n="cnjadv"/></l><r>після<b/>того,<b/>як<s n="cnjadv"/></r></p></e>
-    <e><p><l>так<b/>как<s n="cnjadv"/></l><r>так<b/>як<s n="cnjadv"/></r></p></e>
-    <e><p><l>пока<s n="cnjadv"/></l><r>поки<s n="cnjadv"/></r></p></e>
-
     <e><p><l>и<s n="cnjcoo"/></l><r>і<s n="cnjcoo"/></r></p></e>
     <e><p><l>и<s n="cnjcoo"/></l><r>та<s n="cnjcoo"/></r></p></e>
     <e><p><l>а<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
@@ -125,6 +118,13 @@
     <e><p><l>то<s n="cnjsub"/></l><r>то<s n="cnjsub"/></r></p></e> <!-- check -->
     <e><p><l>что<s n="cnjsub"/></l><r>що<s n="cnjsub"/></r></p></e>
     <e><p><l>хотя<s n="cnjsub"/></l><r>хоча<s n="cnjsub"/></r></p></e>
+    <e><p><l>чтобы<s n="cnjsub"/></l><r>щоб<s n="cnjsub"/></r></p></e>
+    <e><p><l>если<s n="cnjsub"/></l><r>якщо<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>потому<b/>что<s n="cnjadv"/></l><r>тому<b/>що<s n="cnjadv"/></r></p></e>
+    <e><p><l>после<b/>того,<b/>как<s n="cnjadv"/></l><r>після<b/>того,<b/>як<s n="cnjadv"/></r></p></e>
+    <e><p><l>так<b/>как<s n="cnjadv"/></l><r>так<b/>як<s n="cnjadv"/></r></p></e>
+    <e><p><l>пока<s n="cnjadv"/></l><r>поки<s n="cnjadv"/></r></p></e>
 
     <!-- SECTION: Numerals -->
     
@@ -144,7 +144,6 @@
     <e><p><l>внутри<s n="pr"/></l><r>усередині<s n="pr"/><s n="gen"/></r></p></e>
     <e><p><l>внутри<s n="pr"/></l><r>всередині<s n="pr"/><s n="gen"/></r></p></e>
     
-    <e><p><l>спасибо<b/>за<s n="pr"/></l><r>спасибі<b/>за<s n="pr"/></r></p></e>
     <e><p><l>за<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
     <e><p><l>через<s n="pr"/></l><r>через<s n="pr"/></r></p></e>
     <e><p><l>до<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
@@ -153,15 +152,20 @@
     <e><p><l>из-за<s n="pr"/></l><r>із-за<s n="pr"/></r></p></e>
     <e r="RL"><p><l>из-за<s n="pr"/></l><r>з-за<s n="pr"/></r></p></e>
     <e><p><l>после<s n="pr"/></l><r>після<s n="pr"/></r></p></e>
-    <e><p><l>вне<s n="pr"/></l><r>зовніо<s n="pr"/></r></p></e>
+    <e><p><l>снаружи<s n="pr"/></l><r>зовні<s n="pr"/></r></p></e>
     <e><p><l>для<s n="pr"/></l><r>для<s n="pr"/></r></p></e>
     <e><p><l>накануне<s n="pr"/></l><r>напередодні<s n="pr"/></r></p></e>
     <e><p><l>вокруг<s n="pr"/></l><r>навколо<s n="pr"/></r></p></e>
     <e><p><l>за<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
     <e><p><l>с<s n="pr"/></l><r>з<s n="pr"/></r></p></e>
+    <e><p><l>с<s n="pr"/></l><r>iз<s n="pr"/></r></p></e>
     <e><p><l>от<s n="pr"/></l><r>від<s n="pr"/></r></p></e>
     <e><p><l>у<s n="pr"/></l><r>біля<s n="pr"/></r></p></e>
     <e><p><l>по<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
+
+    <e><p><l>о<s n="pr"/></l><r>о<s n="pr"/></r></p></e>
+    <e><p><l>про<s n="pr"/></l><r>про<s n="pr"/></r></p></e>
+    <e><p><l>без<s n="pr"/></l><r>без<s n="pr"/></r></p></e>
     
     <e><p><l>где<s n="adv"/><s n="itg"/></l><r>де<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>не<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
@@ -169,6 +173,8 @@
     <e><p><l>на<b/>кануне<s n="adv"/></l><r>на<b/>переддні<s n="adv"/></r></p></e>
     <e><p><l>только<s n="adv"/></l><r>тільки<s n="adv"/></r></p></e>
 
+    <!--e><p><l>спасибо<b/>за<s n="pr"/></l><r>спасибі<b/>за<s n="pr"/></r></p></e-->
+    
     <!-- SECTION: Determiners -->
     
     <e><p><l>мой<s n="det"/><s n="pos"/></l><r>мій<s n="det"/><s n="pos"/></r></p></e>
