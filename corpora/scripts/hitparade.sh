@@ -6,6 +6,7 @@ PAIR=rus-ukr
 SL=ukr
 TL=rus
 CORP=rferl
+APERTIUMPATH=/home/kirill/Desktop/Dropbox
 
 #if [[ $1 != "" ]]; then
 	#HP=$1

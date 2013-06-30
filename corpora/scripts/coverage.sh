@@ -22,8 +22,8 @@ fi;
 
 $CAT $1 | apertium-destxt | lt-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/$SL.$CORP.coverage.txt
 
-EDICT=`cat $DIX | grep ' ; ' | grep -v '<' | grep '[АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЮЯЬабвгґдеєжзиіїйклмнопрстуфхцчшщюяь]' | wc -l`;
-EPAR=`cat $DIX | grep 'LEXICON ' | wc -l`;
+EDICT=`cat $DIX | grep '<e lm' | wc -l`;
+EPAR=`cat $DIX | grep '<pardef n' | wc -l`;
 TOTAL=`cat /tmp/$SL.$CORP.coverage.txt | wc -l`
 KNOWN=`cat /tmp/$SL.$CORP.coverage.txt | grep -v '*' | wc -l`
 COV=`calc $KNOWN / $TOTAL`;
