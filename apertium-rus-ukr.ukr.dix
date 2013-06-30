@@ -566,6 +566,17 @@
   <e c="FIXME"><p><l>е</l>      <r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
   <e c="FIXME"><p><l>е</l>      <r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
 </pardef>
+
+<pardef n="Україн/а__np">
+  <e>       <p><l>а</l>         <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>и</l>         <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>і</l>         <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>у</l>         <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ою</l>        <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>і</l>         <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>о</l>         <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+</pardef>
+
 <pardef n="Іспані/я__np">
   <e>       <p><l>ї</l>         <r>я<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>ї</l>         <r>я<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -4071,6 +4082,8 @@
     <!-- ******************************
           group np
       ****************************** -->
+
+<e lm="Україна">         <i>Україн</i><par n="Україн/а__np"/></e>
 
 <e lm="Євразія">         <i>Євразі</i><par n="Іспані/я__np"/></e>
 <e lm="Іспанія">         <i>Іспані</i><par n="Іспані/я__np"/></e>
