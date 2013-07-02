@@ -114,17 +114,25 @@
     <e><p><l>а<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
     <e><p><l>или<s n="cnjcoo"/></l><r>або<s n="cnjcoo"/></r></p></e>
     <e><p><l>но<s n="cnjcoo"/></l><r>але<s n="cnjcoo"/></r></p></e>
+    <e><p><l>однако<s n="cnjcoo"/></l><r>однак<s n="cnjcoo"/></r></p></e>
+    <e><p><l>то<b/>есть<s n="cnjcoo"/></l><r>тобто<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ж<s n="cnjcoo"/></l><r>ж<s n="cnjcoo"/></r></p></e>
+    <e><p><l>лишь<s n="cnjcoo"/></l><r>лише<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>то<s n="cnjsub"/></l><r>то<s n="cnjsub"/></r></p></e> <!-- check -->
     <e><p><l>что<s n="cnjsub"/></l><r>що<s n="cnjsub"/></r></p></e>
     <e><p><l>хотя<s n="cnjsub"/></l><r>хоча<s n="cnjsub"/></r></p></e>
     <e><p><l>чтобы<s n="cnjsub"/></l><r>щоб<s n="cnjsub"/></r></p></e>
     <e><p><l>если<s n="cnjsub"/></l><r>якщо<s n="cnjsub"/></r></p></e>
+    <e><p><l>поскольку<s n="cnjsub"/></l><r>оскільки<s n="cnjsub"/></r></p></e>
+    <e><p><l>ибо<s n="cnjsub"/></l><r>бо<s n="cnjsub"/></r></p></e>
+    <e><p><l>чем<s n="cnjsub"/></l><r>ніж<s n="cnjsub"/></r></p></e>
 
     <e><p><l>потому<b/>что<s n="cnjadv"/></l><r>тому<b/>що<s n="cnjadv"/></r></p></e>
     <e><p><l>после<b/>того,<b/>как<s n="cnjadv"/></l><r>після<b/>того,<b/>як<s n="cnjadv"/></r></p></e>
     <e><p><l>так<b/>как<s n="cnjadv"/></l><r>так<b/>як<s n="cnjadv"/></r></p></e>
     <e><p><l>пока<s n="cnjadv"/></l><r>поки<s n="cnjadv"/></r></p></e>
+    <e><p><l>как<s n="cnjadv"/></l><r>як<s n="cnjadv"/></r></p></e>
 
     <!-- SECTION: Numerals -->
     
@@ -166,7 +174,25 @@
     <e><p><l>о<s n="pr"/></l><r>о<s n="pr"/></r></p></e>
     <e><p><l>про<s n="pr"/></l><r>про<s n="pr"/></r></p></e>
     <e><p><l>без<s n="pr"/></l><r>без<s n="pr"/></r></p></e>
+
+    <e><p><l>с<s n="pr"/></l><r>зі<s n="pr"/></r></p></e>
+    <e><p><l>между<s n="pr"/></l><r>між<s n="pr"/></r></p></e>
+    <e><p><l>над<s n="pr"/></l><r>над<s n="pr"/><s n="ins"/></r></p></e>
+    <e><p><l>к<s n="pr"/></l><r>над<s n="pr"/><s n="acc"/></r></p></e>
+    <e><p><l>над<s n="pr"/></l><r>понад<s n="pr"/><s n="ins"/></r></p></e>
+    <e><p><l>к<s n="pr"/></l><r>понад<s n="pr"/><s n="acc"/></r></p></e>
+    <e><p><l>около<s n="pr"/><s n="gen"/></l><r>при<s n="pr"/></r></p></e>
+    <e><p><l>при<s n="pr"/><s n="prp"/></l><r>при<s n="pr"/></r></p></e>
+    <e><p><l>ради<s n="pr"/></l><r>ради<s n="pr"/></r></p></e>
+    <e><p><l>среди<s n="pr"/></l><r>серед<s n="pr"/></r></p></e>
+    <e><p><l>относительно<s n="pr"/></l><r>щодо<s n="pr"/></r></p></e>
+    <e><p><l>близ<s n="pr"/></l><r>близько<s n="pr"/></r></p></e>
+    <e><p><l>перед<s n="pr"/></l><r>перед<s n="pr"/></r></p></e>
+    <e><p><l>раньше<s n="pr"/></l><r>раніше<s n="pr"/></r></p></e>
+    <e><p><l>против<s n="pr"/></l><r>проти<s n="pr"/></r></p></e>
     
+
+
     <e><p><l>где<s n="adv"/><s n="itg"/></l><r>де<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>не<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
     <e><p><l>никогда<s n="adv"/></l><r>ніколи<s n="adv"/></r></p></e>
