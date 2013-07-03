@@ -1,5 +1,8 @@
 <rules>
   <rule>
-    <match lemma="word1" tags="n.*"><select lemma="word2" tags="n.*"/></match>
+    <match lemma="садок" tags="n.*"><select lemma="сад" tags="n.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="хата" tags="n.*"><select lemma="дом" tags="n.*"/></match>
   </rule>
 </rules>
