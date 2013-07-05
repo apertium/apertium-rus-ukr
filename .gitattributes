@@ -54,5 +54,6 @@ dev/uk-sint-auto -text
 /modes.xml -text
 /rus-ukr.prob -text
 texts/rasskaz.rus.txt -text svneol=unset#application/octet-stream
+texts/rasskaz.ukr-rus.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.ukr.txt -text svneol=unset#application/octet-stream
 /ukr-rus.prob -text
