@@ -238,6 +238,7 @@
     <e><p><l>его<s n="det"/><s n="pos"/></l><r>його<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>её<s n="det"/><s n="pos"/></l><r>її<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>их<s n="det"/><s n="pos"/></l><r>їхній<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>их<s n="det"/><s n="pos"/></l><r>їх<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>тот<s n="det"/><s n="dem"/></l><r>той<s n="det"/><s n="dem"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
@@ -1523,7 +1524,7 @@
 
     <!-- SECTION: Verbs -->
 
-    <e><p><l>можна<s n="vaux"/></l><r>можна<s n="vaux"/></r></p></e>
+    <e><p><l>можно<s n="vaux"/></l><r>можна<s n="vaux"/></r></p></e><!--predicative-->
     <e><p><l>покупать<s n="vblex"/><s n="impf"/></l><r>купувати<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>купить<s n="vblex"/><s n="perf"/></l><r>купити<s n="vblex"/><s n="perf"/></r></p></e>
 
@@ -1648,6 +1649,8 @@
     <e><p><l>круглосуточно<s n="adv"/></l>                      <r>цілодобово<s n="adv"/></r></p></e>
     <e><p><l>часто<s n="adv"/></l>                              <r>часто<s n="adv"/></r></p></e>
     <e><p><l>немало<s n="adv"/></l>                             <r>чимало<s n="adv"/></r></p></e>
+    <e><p><l>почти<s n="adv"/></l>                              <r>майже<s n="adv"/></r></p></e>
+    <e><p><l>в<b/>отдельности<s n="adv"/></l>                   <r>зокрема<s n="adv"/></r></p></e>
 
     <!--adj-->
     <e><p><l>активный<s n="adj"/></l>                           <r>активний<s n="adj"/></r></p></e>
@@ -1742,6 +1745,7 @@
     <e><p><l>душа<s n="n"/><s n="f"/><s n="nn"/></l><r>душа<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>экономика<s n="n"/><s n="f"/><s n="nn"/></l><r>економіка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>сбор<s n="n"/><s n="m"/><s n="nn"/></l><r>збір<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>здоровье<s n="n"/><s n="nt"/><s n="nn"/></l><r>здоров'я<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>квалификация<s n="n"/><s n="f"/><s n="nn"/></l><r>кваліфікація<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>конгресс<s n="n"/><s n="m"/><s n="nn"/></l><r>конгрес<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>конкуренция<s n="n"/><s n="f"/><s n="nn"/></l><r>конкуренція<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
@@ -1803,6 +1807,73 @@
     <e><p><l>Ганс<s n="np"/><s n="cog"/></l>                    <r>Ґанс<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Аризона<s n="np"/><s n="top"/></l>                 <r>Аризона<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>США<s n="np"/><s n="top"/></l>                     <r>США<s n="np"/><s n="top"/></r></p></e>
+
+    <!--vblex-->
+    <e><p><l>тратиться<s n="vblex"/><s n="impf"/></l><r>витрачатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>зарабатывать<s n="vblex"/><s n="impf"/></l><r>заробляти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>находиться<s n="vblex"/><s n="impf"/></l><r>перебувати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>попасть<s n="vblex"/><s n="perf"/></l><r>потрапити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>начать<s n="vblex"/><s n="perf"/></l><r>почати<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>специализироваться<s n="vblex"/><s n="impf"/></l><r>спеціалізуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>являться<s n="vblex"/><s n="impf"/></l><r>з'являтися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>позволить<s n="vblex"/><s n="perf"/></l><r>дозволити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>изрыскать<s n="vblex"/><s n="perf"/></l><r>виникати<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>жить<s n="vblex"/><s n="impf"/></l><r>жити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>надеяться<s n="vblex"/><s n="impf"/></l><r>сподіватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>верить<s n="vblex"/><s n="impf"/></l><r>вірити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>довести<s n="vblex"/><s n="perf"/></l><r>довести<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>платить<s n="vblex"/><s n="impf"/></l><r>платити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>жаловаться<s n="vblex"/><s n="impf"/></l><r>жалітися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>улучшаться<s n="vblex"/><s n="impf"/></l><r>покращуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>длиться<s n="vblex"/><s n="impf"/></l><r>тривати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>ломаться <s n="vblex"/><s n="impf"/></l><r>ламатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>ждать<s n="vblex"/><s n="impf"/></l><r>чекати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>помочь<s n="vblex"/><s n="perf"/></l><r>допомогти<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>оставаться<s n="vblex"/><s n="impf"/></l><r>залишатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>владеть<s n="vblex"/><s n="impf"/></l><r>володіти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>полагаться<s n="vblex"/><s n="impf"/></l><r>покладатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>миновать<s n="vblex"/><s n="impf"/></l><r>минати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>работать<s n="vblex"/><s n="impf"/></l><r>працювати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>пользоваться<s n="vblex"/><s n="impf"/></l><r>користуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>увеличиваться<s n="vblex"/><s n="impf"/></l><r>збільшуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>стоить<s n="vblex"/><s n="impf"/></l><r>коштувати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>казаться<s n="vblex"/><s n="impf"/></l><r>видаватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>возникать<s n="vblex"/><s n="impf"/></l><r>виникати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>разводить<s n="vblex"/><s n="impf"/></l><r>розводити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>возлагать<s n="vblex"/><s n="impf"/></l><r>покладати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>подчёркивать<s n="vblex"/><s n="impf"/></l><r>підкреслювати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>стремиться<s n="vblex"/><s n="impf"/></l><r>прагнути<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>миновать<s n="vblex"/><s n="impf"/></l><r>минати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>преодолеть<s n="vblex"/><s n="perf"/></l><r>подолати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>платить<s n="vblex"/><s n="impf"/></l><r>платити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>находиться<s n="vblex"/><s n="impf"/></l><r>перебувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>призвать<s n="vblex"/><s n="perf"/></l><r>закликати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>нанимать<s n="vblex"/><s n="impf"/></l><r>наймати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>зарабатывать<s n="vblex"/><s n="impf"/></l><r>заробляти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>сократить<s n="vblex"/><s n="perf"/></l><r>скоротити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>упростить<s n="vblex"/><s n="perf"/></l><r>спростити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>требовать<s n="vblex"/><s n="impf"/></l><r>вимагати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>предусматривать<s n="vblex"/><s n="impf"/></l><r>передбачати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>сбалансировать<s n="vblex"/><s n="perf"/></l><r>збалансувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>решить<s n="vblex"/><s n="perf"/></l><r>вирішити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>надеяться<s n="vblex"/><s n="impf"/></l><r>сподіватися<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>работать<s n="vblex"/><s n="impf"/></l><r>працювати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>попасть<s n="vblex"/><s n="perf"/></l><r>потрапити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>удовлетворять<s n="vblex"/><s n="impf"/></l><r>задовольняти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>называть<s n="vblex"/><s n="impf"/></l><r>називати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>довести<s n="vblex"/><s n="perf"/></l><r>довести<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>начать<s n="vblex"/><s n="perf"/></l><r>почати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>ждать<s n="vblex"/><s n="impf"/></l><r>чекати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>легализовать<s n="vblex"/><s n="impf"/></l><r>легалізувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>позволить<s n="vblex"/><s n="perf"/></l><r>дозволити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>призывать<s n="vblex"/><s n="impf"/></l><r>закликати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>выдать<s n="vblex"/><s n="perf"/></l><r>видати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>видать<s n="vblex"/><s n="impf"/></l><r>видати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>собрать<s n="vblex"/><s n="perf"/></l><r>зібрати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>отделить<s n="vblex"/><s n="perf"/></l><r>відділити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>задействовать<s n="vblex"/><s n="perf"/></l><r>задіяти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>чистить<s n="vblex"/><s n="impf"/></l><r>чистити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>поддерживать<s n="vblex"/><s n="impf"/></l><r>підтримувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
   </section>
 </dictionary>
