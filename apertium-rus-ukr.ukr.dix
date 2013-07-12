@@ -1064,7 +1064,8 @@
 </pardef>
 <!--pronouns - займенники -->
 
-<pardef n="багат/о__prn"><!-- wiele -->
+<!--CHECK: багато - has meanings of noun (declinable), numeral (declinable?); adverb, predicative, aux word (indeclinable)-->
+<!--pardef n="багат/о__prn"><!~~ wiele ~~> багато isn't prn.ind
   <e>       <p><l>о</l>         <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -1080,7 +1081,7 @@
   <e>       <p><l>ьом</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
   <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>ьма</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-</pardef>
+</pardef-->
 
 <pardef n="скільк/и__det"><!-- ile -->
   <e>       <p><l>и</l>         <r>и<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -5447,6 +5448,23 @@
   <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 
+<pardef n="справ/а__n_f_nn">
+  <e>       <p><l>а</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>у</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>і</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>і</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ою</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>о</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ам</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ах</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ами</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
+</pardef>
+
 <!--np-->
 <pardef n="Брітні__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></r></p></e>
@@ -7022,7 +7040,7 @@
 <e lm="хтось">           <i></i><par n="хтось__prn"/></e>
 <e lm="ніхто">           <i></i><par n="ніхто__prn"/></e>
 <e lm="що">              <i></i><par n="що__prn"/></e>
-<e lm="багато">          <i>багат</i><par n="багат/о__prn"/></e>
+<!--e lm="багато">          <i>багат</i><par n="багат/о__prn"/></e-->
 <e lm="весь">            <i>в</i><par n="в/есь__prn"/></e>
 <e lm="казна-скільки">   <i>казна-скільк</i><par n="казна-скільк/и__prn"/></e>
 <e lm="котрий">          <i>котр</i><par n="як/ий__det_itg"/></e>
@@ -7210,7 +7228,7 @@
       ****************************** -->
 <e lm="той">             <i></i><par n="той__det"/></e>
 <!--<e lm="що">              <i></i><par n="що__det"/></e>--> <!-- CHECK -->
-<e lm="багато">          <i>багат</i><par n="багат/о__det"/></e>
+<!--e lm="багато">          <i>багат</i><par n="багат/о__det"/></e-->
 <e lm="котрий">          <i>котр</i><par n="котр/ий__det"/></e>
 <e lm="мій">             <i>м</i><par n="м/ій__det"/></e>
 <e lm="свій">            <i>св</i><par n="м/ій__det"/></e>
@@ -8374,6 +8392,7 @@
 <e lm="серед">           <i>серед</i><par n="про__pr"/></e>
 <e lm="щодо">            <i>щодо</i><par n="про__pr"/></e>
 <e lm="протягом">        <i>протягом</i><par n="навпроти/__pr_gen"/></e>
+<e lm="у разі">          <i>у<b/>разі</i><par n="навпроти/__pr_gen"/></e>
 
 <!--pr+adv-->
 <e lm="близько">         <i>близько</i><par n="/__pr_adv"/></e>
@@ -8543,6 +8562,7 @@
 <e lm="цілодобово">      <i>цілодобово</i><par n="тільки__adv"/></e>
 <e lm="часто">           <i>часто</i><par n="тільки__adv"/></e>
 <e lm="чимало">          <i>чимало</i><par n="тільки__adv"/></e>
+<e lm="багато">          <i>багато</i><par n="тільки__adv"/></e>
 
 <!--pred-->
 <!--e lm="повинний">        <i>повинний</i><par n="x"/></e>
@@ -8674,6 +8694,7 @@
 <e lm="юрист"><i>юрист</i><par n="юрист__n_m_aa"/></e>
 <e lm="іммігрант"><i>іммігрант</i><par n="іммігрант__n_m_aa"/></e>
 <e lm="імміграція"><i>імміграці</i><par n="імміграці/я__n_f_nn"/></e>
+<e lm="справа"><i>справ</i><par n="справ/а__n_f_nn"/></e>
 
 <!--e lm="вибори">          <i>вибори</i><par n="x"/></e>
 <e lm="влада">           <i>влада</i><par n="x"/></e>
@@ -8689,7 +8710,6 @@
 <e lm="свобода">         <i>свобода</i><par n="x"/></e>
 <e lm="світ">            <i>світ</i><par n="x"/></e>
 <e lm="чин">             <i>чин</i><par n="x"/></e>
-<e lm="справа">          <i>справа</i><par n="x"/></e>
 <e lm="уряд">            <i>уряд</i><par n="x"/></e>
 <e lm="ніж">             <i>ніж</i><par n="x"/></e>
 <e lm="кілька">          <i>кілька</i><par n="x"/></e>
