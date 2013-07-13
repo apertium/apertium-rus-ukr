@@ -13,6 +13,7 @@
   <sdefs>
     <sdef n="n" 	c="іменник"/> 
     <sdef n="adj" 	c="Прикметник"/> 
+    <sdef n="abbr" 	c=""/> 
     <sdef n="f" 	c=""/> 
     <sdef n="m" 	c=""/> 
     <sdef n="nt" 	c=""/> 
@@ -139,6 +140,9 @@
       <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
     </pardef>
 
+    <pardef n="км__abbr">
+      <e><p><l></l><r><s n="abbr"/></r></p></e>
+    </pardef>
 
 <pardef n="BASE__англійський">
   <e>       <p><l>ий</l>        <r><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -7074,7 +7078,7 @@
 <e lm="для">             <i>для</i><par n="про__pr"/></e>
 <e lm="до">              <i>до</i><par n="про__pr"/></e>
 <e lm="з">               <i>з</i><par n="про__pr"/></e>
-<e lm="iз">              <i>iз</i><par n="про__pr"/></e>
+<e lm="із">              <i>із</i><par n="про__pr"/></e>
 <e lm="з-під">           <i>з-під</i><par n="про__pr"/></e>
 <e lm="під">             <i>під</i><par n="про__pr"/></e>
 <e lm="зовні">           <i>зовні</i><par n="про__pr"/></e>
@@ -8818,6 +8822,13 @@
 <e lm="зібрати"><i>з</i><par n="з/ібрати__vblex_perf_tv"/></e>
 <e lm="відділити"><i>відділ</i><par n="відділ/ити__vblex_perf_tv"/></e>
 <e lm="задіяти"><i>заді</i><par n="заді/яти__vblex_perf_tv"/></e>
+
+  <!-- Раздел: Аббревиатуры -->
+
+  <e lm="км"><i>км</i><par n="км__abbr"/></e>
+  <e lm="мм"><i>мм</i><par n="км__abbr"/></e>
+  <e lm="кг"><i>кг</i><par n="км__abbr"/></e>
+  <e lm="мг"><i>мг</i><par n="км__abbr"/></e>
 
   </section>
   <section id="final" type="inconditional">
