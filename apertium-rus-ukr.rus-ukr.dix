@@ -56,6 +56,8 @@
     <sdef n="itg"    c=""/>
     <sdef n="neg"    c=""/>
     <sdef n="ref"    c=""/>
+    <sdef n="qnt"    c=""/>
+    <sdef n="ord"    c=""/>
 
     <sdef n="pprep"  c=""/>
 
@@ -1633,11 +1635,44 @@
     <!--part-->
     <e><p><l>ведь<s n="part"/></l>                              <r>адже<s n="part"/></r></p></e>
 
+    <!--prn-->
+    <e><p><l>кто<s n="prn"/><s n="itg"/></l><r>хто<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>кто-то<s n="prn"/><s n="ind"/></l><r>хтось<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>никто<s n="prn"/><s n="neg"/></l><r>ніхто<s n="prn"/><s n="neg"/></r></p></e>
+    <e><p><l>невесть<b/>сколько<s n="prn"/><s n="qnt"/><s n="ind"/></l><r>казна-скільки<s n="prn"/><s n="qnt"/><s n="ind"/></r></p></e>
+    <e><p><l>сколько-то<s n="prn"/><s n="ind"/></l><r>скількись<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>сколько-нибудь<s n="prn"/><s n="ind"/></l><r>скільки-небудь<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>столько<s n="prn"/><s n="dem"/></l><r>стільки<s n="prn"/><s n="dem"/></r></p></e>
+
     <!--det-->
     <e><p><l>каждый<s n="det"/><s n="def"/></l>                 <r>кожний<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>такой<s n="det"/><s n="dem"/></l>                  <r>такий<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>какой<s n="det"/><s n="itg"/></l>                  <r>який<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>этот<s n="det"/><s n="dem"/></l>                   <r>цей<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>который<s n="det"/><s n="itg"/></l>                <r>котрий<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>сколько<s n="det"/><s n="qnt"/></l>                <r>скільки<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>чей<s n="det"/><s n="itg"/></l>                    <r>чий<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>первый<s n="det"/><s n="ord"/></l>                 <r>перший<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>второй<s n="det"/><s n="ord"/></l>                 <r>другий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>третий<s n="det"/><s n="ord"/></l>                 <r>третій<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>четвёртый<s n="det"/><s n="ord"/></l>              <r>четвертий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>шестой<s n="det"/><s n="ord"/></l>                 <r>шостий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>седьмой<s n="det"/><s n="ord"/></l>                <r>сьомий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>восьмой<s n="det"/><s n="ord"/></l>                <r>восьмий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>десятый<s n="det"/><s n="ord"/></l>                <r>десятий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>одиннадцатый<s n="det"/><s n="ord"/></l>           <r>одинадцятий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>двенадцатый<s n="det"/><s n="ord"/></l>            <r>дванадцятий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>шестнадцатый<s n="det"/><s n="ord"/></l>           <r>шістнадцятий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>двадцатый<s n="det"/><s n="ord"/></l>              <r>двадцятий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>тринадцатый<s n="det"/><s n="ord"/></l>            <r>тринадцятий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>четырнадцатый<s n="det"/><s n="ord"/></l>          <r>чотирнадцятий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>тридцатый<s n="det"/><s n="ord"/></l>              <r>тридцятий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>сороковой<s n="det"/><s n="ord"/></l>              <r>сороковий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>сотый<s n="det"/><s n="ord"/></l>                  <r>сотий<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>тысячный<s n="det"/><s n="ord"/></l>               <r>тисячний<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>трёхтысячный<s n="det"/><s n="ord"/></l>           <r>трьохтисячний<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>миллионный<s n="det"/><s n="ord"/></l>             <r>мільйонний<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>миллиардный<s n="det"/><s n="ord"/></l>            <r>мільярдний<s n="det"/><s n="ord"/></r></p></e>
 
     <!--adj-->
     <e><p><l>активный<s n="adj"/></l>                           <r>активний<s n="adj"/></r></p></e>

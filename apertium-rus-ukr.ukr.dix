@@ -1135,12 +1135,13 @@
 </pardef>
 
 <pardef n="казна-скільк/и__prn"><!-- nie wiadomo ile ~ ilekolwiek -->
-  <e>       <p><l>и</l>         <r>и<s n="prn"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>охсь</l>      <r>и<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>охсь</l>      <r>и<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>омсь</l>      <r>и<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>охсь</l>      <r>и<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>омась</l>     <r>и<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>и</l>       <r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>и</l>       <r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ох</l>      <r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ох</l>      <r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ом</l>      <r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ох</l>      <r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ома</l>     <r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 
 <pardef n="хтось__prn"><!-- ktoś -->
