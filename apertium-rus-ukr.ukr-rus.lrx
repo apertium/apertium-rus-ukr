@@ -5,4 +5,18 @@
   <rule>
     <match lemma="хата" tags="n.*"><select lemma="дом" tags="n.*"/></match>
   </rule>
+  <rule> <!-- Адже нелегальні іммігранти почнуть платити податки у скарбницю країни. -->
+    <match lemma="податок" tags="n.*"/>
+    <match/>
+    <match lemma="скарбниця" tags="n.*"><select lemma="казна" tags="n.*"/></match>
+  </rule>
+  <rule> <!-- Вони вимагають, щоб ви довели, що американці не хочуть цієї роботи, а це майже неможливо. -->
+    <match lemma="довести" tags="vblex.*"><select lemma="доказать" tags="vblex.*"/></match>
+    <match lemma="," tags="cm"/>
+    <match lemma="що" tags="prn.*"/>
+  </rule>
+  <rule> <!-- Ферма розміром майже три тисячі гектарів, розташована на півдні штату Аризона. -->
+    <match lemma="південь" tags="n.*"><select lemma="юг" tags="n.*"/></match>
+    <match lemma="штат" tags="n.*"/>
+  </rule>
 </rules>
