@@ -1635,23 +1635,35 @@
     <!--part-->
     <e><p><l>ведь<s n="part"/></l>                              <r>адже<s n="part"/></r></p></e>
 
-    <!--prn-->
-    <e><p><l>кто<s n="prn"/><s n="itg"/></l><r>хто<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>кто-то<s n="prn"/><s n="ind"/></l><r>хтось<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>никто<s n="prn"/><s n="neg"/></l><r>ніхто<s n="prn"/><s n="neg"/></r></p></e>
-    <e><p><l>невесть<b/>сколько<s n="prn"/><s n="qnt"/><s n="ind"/></l><r>казна-скільки<s n="prn"/><s n="qnt"/><s n="ind"/></r></p></e>
-    <e><p><l>сколько-то<s n="prn"/><s n="ind"/></l><r>скількись<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>сколько-нибудь<s n="prn"/><s n="ind"/></l><r>скільки-небудь<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>столько<s n="prn"/><s n="dem"/></l><r>стільки<s n="prn"/><s n="dem"/></r></p></e>
+    <!--num-->
+    <e><p><l>один<s n="num"/></l>                               <r>один<s n="num"/></r></p></e>
+    <e><p><l>шесть<s n="num"/><s n="mfn"/></l>                  <r>шість<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>семь<s n="num"/><s n="mfn"/></l>                   <r>сім<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>десять<s n="num"/><s n="mfn"/></l>                 <r>десять<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>тридцать<s n="num"/><s n="mfn"/></l>               <r>тридцять<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>сорок<s n="num"/><s n="mfn"/></l>                  <r>сорок<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>тысяча<s n="num"/><s n="f"/></l>                   <r>тисяча<s n="num"/><s n="f"/></r></p></e>
+    <e><p><l>миллион<s n="num"/><s n="m"/></l>                  <r>мільйон<s n="num"/><s n="m"/></r></p></e>
+    <e><p><l>миллиард<s n="num"/><s n="m"/></l>                 <r>мільярд<s n="num"/><s n="m"/></r></p></e>
+    <e><p><l>пара<s n="num"/><s n="f"/></l>                     <r>пара<s n="num"/><s n="f"/></r></p></e>
+    <e><p><l>полтора<s n="num"/></l>                            <r>півтора<s n="num"/></r></p></e>
+    <e><p><l>оба<s n="num"/><s n="mfn"/></l>                    <r>обоє<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>двое<s n="num"/><s n="mfn"/></l>                   <r>двоє<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>двое<s n="num"/><s n="mfn"/></l>                   <r>двійко<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>четверо<s n="num"/><s n="mfn"/></l>                <r>четверо<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>шестеро<s n="num"/><s n="mfn"/></l>                <r>шестеро<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>семеро<s n="num"/><s n="mfn"/></l>                 <r>семеро<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>восьмеро<s n="num"/><s n="mfn"/></l>               <r>восьмеро<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>десятеро<s n="num"/><s n="mfn"/></l>               <r>десятеро<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>одиннадцать<s n="num"/><s n="mfn"/></l>            <r>одинадцятеро<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>тринадцать<s n="num"/><s n="mfn"/></l>             <r>тринадцятеро<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>несколько<s n="num"/><s n="mfn"/></l>              <r>кілька<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>несколько<s n="num"/><s n="mfn"/></l>              <r>декілька<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>десяток<b/>с<b/>лишним<s n="num"/><s n="mfn"/></l> <r>кільканадцять<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>несколько<b/>десятков<s n="num"/><s n="mfn"/></l>  <r>кількадесят<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>несколько<b/>сот<s n="num"/><s n="mfn"/></l>       <r>кількасот<s n="num"/><s n="mfn"/></r></p></e>
 
     <!--det-->
-    <e><p><l>каждый<s n="det"/><s n="def"/></l>                 <r>кожний<s n="det"/><s n="def"/></r></p></e>
-    <e><p><l>такой<s n="det"/><s n="dem"/></l>                  <r>такий<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>какой<s n="det"/><s n="itg"/></l>                  <r>який<s n="det"/><s n="itg"/></r></p></e>
-    <e><p><l>этот<s n="det"/><s n="dem"/></l>                   <r>цей<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>который<s n="det"/><s n="itg"/></l>                <r>котрий<s n="det"/><s n="itg"/></r></p></e>
-    <e><p><l>сколько<s n="det"/><s n="qnt"/></l>                <r>скільки<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>чей<s n="det"/><s n="itg"/></l>                    <r>чий<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>первый<s n="det"/><s n="ord"/></l>                 <r>перший<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>второй<s n="det"/><s n="ord"/></l>                 <r>другий<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>третий<s n="det"/><s n="ord"/></l>                 <r>третій<s n="det"/><s n="ord"/></r></p></e>
@@ -1673,6 +1685,27 @@
     <e><p><l>трёхтысячный<s n="det"/><s n="ord"/></l>           <r>трьохтисячний<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>миллионный<s n="det"/><s n="ord"/></l>             <r>мільйонний<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>миллиардный<s n="det"/><s n="ord"/></l>            <r>мільярдний<s n="det"/><s n="ord"/></r></p></e>
+
+    <e><p><l>каждый<s n="det"/><s n="def"/></l>                 <r>кожний<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>такой<s n="det"/><s n="dem"/></l>                  <r>такий<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>какой<s n="det"/><s n="itg"/></l>                  <r>який<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>этот<s n="det"/><s n="dem"/></l>                   <r>цей<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>который<s n="det"/><s n="itg"/></l>                <r>котрий<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>сколько<s n="det"/><s n="qnt"/></l>                <r>скільки<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>чей<s n="det"/><s n="itg"/></l>                    <r>чий<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>самый<s n="det"/><s n="def"/></l>                  <r>самий<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>иной<s n="det"/><s n="ind"/></l>                   <r>інший<s n="det"/><s n="ind"/></r></p></e>
+
+    <!--prn-->
+    <e><p><l>кто<s n="prn"/><s n="itg"/></l><r>хто<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>кто-то<s n="prn"/><s n="ind"/></l><r>хтось<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>никто<s n="prn"/><s n="neg"/></l><r>ніхто<s n="prn"/><s n="neg"/></r></p></e>
+    <e><p><l>невесть<b/>сколько<s n="prn"/><s n="qnt"/><s n="ind"/></l><r>казна-скільки<s n="prn"/><s n="qnt"/><s n="ind"/></r></p></e>
+    <e><p><l>сколько-то<s n="prn"/><s n="ind"/></l><r>скількись<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>сколько-нибудь<s n="prn"/><s n="ind"/></l><r>скільки-небудь<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>столько<s n="prn"/><s n="dem"/></l><r>стільки<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>весь<s n="prn"/><s n="def"/></l><r>увесь<s n="prn"/><s n="def"/></r></p></e>
+    <e><p><l>какой-то<s n="prn"/><s n="ind"/></l><r>якийсь<s n="prn"/><s n="ind"/></r></p></e>
 
     <!--adj-->
     <e><p><l>активный<s n="adj"/></l>                           <r>активний<s n="adj"/></r></p></e>
@@ -1742,34 +1775,6 @@
     <e><p><l>треба<s n="pred"/></l>                             <r>треба<s n="pred"/></r></p></e>
     <e><p><l>жаль<s n="pred"/></l>                              <r>жаль<s n="pred"/></r></p></e>
     <e><p><l>важно<s n="pred"/></l>                             <r>важливо<s n="pred"/></r></p></e>
-
-    <!--num-->
-    <e><p><l>один<s n="num"/></l>                               <r>один<s n="num"/></r></p></e>
-    <e><p><l>шесть<s n="num"/><s n="mfn"/></l>                  <r>шість<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>семь<s n="num"/><s n="mfn"/></l>                   <r>сім<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>десять<s n="num"/><s n="mfn"/></l>                 <r>десять<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>тридцать<s n="num"/><s n="mfn"/></l>               <r>тридцять<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>сорок<s n="num"/><s n="mfn"/></l>                  <r>сорок<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>тысяча<s n="num"/><s n="f"/></l>                   <r>тисяча<s n="num"/><s n="f"/></r></p></e>
-    <e><p><l>миллион<s n="num"/><s n="m"/></l>                  <r>мільйон<s n="num"/><s n="m"/></r></p></e>
-    <e><p><l>миллиард<s n="num"/><s n="m"/></l>                 <r>мільярд<s n="num"/><s n="m"/></r></p></e>
-    <e><p><l>пара<s n="num"/><s n="f"/></l>                     <r>пара<s n="num"/><s n="f"/></r></p></e>
-    <e><p><l>полтора<s n="num"/></l>                            <r>півтора<s n="num"/></r></p></e>
-    <e><p><l>оба<s n="num"/><s n="mfn"/></l>                    <r>обоє<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>двое<s n="num"/><s n="mfn"/></l>                   <r>двоє<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>двое<s n="num"/><s n="mfn"/></l>                   <r>двійко<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>четверо<s n="num"/><s n="mfn"/></l>                <r>четверо<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>шестеро<s n="num"/><s n="mfn"/></l>                <r>шестеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>семеро<s n="num"/><s n="mfn"/></l>                 <r>семеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>восьмеро<s n="num"/><s n="mfn"/></l>               <r>восьмеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>десятеро<s n="num"/><s n="mfn"/></l>               <r>десятеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>одиннадцать<s n="num"/><s n="mfn"/></l>            <r>одинадцятеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>тринадцать<s n="num"/><s n="mfn"/></l>             <r>тринадцятеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>несколько<s n="num"/><s n="mfn"/></l>              <r>кілька<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>несколько<s n="num"/><s n="mfn"/></l>              <r>декілька<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>десяток<b/>с<b/>лишним<s n="num"/><s n="mfn"/></l> <r>кільканадцять<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>несколько<b/>десятков<s n="num"/><s n="mfn"/></l>  <r>кількадесят<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>несколько<b/>сот<s n="num"/><s n="mfn"/></l>       <r>кількасот<s n="num"/><s n="mfn"/></r></p></e>
 
     <!--n-->
     <e><p><l>автор<s n="n"/><s n="m"/><s n="aa"/></l><r>автор<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
@@ -1869,15 +1874,38 @@
     <e><p><l>свобода<s n="n"/><s n="f"/><s n="nn"/></l><r>свобода<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>начало<s n="n"/><s n="nt"/><s n="nn"/></l><r>початок<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>развитие<s n="n"/><s n="nt"/><s n="nn"/></l><r>розвиток<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>жалость<s n="n"/><s n="f"/><s n="nn"/></l><r>жаль<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
 
     <!--np-->
     <e><p><l>Джудис<s n="np"/><s n="ant"/></l>                  <r>Джудіс<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Нен<s n="np"/><s n="ant"/></l>                     <r>Нен<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Юрий<s n="np"/><s n="ant"/></l>                    <r>Юрій<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Владимир<s n="np"/><s n="ant"/></l>                <r>Володимир<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Александр<s n="np"/><s n="ant"/></l>               <r>Олександр<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Виктор<s n="np"/><s n="ant"/></l>                  <r>Віктор<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Сергей<s n="np"/><s n="ant"/></l>                  <r>Сергій<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Юлия<s n="np"/><s n="ant"/></l>                    <r>Юлія<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Николай<s n="np"/><s n="ant"/></l>                 <r>Микола<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Александра<s n="np"/><s n="ant"/></l>              <r>Олександра<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Андрей<s n="np"/><s n="ant"/></l>                  <r>Андрій<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ирина<s n="np"/><s n="ant"/></l>                   <r>Ірина<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Алексей<s n="np"/><s n="ant"/></l>                 <r>Олексій<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Виталий<s n="np"/><s n="ant"/></l>                 <r>Віталій<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Валерия<s n="np"/><s n="ant"/></l>                 <r>Валерія<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Михаил<s n="np"/><s n="ant"/></l>                  <r>Михайло<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Дмитрий<s n="np"/><s n="ant"/></l>                 <r>Дмитро<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Олег<s n="np"/><s n="ant"/></l>                    <r>Олег<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Василий<s n="np"/><s n="ant"/></l>                 <r>Василь<s n="np"/><s n="ant"/></r></p></e>
+
     <e><p><l>Волден<s n="np"/><s n="cog"/></l>                  <r>Волден<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ганс<s n="np"/><s n="cog"/></l>                    <r>Ґанс<s n="np"/><s n="cog"/></r></p></e>
+
     <e><p><l>Аризона<s n="np"/><s n="top"/></l>                 <r>Аризона<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>США<s n="np"/><s n="top"/></l>                     <r>США<s n="np"/><s n="top"/></r></p></e>
-
+    <e><p><l>ЕС<s n="np"/><s n="top"/></l>                      <r>ЄС<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Киев<s n="np"/><s n="top"/></l>                    <r>Київ<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Европа<s n="np"/><s n="top"/></l>                  <r>Європа<s n="np"/><s n="top"/></r></p></e>
+    
     <!--vblex-->
     <e><p><l>тратиться<s n="vblex"/><s n="impf"/></l><r>витрачатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>зарабатывать<s n="vblex"/><s n="impf"/></l><r>заробляти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
@@ -1945,6 +1973,28 @@
     <e><p><l>задействовать<s n="vblex"/><s n="perf"/></l><r>задіяти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>чистить<s n="vblex"/><s n="impf"/></l><r>чистити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>поддерживать<s n="vblex"/><s n="impf"/></l><r>підтримувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>замечать<s n="vblex"/><s n="impf"/></l><r>зауважувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>поздравлять<s n="vblex"/><s n="impf"/></l><r>здоровити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>сделать<s n="vblex"/><s n="perf"/></l><r>зробити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>подчёркивать<s n="vblex"/><s n="impf"/></l><r>наголошувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>переть<s n="vblex"/><s n="impf"/></l><r>перти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>сделать<s n="vblex"/><s n="perf"/></l><r>зробити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>сдаваться<s n="vblex"/><s n="impf"/></l><r>здаватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>казаться<s n="vblex"/><s n="impf"/></l><r>здаватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>происходить<s n="vblex"/><s n="impf"/></l><r>відбуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>делать<b/>ударение<s n="vblex"/><s n="impf"/></l><r>наголошувати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>замечать<s n="vblex"/><s n="impf"/></l><r>зауважувати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>указывать<s n="vblex"/><s n="impf"/></l><r>зазначати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>касаться<s n="vblex"/><s n="impf"/></l><r>стосуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>переть<s n="vblex"/><s n="impf"/></l><r>перти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>указать<s n="vblex"/><s n="perf"/></l><r>зазначити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>заявить<s n="vblex"/><s n="perf"/></l><r>заявити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>считать<s n="vblex"/><s n="impf"/></l><r>вважати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>заявить<s n="vblex"/><s n="perf"/></l><r>заявити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>считать<s n="vblex"/><s n="impf"/></l><r>вважати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>отвоевать<s n="vblex"/><s n="perf"/></l><r>вибороти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>устроить<s n="vblex"/><s n="perf"/></l><r>справити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>изменить<s n="vblex"/><s n="perf"/></l><r>змінити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
   </section>
 </dictionary>
