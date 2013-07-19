@@ -5813,6 +5813,23 @@
       <e><p>          <l>ю</l><r>й<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="prp"/></r></p></e>
     </pardef>
 
+    <pardef n="пол/года__n_mfn_nn">
+      <e><p>          <l>года</l><r>года<s n="n"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p>          <l>года</l><r>года<s n="n"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p>          <l>угода</l><r>года<s n="n"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p>          <l>угоду</l><r>года<s n="n"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p>          <l>угодом</l><r>года<s n="n"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p>          <l>угоде</l><r>года<s n="n"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+    <pardef n="пол/года__n_nt_nn">
+      <e><p>          <l>года</l><r>года<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p>          <l>года</l><r>года<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p>          <l>угода</l><r>года<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p>          <l>угоду</l><r>года<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p>          <l>угодом</l><r>года<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p>          <l>угоде</l><r>года<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="prp"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Proper nouns -->
 
@@ -15292,6 +15309,8 @@
     <e lm="фурия"><i>фури</i><par n="сери/я__n_f_nn"/></e>
     <e lm="экскурсия"><i>экскурси</i><par n="сери/я__n_f_nn"/></e>
     <e lm="эксплуатация"><i>эксплуатаци</i><par n="сери/я__n_f_nn"/></e>
+    <e lm="полгода"><i>пол</i><par n="пол/года__n_mfn_nn"/></e>
+    <e lm="полгода"><i>пол</i><par n="пол/года__n_nt_nn"/></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -15676,7 +15695,6 @@
     <e lm="поздно"><i>поздно</i><par n="здесь__adv"/></e>
     <e lm="пока"><i>пока</i><par n="здесь__adv"/></e>
     <e lm="по-английски"><i>по-английски</i><par n="здесь__adv"/></e>
-    <e lm="полгода"><i>полгода</i><par n="здесь__adv"/></e>
     <e lm="полно"><i>полно</i><par n="здесь__adv"/></e>
     <e lm="полностью"><i>полностью</i><par n="здесь__adv"/></e>
     <e lm="поначалу"><i>поначалу</i><par n="здесь__adv"/></e>
