@@ -1073,8 +1073,12 @@
 </pardef>
 <!--pronouns - займенники -->
 
-<!--CHECK: багато - has meanings of noun (declinable), numeral (declinable?); adverb, predicative, aux word (indeclinable)-->
-<!--pardef n="багат/о__prn"><!~~ wiele ~~> багато isn't prn.ind
+<!--CHECK:
+багато - has meanings of noun (declinable), numeral (declinable); adverb, predicative, aux word (indeclinable).
+nominative of багато requires genetive of the second word and <pl> for countables and <sg> for mass.
+oblique cases of багато agree with the head word in case & number.
+-->
+<pardef n="багат/о__prn"><!-- wiele -->
   <e>       <p><l>о</l>         <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -1083,14 +1087,14 @@
   <e>       <p><l>ьма</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 
-<pardef n="багат/о__det">
+<pardef n="багат/о__det"><!--no concord in nominative and concord in oblique cases - like for numerals more than 5-->
   <e>       <p><l>о</l>         <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>ьом</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
   <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>ьма</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-</pardef-->
+</pardef>
 
 <pardef n="скільк/и__det"><!-- ile -->
   <e>       <p><l>и</l>         <r>и<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -12873,7 +12877,7 @@
 <e lm="хтось">           <i></i><par n="хтось__prn"/></e>
 <e lm="ніхто">           <i></i><par n="ніхто__prn"/></e>
 <e lm="що">              <i></i><par n="що__prn"/></e>
-<!--e lm="багато">          <i>багат</i><par n="багат/о__prn"/></e-->
+<e lm="багато">          <i>багат</i><par n="багат/о__prn"/></e>
 <e lm="весь">            <i>в</i><par n="в/есь__prn"/></e>
 <e lm="казна-скільки">   <i>казна-скільк</i><par n="казна-скільк/и__prn"/></e>
 <e lm="котрий">          <i>котр</i><par n="як/ий__det_itg"/></e>
@@ -13061,7 +13065,7 @@
       ****************************** -->
 <e lm="той">             <i></i><par n="той__det"/></e>
 <!--<e lm="що">              <i></i><par n="що__det"/></e>--> <!-- CHECK -->
-<!--e lm="багато">          <i>багат</i><par n="багат/о__det"/></e-->
+<e lm="багато">          <i>багат</i><par n="багат/о__det"/></e>
 <e lm="котрий">          <i>котр</i><par n="котр/ий__det"/></e>
 <e lm="мій">             <i>м</i><par n="м/ій__det"/></e>
 <e lm="свій">            <i>св</i><par n="м/ій__det"/></e>

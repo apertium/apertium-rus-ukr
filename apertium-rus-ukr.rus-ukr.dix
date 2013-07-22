@@ -1702,6 +1702,7 @@
     <e><p><l>чей<s n="det"/><s n="itg"/></l>                    <r>чий<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>самый<s n="det"/><s n="def"/></l>                  <r>самий<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>иной<s n="det"/><s n="ind"/></l>                   <r>інший<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>много<s n="det"/><s n="qnt"/></l>                  <r>багато<s n="det"/><s n="qnt"/></r></p></e>
 
     <!--prn-->
     <e><p><l>кто<s n="prn"/><s n="itg"/></l><r>хто<s n="prn"/><s n="itg"/></r></p></e>
@@ -1713,6 +1714,7 @@
     <e><p><l>столько<s n="prn"/><s n="dem"/></l><r>стільки<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>весь<s n="prn"/><s n="def"/></l><r>увесь<s n="prn"/><s n="def"/></r></p></e>
     <e><p><l>какой-то<s n="prn"/><s n="ind"/></l><r>якийсь<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>многие<s n="prn"/><s n="ind"/></l><r>багато<s n="prn"/><s n="ind"/></r></p></e>
 
     <!--adj-->
     <e><p><l>активный<s n="adj"/></l>                           <r>активний<s n="adj"/></r></p></e>
