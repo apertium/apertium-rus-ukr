@@ -16824,6 +16824,41 @@ oblique cases of багато agree with the head word in case & number.
   <e>       <p><l>их</l><r>ий<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>ими</l><r>ий<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
+<pardef n="сам__det_def">
+  <e>       <p><l></l><r><s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e r="LR"><p><l>ий</l><r><s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ого</l><r><s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ому</l><r><s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ого</l><r><s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>им</l><r><s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ому</l><r><s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ім</l><r><s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+
+  <e>       <p><l>а</l><r><s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ої</l><r><s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ій</l><r><s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>у</l><r><s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ою</l><r><s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ій</l><r><s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+
+  <e>       <p><l>о</l><r><s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>е</l><r><s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ого</l><r><s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ому</l><r><s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>о</l><r><s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>е</l><r><s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>им</l><r><s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ому</l><r><s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ім</l><r><s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+
+  <e>       <p><l>и</l><r><s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>і</l><r><s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>их</l><r><s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>им</l><r><s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>их</l><r><s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ими</l><r><s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>их</l><r><s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+</pardef>
 <pardef n="інш/ий__det_ind">
   <e>       <p><l>ий</l><r>ий<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>ий</l><r>ий<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -20248,7 +20283,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="кількадесят"><i>кількадесят</i><par n="кількадесят__num_mfn"/></e>
 <e lm="кількасот"><i>кільк</i><par n="кільк/асот__num_mfn"/></e>
 
-<!--det-->
+<!-- det - означальне слово -->
 <e lm="перший"><i>перш</i><par n="перш/ий__det_ord"/></e>
 <e lm="другий"><i>друг</i><par n="перш/ий__det_ord"/></e>
 <e lm="третій"><i>трет</i><par n="трет/ій__det_ord"/></e>
@@ -20275,13 +20310,14 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="який"><i>як</i><par n="як/ий__det_itg"/></e>
 <e lm="цей"><i>ц</i><par n="ц/ей__det_dem"/></e>
 <e lm="самий"><i>сам</i><par n="сам/ий__det_def"/></e>
+<e lm="сам"><i>сам</i><par n="сам__det_def"/></e>
 <e lm="інший"><i>інш</i><par n="інш/ий__det_ind"/></e>
 
-<!--prn-->
+<!-- prn - займенник -->
 <e lm="увесь"><i>у</i><par n="у/весь__prn_def"/></e>
 <e lm="якийсь"><i>як</i><par n="як/ийсь__prn_ind"/></e>
 
-<!--adj-->
+<!-- adj - прикметник -->
 <e lm="верховний">       <i>верховн</i><par n="англійськ/ий__adj"/></e>
 <e lm="політичний">      <i>політичн</i><par n="англійськ/ий__adj"/></e>
 <e lm="рівний">          <i>рівн</i><par n="англійськ/ий__adj"/></e>
@@ -20321,7 +20357,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="інвестиційний">   <i>інвестиційн</i><par n="англійськ/ий__adj"/></e>
 <e lm="існуючий">        <i>існуюч</i><par n="англійськ/ий__adj"/></e>
 
-<!--adv-->
+<!-- adv - прислівник -->
 <e lm="абсолютно">       <i>абсолютно</i><par n="тільки__adv"/></e>
 <e lm="більше">          <i></i><par n="більше__adv"/></e>
 <e lm="взагалі">         <i>взагалі</i><par n="тільки__adv"/></e>
@@ -20358,7 +20394,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="округ">           <i>округ</i><par n="тільки__adv"/></e>
 <e lm="свято">           <i>свято</i><par n="тільки__adv"/></e>
 
-<!--pred-->
+<!-- pred - присудкове слово -->
 <e lm="повинен">         <i>повин</i><par n="повин/ен__pred"/></e>
 <e lm="повинний">        <i>повинн</i><par n="повинн/ий__pred"/></e>
 <e lm="потрібно">        <i>потрібно</i><par n="треба__pred"/></e>
@@ -20367,7 +20403,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="важливо">         <i>важливо</i><par n="треба__pred"/></e>
 <e lm="слід">            <i>слід</i><par n="треба__pred"/></e>
 
-<!--n-->
+<!-- n - іменник -->
 <e lm="бік"><i>б</i><par n="б/ік__n_m_nn"/></e>
 <e lm="більшість"><i>більш</i><par n="більш/ість__n_f_nn"/></e>
 <e lm="виборець"><i>вибор</i><par n="вибор/ець__n_m_aa"/></e>
@@ -21105,7 +21141,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="честь"><i>чест</i><par n="чест/ь__n_f_nn"/></e>
 <e lm="інфраструктура"><i>інфраструктур</i><par n="інфраструктур/а__n_f_nn"/></e>
 
-<!--np-->
+<!-- np - власна назва -->
 <e lm="Джудіс">          <i>Джудіс</i><par n="Брітні__np_ant"/></e>
 <e lm="Нен">             <i>Нен</i><par n="Брітні__np_ant"/></e>
 <e lm="Юрій">            <i>Юрі</i><par n="Юрі/й__np_ant"/></e>
@@ -21148,7 +21184,7 @@ oblique cases of багато agree with the head word in case & number.
 
 <e lm="Різдво">          <i>Різдв</i><par n="Різдв/о__np_al_nt"/></e>
 
-<!--vblex-->
+<!-- vblex - дієслово -->
 <e lm="витрачатися">     <i>витрача</i><par n="хова/тися__vblex_impf_iv"/></e>
 <e lm="заробляти"><i>заробля</i><par n="заробля/ти__vblex_impf_iv"/></e>
 <e lm="перебувати"><i>перебува</i><par n="перебува/ти__vblex_impf_iv"/></e>
