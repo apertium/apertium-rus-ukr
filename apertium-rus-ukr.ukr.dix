@@ -16153,27 +16153,44 @@ oblique cases of багато agree with the head word in case & number.
 </pardef>
 
 <pardef n="інфраструктур/а__n_f_nn">
-<e>       <p><l>а</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
-<e>       <p><l>у</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
-<e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-<e>       <p><l>і</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
-<e>       <p><l>і</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
-<e>       <p><l>ою</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
-<e>       <p><l>о</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
-<e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
-<e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
-<e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
-<e>       <p><l>ам</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
-<e>       <p><l>ах</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
-<e>       <p><l>ами</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
-<e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>а</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>у</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>і</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>і</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ою</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>о</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ам</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ах</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ами</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 
 <!--np-->
 <pardef n="Брітні__np_ant">
   <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></r></p></e>
 </pardef>
-<pardef n="Ющенк/о__np">
+<pardef n="Кучм/а__np_cog_mf">
+  <e>       <p><l>а</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>у</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>і</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>і</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ою</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>о</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>а</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ам</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ах</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ами</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="voc"/></r></p></e>
+</pardef>
+<pardef n="Ющенк/о__np_cog"><!--TODO: fix f.pl-->
   <e>       <p><l>о</l>         <r>о<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="indecl"/></r></p></e>
   <e>       <p><l>о</l>         <r>о<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>а</l>         <r>о<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -16193,15 +16210,18 @@ oblique cases of багато agree with the head word in case & number.
   <e>       <p><l>ах</l>        <r>о<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>и</l>         <r>о<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
-<pardef n="Волден__np_cog">
+<pardef n="Олійник__np_cog"><!--TODO: fix f.pl-->
+  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="indecl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>а</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>у</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ові</l>       <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>а</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ом</l>        <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l>і</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l>е</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="indecl"/></r></p></e>
+  <e>       <p><l>у</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ові</l>       <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>у</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
   <e>       <p><l>и</l>         <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>ів</l>        <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>ам</l>        <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
@@ -16210,22 +16230,61 @@ oblique cases of багато agree with the head word in case & number.
   <e>       <p><l>ах</l>        <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>и</l>         <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
-<pardef n="Кучм/а__np_cog_mf">
-<e>       <p><l>а</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-<e>       <p><l>у</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
-<e>       <p><l>и</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
-<e>       <p><l>і</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
-<e>       <p><l>і</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
-<e>       <p><l>ою</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
-<e>       <p><l>о</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="voc"/></r></p></e>
-<e>       <p><l>а</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="voc"/></r></p></e>
-<e>       <p><l>и</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-<e>       <p><l></l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-<e>       <p><l></l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-<e>       <p><l>ам</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-<e>       <p><l>ах</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-<e>       <p><l>ами</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-<e>       <p><l>и</l><r>а<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="voc"/></r></p></e>
+<pardef n="Волден__np_cog"><!--TODO: fix f.pl--><!--CHECK loc, voc-->
+  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="indecl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>а</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>у</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>а</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ом</l>        <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>і</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>е</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>и</l>         <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ів</l>        <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ам</l>        <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ів</l>        <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ами</l>       <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ах</l>        <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>и</l>         <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="voc"/></r></p></e>
+</pardef>
+<pardef n="Янукович__np_cog"><!--TODO: fix f.pl-->
+  <e>       <p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="indecl"/></r></p></e>
+  <e>       <p><l></l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>а</l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>а</l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>еві</l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>у</l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>еві</l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>і</l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>у</l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ем</l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>у</l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l></l><r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>і</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ів</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ів</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ам</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ах</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ами</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>і</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="voc"/></r></p></e>
+</pardef>
+<pardef n="Палі/й__np_cog"><!--TODO: fix f.pl-->
+  <e>       <p><l>й</l><r>й<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="indecl"/></r></p></e>
+  <e>       <p><l>й</l><r>й<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>я</l><r>й<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>я</l><r>й<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>єві</l><r>й<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ю</l><r>й<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ї</l><r>й<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>єм</l><r>й<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ю</l><r>й<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
+  <e>       <p><l>ї</l><r>й<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>їв</l><r>й<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>їв</l><r>й<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ям</l><r>й<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ях</l><r>й<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ями</l><r>й<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ї</l><r>й<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="Україн/а__np_top">
   <e>       <p><l>а</l>         <r>а<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -19920,13 +19979,13 @@ oblique cases of багато agree with the head word in case & number.
     <!-- Autoadded -->
 <e lm="Азія">            <i>Азі</i><par n="Іспані/я__np"/></e>
 <e lm="Англія">          <i>Англі</i><par n="Іспані/я__np"/></e>
-<!--<e lm="Андрійко">        <i>Андрійк</i><par n="Ющенк/о__np"/></e>-->
+<!--<e lm="Андрійко">        <i>Андрійк</i><par n="Ющенк/о__np_cog"/></e>-->
 <e lm="Бадді Холлі">     <i>Бадді<b/>Холлі</i><par n="Эдді__np"/></e>
 <e lm="Болгарія">        <i>Болгарі</i><par n="Іспані/я__np"/></e>
 
 <!--<e lm="Брітні">          <i>Бритни</i><par n="Брітні__np_ant"/></e>-->
 <!--<e lm="Брітні Спиіс">    <i>Брітні<b/>Спиіс</i><par n="Брітні__np_ant"/></e>-->
-<e lm="Головко">         <i>Головк</i><par n="Ющенк/о__np"/></e>
+<e lm="Головко">         <i>Головк</i><par n="Ющенк/о__np_cog"/></e>
 <e lm="Джо">             <i>Джо</i><par n="Эдді__np"/></e>
 <e lm="Джо">             <i>Джо</i><par n="Брітні__np_ant"/></e>
 <e lm="Естонія">         <i>Естоні</i><par n="Іспані/я__np"/></e>
@@ -19938,9 +19997,9 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="Па-де-Кале">      <i>Па-де-Кале</i><par n="Кале__np"/></e>
 <e lm="Росія">           <i>Росі</i><par n="Іспані/я__np"/></e>
     
-<e lm="Тимошенко">       <i>Тимошенк</i><par n="Ющенк/о__np"/></e>
+<e lm="Тимошенко">       <i>Тимошенк</i><par n="Ющенк/о__np_cog"/></e>
 <e lm="Эдді">            <i>Эдді</i><par n="Эдді__np"/></e>
-<e lm="Ющенко">          <i>Ющенк</i><par n="Ющенк/о__np"/></e>
+<e lm="Ющенко">          <i>Ющенк</i><par n="Ющенк/о__np_cog"/></e>
     <!-- ******************************
           group adj
       ****************************** -->
@@ -21167,9 +21226,13 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="Георгій">         <i>Георгі</i><par n="Георгі/й__np_ant_m"/></e>
 <e lm="Марина">          <i>Марин</i><par n="Марин/а__np_ant_f"/></e>
 
+<e lm="Кучма">           <i>Кучм</i><par n="Кучм/а__np_cog_mf"/></e>
+<e lm="Мірошниченко">    <i>Мірошниченко</i><par n="Ющенк/о__np_cog"/></e>
+<e lm="Олійник">         <i>Олійник</i><par n="Олійник__np_cog"/></e>
 <e lm="Волден">          <i>Волден</i><par n="Волден__np_cog"/></e>
 <e lm="Ґанс">            <i>Ґанс</i><par n="Волден__np_cog"/></e>
-<e lm="Кучма">           <i>Кучм</i><par n="Кучм/а__np_cog_mf"/></e>
+<e lm="Янукович">        <i>Янукович</i><par n="Янукович__np_cog"/></e>
+<e lm="Палій">           <i>Палі</i><par n="Палі/й__np_cog"/></e>
 
 <e lm="США">             <i>США</i><par n="США__np_top_m_pl"/></e>
 <e lm="ЄС">              <i>ЄС</i><par n="ЄС__np_top_m_sg"/></e>

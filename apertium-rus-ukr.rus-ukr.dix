@@ -2605,9 +2605,13 @@
     <e><p><l>Георгий<s n="np"/><s n="ant"/><s n="m"/></l>       <r>Георгій<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Марина<s n="np"/><s n="ant"/><s n="f"/></l>        <r>Марина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
+    <e><p><l>Кучма<s n="np"/><s n="cog"/><s n="mf"/></l>        <r>Кучма<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Мирошниченко<s n="np"/><s n="cog"/></l>            <r>Мірошниченко<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Олейник<s n="np"/><s n="cog"/></l>                 <r>Олійник<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Волден<s n="np"/><s n="cog"/></l>                  <r>Волден<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ганс<s n="np"/><s n="cog"/></l>                    <r>Ґанс<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Кучма<s n="np"/><s n="cog"/><s n="mf"/></l>        <r>Кучма<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Янукович<s n="np"/><s n="cog"/></l>                <r>Янукович<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Палий<s n="np"/><s n="cog"/></l>                   <r>Палій<s n="np"/><s n="cog"/></r></p></e>
 
     <e><p><l>США<s n="np"/><s n="top"/><s n="m"/></l>           <r>США<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>ЕС<s n="np"/><s n="top"/><s n="m"/></l>            <r>ЄС<s n="np"/><s n="top"/><s n="m"/></r></p></e>
