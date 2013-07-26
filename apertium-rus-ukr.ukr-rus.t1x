@@ -301,7 +301,7 @@
     </action>
   </rule>
 
-  <rule comment="nom">
+  <!--rule comment="nom">
     <pattern>
       <pattern-item n="nom"/>
     </pattern>
@@ -323,7 +323,7 @@
         </chunk>
       </out>
     </action>
-  </rule>
+  </rule-->
 
 <!-- SP -->
 

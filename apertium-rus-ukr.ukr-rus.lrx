@@ -19,4 +19,8 @@
     <match lemma="південь" tags="n.*"><select lemma="юг" tags="n.*"/></match>
     <match lemma="штат" tags="n.*"/>
   </rule>
+  <rule> <!-- лише трохи більше десяти відсотків було відділено для працівників агрокомплексу. -->
+    <match lemma="відділити" tags="vblex.*"><select lemma="выделить" tags="vblex.*"/></match>
+    <match lemma="для" tags="pr.*"/>
+  </rule>
 </rules>
