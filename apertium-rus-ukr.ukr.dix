@@ -236,7 +236,7 @@
 <pardef n="можна__vaux">
   <e>       <p><l></l>          <r><s n="vaux"/></r></p></e>
 </pardef>
-<pardef n="де__adv">
+<pardef n="де__adv_itg">
   <e>       <p><l></l>          <r><s n="adv"/><s n="itg"/></r></p></e>
 </pardef>
 <pardef n="тільки__adv">
@@ -259,7 +259,7 @@
 </pardef>
 <pardef n="/__cnjadv">
   <e>       <p><l></l>          <r><s n="cnjadv"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="adv"/></r></p></e>
+  <!--e>       <p><l></l>          <r><s n="adv"/></r></p></e-->
 </pardef>
 <pardef n="ст/о__num">
   <e>       <p><l>о</l>         <r>о<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -387,17 +387,17 @@
   <e>       <p><l>ість</l>      <r>ість<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="в/ісім__num">
-  <e>       <p><l>осьми</l>     <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ісьмох</l>    <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>осьи</l>      <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ісьмох</l>    <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ісім</l>      <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ісьмох</l>    <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>осьми</l>     <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ісьмох</l>    <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ісьма</l>     <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ісьмома</l>   <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>ісім</l>      <r>ісім<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ісім</l>      <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>осьми</l>     <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ісьмох</l>    <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>осьи</l>      <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ісьмох</l>    <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ісім</l>      <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ісьмох</l>    <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>осьми</l>     <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ісьмох</l>    <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ісьма</l>     <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ісьмома</l>   <r>ісім<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="тр/иста__num">
   <e>       <p><l>ьохсот</l>    <r>иста<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -408,12 +408,12 @@
   <e>       <p><l>иста</l>      <r>иста<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="ш/істсот__num">
-  <e>       <p><l>естисот</l>   <r>істсот<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>естистам</l>  <r>істсот<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>істсот</l>    <r>істсот<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>естистах</l>  <r>істсот<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>істьмастами</l><r>істсот<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>істсот</l>    <r>істсот<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>істсот</l>    <r>істсот<s n="num"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>естисот</l>   <r>істсот<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>естистам</l>  <r>істсот<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>істсот</l>    <r>істсот<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>істьмастами</l><r>істсот<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>естистах</l>  <r>істсот<s n="num"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
 </pardef>
 <pardef n="чотир/иста__num">
   <e>       <p><l>ьохсот</l>    <r>иста<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -424,12 +424,12 @@
   <e>       <p><l>иста</l>      <r>иста<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="тр/и__num">
-  <e>       <p><l>ьох</l>       <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ьом</l>       <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>и</l>         <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ьома</l>      <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l>и</l>         <r>и<s n="num"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>и</l>         <r>и<s n="num"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>и<s n="num"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ьом</l>       <r>и<s n="num"/><s n="mfn"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>и</l>         <r>и<s n="num"/><s n="mfn"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>и<s n="num"/><s n="mfn"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ьома</l>      <r>и<s n="num"/><s n="mfn"/><s n="sg"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="в/ісімсот__num">
   <e>       <p><l>осьмисот</l>  <r>ісімсот<s n="num"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -1079,30 +1079,30 @@ nominative of багато requires genetive of the second word and <pl> for cou
 oblique cases of багато agree with the head word in case & number.
 -->
 <pardef n="багат/о__prn"><!-- wiele -->
-  <e>       <p><l>о</l>         <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ьом</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ьма</l>       <r>о<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>о</l>         <r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ьом</l>       <r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ьма</l>       <r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
 </pardef>
 
 <pardef n="багат/о__det"><!--no concord in nominative and concord in oblique cases - like for numerals more than 5-->
-  <e>       <p><l>о</l>         <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ьом</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ьма</l>       <r>о<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>о</l>         <r>о<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ьом</l>       <r>о<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ьох</l>       <r>о<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ьма</l>       <r>о<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 
 <pardef n="скільк/и__det"><!-- ile -->
-  <e>       <p><l>и</l>         <r>и<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ох</l>        <r>и<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ох</l>        <r>и<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ом</l>        <r>и<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ох</l>        <r>и<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>ома</l>       <r>и<s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+  <e>       <p><l>и</l>         <r>и<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ох</l>        <r>и<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ох</l>        <r>и<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ом</l>        <r>и<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ох</l>        <r>и<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ома</l>       <r>и<s n="det"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 
 <!--
@@ -3977,19 +3977,17 @@ oblique cases of багато agree with the head word in case & number.
 </pardef>
 <pardef n="півтор/а__num">
   <e>       <p><l>а</l><r>а<s n="num"/><s n="mn"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>а</l><r>а<s n="num"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>а</l><r>а<s n="num"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>а</l><r>а<s n="num"/><s n="mn"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>а</l><r>а<s n="num"/><s n="mn"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>а</l><r>а<s n="num"/><s n="mn"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>а</l><r>а<s n="num"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>а</l><r>а<s n="num"/><s n="mn"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>а</l><r>а<s n="num"/><s n="mn"/><s n="sg"/><s n="loc"/></r></p></e>
   <e>       <p><l>и</l><r>а<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>и</l><r>а<s n="num"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>и</l><r>а<s n="num"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>и</l><r>а<s n="num"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>и</l><r>а<s n="num"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>и</l><r>а<s n="num"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="num"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>и</l><r>а<s n="num"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+  <e>       <p><l>и</l><r>а<s n="num"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
 </pardef>
 <pardef n="обо/є__num_mfn">
   <e>       <p><l>є</l><r>є<s n="num"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -18910,7 +18908,6 @@ oblique cases of багато agree with the head word in case & number.
 </pardefs>
 
   <section id="main" type="standard">
-<e lm="можна">           <i>можна</i><par n="можна__vaux"/></e>
     <!-- ******************************
           group part
       ****************************** -->
@@ -19002,13 +18999,13 @@ oblique cases of багато agree with the head word in case & number.
     <!-- ******************************
           group adv
       ****************************** -->
-<e lm="де">              <i>де</i><par n="де__adv"/></e>
+<e lm="де">              <i>де</i><par n="де__adv_itg"/></e>
 <e lm="на переддні">     <i>на<b/>переддні</i><par n="тільки__adv"/></e>
     
 <e lm="не">              <i>не</i><par n="не__adv"/></e>
 <e lm="ніколи">          <i>ніколи</i><par n="не__adv"/></e>
 <e lm="тільки">          <i>тільки</i><par n="тільки__adv"/></e>
-<e lm="як">              <i>як</i><par n="де__adv"/></e>
+<e lm="як">              <i>як</i><par n="де__adv_itg"/></e>
 <e lm="сьогодні">        <i>сьогодні</i><par n="тільки__adv"/></e>
 <e lm="вчора">           <i>вчора</i><par n="тільки__adv"/></e>
 <e lm="дуже">            <i>дуже</i><par n="тільки__adv"/></e>
@@ -20295,9 +20292,9 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="однак">           <i>однак</i><par n="а__cnjcoo"/></e>
 <e lm="тобто">           <i>тобто</i><par n="а__cnjcoo"/></e>
 <e lm="ж">               <i>ж</i><par n="а__cnjcoo"/></e>
-<e lm="лише">            <i>лише</i><par n="а__cnjcoo"/></e>
 
 <!-- cnjsub - підрядний сполучник -->
+<e lm="лише">            <i>лише</i><par n="то__cnjsub"/></e>
 <e lm="оскільки">        <i>оскільки</i><par n="то__cnjsub"/></e>
 <e lm="бо">              <i>бо</i><par n="то__cnjsub"/></e>
 <e lm="ніж">             <i>ніж</i><par n="то__cnjsub"/></e>
@@ -20421,6 +20418,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="існуючий">        <i>існуюч</i><par n="англійськ/ий__adj"/></e>
 
 <!-- adv - прислівник -->
+<e lm="інакше">          <i>інакше</i><par n="тільки__adv"/></e>
 <e lm="абсолютно">       <i>абсолютно</i><par n="тільки__adv"/></e>
 <e lm="більше">          <i></i><par n="більше__adv"/></e>
 <e lm="взагалі">         <i>взагалі</i><par n="тільки__adv"/></e>
@@ -20465,6 +20463,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="жаль">            <i>жаль</i><par n="треба__pred"/></e>
 <e lm="важливо">         <i>важливо</i><par n="треба__pred"/></e>
 <e lm="слід">            <i>слід</i><par n="треба__pred"/></e>
+<e lm="можна">           <i>можна</i><par n="треба__pred"/></e>
 
 <!-- n - іменник -->
 <e lm="бік"><i>б</i><par n="б/ік__n_m_nn"/></e>

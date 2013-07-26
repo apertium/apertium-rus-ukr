@@ -118,6 +118,8 @@
     <e><p><l>всё-таки<s n="part"/></l><r>все-таки<s n="cnjadv"/></r></p></e>
     <e><p><l>вот<s n="part"/></l><r>ось<s n="part"/></r></p></e>
     <e><p><l>бы<s n="part"/></l><r>би<s n="part"/></r></p></e>
+    <e><p><l>лишь<s n="part"/></l><r>лише<s n="part"/></r></p></e>
+    <e><p><l>ж<s n="part"/></l><r>ж<s n="part"/></r></p></e>
 
     <!-- SECTION: Conjunctions -->
 
@@ -129,8 +131,8 @@
     <e><p><l>однако<s n="cnjcoo"/></l><r>однак<s n="cnjcoo"/></r></p></e>
     <e><p><l>то<b/>есть<s n="cnjcoo"/></l><r>тобто<s n="cnjcoo"/></r></p></e>
     <e><p><l>ж<s n="cnjcoo"/></l><r>ж<s n="cnjcoo"/></r></p></e>
-    <e><p><l>лишь<s n="cnjcoo"/></l><r>лише<s n="cnjcoo"/></r></p></e>
 
+    <e><p><l>лишь<s n="cnjsub"/></l><r>лише<s n="cnjsub"/></r></p></e>
     <e><p><l>то<s n="cnjsub"/></l><r>то<s n="cnjsub"/></r></p></e> <!-- check -->
     <e><p><l>что<s n="cnjsub"/></l><r>що<s n="cnjsub"/></r></p></e>
     <e><p><l>хотя<s n="cnjsub"/></l><r>хоча<s n="cnjsub"/></r></p></e>
@@ -227,7 +229,7 @@
     <e><p><l>к<s n="pr"/></l><r>над<s n="pr"/><s n="acc"/></r></p></e>
     <e><p><l>над<s n="pr"/></l><r>понад<s n="pr"/><s n="ins"/></r></p></e>
     <e><p><l>к<s n="pr"/></l><r>понад<s n="pr"/><s n="acc"/></r></p></e>
-    <e><p><l>более<s n="pr"/><s n="gen"/></l><r>понад<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>более<s n="pr"/></l><r>понад<s n="pr"/><s n="gen"/></r></p></e>
     <e><p><l>около<s n="pr"/><s n="gen"/></l><r>при<s n="pr"/></r></p></e>
     <e><p><l>при<s n="pr"/><s n="prp"/></l><r>при<s n="pr"/></r></p></e>
     <e><p><l>ради<s n="pr"/></l><r>ради<s n="pr"/></r></p></e>
@@ -1534,7 +1536,6 @@
 
     <!-- SECTION: Verbs -->
 
-    <e><p><l>можно<s n="vaux"/></l><r>можна<s n="vaux"/></r></p></e><!--predicative-->
     <e><p><l>покупать<s n="vblex"/><s n="impf"/></l><r>купувати<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>купить<s n="vblex"/><s n="perf"/></l><r>купити<s n="vblex"/><s n="perf"/></r></p></e>
 
@@ -1700,7 +1701,7 @@
 
     <e><p><l>каждый<s n="det"/><s n="def"/></l>                 <r>кожний<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>такой<s n="det"/><s n="dem"/></l>                  <r>такий<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>какой<s n="det"/><s n="itg"/></l>                  <r>який<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>который<s n="det"/><s n="itg"/></l>                <r>який<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>этот<s n="det"/><s n="dem"/></l>                   <r>цей<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>который<s n="det"/><s n="itg"/></l>                <r>котрий<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>сколько<s n="det"/><s n="qnt"/></l>                <r>скільки<s n="det"/><s n="qnt"/></r></p></e>
@@ -1766,6 +1767,7 @@
     <e><p><l>светлый<s n="adj"/><s n="sint"/></l>               <r>світлий<s n="adj"/><s n="sint"/></r></p></e>
 
     <!--adv-->
+    <e><p><l>иначе<s n="adv"/></l>                              <r>інакше<s n="adv"/></r></p></e>
     <e><p><l>больше<s n="adv"/></l>                             <r>більше<s n="adv"/></r></p></e>
     <e><p><l>меньше<s n="adv"/></l>                             <r>менше<s n="adv"/></r></p></e>
     <e><p><l>тяжело<s n="adv"/></l>                             <r>важко<s n="adv"/></r></p></e>
@@ -1793,7 +1795,6 @@
     <e><p><l>прежде<s n="adv"/></l>                             <r>перед<s n="adv"/></r></p></e>
     <e><p><l>раньше<s n="adv"/></l>                             <r>раніше<s n="adv"/></r></p></e>
     <e><p><l>против<s n="adv"/></l>                             <r>проти<s n="adv"/></r></p></e>
-    <e><p><l>как<s n="adv"/></l>                                <r>як<s n="adv"/></r></p></e>
     <e><p><l>иначе<s n="adv"/></l>                              <r>інакше<s n="adv"/></r></p></e>
     <e><p><l>абсолютно<s n="adv"/></l>                          <r>абсолютно<s n="adv"/></r></p></e>
     <e><p><l>вообще<s n="adv"/></l>                             <r>взагалі<s n="adv"/></r></p></e>
@@ -1819,6 +1820,7 @@
     <e><p><l>жаль<s n="pred"/></l>                              <r>жаль<s n="pred"/></r></p></e>
     <e><p><l>важно<s n="pred"/></l>                             <r>важливо<s n="pred"/></r></p></e>
     <e><p><l>надо<s n="pred"/></l>                              <r>слід<s n="pred"/></r></p></e>
+    <e><p><l>можно<s n="pred"/></l>                             <r>можна<s n="pred"/></r></p></e>
 
     <!--n-->
     <e><p><l>автор<s n="n"/><s n="m"/><s n="aa"/></l><r>автор<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
