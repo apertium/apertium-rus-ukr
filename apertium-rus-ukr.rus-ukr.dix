@@ -1737,34 +1737,30 @@
     <e><p><l>долгожданный<s n="adj"/></l>                       <r>довгоочікуваний<s n="adj"/></r></p></e>
     <e><p><l>дополнительный<s n="adj"/></l>                     <r>додатковий<s n="adj"/></r></p></e>
     <e><p><l>дорогой<s n="adj"/></l>                            <r>дорогий<s n="adj"/></r></p></e>
-    <e><p><l>действующий<s n="adj"/></l>                        <r>діючий<s n="adj"/></r></p></e>
     <e><p><l>экономический<s n="adj"/></l>                      <r>економічний<s n="adj"/></r></p></e>
     <e><p><l>общий<s n="adj"/></l>                              <r>загальний<s n="adj"/></r></p></e>
-    <e><p><l>предложенный<s n="adj"/></l>                       <r>запропонований<s n="adj"/></r></p></e>
-    <e><p><l>квалифицированный<s n="adj"/></l>                  <r>кваліфікований<s n="adj"/></r></p></e>
     <e><p><l>коренной<s n="adj"/></l>                           <r>корінний<s n="adj"/></r></p></e>
-    <e><p><l>механизированный<s n="adj"/></l>                   <r>механізований<s n="adj"/></r></p></e>
     <e><p><l>местный<s n="adj"/></l>                            <r>місцевий<s n="adj"/></r></p></e>
     <e><p><l>нелегальный<s n="adj"/></l>                        <r>нелегальний<s n="adj"/></r></p></e>
     <e><p><l>неприемлемый<s n="adj"/></l>                       <r>неприйнятний<s n="adj"/></r></p></e>
     <e><p><l>уверенный<s n="adj"/></l>                          <r>певний<s n="adj"/></r></p></e>
-    <e><p><l>призванный<s n="adj"/></l>                         <r>покликаний<s n="adj"/></r></p></e>
     <e><p><l>постоянный<s n="adj"/></l>                         <r>постійний<s n="adj"/></r></p></e>
     <e><p><l>рабочий<s n="adj"/></l>                            <r>робочий<s n="adj"/></r></p></e>
-    <e><p><l>расположенный<s n="adj"/></l>                      <r>розташований<s n="adj"/></r></p></e>
     <e><p><l>сезонный<s n="adj"/></l>                           <r>сезонний<s n="adj"/></r></p></e>
     <e><p><l>сложный<s n="adj"/></l>                            <r>складний<s n="adj"/></r></p></e>
     <e><p><l>современный<s n="adj"/></l>                        <r>сучасний<s n="adj"/></r></p></e>
     <e><p><l>временный<s n="adj"/></l>                          <r>тимчасовий<s n="adj"/></r></p></e>
     <e><p><l>иммиграционный<s n="adj"/></l>                     <r>імміграційний<s n="adj"/></r></p></e>
     <e><p><l>инвестиционный<s n="adj"/></l>                     <r>інвестиційний<s n="adj"/></r></p></e>
-    <e><p><l>существующий<s n="adj"/></l>                       <r>існуючий<s n="adj"/></r></p></e>
     <e><p><l>верховный<s n="adj"/></l>                          <r>верховний<s n="adj"/></r></p></e>
     <e><p><l>политический<s n="adj"/></l>                       <r>політичний<s n="adj"/></r></p></e>
     <e><p><l>равный<s n="adj"/></l>                             <r>рівний<s n="adj"/></r></p></e>
     <e><p><l>ровный<s n="adj"/></l>                             <r>рівний<s n="adj"/></r></p></e>
     <e><p><l>новый<s n="adj"/><s n="sint"/></l>                 <r>новий<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>светлый<s n="adj"/><s n="sint"/></l>               <r>світлий<s n="adj"/><s n="sint"/></r></p></e>
+    <!-- adjectives which are also participles -->
+    <e><p><l>действующий<s n="adj"/></l>                        <r>діючий<s n="adj"/></r></p></e>
+    <e><p><l>призванный<s n="adj"/></l>                         <r>покликаний<s n="adj"/></r></p></e>
 
     <!--adv-->
     <e><p><l>иначе<s n="adv"/></l>                              <r>інакше<s n="adv"/></r></p></e>
@@ -2719,6 +2715,17 @@
     <e><p><l>отвоевать<s n="vblex"/><s n="perf"/></l><r>вибороти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>устроить<s n="vblex"/><s n="perf"/></l><r>справити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>изменить<s n="vblex"/><s n="perf"/></l><r>змінити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>действовать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>діяти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>существовать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>існувати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>действовать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>діяти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>предложить<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>запропонувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>квалифицировать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>кваліфікувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>механизировать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>механізувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>расположить<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>розташувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>позвать<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>покликати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>призвать<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>покликати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
   </section>
 </dictionary>
