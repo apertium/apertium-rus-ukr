@@ -2715,17 +2715,17 @@
     <e><p><l>отвоевать<s n="vblex"/><s n="perf"/></l><r>вибороти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>устроить<s n="vblex"/><s n="perf"/></l><r>справити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>изменить<s n="vblex"/><s n="perf"/></l><r>змінити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>действовать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>діяти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
-    <e><p><l>существовать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>існувати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
-    <e><p><l>действовать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>діяти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>предложить<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>запропонувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>квалифицировать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>кваліфікувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>механизировать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>механізувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>расположить<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>розташувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>позвать<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>покликати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>призвать<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>покликати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>действовать<s n="vblex"/><s n="impf"/></l><r>діяти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>существовать<s n="vblex"/><s n="impf"/></l><r>існувати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>действовать<s n="vblex"/><s n="impf"/></l><r>діяти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>предложить<s n="vblex"/><s n="perf"/></l><r>запропонувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>квалифицировать<s n="vblex"/><s n="dual"/></l><r>кваліфікувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
+    <e><p><l>механизировать<s n="vblex"/><s n="dual"/></l><r>механізувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
+    <e><p><l>расположить<s n="vblex"/><s n="perf"/></l><r>розташувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>позвать<s n="vblex"/><s n="perf"/></l><r>покликати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>призвать<s n="vblex"/><s n="perf"/></l><r>покликати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
   </section>
 </dictionary>

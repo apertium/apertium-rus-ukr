@@ -5913,14 +5913,6 @@
 
     <!-- SECTION: Adjectives -->
 
-    <pardef n="английск/ий__adj">
-      <e>       <p><l></l><r>ий<s n="adj"/></r></p><par n="BASE__английск/ий"/></e>
-    </pardef>
-  
-    <pardef n="больш/ой__adj"> <!-- a="slasher" -->
-      <e>       <p><l></l><r>ой<s n="adj"/></r></p><par n="BASE__больш/ой"/></e>
-    </pardef>
-  
     <pardef n="счастлив/ый__adj"> <!-- a="slasher" -->
       <e>       <p><l></l><r>ый<s n="adj"/></r></p><par n="BASE__счастлив/ый"/></e>
       <e>       <p><l></l><r>ый<s n="adj"/><s n="short"/><s n="m"/><s n="sg"/></r></p></e>
@@ -5933,8 +5925,16 @@
       <e>       <p><l></l><r>ый<s n="adj"/></r></p><par n="BASE__счастлив/ый"/></e>
     </pardef>
   
+    <pardef n="английск/ий__adj">
+      <e>       <p><l></l><r>ий<s n="adj"/></r></p><par n="BASE__английск/ий"/></e>
+    </pardef>
+  
     <pardef n="хорош/ий__adj"> <!-- a="slasher" -->
       <e>       <p><l></l><r>ий<s n="adj"/></r></p><par n="BASE__английск/ий"/></e>
+    </pardef>
+  
+    <pardef n="больш/ой__adj"> <!-- a="slasher" -->
+      <e>       <p><l></l><r>ой<s n="adj"/></r></p><par n="BASE__больш/ой"/></e>
     </pardef>
   
 
@@ -7158,18 +7158,18 @@
       <e><p>          <l>и</l><r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p>          <l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p>          <l>ив</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
-      <e><p>          <l>енный</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p></e>
+      <e><p>          <l>енн</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
       <e><p>          <l>ивш</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p>          <l>ил</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p>          <l>ила</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p>          <l>ило</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p>          <l>или</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e><p>          <l>у</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p>          <l>им</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p>          <l>ишь</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p>          <l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p>          <l>ит</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p>          <l>ат</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p>          <l>у</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p>          <l>им</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p>          <l>ишь</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p>          <l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p>          <l>ит</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p>          <l>ат</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="с/честь__vblex_perf">
       <e><p>          <l>честь</l><r>честь<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
@@ -7760,18 +7760,18 @@
       <e><p>          <l>и</l><r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p>          <l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p>          <l>ив</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
-      <e><p>          <l>енный</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p></e>
       <e><p>          <l>ивш</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p>          <l>енн</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
       <e><p>          <l>ил</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p>          <l>ила</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p>          <l>ило</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p>          <l>или</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e><p>          <l>ю</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p>          <l>им</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p>          <l>ишь</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p>          <l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p>          <l>ит</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p>          <l>ят</l><r>ить<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p>          <l>ю</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p>          <l>им</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p>          <l>ишь</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p>          <l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p>          <l>ит</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p>          <l>ят</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="женить__vblex_impf">
       <e><p>          <l></l><r><s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
@@ -7909,6 +7909,7 @@
       <e><p>          <l>вавши</l><r>вать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p>          <l>ванный</l><r>вать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p></e>
       <e><p>          <l>вавш</l><r>вать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p>          <l>ванн</l><r>вать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
       <e><p>          <l>вал</l><r>вать<s n="vblex"/><s n="perf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p>          <l>вала</l><r>вать<s n="vblex"/><s n="perf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p>          <l>вало</l><r>вать<s n="vblex"/><s n="perf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -9802,7 +9803,7 @@
       <e><p>          <l>овало</l><r>овать<s n="vblex"/><s n="impf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p>          <l>овали</l><r>овать<s n="vblex"/><s n="impf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e><p>          <l>уя</l><r>овать<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="adv"/></r></p></e>
-      <e><p>          <l>ующ</l><r>овать<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p>          <l>ующ</l><r>овать<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p>          <l>ую</l><r>овать<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p>          <l>уем</l><r>овать<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p>          <l>уешь</l><r>овать<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -10965,12 +10966,14 @@
       <e><p>          <l>овать</l><r>овать<s n="vblex"/><s n="dual"/><s n="inf"/></r></p></e>
       <e><p>          <l>уй</l><r>овать<s n="vblex"/><s n="dual"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p>          <l>уйте</l><r>овать<s n="vblex"/><s n="dual"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p>          <l>овавший</l><r>овать<s n="vblex"/><s n="dual"/><s n="pp"/><s n="actv"/></r></p></e>
+      <e><p>          <l>уя</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="adv"/></r></p></e>
+      <e><p>          <l>ующий</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p>          <l>уем</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p>          <l>овавший</l><r>овать<s n="vblex"/><s n="dual"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__счастлив/ый"/></e>
       <e><p>          <l>овал</l><r>овать<s n="vblex"/><s n="dual"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p>          <l>овала</l><r>овать<s n="vblex"/><s n="dual"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p>          <l>овало</l><r>овать<s n="vblex"/><s n="dual"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p>          <l>овали</l><r>овать<s n="vblex"/><s n="dual"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e><p>          <l>уя</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="adv"/></r></p></e>
       <e><p>          <l>уемый</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="pasv"/></r></p></e>
       <e><p>          <l>ующий</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="actv"/></r></p></e>
       <e><p>          <l>ую</l><r>овать<s n="vblex"/><s n="dual"/><s n="nonpast"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -15448,13 +15451,32 @@
 
     <!-- SECTION: Adjectives -->
 
+    <e lm="счастливый" a="slasher"><i>счастлив</i><par n="счастлив/ый__adj"/></e>
+    <e lm="активный"><i>активн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="долгожданный"><i>долгожданн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="иммиграционный"><i>иммиграционн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="бюджетный"><i>бюджетн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="государственный"><i>государственн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="нелегальный"><i>нелегальн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="сезонный"><i>сезонн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="местный"><i>местн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="постоянный"><i>постоянн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="современный"><i>современн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="уверенный"><i>уверенн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="сложный"><i>сложн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="важный"><i>важн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="беспрерывный"><i>беспрерывн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="временный"><i>временн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="инвестиционный"><i>инвестиционн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="дополнительный"><i>дополнительн</i><par n="счастлив/ый__adj"/></e>
+    <e lm="неприемлемый"><i>неприемлем</i><par n="счастлив/ый__adj"/></e>
+    
+    <e lm="старый" a="slasher"><i>стар</i><par n="стар/ый__adj"/></e>
+
+    <e lm="маленький" a="slasher"><i>маленьк</i><par n="английск/ий__adj"/></e>
     <e lm="американский"><i>американск</i><par n="английск/ий__adj"/></e>
     <e lm="американский"><i>американск</i><par n="английск/ий__adj"/></e>
     <e lm="английский"><i>английск</i><par n="английск/ий__adj"/></e>
-    <e lm="большой" a="slasher"><i>больш</i><par n="больш/ой__adj"/></e>
-    <e lm="счастливый" a="slasher"><i>счастлив</i><par n="счастлив/ый__adj"/></e>
-    <e lm="старый" a="slasher"><i>стар</i><par n="стар/ый__adj"/></e>
-    <e lm="хороший" a="slasher"><i>хорош</i><par n="хорош/ий__adj"/></e>
     <e lm="армейский"><i>армейск</i><par n="английск/ий__adj"/></e>
     <e lm="артиллерийский"><i>артиллерийск</i><par n="английск/ий__adj"/></e>
     <e lm="британский"><i>британск</i><par n="английск/ий__adj"/></e>
@@ -15528,7 +15550,22 @@
     <e lm="электрический"><i>электрическ</i><par n="английск/ий__adj"/></e>
     <e lm="юридический"><i>юридическ</i><par n="английск/ий__adj"/></e>
     <e lm="японский"><i>японск</i><par n="английск/ий__adj"/></e>
-    <e lm="маленький" a="slasher"><i>маленьк</i><par n="английск/ий__adj"/></e>
+    <e lm="соответствующий"><i>соответствующ</i><par n="английск/ий__adj"/></e>
+    <e lm="высокий"><i>высок</i><par n="английск/ий__adj"/></e>
+    <e lm="рабочий"><i>рабоч</i><par n="английск/ий__adj"/></e>
+    <e lm="бюрократический"><i>бюрократическ</i><par n="английск/ий__adj"/></e>
+    <e lm="общий"><i>общ</i><par n="английск/ий__adj"/></e>
+    <e lm="сельский"><i>сельск</i><par n="английск/ий__adj"/></e>
+    <e lm="действующий"><i>действующ</i><par n="английск/ий__adj"/></e>
+    <e lm="призванный"><i>призванн</i><par n="английск/ий__adj"/></e>
+    
+    <e lm="хороший" a="slasher"><i>хорош</i><par n="хорош/ий__adj"/></e>
+
+    <e lm="большой" a="slasher"><i>больш</i><par n="больш/ой__adj"/></e>
+    <e lm="верховой"><i>верхов</i><par n="больш/ой__adj"/></e>
+    <e lm="дорогой"><i>дорог</i><par n="больш/ой__adj"/></e>
+    <e lm="большой"><i>больш</i><par n="больш/ой__adj"/></e>
+    <e lm="коренной"><i>коренн</i><par n="больш/ой__adj"/></e>
 
 
     <!-- SECTION: Predicatives -->
@@ -16556,6 +16593,7 @@
     <e lm="опустить"><i>опу</i><par n="пу/стить__vblex_perf"/></e>
     <e lm="опуститься"><i>опу</i><par n="спу/ститься__vblex_perf"/></e>
     <e lm="орать"><i>ор</i><par n="жр/ать__vblex_impf"/></e>
+    <e lm="квалифицировать"><i>квалифицир</i><par n="организ/овать__vblex_dual"/></e>
     <e lm="легализовать"><i>легализ</i><par n="организ/овать__vblex_dual"/></e>
     <e lm="организовать"><i>организ</i><par n="организ/овать__vblex_dual"/></e>
     <e lm="организовать"><i>организовать</i><par n="велеть__vblex_perf"/></e>
@@ -16700,6 +16738,7 @@
     <e lm="пожелать"><i>пожела</i><par n="суме/ть__vblex_perf"/></e>
     <e lm="пожить"><i>пожи</i><par n="пожи/ть__vblex_perf"/></e>
     <e lm="позвать"><i>поз</i><par n="поз/вать__vblex_perf"/></e>
+    <e lm="призвать"><i>приз</i><par n="поз/вать__vblex_perf"/></e>
     <e lm="позволить"><i>позвол</i><par n="удар/ить__vblex_perf"/></e>
     <e lm="позвонить"><i>позвон</i><par n="позвон/ить__vblex_perf"/></e>
     <e lm="поздороваться"><i>поздорова</i><par n="сдела/ться__vblex_perf"/></e>
