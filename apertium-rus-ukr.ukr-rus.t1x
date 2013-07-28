@@ -120,6 +120,8 @@
      <attr-item tags="f"/>
      <attr-item tags="nt"/>
      <attr-item tags="mf"/>
+     <attr-item tags="mn"/>
+     <attr-item tags="mfn"/>
   </def-attr>
 
   <def-attr n="prs">
@@ -135,11 +137,11 @@
 
   <def-attr n="cas">
      <attr-item tags="nom"/>
-     <attr-item tags="acc"/>
-     <attr-item tags="dat"/>
      <attr-item tags="gen"/>
-     <attr-item tags="loc"/>
+     <attr-item tags="dat"/>
+     <attr-item tags="acc"/>
      <attr-item tags="ins"/>
+     <attr-item tags="loc"/>
      <attr-item tags="voc"/>
   </def-attr>
 
@@ -149,7 +151,6 @@
      <attr-item tags="itg"/>
      <attr-item tags="pos"/>
   </def-attr>
-
 </section-def-attrs>
 
 <section-def-vars>
@@ -178,8 +179,12 @@
 
 <section-def-macros>
 
-  <def-macro n="nom-to-voc1" npar="1">
+  <def-macro n="loc-to-prp-voc-to-nom1" npar="1">
     <choose>
+      <when>
+        <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="loc"/></equal></test>
+        <let><clip pos="1" side="tl" part="cas"/><lit-tag v="prp"/></let>
+      </when>
       <when>
         <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="voc"/></equal></test>
         <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
@@ -187,7 +192,7 @@
     </choose>
   </def-macro>
 
-  <def-macro n="set-upper" npar="1">
+  <def-macro n="set-upper1" npar="1">
     <choose>
       <when>
         <test><equal><var n="set_next_upper"/><lit v="true"/></equal></test>
@@ -203,7 +208,7 @@
     </let>
   </def-macro>
   
-  <def-macro n="check-det_pos-gen-nbr-cas" npar="1">
+  <def-macro n="check-det_pos-gen-nbr-cas1" npar="1">
     <choose>
       <when>
         <test>
@@ -384,6 +389,9 @@
       <pattern-item n="adj"/>
     </pattern>
     <action>
+      <call-macro n="loc-to-prp-voc-to-nom1">
+        <with-param pos="1"/>
+      </call-macro>
       <out>
         <chunk name="adj" case="caseFirstWord">
           <tags>
@@ -411,7 +419,7 @@
       <pattern-item n="det_pos"/>
     </pattern>
     <action>
-      <call-macro n="check-det_pos-gen-nbr-cas">
+      <call-macro n="check-det_pos-gen-nbr-cas1">
         <with-param pos="1"/>
       </call-macro>
           <out>
@@ -436,7 +444,7 @@
       <pattern-item n="det"/>
     </pattern>
     <action>
-      <call-macro n="nom-to-voc1">
+      <call-macro n="loc-to-prp-voc-to-nom1">
         <with-param pos="1"/>
       </call-macro>
       <out>
@@ -457,7 +465,7 @@
 
 <!-- SV -->
 
-  <!--rule comment="transitivity doesn't work">
+  <!--rule comment="transitivity doesn't work with this rule">
     <pattern>
       <pattern-item n="vblex"/>
     </pattern>
@@ -516,7 +524,7 @@
       <pattern-item n="prn"/>
     </pattern>
     <action>
-      <call-macro n="set-upper">
+      <call-macro n="set-upper1">
         <with-param pos="1"/>
       </call-macro>
       <out>
@@ -537,7 +545,7 @@
       <pattern-item n="verb"/>
     </pattern>
     <action>
-      <call-macro n="set-upper">
+      <call-macro n="set-upper1">
         <with-param pos="1"/>
       </call-macro>
       <choose>
@@ -592,7 +600,7 @@
       <pattern-item n="nom"/>
     </pattern>
     <action>
-      <call-macro n="check-det_pos-gen-nbr-cas">
+      <call-macro n="check-det_pos-gen-nbr-cas1">
         <with-param pos="1"/>
       </call-macro>
       <choose>
