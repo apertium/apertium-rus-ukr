@@ -1393,6 +1393,7 @@ oblique cases of багато agree with the head word in case & number.
 </pardef>
 <pardef n="віскі__n_nt_nn">
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="indecl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="indecl"/></r></p></e>
 </pardef>
 <pardef n="робітни/к__n">
   <e>       <p><l>к</l>         <r>к<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
