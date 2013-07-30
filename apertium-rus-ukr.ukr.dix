@@ -3530,22 +3530,6 @@ oblique cases of багато agree with the head word in case & number.
   <e>       <p><l>ами</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
   <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
-<pardef n="радіо__n_nt_nn">
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
-</pardef>
 <pardef n="регіон__n_m_nn">
   <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -3695,22 +3679,6 @@ oblique cases of багато agree with the head word in case & number.
   <e>       <p><l>ах</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>ами</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
   <e>       <p><l>и</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
-</pardef>
-<pardef n="євро__n_nt_nn">
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
-  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <pardef n="єр__n_m_nn">
   <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -8930,23 +8898,6 @@ oblique cases of багато agree with the head word in case & number.
 <e>       <p><l>ня</l><r>ня<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 
-<pardef n="кіно__n_nt_nn">
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
-</pardef>
-
 <pardef n="кодекс__n_m_nn">
 <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
 <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -11946,23 +11897,6 @@ oblique cases of багато agree with the head word in case & number.
 <e>       <p><l>о</l><r>о<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
 </pardef>
 
-<pardef n="метро__n_nt_nn">
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
-</pardef>
-
 <pardef n="мусульман/ин__n_m_aa">
 <e>       <p><l>ин</l><r>ин<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
 <e>       <p><l>ина</l><r>ин<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -12660,23 +12594,6 @@ oblique cases of багато agree with the head word in case & number.
 <e>       <p><l>ах</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
 <e>       <p><l>ами</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
 <e>       <p><l>и</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
-</pardef>
-
-<pardef n="фото__n_nt_nn">
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="voc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
-<e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 
 <pardef n="характер__n_m_nn">
@@ -16172,6 +16089,11 @@ oblique cases of багато agree with the head word in case & number.
   <e>       <p><l>и</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 
+<pardef n="метро__n_nt_nn_indecl">
+  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="indecl"/></r></p></e>
+  <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="indecl"/></r></p></e>
+</pardef>
+
 <!--np-->
 <pardef n="Брітні__np_ant">
   <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="indecl"/></r></p></e>
@@ -16233,7 +16155,7 @@ oblique cases of багато agree with the head word in case & number.
   <e>       <p><l>ах</l>        <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>и</l>         <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
-<pardef n="Волден__np_cog"><!--TODO: fix f.pl--><!--CHECK loc, voc-->
+<pardef n="Волден__np_cog"><!--TODO: fix f.pl--><!--CHECK loc, voc; possibly merge with Олійник__np_cog -->
   <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="indecl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>а</l>         <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -16817,8 +16739,9 @@ oblique cases of багато agree with the head word in case & number.
   <e>       <p><l>іх</l><r>ій<s n="det"/><s n="ord"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>іми</l><r>ій<s n="det"/><s n="ord"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<pardef n="кожн/ий__det_def">
-  <e>       <p><l></l>          <r>ий<s n="det"/><s n="def"/></r></p><par n="BASE__англійський"/></e>
+<pardef n="кож/ний__det_def">
+  <e>       <p><l>н</l>         <r>ний<s n="det"/><s n="def"/></r></p><par n="BASE__англійський"/></e>
+  <e r="LR"><p><l>ен</l>        <r>ний<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 </pardef>
 <pardef n="так/ий__det_dem">
   <e>       <p><l></l>          <r>ий<s n="det"/><s n="dem"/></r></p><par n="BASE__англійський"/></e>
@@ -20603,7 +20526,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="трьохтисячний"><i>трьохтисячн</i><par n="перш/ий__det_ord"/></e>
 <e lm="мільйонний"><i>мільйонн</i><par n="перш/ий__det_ord"/></e>
 <e lm="мільярдний"><i>мільярдн</i><par n="перш/ий__det_ord"/></e>
-<e lm="кожний"><i>кожн</i><par n="кожн/ий__det_def"/></e>
+<e lm="кожний"><i>кож</i><par n="кож/ний__det_def"/></e>
 <e lm="такий"><i>так</i><par n="так/ий__det_dem"/></e>
 <e lm="який"><i>як</i><par n="як/ий__det_itg"/></e>
 <e lm="цей"><i>ц</i><par n="ц/ей__det_dem"/></e>
@@ -20730,7 +20653,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="представник"><i>представник</i><par n="представник__n_m_aa"/></e>
 <e lm="президент"><i>президент</i><par n="президент__n_m_aa"/></e>
 <e lm="проблема"><i>проблем</i><par n="проблем/а__n_f_nn"/></e>
-<e lm="радіо"><i>радіо</i><par n="радіо__n_nt_nn"/></e>
+<e lm="радіо"><i>радіо</i><par n="метро__n_nt_nn_indecl"/></e>
 <e lm="регіон"><i>регіон</i><par n="регіон__n_m_nn"/></e>
 <e lm="рівень"><i>рів</i><par n="рів/ень__n_m_nn"/></e>
 <e lm="річ"><i>р</i><par n="р/іч__n_f_nn"/></e>
@@ -20740,7 +20663,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="українець"><i>україн</i><par n="україн/ець__n_m_aa"/></e>
 <e lm="участь"><i>участ</i><par n="участ/ь__n_f_nn"/></e>
 <e lm="час"><i>час</i><par n="час__n_m_nn"/></e>
-<e lm="євро"><i>євро</i><par n="євро__n_nt_nn"/></e>
+<e lm="євро"><i>євро</i><par n="метро__n_nt_nn_indecl"/></e>
 <e lm="єр"><i>єр</i><par n="єр__n_m_nn"/></e>
 <e lm="раз"><i>раз</i><par n="раз__n_m_nn"/></e>
 <e lm="пара"><i>пар</i><par n="пар/а__n_f_nn"/></e>
@@ -21019,7 +20942,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="зона"><i>зон</i><par n="зон/а__n_f_nn"/></e>
 <e lm="ідея"><i>іде</i><par n="іде/я__n_f_nn"/></e>
 <e lm="існування"><i>існуван</i><par n="існуван/ня__n_nt_nn"/></e>
-<e lm="кіно"><i>кіно</i><par n="кіно__n_nt_nn"/></e>
+<e lm="кіно"><i>кіно</i><par n="метро__n_nt_nn_indecl"/></e>
 <e lm="кодекс"><i>кодекс</i><par n="кодекс__n_m_nn"/></e>
 <e lm="команда"><i>команд</i><par n="команд/а__n_f_nn"/></e>
 <e lm="контроль"><i>контрол</i><par n="контрол/ь__n_m_nn"/></e>
@@ -21193,7 +21116,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="конкурс"><i>конкурс</i><par n="конкурс__n_m_nn"/></e>
 <e lm="контекст"><i>контекст</i><par n="контекст__n_m_nn"/></e>
 <e lm="майно"><i>майн</i><par n="майн/о__n_nt_nn"/></e>
-<e lm="метро"><i>метро</i><par n="метро__n_nt_nn"/></e>
+<e lm="метро"><i>метро</i><par n="метро__n_nt_nn_indecl"/></e>
 <e lm="мусульманин"><i>мусульман</i><par n="мусульман/ин__n_m_aa"/></e>
 <e lm="назва"><i>назв</i><par n="назв/а__n_f_nn"/></e>
 <e lm="наука"><i>нау</i><par n="нау/ка__n_f_nn"/></e>
@@ -21234,7 +21157,7 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="установа"><i>установ</i><par n="установ/а__n_f_nn"/></e>
 <e lm="утримання"><i>утриман</i><par n="утриман/ня__n_nt_nn"/></e>
 <e lm="флот"><i>флот</i><par n="флот__n_m_nn"/></e>
-<e lm="фото"><i>фото</i><par n="фото__n_nt_nn"/></e>
+<e lm="фото"><i>фото</i><par n="метро__n_nt_nn_indecl"/></e>
 <e lm="характер"><i>характер</i><par n="характер__n_m_nn"/></e>
 <e lm="харчування"><i>харчуван</i><par n="харчуван/ня__n_nt_nn"/></e>
 <e lm="хвилина"><i>хвилин</i><par n="хвилин/а__n_f_nn"/></e>
@@ -21463,13 +21386,20 @@ oblique cases of багато agree with the head word in case & number.
 <e lm="Георгій">         <i>Георгі</i><par n="Георгі/й__np_ant_m"/></e>
 <e lm="Марина">          <i>Марин</i><par n="Марин/а__np_ant_f"/></e>
 
+
 <e lm="Кучма">           <i>Кучм</i><par n="Кучм/а__np_cog_mf"/></e>
-<e lm="Мірошниченко">    <i>Мірошниченко</i><par n="Ющенк/о__np_cog"/></e>
+
+<e lm="Мірошниченко">    <i>Мірошниченк</i><par n="Ющенк/о__np_cog"/></e>
+
 <e lm="Олійник">         <i>Олійник</i><par n="Олійник__np_cog"/></e>
+<e lm="Шевчук">          <i>Шевчук</i><par n="Олійник__np_cog"/></e>
 <e lm="Волден">          <i>Волден</i><par n="Волден__np_cog"/></e>
 <e lm="Ґанс">            <i>Ґанс</i><par n="Волден__np_cog"/></e>
+
 <e lm="Янукович">        <i>Янукович</i><par n="Янукович__np_cog"/></e>
+
 <e lm="Палій">           <i>Палі</i><par n="Палі/й__np_cog"/></e>
+
 
 <e lm="США">             <i>США</i><par n="США__np_top_m_pl"/></e>
 <e lm="ЄС">              <i>ЄС</i><par n="ЄС__np_top_m_sg"/></e>
