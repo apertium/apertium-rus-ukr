@@ -746,13 +746,13 @@
       <e>       <p><l>ым</l><r>ый<s n="det"/><s n="itg"/><s n="an"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
       <e>       <p><l>ом</l><r>ый<s n="det"/><s n="itg"/><s n="an"/><s n="nt"/><s n="sg"/><s n="prp"/></r></p></e>
 
-      <e>       <p><l>ые</l><r>ый<s n="det"/><s n="itg"/><s n="an"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l>ых</l><r>ый<s n="det"/><s n="itg"/><s n="an"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e>       <p><l>ым</l><r>ый<s n="det"/><s n="itg"/><s n="an"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e>       <p><l>ых</l><r>ый<s n="det"/><s n="itg"/><s n="aa"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e>       <p><l>ые</l><r>ый<s n="det"/><s n="itg"/><s n="nn"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e>       <p><l>ыми</l><r>ый<s n="det"/><s n="itg"/><s n="an"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
-      <e>       <p><l>ых</l><r>ый<s n="det"/><s n="itg"/><s n="an"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
+      <e>       <p><l>ые</l><r>ый<s n="det"/><s n="itg"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ых</l><r>ый<s n="det"/><s n="itg"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ым</l><r>ый<s n="det"/><s n="itg"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ых</l><r>ый<s n="det"/><s n="itg"/><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ые</l><r>ый<s n="det"/><s n="itg"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ыми</l><r>ый<s n="det"/><s n="itg"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ых</l><r>ый<s n="det"/><s n="itg"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
     <pardef n="мног/ие__prn">
@@ -12338,6 +12338,7 @@
     <e lm="бы"><i></i><par n="/бы__part"/></e>
     <e lm="лишь"><i></i><par n="ли__part"/></e>
     <e lm="же"><i></i><par n="/же__part"/></e>
+    <e lm="ведь"><i>ведь</i><par n="ли__part"/></e>
 
     <!-- SECTION: Conjunctions -->
 
@@ -12516,7 +12517,7 @@
     <e lm="иной"><i>ин</i><par n="люб/ой__det"/></e>
     <e lm="весь"><i>в</i><par n="в/есь__det"/></e>
     <e lm="такой"><i>так</i><par n="так/ой__det"/></e>
-    <e lm="каждый"><i>кожн</i><par n="кажд/ый__det_def"/></e>
+    <e lm="каждый"><i>кажд</i><par n="кажд/ый__det_def"/></e>
 
     <e lm="наш"><i>наш</i><par n="наш__det"/></e>
     <e lm="ваш"><i>ваш</i><par n="наш__det"/></e>
@@ -17254,7 +17255,6 @@
     <e lm="алло"><i>алло</i><par n="да__ij"/></e>
     <e lm="спасибо"><i>спасибо</i><par n="да__ij"/></e>
     <e lm="ну"><i>ну</i><par n="да__ij"/></e>
-    <e lm="ведь"><i>ведь</i><par n="да__ij"/></e>
     <e lm="однако"><i>однако</i><par n="да__ij"/></e>
     <e lm="пожалуйста"><i>пожалуйста</i><par n="да__ij"/></e>
     <e lm="ах"><i>ах</i><par n="да__ij"/></e>

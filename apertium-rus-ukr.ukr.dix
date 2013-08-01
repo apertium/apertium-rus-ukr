@@ -160,7 +160,7 @@
   <e>       <p><l>ий</l>        <r><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>ого</l>       <r><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>ому</l>       <r><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ий</l>        <r><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ий</l>        <r><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ого</l>       <r><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>им</l>        <r><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>ім</l>        <r><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
@@ -181,14 +181,14 @@
   <e>       <p><l>ім</l>        <r><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
   <e r="LR"><p><l>ому</l>       <r><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
   <e>       <p><l>е</l>         <r><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
-  <e>       <p><l>і</l>         <r><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>і</l>         <r><s n="mfn"/><s n="an"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>их</l>        <r><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
   <e>       <p><l>им</l>        <r><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
-  <e>       <p><l>і</l>         <r><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>і</l>         <r><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>их</l>        <r><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ими</l>       <r><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
   <e>       <p><l>их</l>        <r><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
-  <e>       <p><l>і</l>         <r><s n="mfn"/><s n="pl"/><s n="voc"/></r></p></e>
+  <e>       <p><l>і</l>         <r><s n="mfn"/><s n="an"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 
 <!-- prepositions paradigms - парадигми прийменників -->
