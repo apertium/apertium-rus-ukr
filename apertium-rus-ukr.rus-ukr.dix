@@ -1607,6 +1607,7 @@
     <e><p><l>ай<s n="ij"/></l><r>ай<s n="ij"/></r></p></e>
     <e><p><l>аминь<s n="ij"/></l><r>амінь<s n="ij"/></r></p></e>
     <e><p><l>итак<s n="ij"/></l><r>отже<s n="ij"/></r></p></e>
+    <e><p><l>вира<s n="ij"/></l><r>віра<s n="ij"/></r></p></e>
     
     <!-- SECTION: Punctuation -->
 
@@ -2607,14 +2608,23 @@
     <e><p><l>Максим<s n="np"/><s n="ant"/><s n="m"/></l>        <r>Максим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Георгий<s n="np"/><s n="ant"/><s n="m"/></l>       <r>Георгій<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Марина<s n="np"/><s n="ant"/><s n="f"/></l>        <r>Марина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Христос<s n="np"/><s n="ant"/><s n="m"/></l>       <r>Христос<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
 
     <e><p><l>Кучма<s n="np"/><s n="cog"/><s n="mf"/></l>        <r>Кучма<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+
     <e><p><l>Мирошниченко<s n="np"/><s n="cog"/></l>            <r>Мірошниченко<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Олейник<s n="np"/><s n="cog"/></l>                 <r>Олійник<s n="np"/><s n="cog"/></r></p></e>
+
     <e><p><l>Волден<s n="np"/><s n="cog"/></l>                  <r>Волден<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ганс<s n="np"/><s n="cog"/></l>                    <r>Ґанс<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Олейник<s n="np"/><s n="cog"/></l>                 <r>Олійник<s n="np"/><s n="cog"/></r></p></e>
+
+    <e><p><l>Волошин<s n="np"/><s n="cog"/></l>                 <r>Волошин<s n="np"/><s n="cog"/></r></p></e>
+
     <e><p><l>Янукович<s n="np"/><s n="cog"/></l>                <r>Янукович<s n="np"/><s n="cog"/></r></p></e>
+    
     <e><p><l>Палий<s n="np"/><s n="cog"/></l>                   <r>Палій<s n="np"/><s n="cog"/></r></p></e>
+
 
     <e><p><l>США<s n="np"/><s n="top"/><s n="m"/></l>           <r>США<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>ЕС<s n="np"/><s n="top"/><s n="m"/></l>            <r>ЄС<s n="np"/><s n="top"/><s n="m"/></r></p></e>
@@ -2628,6 +2638,7 @@
     <e><p><l>ЦВК<s n="np"/><s n="org"/><s n="m"/></l>           <r>ЦВК<s n="np"/><s n="org"/><s n="m"/></r></p></e>
     
     <e><p><l>Рождество<s n="np"/><s n="al"/><s n="nt"/></l>     <r>Різдво<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+    <e><p><l>Бог<s n="np"/><s n="al"/><s n="m"/></l>            <r>Бог<s n="np"/><s n="al"/><s n="m"/></r></p></e>
 
     <!--vblex-->
     <e><p><l>тратиться<s n="vblex"/><s n="impf"/></l><r>витрачатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
