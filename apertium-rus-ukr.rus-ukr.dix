@@ -1608,6 +1608,7 @@
     <e><p><l>аминь<s n="ij"/></l><r>амінь<s n="ij"/></r></p></e>
     <e><p><l>итак<s n="ij"/></l><r>отже<s n="ij"/></r></p></e>
     <e><p><l>вира<s n="ij"/></l><r>віра<s n="ij"/></r></p></e>
+    <e><p><l>э<s n="ij"/></l><r>е<s n="ij"/></r></p></e>
     
     <!-- SECTION: Punctuation -->
 
@@ -2614,14 +2615,17 @@
     <e><p><l>Кучма<s n="np"/><s n="cog"/><s n="mf"/></l>        <r>Кучма<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
     <e><p><l>Мирошниченко<s n="np"/><s n="cog"/></l>            <r>Мірошниченко<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Коваленко<s n="np"/><s n="cog"/></l>               <r>Коваленко<s n="np"/><s n="cog"/></r></p></e>
 
     <e><p><l>Волден<s n="np"/><s n="cog"/></l>                  <r>Волден<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ганс<s n="np"/><s n="cog"/></l>                    <r>Ґанс<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Олейник<s n="np"/><s n="cog"/></l>                 <r>Олійник<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Шевчук<s n="np"/><s n="cog"/></l>                  <r>Шевчук<s n="np"/><s n="cog"/></r></p></e>
 
     <e><p><l>Волошин<s n="np"/><s n="cog"/></l>                 <r>Волошин<s n="np"/><s n="cog"/></r></p></e>
 
     <e><p><l>Янукович<s n="np"/><s n="cog"/></l>                <r>Янукович<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Попович<s n="np"/><s n="cog"/></l>                 <r>Попович<s n="np"/><s n="cog"/></r></p></e>
     
     <e><p><l>Палий<s n="np"/><s n="cog"/></l>                   <r>Палій<s n="np"/><s n="cog"/></r></p></e>
 
@@ -2632,6 +2636,7 @@
     <e><p><l>Аризона<s n="np"/><s n="top"/><s n="f"/></l>       <r>Аризона<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Киев<s n="np"/><s n="top"/><s n="m"/></l>          <r>Київ<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>Европа<s n="np"/><s n="top"/><s n="f"/></l>        <r>Європа<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Чернобыль<s n="np"/><s n="top"/><s n="nt"/></l>    <r>Чорнобиль<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     
     <e><p><l>ООН<s n="np"/><s n="org"/><s n="f"/></l>           <r>ООН<s n="np"/><s n="org"/><s n="f"/></r></p></e>
     <e><p><l>КПУ<s n="np"/><s n="org"/><s n="f"/></l>           <r>КПУ<s n="np"/><s n="org"/><s n="f"/></r></p></e>
