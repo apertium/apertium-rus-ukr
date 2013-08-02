@@ -23,6 +23,11 @@
     <sdef n="vbmod"  c=""/>
     <sdef n="tv"   c=""/>
     <sdef n="iv"   c=""/>
+    <sdef n="pp"   c=""/>
+    <sdef n="pprs"   c=""/>
+    <sdef n="actv"   c=""/>
+    <sdef n="pasv"   c=""/>
+
     <sdef n="num"    c=""/>
     <sdef n="pers"    c=""/>
     <sdef n="sint"   c=""/>
@@ -2744,6 +2749,7 @@
     <e><p><l>расположить<s n="vblex"/><s n="perf"/></l><r>розташувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>позвать<s n="vblex"/><s n="perf"/></l><r>покликати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>призвать<s n="vblex"/><s n="perf"/></l><r>покликати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>призвать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></l><r>покликаний<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p></e>
     <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
