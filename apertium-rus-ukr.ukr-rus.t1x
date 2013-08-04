@@ -10,14 +10,6 @@
      <cat-item tags="n.*.*.*.gen"/>
      <cat-item tags="np.*.*.*.gen"/>
   </def-cat>
-  <def-cat n="nom_loc">
-     <cat-item tags="n.*.*.*.loc"/>
-     <cat-item tags="np.*.*.*.loc"/>
-  </def-cat>
-  <def-cat n="nom_voc">
-     <cat-item tags="n.*.*.*.voc"/>
-     <cat-item tags="np.*.*.*.voc"/>
-  </def-cat>
   <def-cat n="prn_pers_loc">
      <cat-item tags="prn.pers.*.*.*.loc"/>
   </def-cat>
@@ -33,6 +25,16 @@
   <def-cat n="vblex">
      <cat-item tags="vblex.*"/>
   </def-cat>
+  <def-cat n="ptcpl">
+    <cat-item tags="vblex.*.*.pp.*"/>
+    <cat-item tags="vblex.*.*.pprs.*"/>
+    <cat-item tags="vbser.*.*.pp.*"/>
+    <cat-item tags="vbser.*.*.pprs.*"/>
+    <cat-item tags="vbmod.*.*.pp.*"/>
+    <cat-item tags="vbmod.*.*.pprs.*"/>
+    <cat-item tags="vbhaver.*.*.pp.*"/>
+    <cat-item tags="vbhaver.*.*.pprs.*"/>
+  </def-cat>
   <def-cat n="prn">
      <cat-item tags="prn.*"/>
   </def-cat>
@@ -47,7 +49,12 @@
      <cat-item tags="det.*"/>
   </def-cat>
   <def-cat n="det_pos">
+     <cat-item tags="det.pos"/>
      <cat-item tags="det.pos.*"/>
+  </def-cat>
+  <def-cat n="num">
+    <cat-item tags="num"/>
+    <cat-item tags="num.*"/>
   </def-cat>
   <def-cat n="prefix-adj">
      <cat-item tags="pref.adj"/>
@@ -106,6 +113,11 @@
      <attr-item tags="perf"/>
   </def-attr>
 
+  <def-attr n="trn">
+    <attr-item tags="tv"/>
+    <attr-item tags="iv"/>
+  </def-attr>
+
   <def-attr n="tns">
      <attr-item tags="pri"/>
      <attr-item tags="pres"/>
@@ -143,6 +155,7 @@
      <attr-item tags="ins"/>
      <attr-item tags="loc"/>
      <attr-item tags="voc"/>
+     <attr-item tags="prp"/>
   </def-attr>
 
   <def-attr n="det_type">
@@ -179,7 +192,7 @@
 
 <section-def-macros>
 
-  <def-macro n="loc-to-prp-voc-to-nom1" npar="1">
+  <def-macro n="case_adapter1" npar="1">
     <choose>
       <when>
         <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="loc"/></equal></test>
@@ -258,59 +271,12 @@
 <section-rules>
 <!-- Sintagmas nominales -->
 
-  <rule comment="nom_loc">
-    <pattern>
-      <pattern-item n="nom_loc"/>
-    </pattern>
-    <action>
-      <out>
-        <chunk name="nom" case="caseFirstWord">
-          <tags>
-            <tag><lit-tag v="SN"/></tag>
-            <tag><clip pos="1" side="tl" part="gen"/></tag>
-          </tags>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen" link-to="2"/>
-            <clip pos="1" side="tl" part="anim"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <lit-tag v="prp"/>
-          </lu>
-        </chunk>
-      </out>
-    </action>
-  </rule>
-
-  <rule comment="nom_voc">
-    <pattern>
-      <pattern-item n="nom_voc"/>
-    </pattern>
-    <action>
-      <out>
-        <chunk name="nom" case="caseFirstWord">
-          <tags>
-            <tag><lit-tag v="SN"/></tag>
-            <tag><clip pos="1" side="tl" part="gen"/></tag>
-          </tags>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen" link-to="2"/>
-            <clip pos="1" side="tl" part="anim"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <lit-tag v="nom"/>
-          </lu>
-        </chunk>
-      </out>
-    </action>
-  </rule>
-
-  <!--rule comment="nom">
+  <rule comment="nom">
     <pattern>
       <pattern-item n="nom"/>
     </pattern>
     <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <out>
         <chunk name="nom" case="caseFirstWord">
           <tags>
@@ -318,17 +284,12 @@
             <tag><clip pos="1" side="tl" part="gen"/></tag>
           </tags>
           <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen" link-to="2"/>
-            <clip pos="1" side="tl" part="anim"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="cas"/>
+            <clip pos="1" side="tl" part="whole"/>
           </lu>
         </chunk>
       </out>
     </action>
-  </rule-->
+  </rule>
 
 <!-- SP -->
 
@@ -389,9 +350,7 @@
       <pattern-item n="adj"/>
     </pattern>
     <action>
-      <call-macro n="loc-to-prp-voc-to-nom1">
-        <with-param pos="1"/>
-      </call-macro>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <out>
         <chunk name="adj" case="caseFirstWord">
           <tags>
@@ -415,14 +374,11 @@
       <pattern-item n="det_pos"/>
     </pattern>
     <action>
-      <call-macro n="check-det_pos-gen-nbr-cas1">
-        <with-param pos="1"/>
-      </call-macro>
+      <call-macro n="check-det_pos-gen-nbr-cas1"><with-param pos="1"/></call-macro>
           <out>
             <chunk name="det" case="caseFirstWord">
               <tags>
                 <tag><lit-tag v="NMOD"/></tag>
-                <!--if there is no tag for the attribute, <clip/> won't return anything-->
                 <tag><clip pos="1" side="tl" part="gen"/></tag>
                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
                 <tag><clip pos="1" side="tl" part="cas"/></tag>
@@ -440,13 +396,36 @@
       <pattern-item n="det"/>
     </pattern>
     <action>
-      <call-macro n="loc-to-prp-voc-to-nom1">
-        <with-param pos="1"/>
-      </call-macro>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <out>
         <chunk name="det" case="caseFirstWord">
           <tags>
             <tag><lit-tag v="NMOD"/></tag>
+            <!--if there is no tag for the attribute, <clip/> won't return anything-->
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+            <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            <tag><clip pos="1" side="tl" part="cas"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+<!-- SNUM -->
+
+  <rule comment="num">
+    <pattern>
+      <pattern-item n="num"/>
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <out>
+        <chunk name="num" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SNUM"/></tag>
             <tag><clip pos="1" side="tl" part="gen"/></tag>
             <tag><clip pos="1" side="tl" part="nbr"/></tag>
             <tag><clip pos="1" side="tl" part="cas"/></tag>
@@ -487,6 +466,28 @@
     </action>
   </rule-->
 
+  <rule comment="ptcpl">
+    <pattern>
+      <pattern-item n="ptcpl"/>
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <out>
+        <chunk name="verb" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SV"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+            <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            <tag><clip pos="1" side="tl" part="cas"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
 <!-- чи -> ли -->
 
   <rule comment="чи detection">
@@ -520,9 +521,7 @@
       <pattern-item n="prn"/>
     </pattern>
     <action>
-      <call-macro n="set-upper1">
-        <with-param pos="1"/>
-      </call-macro>
+      <call-macro n="set-upper1"><with-param pos="1"/></call-macro>
       <out>
         <chunk name="verb" case="caseFirstWord">
           <tags>
@@ -541,9 +540,7 @@
       <pattern-item n="verb"/>
     </pattern>
     <action>
-      <call-macro n="set-upper1">
-        <with-param pos="1"/>
-      </call-macro>
+      <call-macro n="set-upper1"><with-param pos="1"/></call-macro>
       <choose>
         <when><!--ли generation after verb-->
           <test>
@@ -588,7 +585,7 @@
     </action>
   </rule>
 
-<!-- concording det with nom -->
+<!-- concords -->
 
   <rule comment="det + nom">
     <pattern>
@@ -596,9 +593,8 @@
       <pattern-item n="nom"/>
     </pattern>
     <action>
-      <call-macro n="check-det_pos-gen-nbr-cas1">
-        <with-param pos="1"/>
-      </call-macro>
+      <call-macro n="check-det_pos-gen-nbr-cas1"><with-param pos="1"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="2"/></call-macro>
       <choose>
         <when>
           <test>
@@ -655,9 +651,7 @@
     </action>
   </rule>
 
-<!-- concording verb with nom -->
-
-  <rule comment="verbs + nom_gen -> nom_acc">
+  <rule comment="verbs + nom_gen → nom_acc">
     <pattern>
       <pattern-item n="verb"/>
       <pattern-item n="nom_gen"/>

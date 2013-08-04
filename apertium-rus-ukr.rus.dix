@@ -8417,7 +8417,7 @@
       <e><p>          <l>йте</l><r>ть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p>          <l>в</l><r>ть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p>          <l>вш</l><r>ть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
-      <e><p>          <l>ан</l><r>ть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p>          <l>нн</l><r>ть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
       <e><p>          <l>л</l><r>ть<s n="vblex"/><s n="perf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p>          <l>ла</l><r>ть<s n="vblex"/><s n="perf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p>          <l>ло</l><r>ть<s n="vblex"/><s n="perf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -10988,10 +10988,6 @@
       <e><p>          <l>овать</l><r>овать<s n="vblex"/><s n="dual"/><s n="inf"/></r></p></e>
       <e><p>          <l>уй</l><r>овать<s n="vblex"/><s n="dual"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p>          <l>уйте</l><r>овать<s n="vblex"/><s n="dual"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p>          <l>уя</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="adv"/></r></p></e>
-      <e><p>          <l>ующий</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__счастлив/ый"/></e>
-      <e><p>          <l>уем</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
-      <e><p>          <l>овавший</l><r>овать<s n="vblex"/><s n="dual"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__счастлив/ый"/></e>
       <e><p>          <l>овал</l><r>овать<s n="vblex"/><s n="dual"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p>          <l>овала</l><r>овать<s n="vblex"/><s n="dual"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p>          <l>овало</l><r>овать<s n="vblex"/><s n="dual"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -11004,6 +11000,12 @@
       <e><p>          <l>уете</l><r>овать<s n="vblex"/><s n="dual"/><s n="nonpast"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p>          <l>ует</l><r>овать<s n="vblex"/><s n="dual"/><s n="nonpast"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p>          <l>уют</l><r>овать<s n="vblex"/><s n="dual"/><s n="nonpast"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p>          <l>уя</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="adv"/></r></p></e>
+      <e><p>          <l>ующ</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p>          <l>уем</l><r>овать<s n="vblex"/><s n="dual"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p>          <l>овавш</l><r>овать<s n="vblex"/><s n="dual"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p>          <l>овав</l><r>овать<s n="vblex"/><s n="dual"/><s n="pp"/><s n="adv"/></r></p></e><!-- perf -->
+      <e><p>          <l>ованн</l><r>овать<s n="vblex"/><s n="dual"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e><!-- perf -->
     </pardef>
     <pardef n="вырв/аться__vblex_perf">
       <e><p>          <l>аться</l><r>аться<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
@@ -16621,6 +16623,7 @@
     <e lm="опуститься"><i>опу</i><par n="спу/ститься__vblex_perf"/></e>
     <e lm="орать"><i>ор</i><par n="жр/ать__vblex_impf"/></e>
     <e lm="квалифицировать"><i>квалифицир</i><par n="организ/овать__vblex_dual"/></e>
+    <e lm="механизировать"><i>механизир</i><par n="организ/овать__vblex_dual"/></e>
     <e lm="легализовать"><i>легализ</i><par n="организ/овать__vblex_dual"/></e>
     <e lm="организовать"><i>организ</i><par n="организ/овать__vblex_dual"/></e>
     <e lm="организовать"><i>организовать</i><par n="велеть__vblex_perf"/></e>
