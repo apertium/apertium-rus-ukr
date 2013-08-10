@@ -2639,6 +2639,8 @@
     <e><p><l>Христос<s n="np"/><s n="ant"/><s n="m"/></l>       <r>Христос<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ярина<s n="np"/><s n="ant"/><s n="f"/></l><r>Ярина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Лилия<s n="np"/><s n="ant"/><s n="f"/></l><r>Лілія<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Рената<s n="np"/><s n="ant"/><s n="f"/></l><r>Рената<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Богородица<s n="np"/><s n="ant"/><s n="f"/></l><r>Богородиця<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 
     <e><p><l>Кучма<s n="np"/><s n="cog"/><s n="mf"/></l>        <r>Кучма<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -2677,7 +2679,8 @@
     <e><p><l>Рождество<s n="np"/><s n="al"/><s n="nt"/></l>     <r>Різдво<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
     <e><p><l>Бог<s n="np"/><s n="al"/><s n="m"/></l>            <r>Бог<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>Пасха<s n="np"/><s n="al"/><s n="m"/></l><r>Великдень<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-    <e><p><l>Пасха<s n="n"/><s n="f"/><s n="nn"/></l><r>Пасха<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>Пасха<s n="np"/><s n="al"/><s n="f"/></l><r>Пасха<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e><p><l>Господь<s n="np"/><s n="al"/><s n="m"/></l><r>Господь<s n="np"/><s n="al"/><s n="m"/></r></p></e>
 
     <!--vblex-->
     <e><p><l>тратиться<s n="vblex"/><s n="impf"/></l><r>витрачатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
