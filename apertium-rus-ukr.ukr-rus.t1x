@@ -92,6 +92,7 @@
   <def-attr n="anim">
      <attr-item tags="aa"/>
      <attr-item tags="nn"/>
+     <attr-item tags="an"/>
   </def-attr>
 
   <def-attr n="a_vrb">
@@ -160,6 +161,7 @@
 
   <def-attr n="det_type">
      <attr-item tags="dem"/>
+     <attr-item tags="def"/>
      <attr-item tags="qnt"/>
      <attr-item tags="itg"/>
      <attr-item tags="pos"/>
@@ -240,7 +242,7 @@
         </let>
       </when>
 
-      <when>
+      <!--when>
         <test>
           <in caseless="yes">
             <clip pos="1" side="tl" part="lem"/>
@@ -258,7 +260,7 @@
             <clip pos="1" side="tl" part="cas"/>
           </concat>
         </let>
-      </when>
+      </when-->
       
       <!--otherwise>
         TODO
@@ -375,19 +377,19 @@
     </pattern>
     <action>
       <call-macro n="check-det_pos-gen-nbr-cas1"><with-param pos="1"/></call-macro>
-          <out>
-            <chunk name="det" case="caseFirstWord">
-              <tags>
-                <tag><lit-tag v="NMOD"/></tag>
-                <tag><clip pos="1" side="tl" part="gen"/></tag>
-                <tag><clip pos="1" side="tl" part="nbr"/></tag>
-                <tag><clip pos="1" side="tl" part="cas"/></tag>
-              </tags>
-              <lu>
-                <clip pos="1" side="tl" part="whole"/>
-              </lu>
-            </chunk>
-          </out>
+      <out>
+        <chunk name="det" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="NMOD"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+            <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            <tag><clip pos="1" side="tl" part="cas"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
     </action>
   </rule>
 
@@ -618,6 +620,7 @@
                 <clip pos="1" side="tl" part="a_det"/>
                 <clip pos="1" side="tl" part="det_type"/>
                 <clip pos="2" side="tl" part="gen"/>
+                <clip pos="1" side="tl" part="anim"/>
                 <clip pos="2" side="tl" part="nbr"/>
                 <clip pos="2" side="tl" part="cas"/>
               </lu>
