@@ -126,6 +126,7 @@
      <attr-item tags="aor"/>
      <attr-item tags="fti"/>
      <attr-item tags="past"/>
+     <attr-item tags="impers"/>
   </def-attr>
 
   <def-attr n="gen">
@@ -203,6 +204,24 @@
       <when>
         <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="voc"/></equal></test>
         <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+      </when>
+    </choose>
+  </def-macro>
+
+  <def-macro n="impers_adapter1" npar="1">
+    <choose>
+      <when>
+        <test><equal><clip pos="1" side="tl" part="tns"/><lit-tag v="impers"/></equal></test>
+        <let>
+          <clip pos="1" side="tl" part="tns"/>
+          <concat>
+            <lit-tag v="pp"/>
+            <lit-tag v="pasv"/>
+            <lit-tag v="short"/>
+            <lit-tag v="nt"/>
+            <lit-tag v="sg"/>
+          </concat>
+        </let>
       </when>
     </choose>
   </def-macro>
@@ -543,6 +562,7 @@
     </pattern>
     <action>
       <call-macro n="set-upper1"><with-param pos="1"/></call-macro>
+      <call-macro n="impers_adapter1"><with-param pos="1"/></call-macro>
       <choose>
         <when><!--ли generation after verb-->
           <test>

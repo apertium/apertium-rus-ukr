@@ -1347,9 +1347,12 @@
     <e><p><l>Ваня<s n="np"/><s n="ant"/></l><r>Іванко<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Маша<s n="np"/><s n="ant"/></l><r>Марічка<s n="np"/><s n="ant"/></r></p></e>
 
-    <e><p><l>Ющенко<s n="np"/><s n="cog"/></l><r>Ющенко<s n="np"/><s n="cog"/></r></p><par n="Ющенко__np"/></e>
-    <e><p><l>Тимошенко<s n="np"/><s n="cog"/></l><r>Тимошенко<s n="np"/><s n="cog"/></r></p><par n="Ющенко__np"/></e>
-    <e><p><l>Головко<s n="np"/><s n="cog"/></l><r>Головко<s n="np"/><s n="cog"/></r></p><par n="Ющенко__np"/></e>
+    <e><p><l>Ющенко<s n="np"/><s n="cog"/></l><r>Ющенко<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Тимошенко<s n="np"/><s n="cog"/></l><r>Тимошенко<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Головко<s n="np"/><s n="cog"/></l><r>Головко<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Андрейко<s n="np"/><s n="cog"/><s n="m"/></l><r>Андрейко<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>Андрейко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r></p><par n="Ющенко__np"/></e>
+    <e><p><l>Андрийко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r></p><par n="Ющенко__np"/></e>
     
     <e><p><l>Ла-Манш<s n="np"/><s n="hyd"/></l><r>Ла-Манш<s n="np"/><s n="hyd"/></r></p></e>
     <e><p><l>Испания<s n="np"/><s n="top"/></l><r>Іспанія<s n="np"/><s n="top"/></r></p></e>
@@ -1395,10 +1398,6 @@
     <e><p><l>Абиссиния<s n="np"/><s n="top"/><s n="f"/></l><r>Абіссінія<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Азия<s n="np"/><s n="top"/><s n="f"/></l><r>Азія<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Англия<s n="np"/><s n="top"/><s n="f"/></l><r>Англія<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-
-    <e><p><l>Андрейко<s n="np"/><s n="cog"/><s n="m"/></l><r>Андрейко<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>Андрейко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r></p><par n="Ющенко__np"/></e>
-    <e><p><l>Андрийко<s n="np"/><s n="cog"/></l><r>Андрійко<s n="np"/><s n="cog"/></r></p><par n="Ющенко__np"/></e>
 
     <e><p><l>Болгария<s n="np"/><s n="top"/><s n="f"/></l><r>Болгарія<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Эстония<s n="np"/><s n="top"/><s n="f"/></l><r>Естонія<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -2633,6 +2632,8 @@
     <e><p><l>Василий<s n="np"/><s n="ant"/></l>                 <r>Василь<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Тарас<s n="np"/><s n="ant"/></l>                   <r>Тарас<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Роман<s n="np"/><s n="ant"/><s n="m"/></l>         <r>Роман<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Лазарь<s n="np"/><s n="ant"/><s n="m"/></l>        <r>Лазар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Мартин<s n="np"/><s n="ant"/><s n="m"/></l>        <r>Мартин<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Максим<s n="np"/><s n="ant"/><s n="m"/></l>        <r>Максим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Георгий<s n="np"/><s n="ant"/><s n="m"/></l>       <r>Георгій<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Марина<s n="np"/><s n="ant"/><s n="f"/></l>        <r>Марина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -2670,7 +2671,7 @@
     <e><p><l>Аризона<s n="np"/><s n="top"/><s n="f"/></l>       <r>Аризона<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Киев<s n="np"/><s n="top"/><s n="m"/></l>          <r>Київ<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>Европа<s n="np"/><s n="top"/><s n="f"/></l>        <r>Європа<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Чернобыль<s n="np"/><s n="top"/><s n="nt"/></l>    <r>Чорнобиль<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Чернобыль<s n="np"/><s n="top"/><s n="m"/></l>     <r>Чорнобиль<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     
     <e><p><l>ООН<s n="np"/><s n="org"/><s n="f"/></l>           <r>ООН<s n="np"/><s n="org"/><s n="f"/></r></p></e>
     <e><p><l>КПУ<s n="np"/><s n="org"/><s n="f"/></l>           <r>КПУ<s n="np"/><s n="org"/><s n="f"/></r></p></e>
@@ -2681,6 +2682,8 @@
     <e><p><l>Пасха<s n="np"/><s n="al"/><s n="m"/></l><r>Великдень<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>Пасха<s n="np"/><s n="al"/><s n="f"/></l><r>Пасха<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e><p><l>Господь<s n="np"/><s n="al"/><s n="m"/></l><r>Господь<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e><p><l>Аллах<s n="np"/><s n="al"/><s n="m"/></l><r>Аллах<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e><p><l>Спас<s n="np"/><s n="al"/><s n="m"/></l><r>Спас<s n="np"/><s n="al"/><s n="m"/></r></p></e>
 
     <!--vblex-->
     <e><p><l>тратиться<s n="vblex"/><s n="impf"/></l><r>витрачатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
