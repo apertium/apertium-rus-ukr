@@ -2913,6 +2913,8 @@
     <e><p><l>призвать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></l><r>покликаний<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p></e>
     <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>выкрикивать<s n="vblex"/><s n="impf"/></l><r>покликати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>удивить<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>здивувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>удивить<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>здивувати<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
 
   </section>
 </dictionary>
