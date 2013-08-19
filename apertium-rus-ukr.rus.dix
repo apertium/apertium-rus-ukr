@@ -12355,8 +12355,8 @@
 
     <!-- SECTION: Abbreviations -->
 
-    <pardef n="мм__abbr">
-      <e>       <p><l></l><r><s n="abbr"/></r></p></e>
+    <pardef n="км__abbr">
+      <e><p><l></l><r><s n="abbr"/></r></p></e>
     </pardef>
 
 
@@ -16047,10 +16047,12 @@
 
     <!-- SECTION: Abbreviations -->
 
-    <e lm="мм"><i>мм</i><par n="мм__abbr"/></e>
-    <e lm="см"><i>см</i><par n="мм__abbr"/></e>
-    <e lm="км"><i>км</i><par n="мм__abbr"/></e>
-    <e lm="млн"><i>млн</i><par n="мм__abbr"/></e>
+    <e lm="см"><i>см</i><par n="км__abbr"/></e>
+    <e lm="км"><i>км</i><par n="км__abbr"/></e>
+    <e lm="мм"><i>мм</i><par n="км__abbr"/></e>
+    <e lm="кг"><i>кг</i><par n="км__abbr"/></e>
+    <e lm="мг"><i>мг</i><par n="км__abbr"/></e>
+    <e lm="млн"><i>млн</i><par n="км__abbr"/></e>
 
     <!-- SECTION: Verbs -->
 
@@ -16123,6 +16125,7 @@
     <e lm="открывать"><i>открыва</i><par n="дела/ть__vblex_impf"/></e>
     <e lm="подозревать"><i>подозрева</i><par n="дела/ть__vblex_impf"/></e>
     <e lm="покупать"><i>покупа</i><par n="дела/ть__vblex_impf"/></e>
+    <e lm="выкупать"><i>выкупать</i><par n="дела/ть__vblex_impf"/></e>
     <e lm="презирать"><i>презира</i><par n="дела/ть__vblex_impf"/></e>
     <e lm="принимать"><i>принима</i><par n="дела/ть__vblex_impf"/></e>
     <e lm="пугать"><i>пуга</i><par n="дела/ть__vblex_impf"/></e>
