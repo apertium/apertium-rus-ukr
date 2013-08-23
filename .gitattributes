@@ -56,6 +56,9 @@ dev/uk-sint-auto -text
 texts/article2.rus.reference.txt -text svneol=unset#application/octet-stream
 texts/article2.rus.test.txt -text svneol=unset#application/octet-stream
 texts/article2.ukr.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.reference.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.test.txt -text svneol=unset#application/octet-stream
+texts/article3.ukr.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.rus.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.ukr-rus.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.ukr.txt -text svneol=unset#application/octet-stream
