@@ -37,6 +37,8 @@ LIST Fem = f ;
 LIST Masc = m ;
 LIST Neu = nt ; 
 
+LIST Sg3 = (p3 sg);
+
 LIST Past = past ;
 LIST Pres = pres ;
 LIST Fut = fut ;
@@ -48,6 +50,8 @@ LIST NUMBER = sg pl sp ;
 LIST ANIMAC = aa nn an ;
 
 LIST ADV-NEG = "ніде" ;
+
+LIST BUTI = "бути";
 
 LIST V-FIN = pres past fut imp ;
 #SET V-FIN = Pres | Past | Fut ; 
@@ -153,3 +157,6 @@ REMOVE:Locative Nomen + Loc IF (0 Dat OR Loc) (NOT -1 Pr + Loc) (NOT -1C Modifie
 
 REMOVE:Dative Dat IF (NOT 0* VERB-DAT) ;
     ## А ви знаєте чому? Чому вона це робить?
+
+SELECT Sg3 IF (0 BUTI) (-1 Pron + Gen LINK -1 ("у"));
+    ## У нас є дуже чітка мета – це дбати за особливі місця для усіх.
