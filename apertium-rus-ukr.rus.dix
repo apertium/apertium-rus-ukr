@@ -6064,8 +6064,7 @@
       <e>       <p><l>быв</l><r>быть<s n="vbser"/><s n="pp"/><s n="adv"/></r></p></e>
       <e r ="LR"><p><l>бывши</l><r>быть<s n="vbser"/><s n="pp"/><s n="adv"/></r></p></e>
 
-      <e r="LR"><p><l>есмь</l> <r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l></l>     <r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>есмь</l> <r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>еси</l>  <r>быть<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>есть</l> <r>быть<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>нет</l>  <r>быть<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -6082,6 +6081,9 @@
       <e>       <p><l>будут</l><r>быть<s n="vbser"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>был</l><r>быть<s n="vbser"/><s n="past"/></r></p><par n="BASE__ска/зал"/></e>
+
+      <e>       <p><l>будь</l><r>быть<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>будьте</l><r>быть<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="име/ть__vbhaver_impf">
@@ -12428,7 +12430,7 @@
     <e lm="неужели"><i>неужели</i><par n="ли__part"/></e>
     <e lm="всё-таки"><i>всё-таки</i><par n="ли__part"/></e>
     <e lm="бы"><i></i><par n="/бы__part"/></e>
-    <e lm="лишь"><i></i><par n="ли__part"/></e>
+    <e lm="лишь"><i>лишь</i><par n="ли__part"/></e>
     <e lm="же"><i></i><par n="/же__part"/></e>
     <e lm="ведь"><i>ведь</i><par n="ли__part"/></e>
 
