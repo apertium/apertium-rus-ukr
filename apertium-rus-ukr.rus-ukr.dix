@@ -1536,7 +1536,6 @@
 
     <!-- SECTION: Verbs -->
 
-    <e><p><l>покупать<s n="vblex"/><s n="impf"/></l><r>купувати<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>купить<s n="vblex"/><s n="perf"/></l><r>купити<s n="vblex"/><s n="perf"/></r></p></e>
 
     <e><p><l>быть<s n="vbser"/></l><r>бути<s n="vbser"/></r></p></e>
@@ -12390,7 +12389,47 @@
     <e><p><l>сжимать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>стискувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>стискивать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>стискувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>писать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>писати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <!--e><p><l>777<s n="vblex"/><s n="777"/><s n="777"/></l><r>777<s n="vblex"/><s n="777"/><s n="777"/></r></p></e-->
+    <e><p><l>писать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>писати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>есть<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>їсти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>есть<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>їсти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>покупать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>купувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>демонстрировать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>демонструвати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>жевать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>жувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>строить<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>будувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>произносить<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>виголошувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>выполнять<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>виконувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>исполнять<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>виконувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>использовать<s n="vblex"/><s n="dual"/><s n="tv"/></l><r>використовувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>решать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>вирішувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>воспитывать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>виховувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>посещать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>відвідувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>навещать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>відвідувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>кормить<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>годувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>готовить<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>готувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>раздражать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>дратувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>обеспечивать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>забезпечувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>возражать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>заперечувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>отрицать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>заперечувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>записывать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>записувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>спрашивать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>запитувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>приглашать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>запрошувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>применять<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>застосовувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>обвинять<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>звинувачувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>вспоминать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>згадувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>упоминать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>згадувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>поминать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>згадувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>уничтожать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>знищувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>лечить<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>лікувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>напоминать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>нагадувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>ночевать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>ночувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>объявлять<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>оголошувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>превышать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>перевищувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>превосходить<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>перевищувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>убеждать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>переконувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>переубеждать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>переконувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>вытягивать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>витягувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>указывать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>вказувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>учитывать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>враховувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
     <!--abbr-->
     <e><p><l>км<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
