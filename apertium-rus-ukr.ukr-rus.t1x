@@ -24,6 +24,7 @@
   </def-cat>
   <def-cat n="mogti-fut">
      <cat-item lemma="могти" tags="vbmod.impf.iv.fut.*"/>
+     <cat-item lemma="мати" tags="vbhaver.impf.tv.fut.*"/>
   </def-cat>
   <def-cat n="vblex">
      <cat-item tags="vblex.*"/>
@@ -100,6 +101,10 @@
 
   <def-attr n="a_vrb">
      <attr-item tags="vblex"/>
+     <attr-item tags="vbmod"/>
+     <attr-item tags="vbhaver"/>
+     <attr-item tags="vaux"/>
+     <attr-item tags="vbser"/>
   </def-attr>
 
   <def-attr n="a_prn">
@@ -581,7 +586,10 @@
            <b/>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
-            <lit-tag v="vbmod.impf.iv.inf"/>
+            <clip pos="1" side="tl" part="a_vrb"/>
+            <clip pos="1" side="tl" part="asp"/>
+            <clip pos="1" side="tl" part="trn"/>
+            <lit-tag v="inf"/>
            </lu>
          </chunk>
        </out>
