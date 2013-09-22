@@ -22,7 +22,7 @@
     <cat-item tags="vbmod.*"/>
     <cat-item tags="vbhaver.*"/>
   </def-cat>
-  <def-cat n="mogti-fut">
+  <def-cat n="extra-fut">
      <cat-item lemma="могти" tags="vbmod.impf.iv.fut.*"/>
      <cat-item lemma="мати" tags="vbhaver.impf.tv.fut.*"/>
   </def-cat>
@@ -564,9 +564,9 @@
     </action>
   </rule>
 
-  <rule comment="mogti-fut">
+  <rule comment="extra-fut">
     <pattern>
-      <pattern-item n="mogti-fut"/>
+      <pattern-item n="extra-fut"/>
     </pattern>
     <action>
       <out>
