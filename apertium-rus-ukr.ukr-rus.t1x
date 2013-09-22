@@ -22,6 +22,9 @@
     <cat-item tags="vbmod.*"/>
     <cat-item tags="vbhaver.*"/>
   </def-cat>
+  <def-cat n="mogti-fut">
+     <cat-item lemma="могти" tags="vbmod.impf.iv.fut.*"/>
+  </def-cat>
   <def-cat n="vblex">
      <cat-item tags="vblex.*"/>
   </def-cat>
@@ -556,6 +559,37 @@
     </action>
   </rule>
 
+  <rule comment="mogti-fut">
+    <pattern>
+      <pattern-item n="mogti-fut"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk name="vbmod" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="tns"/></tag>
+              <tag><clip pos="1" side="tl" part="prs"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+          </tags>
+          <lu>
+            <lit v="быть"/>
+            <lit-tag v="vbser.fut"/>
+            <clip pos="1" side="tl" part="prs"/>
+            <clip pos="1" side="tl" part="nbr"/>
+           </lu>
+           <b/>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit-tag v="vbmod.impf.iv.inf"/>
+           </lu>
+         </chunk>
+       </out>
+    </action>
+  </rule>
+
+
+
   <rule comment="verb">
     <pattern>
       <pattern-item n="verb"/>
@@ -713,7 +747,6 @@
        </out>
     </action>
   </rule>
-
 </section-rules>
 
 </transfer>
