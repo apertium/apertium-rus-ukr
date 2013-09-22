@@ -661,6 +661,10 @@
               </in>
             </not>
           </test>
+        <choose> 
+          <when><test><equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal></test>
+                <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mfn"/></let></when>
+        </choose>
           <out>
             <chunk name="det-nom" case="caseFirstWord">
               <tags>
@@ -673,7 +677,7 @@
                 <clip pos="1" side="tl" part="lem"/>
                 <clip pos="1" side="tl" part="a_det"/>
                 <clip pos="1" side="tl" part="det_type"/>
-                <clip pos="2" side="tl" part="gen"/>
+                <clip pos="1" side="tl" part="gen"/>
                 <clip pos="1" side="tl" part="anim"/>
                 <clip pos="2" side="tl" part="nbr"/>
                 <clip pos="2" side="tl" part="cas"/>
