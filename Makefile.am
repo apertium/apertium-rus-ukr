@@ -42,6 +42,7 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	lt-comp rl $< $@
 
 $(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
 	lt-comp rl $(BASENAME).$(LANG1).dix $@
 
 $(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix

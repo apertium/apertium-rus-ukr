@@ -81,6 +81,13 @@
      <attr-item tags="p3"/>
   </def-attr>
 
+  <def-attr n="anim">
+     <attr-item tags="nn"/>
+     <attr-item tags="aa"/>
+     <attr-item tags="an"/>
+  </def-attr>
+
+
   <def-attr n="nbr">
      <attr-item tags="sg"/>
      <attr-item tags="pl"/>
@@ -131,6 +138,7 @@
            <tags>
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="anim"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	     <tag><clip pos="1" side="tl" part="cas"/></tag>
            </tags>
@@ -138,8 +146,9 @@
              <clip pos="1" side="tl" part="lem"/>
              <clip pos="1" side="tl" part="a_nom"/>
              <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	     <clip pos="1" side="tl" part="cas" link-to="4"/>
+             <clip pos="1" side="tl" part="anim" link-to="3"/>
+             <clip pos="1" side="tl" part="nbr" link-to="4"/>
+	     <clip pos="1" side="tl" part="cas" link-to="5"/>
            </lu>
          </chunk>
        </out>
