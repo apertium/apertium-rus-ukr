@@ -672,6 +672,9 @@
         <choose> 
           <when><test><equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal></test>
                 <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mfn"/></let></when>
+          <otherwise>
+                <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
+          </otherwise>
         </choose>
           <out>
             <chunk name="det-nom" case="caseFirstWord">
