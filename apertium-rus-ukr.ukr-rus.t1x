@@ -79,6 +79,8 @@
      <attr-item tags="np"/>
      <attr-item tags="np.ant"/>
      <attr-item tags="np.top"/>
+     <attr-item tags="np.hyd"/>
+     <attr-item tags="np.cog"/>
   </def-attr>
 
   <def-attr n="a_prp">
@@ -314,7 +316,13 @@
             <tag><clip pos="1" side="tl" part="gen"/></tag>
           </tags>
           <lu>
-            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="anim"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="cas"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </chunk>
       </out>

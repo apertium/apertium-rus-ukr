@@ -23,4 +23,7 @@
     <match lemma="відділити" tags="vblex.*"><select lemma="выделить" tags="vblex.*"/></match>
     <match lemma="для" tags="pr.*"/>
   </rule>
+  <rule>
+    <match lemma="йтися" tags="vblex.*"><select lemma="речь идти" tags="vblex.*"/></match>
+  </rule>
 </rules>
