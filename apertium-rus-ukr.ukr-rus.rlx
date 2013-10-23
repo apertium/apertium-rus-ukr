@@ -160,3 +160,5 @@ REMOVE:Dative Dat IF (NOT 0* VERB-DAT) ;
 
 SELECT Sg3 IF (0 BUTI) (-1 Pron + Gen LINK -1 ("у"));
     ## У нас є дуже чітка мета – це дбати за особливі місця для усіх.
+	 
+REMOVE Voc IF (0C N) (0C Gen OR Voc); 
