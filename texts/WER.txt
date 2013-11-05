@@ -1,0 +1,10 @@
+article1:
+8,31 % - apertium
+article2:
+15.22% - apertium
+article3:
+14.74% - apertium
+4.58 % - google // spaces before punctuation marks
+3.51 % - yandex
+6.07 % - pragma
+22.29 % - pere.org.ua
