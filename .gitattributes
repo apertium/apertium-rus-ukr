@@ -80,7 +80,15 @@ dev/uk-sint-auto -text
 texts/article2.rus.reference.txt -text svneol=unset#application/octet-stream
 texts/article2.rus.test.txt -text svneol=unset#application/octet-stream
 texts/article2.ukr.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.reference-google.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.reference-pere.org.ua.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.reference-pragma.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.reference-yandex.txt -text svneol=unset#application/octet-stream
 texts/article3.rus.reference.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.test-google.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.test-pere.org.ua.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.test-pragma.txt -text svneol=unset#application/octet-stream
+texts/article3.rus.test-yandex.txt -text svneol=unset#application/octet-stream
 texts/article3.rus.test.txt -text svneol=unset#application/octet-stream
 texts/article3.ukr.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.rus.txt -text svneol=unset#application/octet-stream
