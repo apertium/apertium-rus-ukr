@@ -5,22 +5,15 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-rus-ukr.post-rus.dix -text
-/apertium-rus-ukr.post-ukr.dix -text
 /apertium-rus-ukr.rus-ukr.dix -text
 /apertium-rus-ukr.rus-ukr.lrx -text
-/apertium-rus-ukr.rus-ukr.rlx -text
 /apertium-rus-ukr.rus-ukr.t1x -text
 /apertium-rus-ukr.rus-ukr.t2x -text
 /apertium-rus-ukr.rus-ukr.t3x -text
-/apertium-rus-ukr.rus.acx -text
-/apertium-rus-ukr.rus.dix -text
 /apertium-rus-ukr.ukr-rus.lrx -text
-/apertium-rus-ukr.ukr-rus.rlx -text
 /apertium-rus-ukr.ukr-rus.t1x -text
 /apertium-rus-ukr.ukr-rus.t2x -text
 /apertium-rus-ukr.ukr-rus.t3x -text
-/apertium-rus-ukr.ukr.acx -text
 /apertium-rus-ukr.ukr.dix -text
 /autogen.sh -text
 /configure.ac -text
@@ -76,7 +69,6 @@ dev/uk-ispell-entries -text
 dev/uk-ru-indeclinable -text
 dev/uk-sint-auto -text
 /modes.xml -text
-/rus-ukr.prob -text
 texts/WER.txt -text
 texts/article2.rus.reference.txt -text svneol=unset#application/octet-stream
 texts/article2.rus.test.txt -text svneol=unset#application/octet-stream
@@ -95,4 +87,3 @@ texts/article3.ukr.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.rus.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.ukr-rus.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.ukr.txt -text svneol=unset#application/octet-stream
-/ukr-rus.prob -text
