@@ -1,5 +1,11 @@
 <rules>
   <rule>
-    <match lemma="word1" tags="n.*"><select lemma="word2" tags="n.*"/></match>
+    <match lemma="производство" tags="n.*"><select lemma="виробництво" tags="n.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="создание" tags="n.*"><select lemma="створення" tags="n.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="так" tags="adv"><select lemma="так" tags="adv"/></match>
   </rule>
 </rules>
