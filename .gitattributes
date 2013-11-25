@@ -14,7 +14,6 @@
 /apertium-rus-ukr.ukr-rus.t1x -text
 /apertium-rus-ukr.ukr-rus.t2x -text
 /apertium-rus-ukr.ukr-rus.t3x -text
-/apertium-rus-ukr.ukr.dix -text
 /autogen.sh -text
 /configure.ac -text
 corpora/scripts/README -text

@@ -261,6 +261,7 @@
     <e><p><l>их<s n="det"/><s n="pos"/></l><r>їхній<s n="det"/><s n="pos"/></r></p></e>
     <e r="RL"><p><l>их<s n="det"/><s n="pos"/></l><r>їх<s n="det"/><s n="pos"/></r></p></e><!--spoken-->
     <e><p><l>тот<s n="det"/><s n="dem"/></l><r>той<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>весь<s n="det"/><s n="ind"/></l><r>весь<s n="det"/><s n="ind"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 
