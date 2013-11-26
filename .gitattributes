@@ -5,6 +5,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/TODO -text svneol=unset#application/octet-stream
 /apertium-rus-ukr.rus-ukr.dix -text
 /apertium-rus-ukr.rus-ukr.lrx -text
 /apertium-rus-ukr.rus-ukr.t1x -text
