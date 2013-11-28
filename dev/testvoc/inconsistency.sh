@@ -1,10 +1,11 @@
 TMPDIR=/tmp
+LANG1=../../../../languages/apertium-ukr/
 
 DIR=$1
 
 if [[ $DIR = "ukr-rus" ]]; then
 
-lt-expand ../../apertium-rus-ukr.ukr.dix | grep -v '<prn><enc>' | grep -v 'REGEX' | grep -v ':<:' | sed 's/:>:/%/g' | sed 's/:/%/g' | cut -f2 -d'%' |  sed 's/^/^/g' | sed 's/$/$ ^.<sent>$/g' | tee $TMPDIR/$DIR.tmp_testvoc1.txt |
+lt-expand $LANG1/apertium-ukr.ukr.dix | grep -v '<prn><enc>' | grep -v 'REGEX' | grep -v ':<:' | sed 's/:>:/%/g' | sed 's/:/%/g' | cut -f2 -d'%' |  sed 's/^/^/g' | sed 's/$/$ ^.<sent>$/g' | tee $TMPDIR/$DIR.tmp_testvoc1.txt |
         apertium-pretransfer|
 	lt-proc -b ../../ukr-rus.autobil.bin |  tee $TMPDIR/$DIR.tmp_testvoc2.txt |
         lrx-proc ../../ukr-rus.autolex.bin |
