@@ -3,6 +3,9 @@
     <match lemma="производство" tags="n.*"><select lemma="виробництво" tags="n.*"/></match>
   </rule>
   <rule>
+    <match lemma="язык" tags="n.*"><select lemma="мова" tags="n.*"/></match>
+  </rule>
+  <rule>
     <match lemma="создание" tags="n.*"><select lemma="створення" tags="n.*"/></match>
   </rule>
   <rule>
