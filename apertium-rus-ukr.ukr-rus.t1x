@@ -75,12 +75,17 @@
 <section-def-attrs>
 
   <def-attr n="a_nom">
+     <attr-item tags="adv"/> <!-- для 'сегодня'-->
      <attr-item tags="n"/>
      <attr-item tags="np"/>
      <attr-item tags="np.ant"/>
      <attr-item tags="np.top"/>
      <attr-item tags="np.hyd"/>
      <attr-item tags="np.cog"/>
+  </def-attr>
+
+  <def-attr n="a_adv">
+     <attr-item tags="adv"/>
   </def-attr>
 
   <def-attr n="a_prp">
@@ -217,6 +222,14 @@
         <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
       </when>
     </choose>
+    <choose>
+      <when>
+        <test><equal><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv"/></equal></test>
+        <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
+      </when>
+    </choose>
+
   </def-macro>
 
   <def-macro n="impers_adapter1" npar="1">
