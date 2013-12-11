@@ -1535,6 +1535,9 @@
     <e><p><l>быть<s n="vbser"/></l><r>бути<s n="vbser"/></r></p></e>
     <e><p><l>иметь<s n="vbhaver"/><s n="impf"/></l><r>мати<s n="vbhaver"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>мочь<s n="vbmod"/><s n="impf"/><s n="iv"/></l><r>могти<s n="vbmod"/><s n="impf"/><s n="iv"/></r></p></e>
+
+    <e><p><l>мочь<s n="vbmod"/><s n="impf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="sg"/></l><r>могти<s n="vbmod"/><s n="impf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+
     <e><p><l>думать<s n="vblex"/><s n="impf"/></l><r>думати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>любить<s n="vblex"/><s n="impf"/></l><r>любити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>видеть<s n="vblex"/><s n="impf"/></l><r>бачити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
@@ -1626,6 +1629,7 @@
 
     <!--pr-->
     <e><p><l>в<b/>течение<s n="pr"/></l>                        <r>протягом<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>в<b/>течение<s n="pr"/></l>                        <r>упродовж<s n="pr"/><s n="gen"/></r></p></e>
     <e><p><l>в<b/>случае<s n="pr"/></l>                         <r>у<b/>разі<s n="pr"/><s n="gen"/></r></p></e>
     <e><p><l>на<b/>краю<s n="pr"/></l>                          <r>кінець<s n="pr"/><s n="gen"/></r></p></e>
     <e><p><l>вокруг<s n="pr"/></l>                              <r>округ<s n="pr"/><s n="gen"/></r></p></e>
@@ -11318,8 +11322,8 @@
     <e><p><l>обмежевать<s n="vblex"/><s n="perf"/></l><r>обмежувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>переходить<s n="vblex"/><s n="impf"/></l><r>переходити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>переходить<s n="vblex"/><s n="impf"/></l><r>переходити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>переходить<s n="vblex"/><s n="perf"/></l><r>переходити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>переходить<s n="vblex"/><s n="perf"/></l><r>переходити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <!--<e><p><l>переходить<s n="vblex"/><s n="perf"/></l><r>переходити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>-->
+    <!--<e><p><l>переходить<s n="vblex"/><s n="perf"/></l><r>переходити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>-->
     <e><p><l>вести<b/>себя<s n="vblex"/><s n="impf"/></l><r>поводитися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>вестись<s n="vblex"/><s n="impf"/></l><r>поводитися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>поводиться<s n="vblex"/><s n="perf"/></l><r>поводитися<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>

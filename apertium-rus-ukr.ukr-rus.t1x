@@ -121,7 +121,10 @@
   </def-attr>
 
   <def-attr n="a_det">
-     <attr-item tags="det"/>
+     <attr-item tags="det.ord"/>
+     <attr-item tags="det.itg"/>
+     <attr-item tags="det.dem"/>
+     <attr-item tags="det.qnt"/>
   </def-attr>
 
 
@@ -426,6 +429,7 @@
       <pattern-item n="det_pos"/>
     </pattern>
     <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <call-macro n="check-det_pos-gen-nbr-cas1"><with-param pos="1"/></call-macro>
       <out>
         <chunk name="det" case="caseFirstWord">
