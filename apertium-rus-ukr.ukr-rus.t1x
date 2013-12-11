@@ -119,6 +119,10 @@
   <def-attr n="a_prn">
      <attr-item tags="prn"/>
      <attr-item tags="prn.itg"/>
+     <attr-item tags="prn.ind"/>
+     <attr-item tags="prn.dem"/>
+     <attr-item tags="prn.rel"/>
+     <attr-item tags="prn.qnt"/>
   </def-attr>
 
   <def-attr n="a_det">
