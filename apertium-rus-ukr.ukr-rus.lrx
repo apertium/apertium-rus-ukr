@@ -26,4 +26,7 @@
   <rule>
     <match lemma="йтися" tags="vblex.*"><select lemma="речь идти" tags="vblex.*"/></match>
   </rule>
+  <rule>
+    <match lemma="мовний" tags="adj.*"><select lemma="языковой" tags="adj.*"/></match>
+  </rule>
 </rules>

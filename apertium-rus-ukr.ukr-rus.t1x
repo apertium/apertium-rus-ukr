@@ -23,6 +23,7 @@
     <cat-item tags="vbhaver.*"/>
   </def-cat>
   <def-cat n="extra-fut">
+     <cat-item lemma="хотіти" tags="vbmod.impf.iv.fut.*"/>
      <cat-item lemma="могти" tags="vbmod.impf.iv.fut.*"/>
      <cat-item lemma="мати" tags="vbhaver.impf.tv.fut.*"/>
   </def-cat>
