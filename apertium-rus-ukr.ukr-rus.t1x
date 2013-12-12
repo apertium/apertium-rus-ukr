@@ -119,6 +119,8 @@
   <def-attr n="a_prn">
      <attr-item tags="prn"/>
      <attr-item tags="prn.itg"/>
+     <attr-item tags="prn.neg"/>
+     <attr-item tags="prn.def"/>
      <attr-item tags="prn.ind"/>
      <attr-item tags="prn.dem"/>
      <attr-item tags="prn.rel"/>
@@ -582,6 +584,7 @@
       <pattern-item n="prn"/>
     </pattern>
     <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <call-macro n="set-upper1"><with-param pos="1"/></call-macro>
       <out>
         <chunk name="pron" case="caseFirstWord">
