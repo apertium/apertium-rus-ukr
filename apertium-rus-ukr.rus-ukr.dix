@@ -45,6 +45,7 @@
 
     <sdef n="adv"    c=""/>
     <sdef n="pred"   c=""/>
+    <sdef n="coll"   c=""/>
     <sdef n="pos"    c=""/>
 
     <sdef n="sg"     c="однина"/>
@@ -85,6 +86,7 @@
     <sdef n="cnjadv" c=""/>
     
     <sdef n="GD"     c=""/>
+    <sdef n="AD"     c=""/>
     <sdef n="ND"     c=""/>
     <sdef n="CD"     c=""/>
 
@@ -144,14 +146,15 @@
 
     <!-- SECTION: Numerals -->
     
-    <e><p><l>сто<s n="num"/></l><r>сто<s n="num"/></r></p></e>
+    <e><p><l>сто<s n="num"/><s n="mfn"/><s n="sg"/></l><r>сто<s n="num"/><s n="mfn"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>сто<s n="num"/><s n="mfn"/><s n="pl"/></l><r>сто<s n="num"/><s n="mfn"/><s n="pl"/></r></p></e>
     <e><p><l>сорок<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
     <e><p><l>пять<s n="num"/></l><r>п'ять<s n="num"/></r></p></e>
     <e><p><l>оба<s n="num"/></l><r>обидва<s n="num"/></r></p></e>
 
     <e><p><l>восемь<s n="num"/></l><r>вісім<s n="num"/></r></p></e>
     <e><p><l>восемьдесят<s n="num"/></l><r>вісімдесят<s n="num"/></r></p></e>
-    <e><p><l>восемнадцять<s n="num"/></l><r>вісімнадцять<s n="num"/></r></p></e>
+    <e><p><l>восемнадцать<s n="num"/></l><r>вісімнадцять<s n="num"/></r></p></e>
     <e><p><l>восемьсот<s n="num"/></l><r>вісімсот<s n="num"/></r></p></e>
     <e><p><l>два<s n="num"/></l><r>два<s n="num"/></r></p></e>
     <e><p><l>два<s n="num"/></l><r>два<s n="num"/></r></p></e>
@@ -1674,21 +1677,34 @@
     <e><p><l>пара<s n="num"/><s n="f"/></l>                     <r>пара<s n="num"/><s n="f"/></r></p></e>
     <e><p><l>полтора<s n="num"/></l>                            <r>півтора<s n="num"/></r></p></e>
     <e><p><l>оба<s n="num"/><s n="mfn"/></l>                    <r>обоє<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>двое<s n="num"/><s n="mfn"/></l>                   <r>двоє<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>двое<s n="num"/><s n="mfn"/></l>                   <r>двійко<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>четверо<s n="num"/><s n="mfn"/></l>                <r>четверо<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>шестеро<s n="num"/><s n="mfn"/></l>                <r>шестеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>семеро<s n="num"/><s n="mfn"/></l>                 <r>семеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>восьмеро<s n="num"/><s n="mfn"/></l>               <r>восьмеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>десятеро<s n="num"/><s n="mfn"/></l>               <r>десятеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>одиннадцать<s n="num"/><s n="mfn"/></l>            <r>одинадцятеро<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>тринадцать<s n="num"/><s n="mfn"/></l>             <r>тринадцятеро<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>двое<s n="num"/><s n="coll"/><s n="mfn"/></l>                   <r>двоє<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>двое<s n="num"/><s n="coll"/><s n="mfn"/></l>                   <r>двійко<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>четверо<s n="num"/><s n="coll"/><s n="mfn"/></l>                <r>четверо<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>шестеро<s n="num"/><s n="coll"/><s n="mfn"/></l>                <r>шестеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>семеро<s n="num"/><s n="coll"/><s n="mfn"/></l>                 <r>семеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>восьмеро<s n="num"/><s n="coll"/><s n="mfn"/></l>               <r>восьмеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>десятеро<s n="num"/><s n="coll"/><s n="mfn"/></l>               <r>десятеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+
+    <e r="LR"><p><l>одиннадцать<s n="num"/><s n="mfn"/></l><r>одинадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="AD"/></r></p></e>
+    <e r="RL"><p><l>одиннадцать<s n="num"/><s n="mfn"/></l><r>одинадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="an"/></r></p></e>
+    <e r="RL"><p><l>одиннадцать<s n="num"/><s n="mfn"/></l><r>одинадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="aa"/></r></p></e>
+    <e r="RL"><p><l>одиннадцать<s n="num"/><s n="mfn"/></l><r>одинадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="nn"/></r></p></e>
+
+    <e r="LR"><p><l>тринадцать<s n="num"/><s n="mfn"/></l><r>тринадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="AD"/></r></p></e>
+    <e r="RL"><p><l>тринадцать<s n="num"/><s n="mfn"/></l><r>тринадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="an"/></r></p></e>
+    <e r="RL"><p><l>тринадцать<s n="num"/><s n="mfn"/></l><r>тринадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="aa"/></r></p></e>
+    <e r="RL"><p><l>тринадцать<s n="num"/><s n="mfn"/></l><r>тринадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="nn"/></r></p></e>
+
     <e><p><l>несколько<s n="num"/><s n="mfn"/></l>              <r>кілька<s n="num"/><s n="mfn"/></r></p></e>
     <e><p><l>несколько<s n="num"/><s n="mfn"/></l>              <r>декілька<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>десяток<b/>с<b/>лишним<s n="num"/><s n="mfn"/></l> <r>кільканадцять<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>несколько<b/>десятков<s n="num"/><s n="mfn"/></l>  <r>кількадесят<s n="num"/><s n="mfn"/></r></p></e>
+
+    <e><p><l>десяток<g><b/>с<b/>лишним</g><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></l> <r>кільканадцять<s n="num"/><s n="mfn"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>десяток<g><b/>с<b/>лишним</g><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l> <r>кільканадцять<s n="num"/><s n="mfn"/><s n="pl"/></r></p></e>
+
+    <e><p><l>несколько<g><b/>десятков</g><s n="num"/><s n="mfn"/></l>  <r>кількадесят<s n="num"/><s n="mfn"/></r></p></e>
     <e><p><l>несколько<b/>сот<s n="num"/><s n="mfn"/></l>       <r>кількасот<s n="num"/><s n="mfn"/></r></p></e>
-    <e><p><l>полсотни<s n="num"/><s n="mfn"/><s n="an"/></l><r>півсотня<s n="num"/><s n="f"/><s n="an"/></r></p></e>
+    <e><p><l>полсотни<s n="num"/><s n="mfn"/><s n="an"/><s n="sg"/></l><r>півсотня<s n="num"/><s n="f"/><s n="an"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>полсотни<s n="num"/><s n="mfn"/><s n="an"/><s n="sg"/></l><r>півсотня<s n="num"/><s n="f"/><s n="an"/><s n="pl"/></r></p></e>
 
     <!--det-->
     <e><p><l>первый<s n="det"/><s n="ord"/></l>                 <r>перший<s n="det"/><s n="ord"/></r></p></e>
@@ -9617,7 +9633,7 @@
     <e><p><l>резонанс<s n="n"/><s n="m"/><s n="nn"/></l><r>резонанс<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>рейд<s n="n"/><s n="m"/><s n="nn"/></l><r>рейд<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>рейка<s n="n"/><s n="f"/><s n="nn"/></l><r>рейка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>рельс<s n="n"/><s n="f"/><s n="nn"/></l><r>рейка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>рельс<s n="n"/><s n="m"/><s n="nn"/></l><r>рейка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>реформатор<s n="n"/><s n="m"/><s n="aa"/></l><r>реформатор<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>предложение<s n="n"/><s n="nt"/><s n="nn"/></l><r>речення<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>вещество<s n="n"/><s n="nt"/><s n="nn"/></l><r>речовина<s n="n"/><s n="f"/><s n="nn"/></r></p></e>

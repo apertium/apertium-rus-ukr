@@ -127,6 +127,14 @@
      <attr-item tags="prn.qnt"/>
   </def-attr>
 
+  <def-attr n="a_num">
+     <attr-item tags="num"/>
+     <attr-item tags="num.coll"/>
+     <attr-item tags="n"/> <!-- for кількадесят-->
+  </def-attr>
+
+
+
   <def-attr n="a_det">
      <attr-item tags="det.ord"/>
      <attr-item tags="det.itg"/>
@@ -160,7 +168,6 @@
      <attr-item tags="f"/>
      <attr-item tags="nt"/>
      <attr-item tags="mf"/>
-     <attr-item tags="mn"/>
      <attr-item tags="mfn"/>
   </def-attr>
 
@@ -494,7 +501,13 @@
             <tag><clip pos="1" side="tl" part="cas"/></tag>
           </tags>
           <lu>
-            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_num"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="anim"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="cas"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </chunk>
       </out>
