@@ -140,6 +140,7 @@
     <e><p><l>так<b/>как<s n="cnjadv"/></l><r>так<b/>як<s n="cnjadv"/></r></p></e>
     <e><p><l>пока<s n="cnjadv"/></l><r>поки<s n="cnjadv"/></r></p></e>
     <e><p><l>как<s n="cnjadv"/></l><r>як<s n="cnjadv"/></r></p></e>
+    <e><p><l>только<b/>что<s n="cnjadv"/></l><r>щойно<s n="adv"/></r></p></e>
 
     <!-- SECTION: Numerals -->
     
@@ -3801,7 +3802,6 @@
     <e><p><l>завтра<s n="adv"/></l><r>завтра<s n="adv"/></r></p></e>
     <e><p><l>наконец<s n="adv"/></l><r>нарешті<s n="adv"/></r></p></e>
     <e><p><l>рядом<s n="adv"/></l><r>поруч<s n="adv"/></r></p></e>
-    <e><p><l>только<b/>что<s n="adv"/></l><r>щойно<s n="adv"/></r></p></e>
     <e><p><l>рядом<s n="adv"/></l><r>поряд<s n="adv"/></r></p></e>
     <e><p><l>посреди<s n="adv"/></l><r>посередині<s n="adv"/></r></p></e>
     <e><p><l>посередине<s n="adv"/></l><r>посередині<s n="adv"/></r></p></e>
