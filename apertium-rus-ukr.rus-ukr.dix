@@ -1737,7 +1737,7 @@
     <e><p><l>сколько<s n="det"/><s n="qnt"/></l>                <r>скільки<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>чей<s n="det"/><s n="itg"/></l>                    <r>чий<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>самый<s n="det"/><s n="def"/></l>                  <r>самий<s n="det"/><s n="def"/></r></p></e>
-    <e><p><l>сам<s n="det"/><s n="def"/></l>                    <r>сам<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>сам<s n="det"/><s n="ref"/></l>                    <r>сам<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>иной<s n="det"/><s n="ind"/></l>                   <r>інший<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>много<s n="det"/><s n="qnt"/></l>                  <r>багато<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>какой-либо<s n="det"/><s n="ind"/></l>             <r>будь-який<s n="det"/><s n="ind"/></r></p></e>
@@ -10512,7 +10512,8 @@
     <e><p><l>Марс<s n="np"/><s n="ant"/><s n="m"/></l><r>Марс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 
-    <e><p><l>Кучма<s n="np"/><s n="cog"/><s n="mf"/></l>        <r>Кучма<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Кучма<s n="np"/><s n="cog"/></l>        <r>Кучма<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Кучма<s n="np"/><s n="cog"/></l>        <r>Кучма<s n="np"/><s n="cog"/></r></p></e>
 
     <e><p><l>Мирошниченко<s n="np"/><s n="cog"/></l>            <r>Мірошниченко<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Коваленко<s n="np"/><s n="cog"/></l>               <r>Коваленко<s n="np"/><s n="cog"/></r></p></e>
