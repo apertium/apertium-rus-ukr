@@ -1334,7 +1334,7 @@
     <!-- SECTION: Proper nouns -->
 
     <e><p><l>Кале<s n="np"/><s n="top"/></l><r>Кале<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Вьeтнам<s n="np"/><s n="top"/></l><r>В'єтнам<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Вьетнам<s n="np"/><s n="top"/></l><r>В'єтнам<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Па-де-Кале<s n="np"/><s n="top"/></l><r>Па-де-Кале<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Эдди<s n="np"/><s n="ant"/></l><r>Эдді<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Джо<s n="np"/><s n="ant"/></l><r>Джо<s n="np"/><s n="ant"/></r></p></e>
@@ -10539,7 +10539,7 @@
     <e><p><l>Палий<s n="np"/><s n="cog"/></l>                   <r>Палій<s n="np"/><s n="cog"/></r></p></e>
 
 
-    <e><p><l>США<s n="np"/><s n="top"/><s n="m"/></l>           <r>США<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>США<s n="np"/><s n="top"/><s n="mfn"/></l>           <r>США<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>ЕС<s n="np"/><s n="top"/><s n="m"/></l>            <r>ЄС<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>СССР<s n="np"/><s n="top"/><s n="m"/></l>          <r>СРСР<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>УССР<s n="np"/><s n="top"/><s n="f"/></l>          <r>УРСР<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -10557,18 +10557,20 @@
     <e><p><l>КПУ<s n="np"/><s n="org"/><s n="f"/></l>           <r>КПУ<s n="np"/><s n="org"/><s n="f"/></r></p></e>
     <e><p><l>ЦВК<s n="np"/><s n="org"/><s n="m"/></l>           <r>ЦВК<s n="np"/><s n="org"/><s n="m"/></r></p></e>
     
-    <e><p><l>Рождество<s n="np"/><s n="al"/><s n="nt"/></l>     <r>Різдво<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
-    <e><p><l>Бог<s n="np"/><s n="al"/><s n="m"/></l>            <r>Бог<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>Пасха<s n="np"/><s n="al"/><s n="m"/></l><r>Великдень<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>Пасха<s n="np"/><s n="al"/><s n="f"/></l><r>Пасха<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-    <e><p><l>Господь<s n="np"/><s n="al"/><s n="m"/></l><r>Господь<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-    <e><p><l>Аллах<s n="np"/><s n="al"/><s n="m"/></l><r>Аллах<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+
+    <e><p><l>Господь<s n="n"/><s n="m"/><s n="aa"/></l><r>Господь<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e><p><l>Аллах<s n="n"/><s n="m"/><s n="aa"/></l><r>Аллах<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e><p><l>Бог<s n="n"/><s n="m"/><s n="aa"/></l><r>Бог<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e><p><l>Крещение<s n="n"/><s n="nt"/><s n="nn"/></l><r>Водохреще<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+    <e><p><l>Рождество<s n="n"/><s n="nt"/><s n="nn"/></l><r>Різдво<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+    <e><p><l>Сретение<s n="n"/><s n="nt"/><s n="nn"/></l><r>Стрітення<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+
     <e><p><l>Спас<s n="np"/><s n="al"/><s n="m"/></l><r>Спас<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>Коран<s n="np"/><s n="al"/><s n="m"/></l><r>Коран<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>Библия<s n="np"/><s n="al"/><s n="f"/></l><r>Біблія<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-    <e><p><l>Крещение<s n="np"/><s n="al"/><s n="nt"/></l><r>Водохреще<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
     <e><p><l>Евангелие<s n="np"/><s n="al"/><s n="nt"/></l><r>Євангеліє<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
-    <e><p><l>Сретение<s n="np"/><s n="al"/><s n="nt"/></l><r>Стрітення<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
     <e><p><l>Марс<s n="np"/><s n="al"/><s n="m"/></l><r>Марс<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>Юпитер<s n="np"/><s n="al"/><s n="m"/></l><r>Юпітер<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>СМИ<s n="np"/><s n="al"/><s n="mfn"/><s n="pl"/></l><r>ЗМІ<s n="np"/><s n="al"/><s n="mfn"/><s n="pl"/></r></p></e>
