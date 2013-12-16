@@ -98,10 +98,14 @@
   <def-attr n="a_adj">
      <attr-item tags="adj"/>
      <attr-item tags="adj.sint"/>
-     <attr-item tags="adj.comp"/>
-     <attr-item tags="adj.sup"/>
      <attr-item tags="adj.itg"/>
   </def-attr>
+
+  <def-attr n="grau">
+     <attr-item tags="sup"/>
+     <attr-item tags="comp"/>
+  </def-attr>
+
 
   <def-attr n="anim">
      <attr-item tags="aa"/>
@@ -421,6 +425,16 @@
     </pattern>
     <action>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <choose>
+        <when>
+          <test><or><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal>
+                    <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="sup"/></equal></or></test>
+          <let><clip pos="1" side="tl" part="gen"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="anim"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
+        </when>
+      </choose>
       <out>
         <chunk name="adj" case="caseFirstWord">
           <tags>
