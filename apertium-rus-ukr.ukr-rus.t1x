@@ -144,6 +144,8 @@
      <attr-item tags="det.ord"/>
      <attr-item tags="det.itg"/>
      <attr-item tags="det.ind"/>
+     <attr-item tags="det.ref"/>
+     <attr-item tags="det.pos"/>
      <attr-item tags="det.dem"/>
      <attr-item tags="det.qnt"/>
   </def-attr>
@@ -273,13 +275,16 @@
       <when>
         <test><equal><clip pos="1" side="tl" part="tns"/><lit-tag v="impers"/></equal></test>
         <let>
+<!-- chheck this should be -о not -ое probably -->
           <clip pos="1" side="tl" part="tns"/>
           <concat>
             <lit-tag v="pp"/>
             <lit-tag v="pasv"/>
-            <lit-tag v="short"/>
+<!--            <lit-tag v="short"/>-->
             <lit-tag v="nt"/>
+            <lit-tag v="an"/>
             <lit-tag v="sg"/>
+            <lit-tag v="nom"/>
           </concat>
         </let>
       </when>
