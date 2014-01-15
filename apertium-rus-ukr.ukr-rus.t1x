@@ -153,6 +153,7 @@
 
   <def-attr n="asp">
      <attr-item tags="impf"/>
+     <attr-item tags="dual"/>
      <attr-item tags="perf"/>
   </def-attr>
 
