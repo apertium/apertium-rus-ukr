@@ -143,6 +143,7 @@
   <def-attr n="a_det">
      <attr-item tags="det.ord"/>
      <attr-item tags="det.itg"/>
+     <attr-item tags="det.ind"/>
      <attr-item tags="det.dem"/>
      <attr-item tags="det.qnt"/>
   </def-attr>
@@ -208,6 +209,7 @@
      <attr-item tags="prp"/>
   </def-attr>
 
+<!--
   <def-attr n="det_type">
      <attr-item tags="dem"/>
      <attr-item tags="def"/>
@@ -216,6 +218,7 @@
      <attr-item tags="pos"/>
      <attr-item tags="ind"/>
   </def-attr>
+-->
 </section-def-attrs>
 
 <section-def-vars>
@@ -780,7 +783,7 @@
               <lu>
                 <clip pos="1" side="tl" part="lem"/>
                 <clip pos="1" side="tl" part="a_det"/>
-                <clip pos="1" side="tl" part="det_type"/>
+<!--                <clip pos="1" side="tl" part="det_type"/>-->
                 <clip pos="1" side="tl" part="gen"/>
                 <clip pos="1" side="tl" part="anim"/>
                 <clip pos="2" side="tl" part="nbr"/>
