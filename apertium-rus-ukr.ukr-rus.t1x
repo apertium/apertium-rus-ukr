@@ -16,12 +16,20 @@
   <def-cat n="prn_pers_voc">
      <cat-item tags="prn.pers.*.*.*.voc"/>
   </def-cat>
+  <def-cat n="imper">
+    <cat-item tags="vblex.*.*.imp.*"/>
+    <cat-item tags="vbser.*.*.imp.*"/>
+    <cat-item tags="vbmod.*.*.imp.*"/>
+    <cat-item tags="vbhaver.*.*.imp.*"/>
+  </def-cat>
+
   <def-cat n="verb">
     <cat-item tags="vblex.*"/>
     <cat-item tags="vbser.*"/>
     <cat-item tags="vbmod.*"/>
     <cat-item tags="vbhaver.*"/>
   </def-cat>
+
   <def-cat n="extra-fut">
      <cat-item lemma="хотіти" tags="vbmod.impf.iv.fut.*"/>
      <cat-item lemma="могти" tags="vbmod.impf.iv.fut.*"/>
@@ -164,6 +172,7 @@
 
   <def-attr n="tns">
      <attr-item tags="inf"/>
+     <attr-item tags="nonpast"/>
      <attr-item tags="pp"/>
      <attr-item tags="pp.pasv"/>
      <attr-item tags="pp.actv"/>
@@ -690,6 +699,75 @@
   </rule>
 
 
+  <rule comment="imper">
+    <pattern>
+      <pattern-item n="imper"/>
+    </pattern>
+    <action>
+      <call-macro n="set-upper1"><with-param pos="1"/></call-macro>
+      <call-macro n="impers_adapter1"><with-param pos="1"/></call-macro>
+      <choose><when><test><and>
+                    <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="impf"/></equal>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></equal>
+                    <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                    <equal><clip pos="1" side="tl" part="prs"/><lit-tag v="p1"/></equal></and></test>
+                    <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let></when></choose>
+      <choose><when><test><and>
+                    <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="perf"/></equal>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></equal>
+                    <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                    <equal><clip pos="1" side="tl" part="prs"/><lit-tag v="p1"/></equal></and></test>
+                    <let><clip pos="1" side="tl" part="tns"/><lit-tag v="fut"/></let></when></choose>
+      <choose><when><test><and>
+                    <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="dual"/></equal>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></equal>
+                    <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                    <equal><clip pos="1" side="tl" part="prs"/><lit-tag v="p1"/></equal></and></test>
+                    <let><clip pos="1" side="tl" part="tns"/><lit-tag v="nonpast"/></let></when></choose>
+      <choose>
+        <when><!--ли generation after verb-->
+          <test>
+            <equal> 
+              <var n="чи_occured"/>
+              <lit v="true"/>
+            </equal> 
+          </test>
+          <let>
+            <var n="чи_occured"/>
+            <lit v="false"/>
+          </let>
+          <out>
+            <chunk name="verb" case="caseFirstWord">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit v="ли"/>
+                <lit-tag v="part"/>
+              </lu>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
+          <out>
+            <chunk name="verb" case="caseFirstWord">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </chunk>
+          </out>
+        </otherwise>
+      </choose>
+    </action>
+  </rule>
+
 
   <rule comment="verb">
     <pattern>
@@ -698,15 +776,42 @@
     <action>
       <call-macro n="set-upper1"><with-param pos="1"/></call-macro>
       <call-macro n="impers_adapter1"><with-param pos="1"/></call-macro>
-      <choose><when><test><and>
+      <choose><when><test><and><or>
                     <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="fut"/></equal>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="nonpast"/></equal></or>
                     <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="impf"/></equal></and></test>
                     <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let></when></choose>
+      <choose><when><test><and><or>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></equal>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="nonpast"/></equal></or>
+                    <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="perf"/></equal></and></test>
+                    <let><clip pos="1" side="tl" part="tns"/><lit-tag v="fut"/></let></when></choose>
       <choose><when><test><and>
+                    <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="impf"/></equal>
                     <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></equal>
                     <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
                     <equal><clip pos="1" side="tl" part="prs"/><lit-tag v="p1"/></equal></and></test>
                     <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let></when></choose>
+      <choose><when><test><and>
+                    <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="perf"/></equal>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></equal>
+                    <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                    <equal><clip pos="1" side="tl" part="prs"/><lit-tag v="p1"/></equal></and></test>
+                    <let><clip pos="1" side="tl" part="tns"/><lit-tag v="fut"/></let></when></choose>
+
+      <choose><when><test><and>
+                    <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="dual"/></equal>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></equal>
+                    <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                    <equal><clip pos="1" side="tl" part="prs"/><lit-tag v="p1"/></equal></and></test>
+                    <let><clip pos="1" side="tl" part="tns"/><lit-tag v="nonpast"/></let></when></choose>
+      <choose><when><test><and>
+                    <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="dual"/></equal>
+                    <or>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="fut"/></equal>
+                    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></equal></or></and></test>
+                    <let><clip pos="1" side="tl" part="tns"/><lit-tag v="nonpast"/></let></when></choose>
+ 
       <choose>
         <when><!--ли generation after verb-->
           <test>

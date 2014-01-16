@@ -11630,7 +11630,7 @@
     <e><p><l>оказываться<s n="vblex"/><s n="impf"/></l><r>опинятися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>опрашивать<s n="vblex"/><s n="impf"/></l><r>опитувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>оплачивать<s n="vblex"/><s n="impf"/></l><r>оплачувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>обнародовать<s n="vblex"/><s n="dual"/></l><r>оприлюднювати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>обнародовать<s n="vblex"/><s n="perf"/></l><r>оприлюднювати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e><!-- check-->
     <e><p><l>охлаждать<s n="vblex"/><s n="impf"/></l><r>охолоджувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>охранять<s n="vblex"/><s n="impf"/></l><r>охороняти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>возглавлять<s n="vblex"/><s n="impf"/></l><r>очолювати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
@@ -11763,7 +11763,7 @@
     <e><p><l>побороть<s n="vblex"/><s n="perf"/></l><r>побороти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>построить<s n="vblex"/><s n="perf"/></l><r>побудувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>подарить<s n="vblex"/><s n="perf"/></l><r>подарувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>даровать<s n="vblex"/><s n="perf"/></l><r>подарувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>даровать<s n="vblex"/><s n="impf"/></l><r>подарувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e><!--check-->
     <e><p><l>преодолеть<s n="vblex"/><s n="perf"/></l><r>подолати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>поинформировать<s n="vblex"/><s n="perf"/></l><r>поінформувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>осведомить<s n="vblex"/><s n="perf"/></l><r>поінформувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -12418,7 +12418,7 @@
     <e><p><l>проявить<s n="vblex"/><s n="perf"/></l><r>явити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>дарить<s n="vblex"/><s n="impf"/></l><r>дарувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
     <e><p><l>подарить<s n="vblex"/><s n="impf"/></l><r>дарувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
-    <e><p><l>даровать<s n="vblex"/><s n="dual"/></l><r>дарувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
+    <e><p><l>даровать<s n="vblex"/><s n="impf"/></l><r>дарувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e><!--check-->
     <e><p><l>подражать<s n="vblex"/><s n="impf"/></l><r>наслідувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
     <e><p><l>следовать<s n="vblex"/><s n="impf"/></l><r>наслідувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
     <e><p><l>последовать<s n="vblex"/><s n="perf"/></l><r>наслідувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
@@ -12429,8 +12429,8 @@
     <e><p><l>рекомендовать<s n="vblex"/><s n="dual"/></l><r>рекомендувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
     <e><p><l>использовать<s n="vblex"/><s n="dual"/></l><r>використати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>исследовать<s n="vblex"/><s n="dual"/></l><r>дослідити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>оборудовать<s n="vblex"/><s n="dual"/></l><r>обладнати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>обнародовать<s n="vblex"/><s n="dual"/></l><r>оприлюднити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>оборудовать<s n="vblex"/><s n="perf"/></l><r>обладнати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>обнародовать<s n="vblex"/><s n="perf"/></l><r>оприлюднити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e><!-- check-->
     <e><p><l>организовать<s n="vblex"/><s n="dual"/></l><r>організувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
     <e><p><l>организовывать<s n="vblex"/><s n="impf"/></l><r>організувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
     <e><p><l>организовывать<s n="vblex"/><s n="impf"/></l><r>організовувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
