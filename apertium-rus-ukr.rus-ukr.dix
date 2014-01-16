@@ -11453,7 +11453,7 @@
     <e><p><l>репрессировать<s n="vblex"/><s n="impf"/></l><r>репресувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>расследовать<s n="vblex"/><s n="impf"/></l><r>розслідувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>символизировать<s n="vblex"/><s n="impf"/></l><r>символізувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>специализировать<s n="vblex"/><s n="impf"/></l><r>спеціалізувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>специализировать<s n="vblex"/><s n="dual"/></l><r>спеціалізувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>сопровождаться<s n="vblex"/><s n="impf"/></l><r>супроводжуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>травмировать<s n="vblex"/><s n="impf"/></l><r>травмувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>фальсифицировать<s n="vblex"/><s n="impf"/></l><r>фальсифікувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
@@ -12383,7 +12383,7 @@
     <e><p><l>потребить<s n="vblex"/><s n="perf"/></l><r>спожити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>соединить<s n="vblex"/><s n="perf"/></l><r>сполучити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>совместить<s n="vblex"/><s n="perf"/></l><r>сполучити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>исказить<s n="vblex"/><s n="perf"/></l><r>спотворити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>исказить<s n="vblex"/><s n="impf"/></l><r>спотворити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e><!--check-->
     <e><p><l>воспринять<s n="vblex"/><s n="perf"/></l><r>сприйняти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>вызвать<s n="vblex"/><s n="perf"/></l><r>спричинити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>причинить<s n="vblex"/><s n="perf"/></l><r>спричинити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -12409,7 +12409,7 @@
     <e><p><l>поразить<s n="vblex"/><s n="perf"/></l><r>уразити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>усыновить<s n="vblex"/><s n="perf"/></l><r>усиновити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>усложнить<s n="vblex"/><s n="perf"/></l><r>ускладнити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>образовать<s n="vblex"/><s n="perf"/></l><r>утворити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>образовать<s n="vblex"/><s n="impf"/></l><r>утворити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e><!--check-->
     <e><p><l>утеплить<s n="vblex"/><s n="perf"/></l><r>утеплити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>постановить<s n="vblex"/><s n="perf"/></l><r>ухвалити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>принять<s n="vblex"/><s n="perf"/></l><r>ухвалити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
