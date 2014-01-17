@@ -307,7 +307,7 @@
     <e><p><l>серебристый<s n="adj"/></l><r>срібний<s n="adj"/></r></p></e>
     <e><p><l>старый<s n="adj"/><s n="sint"/></l><r>старий<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>бедро<s n="n"/><s n="nt"/></l><r>стегно<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>стоять<s n="vblex"/><s n="impf"/></l><r>стояти<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>стоять<s n="vblex"/><s n="impf"/></l><r>стояти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>стол<s n="n"/><s n="m"/><s n="nn"/></l><r>стіл<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>день<s n="n"/><s n="m"/></l><r>день<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>дерево<s n="n"/><s n="nt"/><s n="nn"/></l><r>дерево<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
@@ -10614,7 +10614,7 @@
     <e><p><l>попасть<s n="vblex"/><s n="perf"/></l><r>потрапити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>начать<s n="vblex"/><s n="perf"/></l><r>почати<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>начать<s n="vblex"/><s n="perf"/></l><r>почати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>специализироваться<s n="vblex"/><s n="dual"/></l><r>спеціалізуватися<s n="vblex"/><s n="dual"/><s n="iv"/></r></p></e>
+    <e><p><l>специализироваться<s n="vblex"/><s n="impf"/></l><r>спеціалізуватися<s n="vblex"/><s n="dual"/><s n="iv"/></r></p></e><!--check-->
     <e><p><l>появляться<s n="vblex"/><s n="impf"/></l><r>з'являтися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>позволить<s n="vblex"/><s n="perf"/></l><r>дозволити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>позволить<s n="vblex"/><s n="perf"/></l><r>дозволити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -10630,6 +10630,9 @@
     <e><p><l>продолжаться<s n="vblex"/><s n="impf"/></l><r>тривати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>ломаться<s n="vblex"/><s n="impf"/></l><r>ламатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>ждать<s n="vblex"/><s n="impf"/></l><r>чекати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>ждать<s n="vblex"/><s n="impf"/></l><r>чекати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>ожидать<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="adv"/></l><r>чекати<s n="vblex"/><s n="impf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><p><l>ожидать<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="adv"/></l><r>чекати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
     <e><p><l>помочь<s n="vblex"/><s n="perf"/></l><r>допомогти<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>оставаться<s n="vblex"/><s n="impf"/></l><r>залишатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>владеть<s n="vblex"/><s n="impf"/></l><r>володіти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
@@ -10663,7 +10666,6 @@
     <e><p><l>удовлетворять<s n="vblex"/><s n="impf"/></l><r>задовольняти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>называть<s n="vblex"/><s n="impf"/></l><r>називати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>довести<s n="vblex"/><s n="perf"/></l><r>довести<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>ждать<s n="vblex"/><s n="impf"/></l><r>чекати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>легализовать<s n="vblex"/><s n="dual"/></l><r>легалізувати<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
     <e><p><l>призывать<s n="vblex"/><s n="impf"/></l><r>закликати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>выдать<s n="vblex"/><s n="perf"/></l><r>видати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
