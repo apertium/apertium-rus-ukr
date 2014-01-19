@@ -29,4 +29,8 @@
   <rule>
     <match lemma="мовний" tags="adj.*"><select lemma="языковой" tags="adj.*"/></match>
   </rule>
+  <rule>
+    <match lemma="розглянути" tags="vblex.*"><select lemma="рассмотреть" tags="vblex.*"/></match>
+  </rule>
+
 </rules>
