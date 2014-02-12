@@ -1759,7 +1759,7 @@
     <e><p><l>бюджетный<s n="adj"/></l>                          <r>бюджетний<s n="adj"/></r></p></e>
     <e><p><l>бюрократический<s n="adj"/></l>                    <r>бюрократичний<s n="adj"/></r></p></e>
     <e><p><l>важный<s n="adj"/></l>                             <r>важливий<s n="adj"/></r></p></e>
-    <e><p><l>верховой<s n="adj"/></l>                           <r>верховий<s n="adj"/></r></p></e>
+    <e><p><l>верховой<s n="adj"/><s n="sint"/></l>                           <r>верховий<s n="adj"/></r></p></e>
     <e><p><l>высокий<s n="adj"/></l>                            <r>високий<s n="adj"/></r></p></e>
     <e><p><l>соответствующий<s n="adj"/></l>                    <r>відповідний<s n="adj"/></r></p></e>
     <e><p><l>государственный<s n="adj"/></l>                    <r>державний<s n="adj"/></r></p></e>
@@ -10614,7 +10614,7 @@
     <e><p><l>попасть<s n="vblex"/><s n="perf"/></l><r>потрапити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>начать<s n="vblex"/><s n="perf"/></l><r>почати<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>начать<s n="vblex"/><s n="perf"/></l><r>почати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>специализироваться<s n="vblex"/><s n="impf"/></l><r>спеціалізуватися<s n="vblex"/><s n="dual"/><s n="iv"/></r></p></e><!--check-->
+    <e><p><l>специализироваться<s n="vblex"/><s n="dual"/></l><r>спеціалізуватися<s n="vblex"/><s n="dual"/><s n="iv"/></r></p></e><!--check-->
     <e><p><l>появляться<s n="vblex"/><s n="impf"/></l><r>з'являтися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>позволить<s n="vblex"/><s n="perf"/></l><r>дозволити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>позволить<s n="vblex"/><s n="perf"/></l><r>дозволити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
