@@ -955,6 +955,7 @@
               </in>
             </not>
           </test>
+<!--
         <choose> 
           <when><test><equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal></test>
                 <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mfn"/></let></when>
@@ -962,6 +963,40 @@
                 <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
           </otherwise>
         </choose>
+-->
+
+      <choose>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                     <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                </and></test>
+          <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><and><or><and>
+                              <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></equal>
+                              <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></equal>
+                              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                              <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                         </and>
+                         <and><equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                         <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal></and>
+                     </or>
+                     <and>
+                       <equal><clip pos="1" side="tl" part="cas"/><lit-tag v="acc"/></equal>
+                       <equal><clip pos="2" side="tl" part="cas"/><lit-tag v="acc"/></equal>
+                     </and>
+                </and></test>
+          <let><clip pos="1" side="tl" part="anim"/><clip pos="2" side="tl" part="anim"/></let>
+        </when>
+        <otherwise>
+          <let><clip pos="1" side="tl" part="anim"/><lit-tag v="an"/></let>
+        </otherwise>
+      </choose>
+
+
           <out>
             <chunk name="det-nom" case="caseFirstWord">
               <tags>
