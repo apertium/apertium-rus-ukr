@@ -35,5 +35,15 @@
   <rule>
     <match lemma="розглянути" tags="vblex.*"><select lemma="рассмотреть" tags="vblex.*"/></match>
   </rule>
+  <rule>
+    <match lemma="один"/>
+    <match lemma="з" tags="pr.*"><select lemma="из"/></match>
+    <or>
+      <match tags="adj.*.*.*.*.gen"/>
+      <match tags="adj.*.*.*.*.*.gen"/>
+      <match tags="n.*.*.*.gen"/>
+    </or>
+  </rule>
+
 
 </rules>
