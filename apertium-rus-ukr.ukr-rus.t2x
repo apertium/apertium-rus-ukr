@@ -2,12 +2,13 @@
 <interchunk>
 
   <section-def-cats>
-    <def-cat n="PR">
-      <cat-item tags="PR"/>
+    <def-cat n="PREP">
+      <cat-item tags="PREP"/>
+      <cat-item tags="PREP.*"/>
     </def-cat>
-    <def-cat n="NP">
-      <cat-item tags="NP"/>
-      <cat-item tags="NP.*"/>
+    <def-cat n="SN">
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
     </def-cat>
     <def-cat n="V">
       <cat-item tags="V"/>
@@ -16,12 +17,22 @@
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="cas">
+      <attr-item tags="nom"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="ins"/>
+      <attr-item tags="prp"/>
+    </def-attr>
+
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
+
   </section-def-attrs>
 
   <section-def-vars>
@@ -31,9 +42,37 @@
 
   <section-rules>
 
-    <rule comment="REGLA: NP">
+    <rule comment="REGLA: PREP SN">
       <pattern>
-        <pattern-item n="NP"/>
+        <pattern-item n="PREP"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test><not><equal><clip pos="1" part="cas"/><lit v=""/></equal></not></test>
+        <let><clip pos="2" part="cas"/><clip pos="1" part="cas"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: SN">
+      <pattern>
+        <pattern-item n="SN"/>
       </pattern>
       <action>
         <out>
