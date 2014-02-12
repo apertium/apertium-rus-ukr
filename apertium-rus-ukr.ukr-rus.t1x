@@ -455,8 +455,7 @@
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <choose>
         <when>
-          <test><or><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal>
-                    <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="sup"/></equal></or></test>
+          <test><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal></test>
           <let><clip pos="1" side="tl" part="gen"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="anim"/><lit v=""/></let>
@@ -857,6 +856,72 @@
   </rule>
 
 <!-- concords -->
+
+  <rule comment="adj + nom">
+    <pattern>
+      <pattern-item n="adj"/>
+      <pattern-item n="nom"/>
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="2"/></call-macro>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal></test>
+          <let><clip pos="1" side="tl" part="gen"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="anim"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                     <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                </and></test>
+          <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><and><or><and>
+                              <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></equal>
+                              <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></equal>
+                              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                              <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                         </and>
+                         <and><equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                         <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal></and>
+                     </or>
+                     <and>
+                       <equal><clip pos="1" side="tl" part="cas"/><lit-tag v="acc"/></equal>
+                       <equal><clip pos="2" side="tl" part="cas"/><lit-tag v="acc"/></equal>
+                     </and>
+                </and></test>
+          <let><clip pos="1" side="tl" part="anim"/><clip pos="2" side="tl" part="anim"/></let>
+        </when>
+      </choose>
+          <out>
+            <chunk name="j_n" case="caseFirstWord">
+              <tags>
+                <tag><lit-tag v="SN"/></tag>
+                <tag><clip pos="2" side="tl" part="gen"/></tag>
+                <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                <tag><clip pos="2" side="tl" part="cas"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </chunk>
+          </out>
+    </action>
+  </rule>
+
+
 
   <rule comment="det + nom">
     <pattern>

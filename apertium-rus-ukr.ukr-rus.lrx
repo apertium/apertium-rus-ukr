@@ -1,5 +1,8 @@
 <rules>
   <rule>
+    <match lemma="потужний" tags="adj.sint.sup.*"><select lemma="наймогучий" tags="adj.*"/></match>
+  </rule>
+  <rule>
     <match lemma="садок" tags="n.*"><select lemma="сад" tags="n.*"/></match>
   </rule>
   <rule>
