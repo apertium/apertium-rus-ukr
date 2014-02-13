@@ -221,6 +221,7 @@
 
     <e><p><l>о<s n="pr"/></l><r>о<s n="pr"/></r></p></e>
     <e><p><l>про<s n="pr"/></l><r>про<s n="pr"/></r></p></e>
+    <e><p><l>о<s n="pr"/><s n="prp"/></l><r>про<s n="pr"/></r></p></e>
     <e><p><l>без<s n="pr"/></l><r>без<s n="pr"/></r></p></e>
 
     <e><p><l>с<s n="pr"/></l><r>зі<s n="pr"/></r></p></e>
@@ -271,6 +272,7 @@
     <e><p><l>себя<s n="prn"/><s n="ref"/></l><r>себе<s n="prn"/><s n="ref"/></r></p></e>
     <e><p><l>это<s n="prn"/><s n="dem"/></l><r>це<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>что<s n="prn"/><s n="itg"/></l><r>що<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>тот<s n="prn"/><s n="dem"/></l><r>той<s n="prn"/><s n="dem"/></r></p></e>
     
 
     <!-- SECTION: Nouns -->

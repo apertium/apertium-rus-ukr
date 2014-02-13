@@ -45,5 +45,12 @@
     </or>
   </rule>
 
+  <rule>
+    <match lemma="про"><select lemma="о"/></match>
+    <match lemma="той"/>
+    <match lemma=","/>
+    <match lemma="що"/>
+  </rule>
+
 
 </rules>
