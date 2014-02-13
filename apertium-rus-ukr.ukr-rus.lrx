@@ -49,7 +49,10 @@
     <match lemma="про"><select lemma="о"/></match>
     <match lemma="той"/>
     <match lemma=","/>
-    <match lemma="що"/>
+    <or>
+      <match lemma="що"/>
+      <match lemma="куди"/>
+    </or>
   </rule>
 
   <rule>
