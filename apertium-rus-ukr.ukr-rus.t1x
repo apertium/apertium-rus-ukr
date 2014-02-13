@@ -905,13 +905,15 @@
                               <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
                          </and>
                          <and><equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
-                         <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal></and>
+                              <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                         </and>
                      </or>
                      <and>
                        <equal><clip pos="1" side="tl" part="cas"/><lit-tag v="acc"/></equal>
                        <equal><clip pos="2" side="tl" part="cas"/><lit-tag v="acc"/></equal>
                      </and>
-                </and></test>
+                </and>
+          </test>
           <let><clip pos="1" side="tl" part="anim"/><clip pos="2" side="tl" part="anim"/></let>
         </when>
       </choose>
