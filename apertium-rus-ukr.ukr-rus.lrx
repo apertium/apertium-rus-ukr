@@ -52,5 +52,10 @@
     <match lemma="що"/>
   </rule>
 
+  <rule>
+    <match lemma="саме" tags="adv"><select lemma="именно" tags="adv"/></match>
+  </rule>
+
+
 
 </rules>
