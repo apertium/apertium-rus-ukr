@@ -1686,7 +1686,10 @@
     <e><p><l>миллиард<s n="num"/><s n="m"/><s n="nn"/></l>      <r>мільярд<s n="num"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>пара<s n="num"/><s n="f"/></l>                     <r>пара<s n="num"/><s n="f"/></r></p></e>
     <e><p><l>полтора<s n="num"/></l>                            <r>півтора<s n="num"/></r></p></e>
-    <e><p><l>оба<s n="num"/><s n="mfn"/></l>                    <r>обоє<s n="num"/><s n="mfn"/></r></p></e>
+
+    <!-- GD -->
+    <e><p><l>оба<s n="num"/><s n="m"/></l>                    <r>обоє<s n="num"/><s n="mfn"/></r></p></e>
+
     <e><p><l>двое<s n="num"/><s n="coll"/><s n="mfn"/></l>                   <r>двоє<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
     <e><p><l>двое<s n="num"/><s n="coll"/><s n="mfn"/></l>                   <r>двійко<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
     <e><p><l>четверо<s n="num"/><s n="coll"/><s n="mfn"/></l>                <r>четверо<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>

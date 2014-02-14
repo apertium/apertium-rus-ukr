@@ -54,6 +54,8 @@
      <cat-item tags="prn.rel.*"/>
      <cat-item tags="prn.ind.*"/>
      <cat-item tags="prn.def.*"/>
+     <cat-item tags="prn.ref.*"/>
+     <cat-item tags="prn.neg.*"/>
   </def-cat>
   <def-cat n="adj">
      <cat-item tags="adj.*"/>
@@ -140,6 +142,7 @@
      <attr-item tags="prn.pers"/>
      <attr-item tags="prn.neg"/>
      <attr-item tags="prn.def"/>
+     <attr-item tags="prn.ref"/>
      <attr-item tags="prn.ind"/>
      <attr-item tags="prn.dem"/>
      <attr-item tags="prn.rel"/>
@@ -214,6 +217,7 @@
 
   <def-attr n="nbr">
      <attr-item tags="sg"/>
+     <attr-item tags="sp"/>
      <attr-item tags="pl"/>
   </def-attr>
 
@@ -599,28 +603,55 @@
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <choose><when><test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pp"/></equal></test><let><clip pos="1" side="tl" part="tns"/><lit-tag v="pp.actv"/></let></when></choose>
       <choose><when><test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pprs"/></equal></test><let><clip pos="1" side="tl" part="tns"/><lit-tag v="pprs.actv"/></let></when></choose>
-      <out>
-        <chunk name="verb" case="caseFirstWord">
-          <tags>
-            <tag><lit-tag v="SV"/></tag>
-            <tag><clip pos="1" side="tl" part="gen"/></tag>
-            <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            <tag><clip pos="1" side="tl" part="cas"/></tag>
-          </tags>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_vrb"/>
-            <clip pos="1" side="tl" part="asp"/>
-            <clip pos="1" side="tl" part="trn"/>
-            <clip pos="1" side="tl" part="tns"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="anim"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="cas"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-        </chunk>
-      </out>
+      <choose>
+        <when>
+          <test><or>
+                    <equal><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv"/></equal>
+                    <and>
+                      <equal><clip pos="1" side="tl" part="prs"/><lit-tag v="p3"/></equal>
+                      <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                    </and>
+                </or>
+          </test>
+          <out>
+            <chunk name="verb" case="caseFirstWord">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="gen"/></tag>
+                <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                <tag><clip pos="1" side="tl" part="cas"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </chunk>
+          </out>
+        </when>
+        <otherwise> 
+          <out>
+            <chunk name="verb" case="caseFirstWord">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="gen"/></tag>
+                <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                <tag><clip pos="1" side="tl" part="cas"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_vrb"/>
+                <clip pos="1" side="tl" part="asp"/>
+                <clip pos="1" side="tl" part="trn"/>
+                <clip pos="1" side="tl" part="tns"/>
+                <clip pos="1" side="tl" part="gen"/>
+                <clip pos="1" side="tl" part="anim"/>
+                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="tl" part="cas"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+          </out>
+        </otherwise>
+      </choose>
     </action>
   </rule>
 
@@ -833,10 +864,7 @@
               <lit v="true"/>
             </equal> 
           </test>
-          <let>
-            <var n="чи_occured"/>
-            <lit v="false"/>
-          </let>
+          <let><var n="чи_occured"/><lit v="false"/></let>
           <out>
             <chunk name="verb" case="caseFirstWord">
               <tags>
