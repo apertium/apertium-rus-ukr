@@ -46,6 +46,16 @@
   </rule>
 
   <rule>
+    <match lemma="через"><select lemma="из-за"/></match>
+    <match lemma="той"/>
+    <match lemma=","/>
+    <or>
+      <match lemma="що"/>
+      <match lemma="куди"/>
+    </or>
+  </rule>
+
+  <rule>
     <match lemma="про"><select lemma="о"/></match>
     <match lemma="той"/>
     <match lemma=","/>
