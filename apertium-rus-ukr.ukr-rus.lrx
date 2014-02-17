@@ -6,6 +6,23 @@
     <match lemma="садок" tags="n.*"><select lemma="сад" tags="n.*"/></match>
   </rule>
   <rule>
+    <match lemma="у"/>
+    <or>
+      <match tags="prn.pers.*.*.*.gen"/>
+      <match tags="n.*.*.*.gen"/>
+    </or>
+    <match lemma="бути" tags="vbser.pres.*"><select lemma="быть"/></match>
+  </rule>  
+  <rule>
+    <or>
+      <match lemma="поки"/><match lemma="тут"/>
+    </or>
+    <match lemma="бути" tags="vbser.pres.*"><select lemma="быть"/></match>
+  </rule>  
+  <rule>
+    <match lemma="бути" tags="vbser.pres.*"><select lemma="являться"/></match>
+  </rule>  
+  <rule>
     <match lemma="хата" tags="n.*"><select lemma="дом" tags="n.*"/></match>
   </rule>
   <rule> <!-- Адже нелегальні іммігранти почнуть платити податки у скарбницю країни. -->
