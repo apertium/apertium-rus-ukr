@@ -86,10 +86,10 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 	lrx-comp $(BASENAME).$(PREFIX2).lrx $@
 
 
-$(PREFIX1).prob: $(AP_LIB1)/$(LANG1).prob
+$(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
 	cp $< $@
 
-$(PREFIX2).prob: $(AP_LIB2)/$(LANG2).prob
+$(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 	cp $< $@
 
 ###############################################################################
