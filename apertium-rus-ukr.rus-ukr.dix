@@ -2926,6 +2926,9 @@
     <e><p><l>куда<s n="adv"/><s n="itg"/></l><r>куди<s n="adv"/></r></p></e>
     <e><p><l>когда<s n="adv"/><s n="itg"/></l><r>коли<s n="adv"/></r></p></e>
     <e><p><l>почему<s n="adv"/><s n="itg"/></l><r>чому<s n="adv"/></r></p></e>
+    <e><p><l>откуда<s n="adv"/><s n="itg"/></l><r>звідки<s n="adv"/></r></p></e>
+    <e><p><l>зачем<s n="adv"/><s n="itg"/></l><r>навіщо<s n="adv"/></r></p></e>
+    <e><p><l>зачем<s n="adv"/><s n="itg"/></l><r>нащо<s n="adv"/></r></p></e>
 
     <e><p><l>хорошо<s n="adv"/></l><r>добре<s n="adv"/></r></p></e>
     <e><p><l>долго<s n="adv"/></l><r>довго<s n="adv"/><s n="sint"/></r></p></e>
@@ -3116,15 +3119,17 @@
     <e><p><l>полтора<s n="num"/></l>                            <r>півтора<s n="num"/></r></p></e>
 
     <!-- GD -->
-    <e><p><l>оба<s n="num"/><s n="m"/></l>                    <r>обоє<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>оба<s n="num"/><s n="m"/><s n="an"/><s n="pl"/></l>           <r>обоє<s n="num"/><s n="mfn"/><s n="an"/><s n="sg"/></r></p></e>
+    <e><p><l>оба<s n="num"/><s n="m"/><s n="aa"/><s n="pl"/></l>           <r>обоє<s n="num"/><s n="mfn"/><s n="aa"/><s n="sg"/></r></p></e>
+    <e><p><l>оба<s n="num"/><s n="m"/><s n="nn"/><s n="pl"/></l>           <r>обоє<s n="num"/><s n="mfn"/><s n="nn"/><s n="sg"/></r></p></e>
 
-    <e><p><l>двое<s n="num"/><s n="coll"/><s n="mfn"/></l>                   <r>двоє<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
-    <e><p><l>двое<s n="num"/><s n="coll"/><s n="mfn"/></l>                   <r>двійко<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
-    <e><p><l>четверо<s n="num"/><s n="coll"/><s n="mfn"/></l>                <r>четверо<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
-    <e><p><l>шестеро<s n="num"/><s n="coll"/><s n="mfn"/></l>                <r>шестеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
-    <e><p><l>семеро<s n="num"/><s n="coll"/><s n="mfn"/></l>                 <r>семеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
-    <e><p><l>восьмеро<s n="num"/><s n="coll"/><s n="mfn"/></l>               <r>восьмеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
-    <e><p><l>десятеро<s n="num"/><s n="coll"/><s n="mfn"/></l>               <r>десятеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>двое<s n="num"/><s n="coll"/><s n="mfn"/></l>    <r>двоє<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>двое<s n="num"/><s n="coll"/><s n="mfn"/></l>    <r>двійко<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>четверо<s n="num"/><s n="coll"/><s n="mfn"/></l> <r>четверо<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>шестеро<s n="num"/><s n="coll"/><s n="mfn"/></l> <r>шестеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>семеро<s n="num"/><s n="coll"/><s n="mfn"/></l>  <r>семеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>восьмеро<s n="num"/><s n="coll"/><s n="mfn"/></l><r>восьмеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
+    <e><p><l>десятеро<s n="num"/><s n="coll"/><s n="mfn"/></l><r>десятеро<s n="num"/><s n="coll"/><s n="mfn"/></r></p></e>
 
     <e r="LR"><p><l>одиннадцать<s n="num"/><s n="mfn"/></l><r>одинадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="AD"/></r></p></e>
     <e r="RL"><p><l>одиннадцать<s n="num"/><s n="mfn"/></l><r>одинадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="an"/></r></p></e>
@@ -3384,7 +3389,6 @@
     <e><p><l>впоследствии<s n="adv"/></l><r>згодом<s n="adv"/></r></p></e>
     <e><p><l>дважды<s n="adv"/></l><r>двічі<s n="adv"/></r></p></e>
     <e><p><l>слишком<s n="adv"/></l><r>занадто<s n="adv"/></r></p></e>
-    <e><p><l>зачем<s n="adv"/></l><r>навіщо<s n="adv"/></r></p></e>
     <e><p><l>заранее<s n="adv"/></l><r>заздалегідь<s n="adv"/></r></p></e>
     <e><p><l>многовато<s n="adv"/></l><r>забагато<s n="adv"/></r></p></e>
     <e><p><l>слишком<b/>много<s n="adv"/></l><r>забагато<s n="adv"/></r></p></e>
@@ -3502,7 +3506,7 @@
     <e><p><l>весной<s n="adv"/></l><r>навесні<s n="adv"/></r></p></e>
     <e><p><l>теперь<s n="adv"/></l><r>відтепер<s n="adv"/></r></p></e>
     <e><p><l>охотно<s n="adv"/></l><r>охоче<s n="adv"/></r></p></e>
-    <e><p><l>до<b/>сих<b/>пор<s n="adv"/></l><r>дотепер<s n="adv"/></r></p></e>
+    <e><p><l>до<b/>сих<b/>пор<s n="cnjadv"/></l><r>дотепер<s n="adv"/></r></p></e>
     <e><p><l>до<b/>недавнего<b/>времени<s n="adv"/></l><r>донедавна<s n="adv"/></r></p></e>
     <e><p><l>с<b/>тех<b/>пор<s n="adv"/></l><r>відтоді<s n="adv"/></r></p></e>
     <e><p><l>в<b/>последний<b/>раз<s n="adv"/></l><r>востаннє<s n="adv"/></r></p></e>
@@ -3525,7 +3529,6 @@
     <e><p><l>заново<s n="adv"/></l><r>заново<s n="adv"/></r></p></e>
     <e><p><l>ежесуточно<s n="adv"/></l><r>щодоби<s n="adv"/></r></p></e>
     <e><p><l>совокупно<s n="adv"/></l><r>сукупно<s n="adv"/></r></p></e>
-    <e><p><l>зачем<s n="adv"/></l><r>нащо<s n="adv"/></r></p></e>
     <e><p><l>к<b/>вечеру<s n="adv"/></l><r>надвечір<s n="adv"/></r></p></e>
     <e><p><l>ревностно<s n="adv"/></l><r>ревно<s n="adv"/></r></p></e>
     <e><p><l>усердно<s n="adv"/></l><r>ревно<s n="adv"/></r></p></e>
@@ -3547,7 +3550,6 @@
     <e><p><l>больно<s n="adv"/></l><r>боляче<s n="adv"/></r></p></e>
     <e><p><l>письменно<s n="adv"/></l><r>письмово<s n="adv"/></r></p></e>
     <e><p><l>дома<s n="adv"/></l><r>вдома<s n="adv"/></r></p></e>
-    <e><p><l>откуда<s n="adv"/></l><r>звідки<s n="adv"/></r></p></e>
     <e><p><l>наконец<s n="adv"/></l><r>врешті<s n="adv"/></r></p></e>
     <e><p><l>летом<s n="adv"/></l><r>влітку<s n="adv"/></r></p></e>
     <e><p><l>оттуда<s n="adv"/></l><r>звідти<s n="adv"/></r></p></e>
