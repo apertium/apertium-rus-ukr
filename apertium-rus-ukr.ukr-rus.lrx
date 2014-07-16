@@ -6,6 +6,9 @@
     <match lemma="рік" tags="n.*"><select lemma="год²" tags="n.*"/></match>
   </rule>
   <rule>
+    <match lemma="установа" tags="n.*"><select lemma="учреждение" tags="n.*"/></match>
+  </rule>
+  <rule>
     <match lemma="садок" tags="n.*"><select lemma="сад" tags="n.*"/></match>
   </rule>
   <rule>
