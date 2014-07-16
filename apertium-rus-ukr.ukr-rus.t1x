@@ -247,6 +247,7 @@
 <section-def-vars>
   <def-var n="number"/>
   <def-var n="genere"/>
+  <def-var n="grau-slovo"/>
   <def-var n="чи_occured" v="false"/>
   <def-var n="set_next_upper" v="false"/>
 </section-def-vars>
@@ -466,6 +467,14 @@
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <choose>
         <when>
+          <test><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="sup"/></equal></test>
+          <let><clip pos="1" side="tl" part="grau"/><lit v=""/></let>
+          <let><var n="grau-slovo"/><concat>
+                                <lit v="^самый"/><lit-tag v="det.def"/>
+                                <clip pos="1" side="tl" part="gen"/><clip pos="1" side="tl" part="anim"/>
+                                <clip pos="1" side="tl" part="nbr"/><clip pos="1" side="tl" part="cas"/><lit v="$ "/></concat></let>
+        </when>
+        <when>
           <test><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal></test>
           <let><clip pos="1" side="tl" part="gen"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
@@ -481,11 +490,13 @@
             <tag><clip pos="1" side="tl" part="nbr"/></tag>
             <tag><clip pos="1" side="tl" part="cas"/></tag>
           </tags>
+          <var n="grau-slovo"/>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
           </lu>
         </chunk>
       </out>
+      <let><var n="grau-slovo"/><lit v=""/></let>
     </action>
   </rule>
 
