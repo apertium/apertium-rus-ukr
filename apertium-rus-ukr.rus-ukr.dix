@@ -11003,7 +11003,7 @@
     <e><p><l>опровергать<s n="vblex"/><s n="impf"/></l><r>спростовувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>происходить<s n="vblex"/><s n="impf"/></l><r>ставатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <!--<e><p><l>насталивать<s n="vblex"/><s n="impf"/></l><r>сталити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>-->
-<!--    <e><p><l>закалять<s n="vblex"/><s n="impf"/></l><r>сталити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>-->
+    <e><p><l>закалять<s n="vblex"/><s n="impf"/></l><r>сталити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>создавать<s n="vblex"/><s n="impf"/></l><r>створювати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>создаваться<s n="vblex"/><s n="impf"/></l><r>створюватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>судить<s n="vblex"/><s n="impf"/></l><r>судити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
@@ -11028,7 +11028,7 @@
     <e><p><l>допускать<s n="vblex"/><s n="impf"/></l><r>допускати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>пренебрегать<s n="vblex"/><s n="impf"/></l><r>нехаяти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>обсуждаться<s n="vblex"/><s n="impf"/></l><r>обговорюватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
-    <!--<e><p><l>опекаться<s n="vblex"/><s n="impf"/></l><r>опікуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>-->
+    <e><p><l>опекать<s n="vblex"/><s n="impf"/></l><r>опікуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e> <!-- PASS -->
     <e><p><l>ожидаться<s n="vblex"/><s n="impf"/></l><r>очікуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>улучшить<s n="vblex"/><s n="impf"/></l><r>покращити<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>перчить<s n="vblex"/><s n="impf"/></l><r>поприти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
