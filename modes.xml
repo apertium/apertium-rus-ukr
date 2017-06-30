@@ -42,7 +42,7 @@
   </mode>
 
 
-  <mode name="rus-ukr-anmor">
+  <mode name="rus-ukr-morph">
     <pipeline>
       <program name="lt-proc -w">
         <file name="rus-ukr.automorf.bin"/>
@@ -318,7 +318,7 @@
   </mode>
   
  
-  <mode name="ukr-rus-anmor">
+  <mode name="ukr-rus-morph">
     <pipeline>
       <program name="lt-proc -w">
         <file name="ukr-rus.automorf.bin"/>
