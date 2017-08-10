@@ -1357,7 +1357,7 @@
     <e><p><l>Вьетнам<s n="np"/><s n="top"/></l><r>В'єтнам<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Па-де-Кале<s n="np"/><s n="top"/></l><r>Па-де-Кале<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Эдди<s n="np"/><s n="ant"/></l><r>Эдді<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Джо<s n="np"/><s n="ant"/></l><r>Джо<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Джо<s n="np"/><s n="ant"/><s n="m"/></l><r>Джо<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Микки<s n="np"/><s n="ant"/></l><r>Міккі<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Бадди<b/>Холли<s n="np"/><s n="ant"/></l><r>Бадді<b/>Холлі<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Бритни<s n="np"/><s n="ant"/></l><r>Брітні<s n="np"/><s n="ant"/></r></p></e>
@@ -1862,7 +1862,7 @@
     <e><p><l>научный<s n="adj"/><s n="sint"/></l><r>науковий<s n="adj"/></r></p></e>
     <e><p><l>виновный<s n="adj"/><s n="sint"/></l><r>винний<s n="adj"/></r></p></e>
     <e><p><l>винный<s n="adj"/><s n="sint"/></l><r>винний<s n="adj"/></r></p></e>
-    <e><p><l>полудённый<s n="adj"/></l><r>південний<s n="adj"/></r></p></e>
+    <e><p><l>полудённый<s n="adj"/><s n="sint"/></l><r>південний<s n="adj"/></r></p></e>
     <e><p><l>полдневный<s n="adj"/><s n="sint"/></l><r>південний<s n="adj"/></r></p></e>
     <e><p><l>южный<s n="adj"/><s n="sint"/></l><r>південний<s n="adj"/></r></p></e>
     <e><p><l>сессионный<s n="adj"/><s n="sint"/></l><r>сесійний<s n="adj"/></r></p></e>
@@ -12195,7 +12195,7 @@
     <e><p><l>привести<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>завдати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
 
-    <e><p><l>нанести<s n="vblex"/><s n="perf"/></l><r>завдати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>нанести<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>завдати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>заговорить<s n="vblex"/><s n="perf"/></l><r>заговорити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
 
 
@@ -12368,12 +12368,12 @@
     <e><p><l>прийти<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>надійти<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
 
 
-    <e><p><l>наложить<s n="vblex"/><s n="perf"/></l><r>накласти<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>накласть<s n="vblex"/><s n="perf"/></l><r>накласти<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <!-- <e><p><l>наложить<s n="vblex"/><s n="perf"/></l><r>накласти<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e> -->
+    <!-- <e><p><l>накласть<s n="vblex"/><s n="perf"/></l><r>накласти<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e> -->
 
 
-    <e><p><l>наложить<s n="vblex"/><s n="perf"/></l><r>накласти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>накласть<s n="vblex"/><s n="perf"/></l><r>накласти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>наложить<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>накласти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>накласть<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>накласти<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
 
     <e><p><l>родиться<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>народитися<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
@@ -15700,7 +15700,7 @@
     <e><p><l>посещать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>відвідувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
 
-    <e><p><l>навещать<s n="vblex"/><s n="impf"/></l><r>відвідувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>навещать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>відвідувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>кормить<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>годувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
 
