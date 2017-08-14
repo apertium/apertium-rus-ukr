@@ -1435,8 +1435,8 @@
     <e><p><l>старый<s n="adj"/><s n="sint"/></l><r>старий<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>дешёвый<s n="adj"/><s n="sint"/></l><r>дешевий<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>хороший<s n="adj"/><s n="sint"/></l><r>добрий<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>короткий<s n="adj"/><s n="sint"/></l><r>короткий<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>краткий<s n="adj"/><s n="sint"/></l><r>короткий<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>короткий<s n="adj"/><s n="sint"/></l><r>короткий<s n="adj"/></r></p></e>
+    <e><p><l>краткий<s n="adj"/><s n="sint"/></l><r>короткий<s n="adj"/></r></p></e>
     <e><p><l>английский<s n="adj"/></l><r>англійський<s n="adj"/></r></p></e>
     <e><p><l>шведский<s n="adj"/></l><r>шведський<s n="adj"/></r></p></e>
     <e><p><l>французский<s n="adj"/></l><r>французький<s n="adj"/></r></p></e>
@@ -11948,7 +11948,7 @@
     <e><p><l>жаловаться<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>скаржитися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
-    <e><p><l>складываться<s n="vblex"/><s n="impf"/></l><r>складатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>складываться<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>складатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>состоять<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>складатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
@@ -14905,11 +14905,11 @@
     <e><p><l>пригласить<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>запросити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
 
-    <e><p><l>зачислить<s n="vblex"/><s n="perf"/></l><r>зарахувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>зачислить<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>зарахувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>засчитать<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>зарахувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
 
-    <e><p><l>зачесть<s n="vblex"/><s n="perf"/></l><r>зарахувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>зачесть<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>зарахувати<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>зарыть<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>зарити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
 
