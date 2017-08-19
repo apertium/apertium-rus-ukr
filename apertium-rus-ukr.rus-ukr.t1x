@@ -120,6 +120,10 @@
      <attr-item tags="vbhaver"/>
   </def-attr>
 
+  <def-attr n="a_short">
+     <attr-item tags="short"/>
+  </def-attr>
+
   <def-attr n="asp">
      <attr-item tags="impf"/>
      <attr-item tags="dual"/>
@@ -150,13 +154,13 @@
      <attr-item tags="past"/>
   </def-attr>
 
-  <!-- <def-attr n="tns">
-     <attr-item tags="pri"/>
-     <attr-item tags="imp"/>
-     <attr-item tags="aor"/>
-     <attr-item tags="fti"/>
-     <attr-item tags="past"/>
-  </def-attr> -->
+  <def-attr n="a_fac">
+     <attr-item tags="fac"/>
+  </def-attr>
+
+  <def-attr n="a_pass">
+     <attr-item tags="pass"/>
+  </def-attr>
 
   <def-attr n="gen">
      <attr-item tags="m"/>
@@ -207,6 +211,8 @@
   <!-- Case adapter: prp (rus) → loc (ukr) -->
   <!-- nbr adapter: removes extranious numbers created by mandatory bidix pl or sg tags. -->
   <def-macro n="case_adapter1" npar="1">
+    <let><clip pos="1" side="tl" part="a_fac"/><lit v=""/></let> <!-- no pass or fac tags exist in belarussian dic -->
+    <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
     <choose>
       <when>
         <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="prp"/></equal></test>
@@ -268,7 +274,7 @@
 
   <def-macro n="short" npar="1">
     
-    <choose>
+    <!-- <choose>
       <when>
         <test><equal><clip pos="1" side="tl" part="anim"/><lit-tag v=""/></equal></test>
         <let><clip pos="1" side="tl" part="anim"/><lit-tag v="an"/></let>
@@ -279,7 +285,7 @@
         <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v=""/></equal></test>
         <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
       </when>
-    </choose>
+    </choose> -->
 
     <choose>
       <when>
@@ -404,6 +410,14 @@
       <pattern-item n="pprs_pasv"/>
     </pattern>
     <action>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="a_short"/><lit-tag v="short"/></equal></test>
+          <let><clip pos="1" side="tl" part="tags"/><concat><clip pos="1" side="tl" part="a_vrb"/><clip pos="1" side="tl" part="asp"/>
+          <clip pos="1" side="tl" part="trans"/><clip pos="1" side="tl" part="gen"/><lit-tag v="an"/><clip pos="1" side="tl" part="nbr"/>
+          <lit-tag v="nom"/></concat></let>        
+        </when>
+      </choose>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <!-- <call-macro n="short"><with-param pos="1"/></call-macro> -->
        <out>
@@ -556,6 +570,19 @@
         <when>
           <test>
             <and>
+              <equal><clip pos="1" side="sl" part="a_short"/><lit-tag v="short"/></equal>
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pp.pasv"/></equal>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="tags"/><concat><clip pos="1" side="tl" part="a_vrb"/><clip pos="1" side="tl" part="asp"/>
+          <clip pos="1" side="tl" part="trans"/><lit-tag v="pp.pasv"/><clip pos="1" side="tl" part="gen"/><lit-tag v="an"/><clip pos="1" side="tl" part="nbr"/>
+          <lit-tag v="nom"/></concat></let>        
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <and>
               <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="impf"/></equal>
               <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="fut"/></equal>
             </and>
@@ -614,7 +641,7 @@
       <choose>
         <when>
           <test><equal><clip pos="1" side="sl" part="a_cmp"/><lit-tag v="cmp"/></equal></test> 
-          <let><clip pos="1" side="sl" part="a_cmp"/><lit-tag v=""/></let>
+          <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v=""/></let>
           <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="m.an.sg.nom"/></concat></let>
         </when>
         <otherwise>
@@ -640,11 +667,20 @@
     </pattern>
     <action>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
-      <choose>
+      <!-- <choose>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_sh"/><lit-tag v="short"/></equal></test>
           <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="anim"/><lit v=""/></let>
+        </when>
+      </choose> -->
+      <choose>
+        <when>
+          <test>
+            <and><equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
+            <equal><clip pos="1" side="tl" part="anim"/><lit-tag v="nn"/></equal></and>
+          </test>
+          <let><clip pos="1" side="tl" part="anim"/><lit-tag v="an"/></let>
         </when>
       </choose>
       <out>
