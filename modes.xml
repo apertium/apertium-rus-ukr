@@ -240,6 +240,42 @@
     </pipeline>
   </mode>
 
+  <mode name="rus-ukr-dgen">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="rus-ukr.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="rus-ukr.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="rus-ukr.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="rus-ukr.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="rus-ukr.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-rus-ukr.rus-ukr.t1x"/>
+        <file name="rus-ukr.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-rus-ukr.rus-ukr.t2x"/>
+        <file name="rus-ukr.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-rus-ukr.rus-ukr.t3x"/>
+        <file name="rus-ukr.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="rus-ukr.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <!-- == Ukrainian → Russian == -->
   
   <mode name="ukr-rus" install="yes">
@@ -532,5 +568,45 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="ukr-rus-dgen">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ukr-rus.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ukr-rus.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ukr-rus.prob"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="ukr-rus.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="ukr-rus.autolex.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ukr-rus.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-rus-ukr.ukr-rus.t1x"/>
+        <file name="ukr-rus.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-rus-ukr.ukr-rus.t2x"/>
+        <file name="ukr-rus.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-rus-ukr.ukr-rus.t3x"/>
+        <file name="ukr-rus.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="ukr-rus.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
 </modes>
