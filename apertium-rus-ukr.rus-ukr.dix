@@ -94,6 +94,7 @@
     
     <sdef n="part"     c=""/>
     <sdef n="abbr"  c=""/> 
+    <sdef n="percent"  c=""/> 
 
     <sdef n="cm"         c="Comma"/>
     <sdef n="sent"       c="Sentence marker"/>
@@ -225,7 +226,7 @@
     
     <e><p><l>через<s n="pr"/></l><r>через<s n="pr"/></r></p></e>
     <e><p><l>из-за<s n="pr"/><s n="gen"/></l><r>через<s n="pr"/></r></p></e>
-    <e><p><l>к<s n="pr"/><s n="dat"/></l><r>до<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>к<s n="pr"/></l><r>до<s n="pr"/><s n="gen"/></r></p></e>
     <e><p><l>из-под<s n="pr"/></l><r>з-під<s n="pr"/></r></p></e>
     <e><p><l>под<s n="pr"/></l><r>під<s n="pr"/></r></p></e>
     <e><p><l>из-за<s n="pr"/></l><r>із-за<s n="pr"/></r></p></e>
@@ -247,11 +248,11 @@
     <e><p><l>с<s n="pr"/></l><r>зі<s n="pr"/></r></p></e>
     <e><p><l>между<s n="pr"/></l><r>між<s n="pr"/></r></p></e>
     <e><p><l>над<s n="pr"/></l><r>над<s n="pr"/><s n="ins"/></r></p></e>
-    <e><p><l>к<s n="pr"/><s n="dat"/></l><r>над<s n="pr"/><s n="acc"/></r></p></e>
+    <e><p><l>к<s n="pr"/></l><r>над<s n="pr"/><s n="acc"/></r></p></e>
     <e><p><l>над<s n="pr"/></l><r>понад<s n="pr"/><s n="ins"/></r></p></e>
-    <e><p><l>к<s n="pr"/><s n="dat"/></l><r>понад<s n="pr"/><s n="acc"/></r></p></e>
+    <e><p><l>к<s n="pr"/></l><r>понад<s n="pr"/><s n="acc"/></r></p></e>
     <e><p><l>более<s n="pr"/></l><r>понад<s n="pr"/><s n="gen"/></r></p></e>
-    <e><p><l>при<s n="pr"/><s n="prp"/></l><r>при<s n="pr"/><s n="loc"/></r></p></e>
+    <e><p><l>при<s n="pr"/></l><r>при<s n="pr"/><s n="loc"/></r></p></e>
     <e><p><l>около<s n="pr"/></l><r>при<s n="pr"/><s n="loc"/></r></p></e>
     <e><p><l>ради<s n="pr"/></l><r>ради<s n="pr"/></r></p></e>
     <e><p><l>среди<s n="pr"/></l><r>серед<s n="pr"/><s n="gen"/></r></p></e>
@@ -3173,7 +3174,7 @@
     <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
     <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
-    <e><re>[№%]?[0-9]+([.,][0-9]+)* ?%</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+    <e><re>[№%]?[0-9]+([.,][0-9]+)* ?%</re><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/></r></p></e> 
     <e><i>в<b/></i><re>[0-9][0-9][0-9]</re><i>0-</i><p><l>е<b/>гг<s n="adv"/></l><r>і<b/>рр<s n="adv"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
