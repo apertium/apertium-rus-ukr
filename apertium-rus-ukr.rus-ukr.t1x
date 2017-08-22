@@ -37,6 +37,12 @@
      <cat-item tags="vbser.pprs.pasv.*"/>
      <cat-item tags="vbmod.*.pprs.pasv.*"/>
   </def-cat>
+  <def-cat n="pp_pasv">
+     <cat-item tags="vblex.*.pp.pasv.*"/>
+     <cat-item tags="vbhaver.*.pp.pasv.*"/>
+     <cat-item tags="vbser.pp.pasv.*"/>
+     <cat-item tags="vbmod.*.pp.pasv.*"/>
+  </def-cat>
   <def-cat n="pp_actv">
      <cat-item tags="vblex.*.pp.actv.*"/>
      <cat-item tags="vbhaver.*.pp.actv.*"/>
@@ -517,7 +523,7 @@
   </rule>
 
 
-<rule comment="RULE: Past active participle + Noun → {Pronoun 'як' + Verb} + {Noun}, transfer noun's gender to verb">
+<rule comment="RULE: Past active participle + Noun → {Pronoun 'котрий' + Verb} + {Noun}, transfer noun's gender to verb">
     <pattern>
       <pattern-item n="pp_actv"/>
       <pattern-item n="nom"/>
@@ -562,6 +568,7 @@
       </out>
     </action>
   </rule>
+
 
 
 <rule comment="RULE: Verb → Verb">
