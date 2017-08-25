@@ -10908,7 +10908,6 @@
     <e><p><l>надеяться<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>сподіватися<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
 
-    <e><p><l>работать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>працювати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
 
     <e><p><l>попасть<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>потрапити<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -13194,7 +13193,6 @@
     <e><p><l>работать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>працювати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
-    <e><p><l>работать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>працювати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
 
     <e><p><l>рыть<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>рити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
@@ -15559,10 +15557,10 @@
     <e><p><l>стискивать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>стискувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
 
-    <e><p><l>писать<s n="vblex"/><s n="impf"/></l><r>писати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>писать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>писати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
 
-    <e><p><l>писать<s n="vblex"/><s n="impf"/></l><r>писати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>писать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>писати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
     <e><p><l>есть<s n="vblex"/><s n="impf"/></l><r>їсти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
