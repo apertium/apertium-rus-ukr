@@ -86,6 +86,17 @@
   <def-cat n="чи_part">
     <cat-item lemma ="чи" tags="part"/>
   </def-cat>
+  <def-cat n="pp_pasv">
+     <cat-item tags="vblex.impf.tv.pp.pasv.*"/>
+     <cat-item tags="vbhaver.impf.tv.pp.pasv.*"/>
+     <cat-item tags="vbser.impf.tv.pp.pasv.*"/>
+     <cat-item tags="vbmod.impf.tv.pp.pasv.*"/>
+     <cat-item tags="vblex.impf.iv.pp.pasv.*"/>
+     <cat-item tags="vbhaver.impf.iv.pp.pasv.*"/>
+     <cat-item tags="vbser.impf.iv.pp.pasv.*"/>
+     <cat-item tags="vbmod.impf.iv.pp.pasv.*"/>
+  </def-cat>
+
 </section-def-cats>
 
 <section-def-attrs>
@@ -379,6 +390,9 @@
 <section-rules>
 <!-- Sintagmas nominales -->
 
+
+
+
   <rule comment="nom">
     <pattern>
       <pattern-item n="nom"/>
@@ -605,6 +619,47 @@
        </out>
     </action>
   </rule-->
+
+  <rule comment="RULE: Past passive participle → Present passive participle">
+    <pattern>
+      <pattern-item n="pp_pasv"/>
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="anim"/><lit-tag v=""/></equal></test>
+          <let><clip pos="1" side="tl" part="anim"/><lit-tag v="an"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v=""/></equal></test>
+          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+        </when>
+      </choose>
+       <out>
+        <chunk name="prtcpl" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SA"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_vrb"/>
+            <clip pos="1" side="tl" part="asp"/>
+            <clip pos="1" side="tl" part="trn"/>
+            <lit-tag v="pprs.pasv"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="anim"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="cas"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
 
   <rule comment="ptcpl">
     <pattern>
