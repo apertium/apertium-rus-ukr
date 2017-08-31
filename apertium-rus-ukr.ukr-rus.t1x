@@ -953,7 +953,9 @@
                 <tag><lit-tag v="SV"/></tag>
               </tags>
               <lu>
-                <clip pos="1" side="tl" part="whole"/>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
               </lu>
               <b/>
               <lu>
@@ -970,7 +972,9 @@
                 <tag><lit-tag v="SV"/></tag>
               </tags>
               <lu>
-                <clip pos="1" side="tl" part="whole"/>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
               </lu>
             </chunk>
           </out>
