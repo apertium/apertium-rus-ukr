@@ -91,11 +91,11 @@
      <cat-item tags="vbhaver.impf.tv.pp.pasv.*"/>
      <cat-item tags="vbser.impf.tv.pp.pasv.*"/>
      <cat-item tags="vbmod.impf.tv.pp.pasv.*"/>
-     <cat-item tags="vblex.impf.iv.pp.pasv.*"/>
+<!--      <cat-item tags="vblex.impf.iv.pp.pasv.*"/>
      <cat-item tags="vbhaver.impf.iv.pp.pasv.*"/>
      <cat-item tags="vbser.impf.iv.pp.pasv.*"/>
      <cat-item tags="vbmod.impf.iv.pp.pasv.*"/>
-  </def-cat>
+ -->  </def-cat>
 
 </section-def-cats>
 
@@ -241,6 +241,10 @@
      <attr-item tags="loc"/>
      <attr-item tags="voc"/>
      <attr-item tags="prp"/>
+  </def-attr>
+
+  <def-attr n="a_sint">
+    <attr-item tags="sint"/>
   </def-attr>
 
 <!--
@@ -488,12 +492,24 @@
                                 <clip pos="1" side="tl" part="gen"/><clip pos="1" side="tl" part="anim"/>
                                 <clip pos="1" side="tl" part="nbr"/><clip pos="1" side="tl" part="cas"/><lit v="$ "/></concat></let>
         </when>
-        <when>
-          <test><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal></test>
+        
+        <when> 
+          <test><and><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal>
+                              <equal><clip pos="1" side="tl" part="a_sint"/><lit-tag v="sint"/></equal>
+                    </and></test>
           <let><clip pos="1" side="tl" part="gen"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="anim"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
+        </when>
+        
+        <when> 
+          <test><and><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal>
+                              <not><equal><clip pos="1" side="tl" part="a_sint"/><lit-tag v="sint"/></equal></not>
+                    </and></test>
+          <let><clip pos="1" side="tl" part="grau"/><lit v=""/></let>
+         <let><var n="grau-slovo"/><concat>
+                                <lit v="^более"/><lit-tag v="preadv"/><lit v="$ "/></concat></let>
         </when>
       </choose>
       <out>

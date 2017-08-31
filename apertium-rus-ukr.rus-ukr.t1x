@@ -168,6 +168,12 @@
      <attr-item tags="pass"/>
   </def-attr>
 
+  <def-attr n="n_past">
+     <attr-item tags="nonpast"/>
+     <attr-item tags="pres"/>
+  </def-attr>
+
+
   <def-attr n="gen">
      <attr-item tags="m"/>
      <attr-item tags="f"/>
@@ -227,6 +233,17 @@
       <when>
         <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="prp"/></equal></test>
         <let><clip pos="1" side="tl" part="cas"/><lit-tag v="loc"/></let>
+      </when>
+    </choose>
+    <choose>
+      <when>
+        <test>
+          <and>
+          <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="dual"/></equal>
+          <equal><clip pos="1" side="tl" part="n_past"/><lit-tag v="pres"/></equal>
+        </and>
+      </test>
+      <let><clip pos="1" side="tl" part="n_past"/><lit-tag v="nonpast"/></let>
       </when>
     </choose>
     <choose>
