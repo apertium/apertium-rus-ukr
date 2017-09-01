@@ -411,11 +411,7 @@
           </tags>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="anim"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="cas"/>
+            <clip pos="1" side="tl" part="tags"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </chunk>
@@ -522,7 +518,9 @@
           </tags>
           <var n="grau-slovo"/>
           <lu>
-            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="tags"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </chunk>
       </out>
@@ -704,7 +702,9 @@
                 <tag><clip pos="1" side="tl" part="cas"/></tag>
               </tags>
               <lu>
-                <clip pos="1" side="tl" part="whole"/>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
               </lu>
             </chunk>
           </out>
@@ -868,7 +868,9 @@
                 <tag><lit-tag v="SV"/></tag>
               </tags>
               <lu>
-                <clip pos="1" side="tl" part="whole"/>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
               </lu>
               <b/>
               <lu>
@@ -885,7 +887,9 @@
                 <tag><lit-tag v="SV"/></tag>
               </tags>
               <lu>
-                <clip pos="1" side="tl" part="whole"/>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
               </lu>
             </chunk>
           </out>
@@ -1189,11 +1193,15 @@
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
           </tags>
           <lu>
-            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="tags"/>
+            <clip pos="1" side="tl" part="lemq"/>
            </lu>
            <b/>
           <lu>
-            <clip pos="2" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="tags"/>
+            <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
        </out>

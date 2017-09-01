@@ -113,6 +113,7 @@
      <attr-item tags="adj.comp"/>
      <attr-item tags="adj.sup"/>
      <attr-item tags="adj.itg"/>
+     <attr-item tags="adj.sint.comp"/>
   </def-attr>
 
   <def-attr n="a_cmp">
@@ -158,6 +159,7 @@
      <attr-item tags="pres"/>
      <attr-item tags="imp"/>
      <attr-item tags="past"/>
+     <attr-item tags="nonpast"/>
   </def-attr>
 
   <def-attr n="a_fac">
@@ -166,11 +168,6 @@
 
   <def-attr n="a_pass">
      <attr-item tags="pass"/>
-  </def-attr>
-
-  <def-attr n="n_past">
-     <attr-item tags="nonpast"/>
-     <attr-item tags="pres"/>
   </def-attr>
 
 
@@ -235,18 +232,18 @@
         <let><clip pos="1" side="tl" part="cas"/><lit-tag v="loc"/></let>
       </when>
     </choose>
-    <choose>
+<!--     <choose>
       <when>
         <test>
           <and>
           <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="dual"/></equal>
-          <equal><clip pos="1" side="tl" part="n_past"/><lit-tag v="pres"/></equal>
+          <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></equal>
         </and>
       </test>
-      <let><clip pos="1" side="tl" part="n_past"/><lit-tag v="nonpast"/></let>
+      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="nonpast"/></let>
       </when>
     </choose>
-    <choose>
+ -->    <choose>
       <when>
         <test>
           <or>
@@ -401,7 +398,9 @@
             <tag><lit-tag v="SN"/></tag>
           </tags>
           <lu>
-            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="tags"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </chunk>
       </out>
@@ -474,6 +473,17 @@
       <pattern-item n="pprs_actv"/>
     </pattern>
     <action>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="asp"/><lit-tag v="dual"/></equal></test>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="nonpast"/></let>
+          <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="p3"/></concat></let>        
+        </when>
+        <otherwise>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
+          <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="p3"/></concat></let>
+        </otherwise> 
+      </choose>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <out>
         <chunk name="pprs_actv" case="caseFirstWord">
@@ -494,7 +504,9 @@
                 <clip pos="1" side="tl" part="a_vrb"/>
                 <clip pos="1" side="tl" part="asp"/>
                 <clip pos="1" side="tl" part="trans"/>
-                <lit-tag v="pres.p3"/>
+                <clip pos="1" side="tl" part="tns"/>
+                <clip pos="1" side="tl" part="prs"/>
+<!--                 <lit-tag v="pres.p3"/> -->
                 <clip pos="1" side="tl" part="nbr"/>
                 <clip pos="1" side="tl" part="lemq"/>
              </lu>
@@ -699,13 +711,13 @@
     </pattern>
     <action>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
-      <!-- <choose>
+      <choose>
         <when>
-          <test><equal><clip pos="1" side="tl" part="a_sh"/><lit-tag v="short"/></equal></test>
-          <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
-          <let><clip pos="1" side="tl" part="anim"/><lit v=""/></let>
+          <test><equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="adj.sint.comp"/></equal></test>
+          <!-- <let><clip pos="1" side="tl" part="a_sint"/><lit v=""/></let> -->
+          <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="m.an.sg.nom"/></concat></let>
         </when>
-      </choose> -->
+      </choose>
       <choose>
         <when>
           <test>
@@ -715,13 +727,16 @@
           <let><clip pos="1" side="tl" part="anim"/><lit-tag v="an"/></let>
         </when>
       </choose>
+
       <out>
         <chunk name="adj" case="caseFirstWord">
           <tags>
             <tag><lit-tag v="SA"/></tag>
           </tags>
           <lu>
-            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="tags"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </chunk>
       </out>
