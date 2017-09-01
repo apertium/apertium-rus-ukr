@@ -1557,9 +1557,11 @@
     <e><p><l>политический<s n="adj"/></l>                       <r>політичний<s n="adj"/></r></p></e>
     <e><p><l>равный<s n="adj"/><s n="sint"/></l>                             <r>рівний<s n="adj"/></r></p></e>
     <e><p><l>ровный<s n="adj"/><s n="sint"/></l>                             <r>рівний<s n="adj"/></r></p></e>
-    <e><p><l>новый<s n="adj"/><s n="sint"/></l>                 <r>новий<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="RL"><p><l>новый<s n="adj"/><s n="sint"/></l>                 <r>новий<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="LR"><p><l>новый<s n="adj"/><s n="sint"/></l>                 <r>новий<s n="adj"/></r></p></e>
     <e><p><l>новейший<s n="adj"/><s n="sint"/></l>                           <r>новий<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
-    <e><p><l>светлый<s n="adj"/><s n="sint"/></l>               <r>світлий<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="RL"><p><l>светлый<s n="adj"/><s n="sint"/></l>               <r>світлий<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="LR"><p><l>светлый<s n="adj"/><s n="sint"/></l>               <r>світлий<s n="adj"/></r></p></e>
     <e><p><l>головастый<s n="adj"/><s n="sint"/></l>                         <r>головатий<s n="adj"/></r></p></e>
     <e><p><l>погибший<s n="adj"/><s n="sint"/></l>                           <r>загиблий<s n="adj"/></r></p></e>
     <e><p><l>национальный<s n="adj"/><s n="sint"/></l>                       <r>національний<s n="adj"/></r></p></e>
@@ -2077,7 +2079,8 @@
     <e><p><l>успешный<s n="adj"/><s n="sint"/></l><r>успішний<s n="adj"/></r></p></e>
     <e><p><l>существенный<s n="adj"/><s n="sint"/></l><r>суттєвий<s n="adj"/></r></p></e>
     <e><p><l>рождественский<s n="adj"/></l><r>різдвяний<s n="adj"/></r></p></e>
-    <e><p><l>влиятельный<s n="adj"/><s n="sint"/></l><r>впливовий<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="RL"><p><l>влиятельный<s n="adj"/><s n="sint"/></l><r>впливовий<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="LR"><p><l>влиятельный<s n="adj"/><s n="sint"/></l><r>впливовий<s n="adj"/></r></p></e>
     <e><p><l>зарубежный<s n="adj"/><s n="sint"/></l><r>зарубіжний<s n="adj"/></r></p></e>
     <e><p><l>мемориальный<s n="adj"/><s n="sint"/></l><r>меморіальний<s n="adj"/></r></p></e>
     <e><p><l>досрочный<s n="adj"/><s n="sint"/></l><r>достроковий<s n="adj"/></r></p></e>
@@ -2452,8 +2455,12 @@
     <e><p><l>надлежащий<s n="adj"/><s n="sint"/></l><r>належний<s n="adj"/></r></p></e>
     <e><p><l>подобающий<s n="adj"/><s n="sint"/></l><r>належний<s n="adj"/></r></p></e>
     <e><p><l>принадлежащий<s n="adj"/><s n="sint"/></l><r>належний<s n="adj"/></r></p></e>
-    <e><p><l>мощный<s n="adj"/><s n="sint"/></l><r>потужний<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>могучий<s n="adj"/><s n="sint"/></l><r>потужний<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="RL"><p><l>мощный<s n="adj"/><s n="sint"/></l><r>потужний<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="LR"><p><l>мощный<s n="adj"/><s n="sint"/></l><r>потужний<s n="adj"/></r></p></e>
+
+    <e r="RL"><p><l>могучий<s n="adj"/><s n="sint"/></l><r>потужний<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="LR"><p><l>могучий<s n="adj"/><s n="sint"/></l><r>потужний<s n="adj"/></r></p></e>
+
     <e><p><l>знакомый<s n="adj"/><s n="sint"/></l><r>знайомий<s n="adj"/></r></p></e>
     <e><p><l>умный<s n="adj"/><s n="sint"/></l><r>розумний<s n="adj"/></r></p></e>
     <e><p><l>разумный<s n="adj"/><s n="sint"/></l><r>розумний<s n="adj"/></r></p></e>
@@ -2987,6 +2994,7 @@
 
     <e><p><l>быть<s n="vbser"/></l><r>бути<s n="vbser"/></r></p></e>
     <e><p><l>являться<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>бути<s n="vbser"/></r></p></e>
+    <e r="RL"><p><l>являться<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>бути<s n="vbser"/><s n="neg"/></r></p></e>
 
 
     <e><p><l>иметь<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>мати<s n="vbhaver"/><s n="impf"/><s n="tv"/></r></p></e>
@@ -4297,7 +4305,7 @@
     <e><p><l>важно<s n="pred"/></l>                             <r>важливо<s n="pred"/></r></p></e>
     <e><p><l>надо<s n="pred"/></l>                              <r>слід<s n="pred"/></r></p></e>
     <e><p><l>можно<s n="pred"/></l>                             <r>можна<s n="pred"/></r></p></e>
-    <e><p><l>напрасно<s n="pred"/></l>                          <r>шкода<s n="pred"/></r></p></e>
+    <e><p><l>напрасно<s n="adv"/></l>                          <r>шкода<s n="pred"/></r></p></e>
     <e><p><l>жаль<s n="pred"/></l>                              <r>шкода<s n="pred"/></r></p></e>
 
     <!--n-->
@@ -5081,7 +5089,10 @@
     <e><p><l>чиновник<s n="n"/><s n="m"/><s n="aa"/></l><r>урядовець<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>фактор<s n="n"/><s n="m"/><s n="nn"/></l><r>фактор<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>болезнь<s n="n"/><s n="f"/><s n="nn"/></l><r>хвороба<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>честь<s n="n"/><s n="f"/><s n="nn"/></l><r>честь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+
+    <e><p><l>честь<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>честь<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>честь<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>честь<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+
     <e><p><l>инфраструктура<s n="n"/><s n="f"/><s n="nn"/></l><r>інфраструктура<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>пара<s n="n"/><s n="f"/><s n="nn"/></l><r>пара<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>нож<s n="n"/><s n="m"/><s n="nn"/></l><r>ніж<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -5383,7 +5394,10 @@
     <e><p><l>таблетка<s n="n"/><s n="f"/><s n="nn"/></l><r>таблетка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>тембр<s n="n"/><s n="m"/><s n="nn"/></l><r>тембр<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>терапевт<s n="n"/><s n="m"/><s n="aa"/></l><r>терапевт<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
-    <e><p><l>торф<s n="n"/><s n="m"/><s n="nn"/></l><r>торф<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+
+    <e><p><l>торф<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l><r>торф<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>торф<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l><r>торф<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+
     <e><p><l>транспарант<s n="n"/><s n="m"/><s n="nn"/></l><r>транспарант<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>укол<s n="n"/><s n="m"/><s n="nn"/></l><r>укол<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>ураган<s n="n"/><s n="m"/><s n="nn"/></l><r>ураган<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -6857,7 +6871,7 @@
     <e><p><l>вливание<s n="n"/><s n="nt"/><s n="nn"/></l><r>вливання<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>водило<s n="n"/><s n="nt"/><s n="nn"/></l><r>водило<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>водоотвод<s n="n"/><s n="m"/><s n="nn"/></l><r>водовідведення<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
-    <e><p><l>ворот<s n="n"/><s n="m"/><s n="nn"/></l><r>ворот<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>ворот¹<s n="n"/><s n="m"/><s n="nn"/></l><r>ворот<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>вседозволенность<s n="n"/><s n="f"/><s n="nn"/></l><r>вседозволеність<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>генпрокуратура<s n="n"/><s n="f"/><s n="nn"/></l><r>генпрокуратура<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>герман<s n="n"/><s n="m"/><s n="nn"/></l><r>герман<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -8151,7 +8165,11 @@
     <e><p><l>ожирение<s n="n"/><s n="nt"/><s n="nn"/></l><r>ожиріння<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>озвучение<s n="n"/><s n="nt"/><s n="nn"/></l><r>озвучення<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>олимпийка<s n="n"/><s n="f"/><s n="nn"/></l><r>олімпійка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>опавшие<g><b/>листья</g><s n="n"/><s n="m"/><s n="nn"/></l><r>опад<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+
+<!--     <e><p><l>опавший<s n="adj"/><s n="sint"><s n="mfn"/><s n="an"/><s n="pl"/><g><b/>лист</g><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></l><r>опад<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>опавший<s n="adj"/><s n="sint"><s n="mfn"/><s n="an"/><s n="pl"/><g><b/>лист</g><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></l><r>опад<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+    <e><p><l>опавший<s n="adj"/><s n="sint"><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/><g><b/>лист</g><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></l><r>опад<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+ -->
     <e><p><l>роса<s n="n"/><s n="f"/><s n="nn"/></l><r>опад<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>осадок<s n="n"/><s n="m"/><s n="nn"/></l><r>опад<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>полночь<s n="n"/><s n="f"/><s n="nn"/></l><r>опівніч<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
@@ -13463,7 +13481,7 @@
 
 
     <e><p><l>приравнивать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>дорівнювати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>равняться<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>дорівнювати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <!-- <e><p><l>равняться<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>дорівнювати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e> -->
 
 
     <e><p><l>исследовать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>досліджувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
