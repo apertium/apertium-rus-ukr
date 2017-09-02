@@ -292,7 +292,7 @@
     <e><p><l>она<s n="prn"/><s n="pers"/></l><r>вона<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>оно<s n="prn"/><s n="pers"/></l><r>воно<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>мы<s n="prn"/><s n="pers"/></l><r>ми<s n="prn"/><s n="pers"/></r></p></e>
-    <e><p><l>вы<s n="prn"/><s n="pers"/></l><r>ви<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>вы<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>ви<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>они<s n="prn"/><s n="pers"/></l><r>вони<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>что-то<s n="prn"/><s n="ind"/></l><r>щось<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>себя<s n="prn"/><s n="ref"/></l><r>себе<s n="prn"/><s n="ref"/></r></p></e>
@@ -1130,7 +1130,7 @@
     <e><p><l>морганизм<s n="n"/><s n="m"/><s n="nn"/></l><r>морганізм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>морфинизм<s n="n"/><s n="m"/><s n="nn"/></l><r>морфінізм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>мечта<s n="n"/><s n="f"/><s n="nn"/></l><r>мрія<s n="n"/><s n="f"/><s n="nn"/></r></p><par n="n-pl-gen-0"/></e>
-    <e><p><l>мечтание<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></l><r>мрія<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>мечтание<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="gen"/></l><r>мрія<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
     <e><p><l>мутуализм<s n="n"/><s n="m"/><s n="nn"/></l><r>мутуалізм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>надежда<s n="n"/><s n="f"/><s n="nn"/></l><r>надія<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>нанизм<s n="n"/><s n="m"/><s n="nn"/></l><r>нанізм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -3276,7 +3276,7 @@
     <e r="RL"><p><l>несколько<g><b/>десятков</g><s n="num"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></l>  <r>кількадесят<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
     <e r="RL"><p><l>несколько<g><b/>десятков</g><s n="num"/><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></l>  <r>кількадесят<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
 
-    <e><p><l>несколько<b/>сот<s n="num"/><s n="mfn"/></l>       <r>кількасот<s n="num"/><s n="mfn"/></r></p></e>
+    <e><p><l>несколько<b/>сот<s n="num"/><s n="mfn"/><s n="an"/></l>       <r>кількасот<s n="num"/><s n="mfn"/></r></p></e>
     <e><p><l>полсотни<s n="num"/><s n="mfn"/><s n="an"/><s n="sg"/></l><r>півсотня<s n="num"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>полсотни<s n="num"/><s n="mfn"/><s n="an"/><s n="sg"/></l><r>півсотня<s n="num"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
 
@@ -5187,7 +5187,7 @@
     <e><p><l>захват<s n="n"/><s n="m"/><s n="nn"/></l><r>захват¹<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>захват<s n="n"/><s n="m"/><s n="nn"/></l><r>захват²<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>шах<s n="n"/><s n="m"/><s n="nn"/></l><r>шах¹<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
-    <e><p><l>шах<s n="n"/><s n="m"/><s n="nn"/></l><r>шах²<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <!-- <e><p><l>шах<s n="n"/><s n="m"/><s n="nn"/></l><r>шах²<s n="n"/><s n="m"/><s n="nn"/></r></p></e> -->
     <e><p><l>примус<s n="n"/><s n="m"/><s n="nn"/></l><r>примус¹<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>принуждение<s n="n"/><s n="nt"/><s n="nn"/></l><r>примус²<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>рисунок<s n="n"/><s n="m"/><s n="nn"/></l><r>малюнок¹<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -8446,8 +8446,8 @@
     <e><p><l>индюк<s n="n"/><s n="m"/><s n="aa"/></l><r>трухан<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>турка<s n="n"/><s n="f"/><s n="nn"/></l><r>турка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
 
-    <e><p><l>тоска<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>туска<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>тоска<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>туска<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    <e><p><l>тоска<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>туска<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>тоска<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>туска<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
 
     <e><p><l>ультиматум<s n="n"/><s n="m"/><s n="nn"/></l><r>ультиматум<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>умысел<s n="n"/><s n="m"/><s n="nn"/></l><r>умисел<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -8502,8 +8502,8 @@
     <e><p><l>шансон<s n="n"/><s n="m"/><s n="nn"/></l><r>шансон<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>шариат<s n="n"/><s n="m"/><s n="nn"/></l><r>шаріат<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>скорая<s n="n"/><s n="f"/><s n="nn"/></l><r>швидка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>служба<g><b/>скорой<b/>помощи</g><s n="n"/><s n="f"/><s n="nn"/></l><r>швидка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>машина<g><b/>скорой<b/>помощи</g><s n="n"/><s n="f"/><s n="nn"/></l><r>швидка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>служба<g><b/>скорой</g><g><b/>помощи</g><s n="n"/><s n="f"/><s n="nn"/></l><r>швидка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>машина<g><b/>скорой</g><g><b/>помощи</g><s n="n"/><s n="f"/><s n="nn"/></l><r>швидка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>сын<g><b/>кабатчика</g><s n="n"/><s n="m"/><s n="aa"/></l><r>шинкаренко<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>старая<b/>исхудавшая<b/>женщина<s n="n"/><s n="f"/><s n="aa"/></l><r>шкорба<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>шоу<s n="n"/><s n="nt"/><s n="nn"/></l><r>шоу<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
@@ -11214,7 +11214,7 @@
     <e><p><l>заботиться<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>дбати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
-    <e><p><l>речь<b/>идти<s n="vblex"/><s n="impf"/></l><r>йтися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l><g>речь<b/></g>идти<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>йтися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>идтись<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>йтися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
