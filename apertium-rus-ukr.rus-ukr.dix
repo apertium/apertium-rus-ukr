@@ -11214,7 +11214,9 @@
     <e><p><l>заботиться<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>дбати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
-    <e><p><l><g>речь<b/></g>идти<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>йтися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <!-- <e><p><l><g>речь<b/></g>идти<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>йтися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e> -->
+    <!-- Undetermined error-->
+
     <e><p><l>идтись<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>йтися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
