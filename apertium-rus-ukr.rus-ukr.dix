@@ -277,8 +277,8 @@
     <e><p><l>свой<s n="det"/><s n="pos"/></l><r>свій<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>его<s n="det"/><s n="pos"/></l><r>його<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>её<s n="det"/><s n="pos"/></l><r>її<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>их<s n="det"/><s n="pos"/></l><r>їхній<s n="det"/><s n="pos"/></r></p></e>
-    <e r="RL"><p><l>их<s n="det"/><s n="pos"/></l><r>їх<s n="det"/><s n="pos"/></r></p></e><!--spoken-->
+    <!-- <e><p><l>их<s n="det"/><s n="pos"/></l><r>їхній<s n="det"/><s n="pos"/></r></p></e> -->
+    <!-- <e r="RL"><p><l>их<s n="det"/><s n="pos"/></l><r>їх<s n="det"/><s n="pos"/></r></p></e>spoken-->
     <e><p><l>тот<s n="det"/><s n="dem"/></l><r>той<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>весь<s n="det"/><s n="ind"/></l><r>весь<s n="det"/><s n="ind"/></r></p></e>
 
@@ -1559,7 +1559,7 @@
     <e><p><l>ровный<s n="adj"/><s n="sint"/></l>                             <r>рівний<s n="adj"/></r></p></e>
     <e r="RL"><p><l>новый<s n="adj"/><s n="sint"/></l>                 <r>новий<s n="adj"/><s n="sint"/></r></p></e>
     <e r="LR"><p><l>новый<s n="adj"/><s n="sint"/></l>                 <r>новий<s n="adj"/></r></p></e>
-    <e><p><l>новейший<s n="adj"/><s n="sint"/></l>                           <r>новий<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
+    <!-- <e><p><l>новейший<s n="adj"/><s n="sint"/></l>                           <r>новий<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e> -->
     <e r="RL"><p><l>светлый<s n="adj"/><s n="sint"/></l>               <r>світлий<s n="adj"/><s n="sint"/></r></p></e>
     <e r="LR"><p><l>светлый<s n="adj"/><s n="sint"/></l>               <r>світлий<s n="adj"/></r></p></e>
     <e><p><l>головастый<s n="adj"/><s n="sint"/></l>                         <r>головатий<s n="adj"/></r></p></e>
@@ -3263,8 +3263,8 @@
     <e r="LR"><p><l>тринадцать<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></l><r>тринадцятеро<s n="num"/><s n="coll"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
 
     <e><p><l>несколько<s n="num"/><s n="mfn"/><s n="an"/></l>              <r>кілька<s n="num"/><s n="mfn"/></r></p></e>
-    <e r="LR"><p><l>несколько<s n="num"/><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></l>              <r>кілька<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
-    <e r="LR"><p><l>несколько<s n="num"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></l>              <r>кілька<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e r="RL"><p><l>несколько<s n="num"/><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></l>              <r>кілька<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e r="RL"><p><l>несколько<s n="num"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></l>              <r>кілька<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
     <!-- <e><p><l>несколько<s n="num"/><s n="mfn"/><s n="an"/></l>              <r>декілька<s n="num"/><s n="mfn"/></r></p></e> -->
     <e r="LR"><p><l>несколько<s n="num"/><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></l>              <r>декілька<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
     <e r="LR"><p><l>несколько<s n="num"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></l>              <r>декілька<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
@@ -3330,7 +3330,7 @@
     <e><p><l>весь<s n="prn"/><s n="def"/></l><r>увесь<s n="prn"/><s n="def"/></r></p></e>
     <e><p><l>какой-то<s n="prn"/><s n="ind"/></l><r>якийсь<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>многие<s n="prn"/><s n="ind"/></l><r>багато<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>многие<s n="prn"/><s n="ind"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="acc"/></l><r>багато<s n="prn"/><s n="ind"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e r="RL"><p><l>многие<s n="prn"/><s n="ind"/><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></l><r>багато<s n="prn"/><s n="ind"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="acc"/></r></p></e>
   <!--   <e><p><l>многие<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></l><r>багато<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e> -->
 
     <!--adj-->
@@ -11809,6 +11809,8 @@
 
 
     <e><p><l>быть<g><b/>должным</g><s n="vbser"/></l><r>мусити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>быть<g><b/>должным</g><s n="vbser"/><s n="neg"/></l><r>мусити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+
     <e><p><l>менять<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>міняти<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
 
@@ -12833,7 +12835,7 @@
     <e><p><l>явиться<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>явитися<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
 
 
-<e><p><l>доходить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>доходити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+<!-- <e><p><l>доходить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>доходити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e> -->
 
 
 <e><p><l>доходить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>доходити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
@@ -12940,7 +12942,7 @@
     <e><p><l>заходить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>заходити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
 
 
-<e><p><l>отходить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>відходити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+<!-- <e><p><l>отходить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>відходити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e> -->
 
 
 <e><p><l>отходить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>відходити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
@@ -12955,13 +12957,13 @@
     <e><p><l>происходить<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>походити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
-<e><p><l>походить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>походити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+<!-- <e><p><l>походить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>походити<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e> -->
 
 
 <e><p><l>походить²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>походити<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
 
 
-<e><p><l>расходиться²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>розходитися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+<!-- <e><p><l>расходиться²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>розходитися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e> -->
 
 
 <e><p><l>расходиться²<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>розходитися<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
@@ -13080,7 +13082,7 @@
     <e><p><l>доминировать<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>домінувати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
-    <e><p><l>дождаться<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>дочекатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <!-- <e><p><l>дождаться<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>дочекатися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e> -->
 
 
     <e><p><l>игнорировать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>ігнорувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
@@ -13589,7 +13591,7 @@
     <e><p><l>рождаться<s n="vblex"/><s n="impf"/><s n="iv"/></l><r>народжуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
 
-    <e><p><l>родиться<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>народжуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <!-- <e><p><l>родиться<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>народжуватися<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e> -->
 
 
     <e><p><l>наращивать<s n="vblex"/><s n="impf"/><s n="tv"/></l><r>нарощувати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
@@ -15647,7 +15649,7 @@
 
 
 
-    <e><p><l>покорить<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>полонити<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e>
+    <!-- <e><p><l>покорить<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>полонити<s n="vblex"/><s n="dual"/><s n="tv"/></r></p></e> -->
 
 
     <e><p><l>рекомендовать<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/></l><r>рекомендувати<s n="vblex"/><s n="dual"/><s n="tv"/><s n="nonpast"/></r></p></e>
