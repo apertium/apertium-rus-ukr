@@ -177,6 +177,7 @@
      <attr-item tags="nt"/>
      <attr-item tags="mf"/>
      <attr-item tags="mfn"/>
+     <attr-item tags="AG"/>
   </def-attr>
 
   <def-attr n="prs">
@@ -195,6 +196,7 @@
   <def-attr n="nbr">
      <attr-item tags="sg"/>
      <attr-item tags="pl"/>
+     <attr-item tags="AN"/>
   </def-attr>
 
   <def-attr n="cas">
@@ -206,6 +208,7 @@
      <attr-item tags="ins"/>
      <attr-item tags="voc"/>
      <attr-item tags="prp"/>
+     <attr-item tags="AC"/>
   </def-attr>
 
   <def-attr n="a_sint">
@@ -329,12 +332,52 @@
 <section-rules>
 <!-- Sintagmas nominales -->
 
-<rule comment="RULE: Determiner → Determiner">
+
+<rule comment="RULE: их">
+    <pattern>
+      <pattern-item n="det"/>
+      <pattern-item n="nom"/>
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="lemh"/><lit-tag v="их"/></equal></test> <!-- to deal with их trasfer -->
+          <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
+          <let><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="tl" part="nbr"/></let>
+          <let><clip pos="1" side="tl" part="cas"/><clip pos="2" side="tl" part="cas"/></let>
+        </when>
+      </choose>
+      <out>
+        <chunk name="det" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="DET"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="RULE: Determiner → Determiner">
     <pattern>
       <pattern-item n="det"/>
     </pattern>
     <action>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="lemh"/><lit-tag v="их"/></equal></test> <!-- to deal with их trasfer -->
+          <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"></let>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"></let>
+          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"></let>
+        </when>
+      </choose>
       <out>
         <chunk name="det" case="caseFirstWord">
           <tags>
