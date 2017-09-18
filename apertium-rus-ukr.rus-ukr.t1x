@@ -373,9 +373,9 @@
       <choose>
         <when>
           <test><equal><clip pos="1" side="sl" part="lemh"/><lit-tag v="их"/></equal></test> <!-- to deal with их trasfer -->
-          <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"></let>
-          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"></let>
-          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"></let>
+          <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
         </when>
       </choose>
       <out>
