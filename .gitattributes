@@ -79,3 +79,8 @@ texts/article3.ukr.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.rus.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.ukr-rus.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.ukr.txt -text svneol=unset#application/octet-stream
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
