@@ -2,7 +2,6 @@
 ## Makefile for Ukrainian--Russian
 ###############################################################################
 
-VERSION=0.2.0
 LANG1=rus
 LANG2=ukr
 PREFIX1=$(LANG1)-$(LANG2)
@@ -214,4 +213,3 @@ test: all
 	@echo "house" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-

@@ -13,3 +13,6 @@
 /install-sh
 /missing
 /stamp-h1
+/ap_include.am
+/modes
+/*.prob
