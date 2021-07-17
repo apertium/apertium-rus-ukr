@@ -16,3 +16,14 @@
 /ap_include.am
 /modes
 /*.prob
+/*.hfst
+/*.gz
+/*.pc
+/*.zhfst
+/.DS_Store
+/autom4te.cache
+/config.log
+/config.status
+/*.mode
+/config.in
+/test/*-output.txt

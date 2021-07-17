@@ -1,0 +1,4 @@
+[7TB6-0fvUO8w#0] ^Не<adv>$ ^в силах<adv>$ ^не<adv>$ ^*помічати$ ^отличие<n><nt><nn><pl><gen>$ ^в<pr>$ ^языковой<adj><sint><nt><an><sg><prp>$ ^развитие<n><nt><nn><sg><prp>$^.<sent>$
+[/7TB6-0fvUO8w]
+[EccKMHUX0uUv#0] ^В течение<pr>$ ^шесть<num><mfn><pl><gen>$ ^год²<n><m><nn><pl><gen>$ ^переходить¹<vblex><impf><tv><pres><p3><sg>$ ^из<pr>$ ^работа<n><f><nn><sg><gen>$ ^на<pr>$ ^работа<n><f><nn><sg><acc>$^,<cm>$ ^не<adv>$ ^мочь<vbmod><impf><iv><pres><p3><sg>$ ^нигде<adv>$ ^остановиться<vblex><perf><iv><inf>$ ^надолго<adv>$^.<sent>$
+[/EccKMHUX0uUv]

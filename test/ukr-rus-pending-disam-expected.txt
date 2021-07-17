@@ -1,0 +1,4 @@
+[7TB6-0fvUO8w#0] ^Не/Не<adv><neg>$ ^мігши/могти<vbmod><impf><iv><pp><adv>$ ^не/не<adv><neg>$ ^помічати/*помічати$ ^відмінностей/відмінність<n><f><nn><pl><gen>$ ^у/у<pr><loc>$ ^мовному/мовний<adj><m><an><sg><loc>$ ^розвитку/розвиток<n><m><nn><sg><loc>$^./.<sent>$
+[/7TB6-0fvUO8w]
+[EccKMHUX0uUv#0] ^Упродовж/Упродовж<pr><gen>$ ^шести/шість<num><mfn><pl><gen>/шість<num><mfn><pl><loc>$ ^років/рік<n><m><nn><pl><gen>$ ^переходить/переходити<vblex><impf><tv><pres><p3><sg>/переходити<vblex><impf><iv><pres><p3><sg>$ ^із/з<pr><gen>$ ^роботи/робота<n><f><nn><sg><gen>$ ^на/на<pr><acc>$ ^роботу/робота<n><f><nn><sg><acc>$^,/,<cm>$ ^не/не<adv><neg>$ ^можучи/могти<vbmod><impf><iv><pprs><adv>$ ^ніде/ніде<adv>$ ^зупинитися/зупинитися<vblex><perf><iv><inf>$ ^надовго/надовго<adv>$^./.<sent>$
+[/EccKMHUX0uUv]

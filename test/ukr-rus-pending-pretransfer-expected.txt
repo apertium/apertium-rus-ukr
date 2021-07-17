@@ -1,0 +1,4 @@
+[7TB6-0fvUO8w#0] ^Не<adv><neg>$ ^могти<vbmod><impf><iv><pp><adv>$ ^не<adv><neg>$ ^*помічати$ ^відмінність<n><f><nn><pl><gen>$ ^у<pr><loc>$ ^мовний<adj><m><an><sg><loc>$ ^розвиток<n><m><nn><sg><loc>$^.<sent>$
+[/7TB6-0fvUO8w]
+[EccKMHUX0uUv#0] ^Упродовж<pr><gen>$ ^шість<num><mfn><pl><gen>$ ^рік<n><m><nn><pl><gen>$ ^переходити<vblex><impf><tv><pres><p3><sg>$ ^з<pr><gen>$ ^робота<n><f><nn><sg><gen>$ ^на<pr><acc>$ ^робота<n><f><nn><sg><acc>$^,<cm>$ ^не<adv><neg>$ ^могти<vbmod><impf><iv><pprs><adv>$ ^ніде<adv>$ ^зупинитися<vblex><perf><iv><inf>$ ^надовго<adv>$^.<sent>$
+[/EccKMHUX0uUv]

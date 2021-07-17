@@ -1,0 +1,4 @@
+[7TB6-0fvUO8w#0] ^default<default>{^Не<adv>$}$ ^verb<SV>{^в силах<adv>$}$ ^default<default>{^не<adv>$}$ ^unknown<unknown>{^*помічати$}$ ^nom<SN><nt>{^отличие<n><nt><nn><pl><gen>$}$ ^prep<PREP>{^в<pr>$}$ ^j_n<SN><nt><sg><prp>{^языковой<adj><sint><nt><an><sg><prp>$ ^развитие<n><nt><nn><sg><prp>$}$^default<default>{^.<sent>$}$
+[/7TB6-0fvUO8w]
+[EccKMHUX0uUv#0] ^prep<PREP>{^В течение<pr>$}$ ^num<SNUM><mfn><pl><gen>{^шесть<num><mfn><pl><gen>$}$ ^nom<SN><m>{^год²<n><m><nn><pl><gen>$}$ ^verb<SV>{^переходить¹<vblex><impf><tv><pres><p3><sg>$}$ ^prep<PREP>{^из<pr>$}$ ^nom<SN><f>{^работа<n><f><nn><sg><gen>$}$ ^prep<PREP>{^на<pr>$}$ ^nom<SN><f>{^работа<n><f><nn><sg><acc>$}$^default<default>{^,<cm>$}$ ^default<default>{^не<adv>$}$ ^verb<SV><sg>{^мочь<vbmod><impf><iv><pres><p3><sg>$}$ ^default<default>{^нигде<adv>$}$ ^verb<SV>{^остановиться<vblex><perf><iv><inf>$}$ ^default<default>{^надолго<adv>$}$^default<default>{^.<sent>$}$
+[/EccKMHUX0uUv]
