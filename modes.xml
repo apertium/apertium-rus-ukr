@@ -276,6 +276,27 @@
     </pipeline>
   </mode>
 
+  <mode name="rus-ukr-bilsearch">
+    <pipeline>
+      <program name="lt-paradigm --sort">
+        <file name="rus-ukr.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="rus-ukr-billookup">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="rus-ukr.automorf.bin"/>
+      </program>
+      <program name="sed -r 's:\^[^/]+\/:^:g'"/>
+      <program name="sed 's:/:$ ^:g'"/>
+      <program name="lt-proc -b">
+        <file name="rus-ukr.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <!-- == Ukrainian → Russian == -->
   
   <mode name="ukr-rus" install="yes">
@@ -608,5 +629,25 @@
     </pipeline>
   </mode>
 
+  <mode name="ukr-rus-bilsearch">
+    <pipeline>
+      <program name="lt-paradigm --sort">
+        <file name="ukr-rus.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="ukr-rus-billookup">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ukr-rus.automorf.bin"/>
+      </program>
+      <program name="sed -r 's:\^[^/]+\/:^:g'"/>
+      <program name="sed 's:/:$ ^:g'"/>
+      <program name="lt-proc -b">
+        <file name="ukr-rus.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
 </modes>
